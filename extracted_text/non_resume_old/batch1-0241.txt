@@ -1,0 +1,18 @@
+Invoice no: 83842319
+Date of issue: 05/12/2014
+—____) Seller: Client:
+Robinson, Nielsen and Newman Mcdonald Inc
+04791 Tucker Prairie 075 Omar Stream
+Katherineburgh, NV 27754 West Chadchester, VT 67751
+Tax Id: 925-75-4308 Tax Id: 928-74-8680
+IBAN: GB41DKBP31143389975386
+______) ITEMS
+No. Description Qty UM Net price Net worth VAT [%] Gross
+worth
+1, 2pcs baby boys clothes cotton 5,00 each 10,99 54,95 10% 60,45
+hoodied top+pants baby boys
+Outfits gentleman
+1] SUMMARY
+VAT [%] Net worth VAT Gross worth
+10% 54,95 5,50 60,45
+Total $ 54,95 $ 5,50 $ 60,45

@@ -1,0 +1,27 @@
+Invoice no: 81432357
+Date of issue: 07/30/2020
+—}) Seller: Client:
+Tran LLC Golden, Gross and Rivera
+286 Marilyn Crescent 299 Megan Bypass Apt. 471
+New Jonathanborough, CT 67755 Robertview, CO 69857
+Tax Id: 930-70-8573 Tax Id: 979-72-2010
+IBAN: GB20WXDS17725959227934
+7) ITEMS
+No. Description Qty UM Net price Net worth VAT [%] Gross
+worth
+1, 18" Handmade White Top Chess 2,00 each 525,00 1 050,00 10% 1 155,00
+Table Inlaid Mosaic Gemstone
+Art Halloween Gift Art
+2. Marble Top Side Table Tiger Eye 3,00 each 341,48 1 024,44 10% 1 126,88
+Gem Marquetry Pietradura
+Garden Decor Arts H469
+3. 6 Pack Metal Plated Table Locks 3,00 each 12,73 38,19 10% 42,01
+Dining Training Table Buckles
+Connectors Hardwar
+4. 36 Inches Marble Dinning Table 5,00 each 1 451,25 7 256,25 10% 7 981,87
+Top Hand Inlaid Office Table
+with Multi Gemstones
+—__ 7} SUMMARY
+VAT [%] Net worth VAT Gross worth
+10% 9 368,88 936,89 10 305,77
+Total $9 368,88 $ 936,89 $10 305,77

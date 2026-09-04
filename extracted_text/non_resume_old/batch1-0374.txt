@@ -1,0 +1,18 @@
+Invoice no: 87873157
+Date of issue: 05/09/2017
+—____) Seller: Client:
+Kirby Group Martin-Allison
+6624 Warren Loaf 61224 Melody Springs Apt. 423
+Tammyton, SD 76568 Michaelside, CT 66290
+Tax Id: 968-79-4900 Tax Id: 943-81-3637
+IBAN: GB24DZPZ07097099676839
+______) ITEMS
+No. Description Qty UM Net price Net worth VAT [%] Gross
+worth
+1, New Never Used CROFTON 2,00 each 3,00 6,00 10% 6,60
+CHEFS COLLECTION WINE
+COOLING STICK IN PACKAGE
+1] SUMMARY
+VAT [%] Net worth VAT Gross worth
+10% 6,00 0,60 6,60
+Total $ 6,00 $ 0,60 $ 6,60

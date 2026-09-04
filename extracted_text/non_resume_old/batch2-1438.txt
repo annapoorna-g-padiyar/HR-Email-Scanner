@@ -1,0 +1,18 @@
+Invoice no: 39930618
+Date of issue: 06/24/2014
+—_—_ Seller: Client:
+Lee-Bennett Shelton-Walker
+8813 Vanessa Green Suite 590 8033 Maria View
+Port Wendyshire, VA 45411 North Matthew, NM 42573
+Tax Id: 953-75-9084 Tax Id: 940-86-1674
+IBAN: GB40YMKT03060073412019
+______) ITEMS
+No. Description Qty UM Net price Net worth VAT [%] Gross
+worth
+1, HP ProDesk 600 G5 Mini 2,00 each 599,00 1 198,00 10% 1 317,80
+Desktop Computer i5-9500T
+8GB 256GB SSD W10 (new)
+_______} SUMMARY
+VAT [%] Net worth VAT Gross worth
+10% 1198,00 119,80 1 317,80
+Tota! $1 198,00 $ 119,80 $ 1317,80

@@ -1,0 +1,17 @@
+Invoice no: 89872443
+Date of issue: 11/16/2014
+—____) Seller: Client:
+Santiago, Hayes and Parker Gutierrez and Sons
+0911 Rogers Ports Apt. 904 81893 Jade Isle
+Ruizmouth, DE 13740 Robinsontown, SC 90154
+Tax Id: 994-83-2586 Tax Id: 981-73-7044
+IBAN: GB880UQE77132202253943
+______) ITEMS
+No. Description Qty UM Net price Net worth VAT [%] Gross
+1, Steve Madden Bserge Boys 5,00 each 39,95 199,75 10% 219,73
+Black Dress Leather Loafer
+Shoes US 4 NIB
+1] SUMMARY
+VAT [%] Net worth VAT Gross worth
+10% 199,75 19,98 219,73
+Tota! $ 199,75 $ 19,98 $ 219,73

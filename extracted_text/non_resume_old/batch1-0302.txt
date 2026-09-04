@@ -1,0 +1,34 @@
+Invoice no: 95434324
+Date of issue: 10/16/2017
+—}) Seller: Client:
+Gross-Aguilar Wood-Mccarty
+629 Lindsey Gardens 99780 Santos Manor Suite 643
+Martinport, OH 48374 Angelatown, ME 15450
+Tax Id: 910-71-2736 Tax Id: 917-72-9048
+IBAN: GB520HPZ44460592209057
+7) ITEMS
+No. Description Qty UM Net price Net worth VAT [%] Gross
+worth
+1, Durango Lil' Little Kid Saddle 4,00 each 68,00 272,00 10% 299,20
+Western Casual Western Tan
+Boys - Size 2M
+2. Nike Air Precision High-Top 5,00 each 4,99 24,95 10% 27,45
+Basketball White/Black Shoes
+Boy's Size 7.5
+3. Adult Girl Version Hermione 3,00 each 64,16 192,48 10% 211,73
+Granger Cosplay Costume
+Gryffindor Kid size In Stock
+4, Joma Youth Boys Gol 205 Piso 2,00 each 19,99 39,98 10% 43,98
+Multitaco Soccer Cleats 2.5
+White Blue Yellow NEW
+5. Roper Boys' American Patriot 4,00 each 49,00 196,00 10% 215,60
+Boot Square Toe Sz 4 Big Kids
+Flag Red White Blue
+6. Timberland Kid's Brown Field 5,00 each 39,99 199,95 10% 219,95
+Scuff-Proof Boots Size 7
+7. Timberland brown slip on shoes 4,00 each 2,00 8,00 10% 8,80
+size 4.5 juniors
+7) SUMMARY
+VAT [%] Net worth VAT Gross worth
+10% 933,36 93,34 1 026,70
+Total $ 933,36 $ 93,34 $ 1026,70

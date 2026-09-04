@@ -1,0 +1,27 @@
+Invoice no: 40217081
+Date of issue: 09/15/2014
+—____) Seller: Client:
+Stone PLC Allen Inc
+USS Brown 1995 Luis Gardens
+FPO AP 41037 Hickmanmouth, CA 99366
+Tax Id: 945-72-3348 Tax Id: 963-86-6472
+IBAN: GBO3TGNC26577214111531
+7) ITEMS
+No. Description Qty UM Net price Net worth VAT [%] Gross
+worth
+1. Christmas Dress Grace Karin 3,00 each 9,99 29,97 10% 32,97
+Sleeveless Christmas dress Red
+Black size Large
+2. Matilda Jane Women's Light 4,00 each 50,00 200,00 10% 220,00
+Rising High Low Green Floral
+Dress Size L Pockets
+3. Lands End Womens 3/4 Sleeve 5,00 each 21,23 106,15 10% 116,77
+Dress Plus 3X Navy Blue Floral
+Cotton Knit 482038
+4, fire los angeles dress Medium 2,00 each 6,50 13,00 10% 14,30
+5. Burent Orange Long Dress With 4,00 each 75,00 300,00 10% 330,00
+Beads SUE WONG SIZE 2
+7} SUMMARY
+VAT [%] Net worth VAT Gross worth
+10% 649,12 64,91 714,03
+Total $ 649,12 $ 64,91 $ 714,03

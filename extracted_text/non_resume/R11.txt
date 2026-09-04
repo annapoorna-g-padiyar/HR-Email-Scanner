@@ -1,0 +1,271 @@
+International Research Journal on Advanced Engineering Hub (IRJAEH)
+e ISSN: 2584-2137
+Vol. 03 Issue: 07 July 2025
+Page No: 3203-3208
+https://irjaeh.com
+https://doi.org/10.47392/IRJAEH.2025.0471
+AI Powered Recruitment System
+Ashwini Kadam1, Pratik Pawar2, Prachi Pawar3, Revati Pandit4, Ankita Phalke5, Sanjana Jagadale6
+1 Assistant Professor – Computer Science and Engineering, YSPM’s YTC, Satara, Maharashtra, India.
+2,3,4,5,6 UG - Computer Science and Engineering, YSPM’s YTC, Satara, Maharashtra, India.
+Emails: Ashwini_cse@yes.edu.in1, pratikpawar7108@gmail.com2, prachupawar31@gmail.com3
+revatipandit576@gmail.com4, ankitaphalke322@gmail.com5, jagadalesanjana8@gmail.com6
+Abstract
+Artificial intelligence in recruitment provides a revolutionary answer in today's cutthroat hiring environment.
+An AI-Powered Recruitment System that was created in two organized stages is presented in this study. Phase
+1 creates an HR dashboard and user-friendly frontend that facilitates resume uploads, candidate management,
+and job postings. AI-driven automation for resume parsing, aptitude test assessment, group discussion
+scheduling, and interview coordination is introduced in Phase 2. The solution improves the candidate
+experience and recruiter control by integrating real-time notifications, progress tracking, and filtering. The
+approach decreases human bias, speeds up decision-making, and improves recruitment transparency by
+automating every step and utilizing sophisticated filtering. A more efficient and successful hiring process that
+facilitates well-informed talent acquisition is the end outcome.
+Keywords: HR Dashboard, Aptitude Test, Interview Scheduling, Resume Parsing, and Recruitment
+Automation
+1. Introduction
+In recent years, hiring demands have grown more into a data-driven, efficient, and scalable process. It
+complex with the increasing number of applicants encompasses resume parsing through natural
+and dynamic job market needs. Traditional language processing, automated aptitude test
+recruitment methods often involve repetitive tasks, generation and evaluation, and structured interview
+subjective judgment, and significant delays, which scheduling. Every selected candidate progresses
+reduce the overall efficiency of the process. To solve through a well-defined path, receiving automated
+this, the integration of artificial intelligence in notifications at each stage, leading up to the final
+recruitment has emerged as a modern-day necessity. offer letter. This system not only reduces HR
+By enabling automation in the screening and workload but also ensures consistent and merit-based
+evaluation process, AI helps organizations streamline selection. Recruitment today requires tools that
+hiring while minimizing human bias. The proposed reduce time and increase accuracy. Manual screening
+AI-Powered Recruitment System aims to automate and communication slow down hiring cycles. To
+the end-to-end hiring process by utilizing a two-phase address these challenges, we developed an AI-
+development approach. In Phase 1, the focus is on Powered Recruitment System that streamlines each
+building a user-friendly interface for HR personnel step of the hiring process. Our system uses AI to
+and candidates. It includes modules such as job automate resume screening, aptitude test analysis,
+posting, registration, resume uploads, and a central and interview scheduling. The proposed model
+HR dashboard to manage all recruitment data. This ensures faster hiring with fewer errors and greater
+phase lays the foundation for digital hiring workflows transparency, significantly reducing HR workload.
+and ensures smooth data handling for the AI-based 2. System Architecture
+operations that follow. Phase 2 introduces intelligent The system is structured around a modular two-phase
+automation that transforms traditional recruitment architecture, integrating frontend interfaces, backend
+International Research Journal on Advanced Engineering Hub (IRJAEH)
+3203
+International Research Journal on Advanced Engineering Hub (IRJAEH)
+e ISSN: 2584-2137
+Vol. 03 Issue: 07 July 2025
+Page No: 3203-3208
+https://irjaeh.com
+https://doi.org/10.47392/IRJAEH.2025.0471
+services, and intelligent automation tools. Phase 1 feeds into the backend for future AI
+sets up the foundational infrastructure including processing. [4-6]
+dashboards, user interfaces, and secure databases.  Data Management Layer: Stores job
+Phase 2 introduces AI-based modules for automated postings, resumes, test scores, and candidate
+decision-making and real-time communication. progress in a structured SQL database,
+Figure 1 shows Flow Chart [1-3] enabling secure and efficient data retrieval for
+Phase 2 operations.
+2.2.Phase 2: Automated Recruitment Process
+ Resume Parsing Engine: It extract relevant
+information from uploaded resumes and
+compare it against job requirements.
+Candidates that match are shortlisted
+automatically.
+ Aptitude Test Generator: Automatically
+creates role-specific aptitude questions,
+delivers them to selected candidates, and
+scores them in real time.
+ Communication and Notification Module:
+Sends automated emails at every stage (e.g.,
+aptitude test link, GD invite, interview
+schedule) using integrated mailing APIs.
+ Group Discussion Scheduler: Schedules
+virtual group discussions with embedded
+meeting links, based on test performance.
+ Interview Automation: Coordinates
+interviews with selected candidates and HR,
+allocating slots and updating status in the
+system. [7-9]
+3. Results and Discussion
+3.1. HR Login
+Figure 1 Flow Chart
+2.1. Phase 1: Frontend and HR Dashboard
+ HR Dashboard: A centralized interface for
+recruiters to create job postings, view
+applicant progress, and monitor recruitment
+stages. It provides role-based access and a
+user-friendly layout for efficient navigation.
+ Candidate Registration Module: Allows
+candidates to register, log in, and manage
+their profile. Resume upload functionality Figure 2 Sign in Page
+International Research Journal on Advanced Engineering Hub (IRJAEH)
+3204
+International Research Journal on Advanced Engineering Hub (IRJAEH)
+e ISSN: 2584-2137
+Vol. 03 Issue: 07 July 2025
+Page No: 3203-3208
+https://irjaeh.com
+https://doi.org/10.47392/IRJAEH.2025.0471
+This interface allows HR personnel to securely log in This form allows candidates to submit a request for
+to the AI-Powered Recruitment System. It includes empanelment by providing their personal and
+fields for email ID and password, with options for professional details. It acts as the first step in the
+remembering login credentials and recovering recruitment process, enabling the system to capture
+forgotten passwords. The "Register Here" link essential candidate information for further evaluation
+supports new HR account creation. This login module and automated shortlisting. Figure 5 shows About Us
+ensures authorized access and forms the gateway to Page
+the HR dashboard for job posting and candidate 3.4. About Us Page
+management. Figure 2 shows Sign in Page
+3.2. HR Job Posting
+Figure 5 About Us Page
+The About Us page provides an overview of the
+organization’s vision, mission, and goals behind
+Figure 3 HR Form
+developing the AI-Powered Recruitment System. It
+introduces users to the platform's purpose, highlights
+This form enables HR personnel to create detailed job
+its key features, and builds trust by sharing the
+postings by entering key information such as job
+motivation and values driving the recruitment
+designation, type, location, required qualifications,
+solution. Figure 6 shows Benefits [10-12]
+opening and closing dates, CTC, contact details,
+3.5. Benefits of AI-Powered Recruitment
+required skills, and a full job description. It serves as
+System
+the foundation for publishing openings on the
+platform and initiating the recruitment process.
+Figure 4 shows Request Form
+3.3. Candidate Registration
+Figure 6 Benefits
+This section highlights the key advantages of using
+Figure 4 Request Form the AI-Powered Recruitment System. It outlines
+International Research Journal on Advanced Engineering Hub (IRJAEH)
+3205
+International Research Journal on Advanced Engineering Hub (IRJAEH)
+e ISSN: 2584-2137
+Vol. 03 Issue: 07 July 2025
+Page No: 3203-3208
+https://irjaeh.com
+https://doi.org/10.47392/IRJAEH.2025.0471
+benefits such as reduced hiring time, automated This section presents the candidate information
+resume screening, unbiased candidate evaluation, displayed on the HR dashboard, which dynamically
+improved decision-making, and enhanced recruiter updates throughout the recruitment process. It
+efficiency. These benefits demonstrate how AI reflects the current status of candidates as they
+transforms traditional hiring into a faster, smarter, progress through stages such as aptitude tests, group
+and more transparent process. Figure 7 shows discussions, and interviews, automatically filtering
+Aptitude Test [13-15] and displaying only the selected candidates at each
+3.6. Aptitude Test Interface phase. This enables HR personnel to efficiently
+monitor and manage the recruitment workflow.
+Figure 9 shows Verification Mail
+3.8. OTP Verification Email
+Figure 7 Aptitude Test
+This interface presents the aptitude test administered
+to shortlisted candidates. The test includes multiple-
+choice questions to assess logical reasoning,
+problem-solving, and technical knowledge. Real-
+time evaluation and submission tracking enable
+efficient candidate assessment. Figure 8 shows
+Request to Implementation
+3.7. Candidate Information
+Figure 9 Verification Mail
+This figure shows the email containing the One-Time
+Password (OTP) sent to candidates as part of the
+authentication process. OTP verification enhances
+security by ensuring that only verified users can
+access the system, thereby safeguarding candidate
+and recruiter information during registration and
+login. [16-18]
+Conclusion
+This paper presents an AI-Powered Recruitment
+System that addresses the inefficiencies of traditional
+Figure 8 Request to Implementation hiring by automating processes from job posting to
+International Research Journal on Advanced Engineering Hub (IRJAEH)
+3206
+International Research Journal on Advanced Engineering Hub (IRJAEH)
+e ISSN: 2584-2137
+Vol. 03 Issue: 07 July 2025
+Page No: 3203-3208
+https://irjaeh.com
+https://doi.org/10.47392/IRJAEH.2025.0471
+offer letter generation. The system is divided into two 1109/ ICAML 48033. 2023. 9719387.
+main phases: the first phase focuses on developing a [3]. [3]. M. A. Kapoor, P. V. Verma, and S. R.
+frontend interface and HR dashboard for job Prakash, "AI- Powered Talent Acquisition for
+management and candidate registration, while the HR Automation in Organizations," 2021
+second phase leverages AI to automate resume IEEE Conference on Innovations in AI and
+screening, aptitude test generation, group discussion Computing (IAIC), Pune, India, 2021, pp.
+scheduling, and final interview coordination. The 1023-1028, doi: 10.1109/ IAIC54989.
+platform also ensures real-time updates and 2021.9518254.
+transparency throughout the recruitment journey. By [4]. Albert, Edward Tristram. (2019). AI in talent
+reducing manual HR workload and ensuring a acquisition: a review of AI-applications used
+structured, merit-based selection process, the system in recruitment and selection. Strategic HR
+improves recruitment speed, consistency, and Review,18(5). https://doi.org/10.1108/shr-
+candidate experience. Moreover, the system’s 04-2019-0024.
+modular design allows for scalability and adaptability [5]. H. G. Yadav, S. K. Nair, and A. K. Patel, "An
+to diverse organizational needs. The integration of AI-Based Approach to Efficient Candidate
+intelligent automation not only minimizes human Selection in HR," International Conference
+bias but also enhances decision accuracy by relying on Intelligent Computing and
+on data-driven insights. This contributes to a more Communications (ICICC), Jaipur, India,
+equitable and efficient recruitment process that 2023, pp. 680- 685, doi: 10.1109 /ICICC
+benefits both recruiters and candidates. Future 54828.2023.9893420.
+enhancements may include predictive analytics to [6]. K. S. Verma, S. M. Iyer, and D. G. Patel,
+anticipate candidate success and chatbot integration "Recruitment Automation Using AI: An
+for enhanced candidate engagement and support, Intelligent Candidate Screening System,"
+ultimately creating a more dynamic and responsive International Conference on Advances in
+hiring pipeline. This AI- powered approach has the Artificial Intelligence (ICAAI), Delhi, India,
+potential to transform recruitment workflows, setting 2022, pp. 915-920, doi: 10.1109
+a new standard for talent acquisition in the digital age. /ICAAI54567 2022.9731261
+Acknowledgements [7]. Black, J. Stewart, & van Esch, Patrick.
+The authors would like to thank the faculty and (2020). AI-enabled recruiting: What is it and
+project advisor for their valuable guidance and how should a manager use it? Busines 63(2).
+support. https://doi.org/10.1016/j.bushor.2019.12.001
+References DOI:10.46647/ijetms.2023.v07i06.039ISSN:
+[1]. A. P. Kumar, R. N. Singh, A. S. R. Rao, and 2581-4621
+M.B. Patel, "AI-Based Recruitment System [8]. S. P. Joshi, R. K. Bhagat, and N. A. Kumar,
+for Efficient Candidate Screening," "AI- Powered Systems for Workforce
+International Conference on Intelligent Management and Recruitment," IEEE
+Systems and Computing (ISCOM), International Conference on AI and Robotics
+Hyderabad, India, 2021, pp. 225- 230, doi: (ICAIR), Pune, India, 2023, pp. 211- 216, doi:
+10.1109/ ISCOM5 2038. 2021 9421043.1. 10.1109/ICAIR55421.2023.9754607.
+[2]. S. M. Kannan, M. V. Thakur, and S. A. [9]. Ghosh R., Mehta P., "Automated Recruitment
+Ramesh, "AI-Driven Talent Acquisition for System Based on Keyword Extraction and
+Enhanced Workforce Selection," Filtering," International Journal of Computer
+International Conference on Artificial Applications, vol. 183, no. 22, 2022.
+Intelligence and Machine Learning (ICAML), [10]. Khan A., Sharma M., "Efficient Resume
+Mumbai, India, 2023, pp. 1105-1110, doi: 10. Matching Using String Similarity and
+International Research Journal on Advanced Engineering Hub (IRJAEH)
+3207
+International Research Journal on Advanced Engineering Hub (IRJAEH)
+e ISSN: 2584-2137
+Vol. 03 Issue: 07 July 2025
+Page No: 3203-3208
+https://irjaeh.com
+https://doi.org/10.47392/IRJAEH.2025.0471
+Keyword Weighting," Journal of Web
+Intelligence, vol. 21, no. 4, 2023
+[11]. Dubey A., Jain N., "AI-Driven Screening and
+Interview Scheduling: A Case Study
+Approach," IEEE Smart Tech Conference,
+2023.
+[12]. R. D. Sharma, M. N. Kulkarni, and A. Das,
+[13]. "Deep Learning Approach for Resume
+Screening in AI-Based Recruitment 349, doi,"
+[14]. IEEE International Conference on
+Computational Intelligence and Data Science
+(ICCIDS), Bengaluru, India, 2022, pp. 344–
+349, doi: 10.1109/ ICCIDS54327.
+2022.9887234
+[15]. L. Zhang, B. Chen, and S. Li, "Natural
+Language Processing for Talent Matching in
+Recruitment Platforms," Journal of Artificial
+Intelligence Research, vol. 68, no. 1, pp. 501–
+520, 2021,doi:10.1613/jair.1.12892
+[16]. T. H. Nguyen and K. C. Lin, "Smart Hiring:
+Leveraging Machine Learning for Applicant
+Ranking and Bias Detection," Proceedings of
+the ACM Conference on Fairness,
+Accountability, and Transparency (FAccT),
+2023, pp. 89–97, doi: 10.1145/ 3593013.
+3594068
+[17]. A. S. Mehra and D. R. Sen, "AI-Powered
+Recruitment Chatbots: Enhancing Candidate
+Experience and Screening Efficiency,"
+[18]. International Journal of Human-Computer
+Interaction, vol. 41, no. 3, pp. 245–254, 2022,
+doi:10.1080/10447318.2022.2043205
+International Research Journal on Advanced Engineering Hub (IRJAEH)
+3208

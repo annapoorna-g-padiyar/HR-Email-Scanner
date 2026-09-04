@@ -1,0 +1,12 @@
+10 | DESCRIPTION QUANTITY PRICE, $ TOTAL, $
+01 2 267.00 267.00
+Permabond 106 Cyanoacrylate 1-0z 10 bottles/case
+Q2 | Araldite 2014 HT Epoxy Paste GRAY 50ml 2:1 6 cartridges/box | 120 5 62.00 62.00
+cartridges/case
+M SJ-3540 GP Duallock 1"x50yd - BLACK GP PSA TYPE 250
+03 7 137.00 137.00
+04 |SOm! Helical Mixer 1:1 & 2:1 72 nozzles/case 717.00 717.00
+SO
+Sales Tax 8% 94.00
+Total Due 1321.00
+THANK YOU..

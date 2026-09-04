@@ -1,0 +1,27 @@
+Invoice no: 90615961
+Date of issue: 08/21/2013
+—}) Seller: Client:
+Diaz Ltd Hooper-Berry
+841 Derrick Avenue Unit 6950 Box 9109
+Berryfort, NE 26536 DPO AP 83257
+Tax Id: 940-71-2207 Tax Id: 980-78-7589
+IBAN: GB43FEWE33279604550300
+7) ITEMS
+No. Description Qty UM Net price Net worth VAT [%] Gross
+worth
+1, Day Trading Joe Ross New Hard 4,00 each 125,00 500,00 10% 550,00
+cover English edition
+2. Buffy the Vampire Slayer 4,00 each 24,89 99,56 10% 109,52
+Season 12 Library Edition,
+Hardcover by Gage, Christ...
+3. The Trapper's Bible: The Most 5,00 each 13,49 67,45 10% 74,20
+Complete Guide on Trapping
+and Hunting Tips Ever {
+4, The Epic of Gilgamesh 1,00 each 4,49 4,49 10% 4,94
+5. Black Dragon Codex (The 1,00 each 4,49 4,49 10% 4,94
+Dragon Codices) by R.D.
+Henham
+7} SUMMARY
+VAT [%] Net worth VAT Gross worth
+10% 675,99 67,60 743,59
+Total $ 675,99 $ 67,60 $ 743,59

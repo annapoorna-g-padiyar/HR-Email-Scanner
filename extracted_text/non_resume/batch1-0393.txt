@@ -1,0 +1,18 @@
+Invoice no: 69614664
+Date of issue: 11/28/2011
+—____) Seller: Client:
+Compton and Sons Olson, Simon and Smith
+99724 Angelica Ferry 00785 Knight Summit
+North Crystalburgh, IL 99297 Rachelville, WA 38316
+Tax Id: 987-74-9482 Tax Id: 990-90-7832
+IBAN: GB83QGEB05834764688813
+______) ITEMS
+No. Description Qty UM Net price Net worth VAT [%] Gross
+worth
+1, BLACK Butterfly Winged 2,00 each 8,95 17,90 10% 19,69
+Corkscrew WINE BOTTLE
+OPENER Swing-a-Way
+1] SUMMARY
+VAT [%] Net worth VAT Gross worth
+10% 17,90 1,79 19,69
+Total $ 17,90 $ 1,79 $ 19,69

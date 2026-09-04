@@ -1,0 +1,39 @@
+RAHUL KUMAR 
+Email: rahul.kumar@example.com Phone: +91-9123456789 
+GitHub: github.com/rahul-kumar 
+LinkedIn: linkedin.com/in/rahul-kumar 
+OBJECTIVE 
+Final-year Computer Science Engineering student with a passion for software engineering and problem-solving. Seeking opportunities to contribute as a software developer. 
+EDUCATION 
+Bachelor of Engineering (B.E.) in Computer Science 
+ABC Institute of Technology, Pune 
+2021-2025 
+- CGPA: 8.7/10 
+TECHNICAL SKILLS 
+Programming Languages: Java, Python, C++, JavaScript 
+- Web: React, Node.js, Express 
+- Databases: MongoDB, MySQL 
+- Tools: Git, Docker, Postman 
+- Cloud: AWS (basic) 
+PROJECTS 
+1. Chat Application (MERN Stack) 
+- Real-time chat using React, Node.js, Express, MongoDB, Socket.io 
+- User authentication and chat rooms 
+2. Machine Learning-Based Fake News Detector 
+- Used Python (scikit-learn) to build classification model 
+- Achieved 92% accuracy on test data 
+INTERNSHIP 
+Software Developer Intern | DEF Technologies, Pune May 2024 - July 2024 
+Developed REST APIs using Node.js and Express 
+- Integrated MongoDB for data storage 
+- Collaborated in Agile team environment 
+CERTIFICATIONS 
+- 
+- AWS Cloud Practitioner Essentials 
+- Data Structures and Algorithms - Coding Ninjas 
+EXTRACURRICULAR 
+- Member, Coding Club (Competitive Programming) - 2nd Prize in Hackathon @ College Tech Fest 2023 
+LANGUAGES 
+- English 
+- Hindi 
+- Marathi

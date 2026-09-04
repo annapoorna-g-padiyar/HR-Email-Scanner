@@ -1,0 +1,18 @@
+Invoice no: 48943929
+Date of issue: 12/27/2011
+—____) Seller: Client:
+Gray-Ortiz Shepherd, Hamilton and Conway
+34736 Gloria Locks 6867 Jackson Plaza Apt. 588
+New Lisaview, OR 18467 Erinview, WY 31906
+Tax Id: 978-94-7080 Tax Id: 930-97-5089
+IBAN: GB65DSJD79442909624863
+7) ITEMS
+No. Description Qty UM Net price Net worth VAT [%] Gross
+worth
+1. Atari Flashback 4 Classic Game 2,00 each 8,50 17,00 10% 18,70
+Console 75 built in games
+Space Invaders Asteroid
+7] SUMMARY
+VAT [%] Net worth VAT Gross worth
+10% 17,00 1,70 18,70
+Total $ 17,00 $ 1,70 $ 18,70

@@ -1,0 +1,31 @@
+Invoice no: 70876496
+Date of issue: 09/14/2013
+—}) Seller: Client:
+Andrews, Guzman and Dixon Blankenship-Cunningham
+9236 Austin Street Suite 701 845 Anthony Station Suite 452
+Anthonyburgh, LA 63177 West Dennis, HI 85794
+Tax Id: 966-72-6611 Tax Id: 914-81-6907
+IBAN: GB12PTIV46116882541005
+7) ITEMS
+No. Description Qty UM Net price Net worth VAT [%] Gross
+worth
+1, Our Family Tree A History of Our 1,00 each 4,49 4,49 10% 4,94
+Family
+2. Merry Robin Hood by H. Pyle 1,00 each 19,99 19,99 10% 21,99
+New Seated Illustrated Leather
+Bound Gift Hardback
+3. PRETTY GOOD JOKE BOOK 2nd 5,00 each 4,49 22,45 10% 24,70
+ED (Prairie Home Compani
+4. The Wim Hof Method Activate 5,00 each 4,22 21,10 10% 23,21
+Your Potential, Transcend Your
+LimitsQ000
+5. Holy Bible Crossway English 2,00 each 38,95 77,90 10% 85,69
+Standard Version Genuine
+leather ESV Very Nice
+6. HIROSHIGE One Hundred 3,00 each 24,23 72,69 10% 79,96
+Famous views of Edo by
+Taschen NEW HARDCOVER
+—_) SUMMARY
+VAT [%] Net worth VAT Gross worth
+10% 218,62 21,86 240,48
+Total $ 218,62 $ 21,86 $ 240,48

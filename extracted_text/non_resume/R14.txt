@@ -1,0 +1,1051 @@
+Natural Language Processing for Information Extraction
+SonitSingh
+DepartmentofComputing,FacultyofScienceandEngineering,MacquarieUniversity,Australia
+Abstract
+With rise of digital age, there is an explosion of information in the form of news, articles, social
+media, and so on. Much of this data lies in unstructured form and manually managing and effectively
+makinguseofitistedious,boringandlaborintensive. Thisexplosionofinformationandneedformore
+sophisticated and efficient information handling tools gives rise to Information Extraction(IE) and In-
+formationRetrieval(IR)technology. InformationExtractionsystemstakesnaturallanguagetextasinput
+andproducesstructuredinformationspecifiedbycertaincriteria,thatisrelevanttoaparticularapplica-
+tion. Varioussub-tasksofIEsuchasNamedEntityRecognition,CoreferenceResolution,NamedEntity
+Linking,RelationExtraction,KnowledgeBasereasoningformsthebuildingblocksofvarioushighend
+Natural Language Processing (NLP) tasks such as Machine Translation, Question-Answering System,
+Natural Language Understanding, Text Summarization and Digital Assistants like Siri, Cortana and
+GoogleNow. ThispaperintroducesInformationExtractiontechnology,itsvarioussub-tasks,highlights
+state-of-the-artresearchinvariousIEsubtasks,currentchallengesandfutureresearchdirections.
+1 Introduction to Information Extraction
+Dataisnowakindofcapital,onparwithfinancialandhumancapitalincreatingnewdigitalproducts
+and services. With the explosion of information in the form of news, corporate files, medical records,
+governmentdocuments,courthearingandsocialmedia,everyoneisfloodedwithinformationoverload.
+Most of this information is unstructured i.e. free text and thus makes hard to have reasoning and inter-
+pretation. Natural Language Processing (NLP) refers to the use of computational methods to process
+spoken or written form of such free text which acts as a mode of communication commonly used by
+humans(Assal et al., 2011). There are lot many processes involved in the pipeline of NLP. At the syn-
+tactic level, statements are segmented into words, punctuation (i.e. tokens) and each token is assigned
+with its label in the form of noun, verb, adjective, adverb and so on (Part of Speech Tagging). At the
+semantic level, each word is analyzed to get the meaningful representation of the sentence. Hence, the
+basic task of NLP is to process the unstructured text and to produce a representation of its meaning.
+ThehigherleveltasksinNLPareMachineTranslation(MT),InformationExtraction(IE),Information
+Retrieval(IR),AutomaticTextSummarization(ATS),Question-AnsweringSystem,Parsing,Sentiment
+Analysis, NaturalLanguageUnderstanding(NLU)andNaturalLanguageGeneration(NLG).Informa-
+tionExtraction(IE)referstotheuseofcomputationalmethodstoidentifyrelevantpiecesofinformation
+indocumentgeneratedforhumanuseandconvertthisinformationintoarepresentationsuitableforcom-
+puter based storage, processing, and retrieval (Wimalasuriya and Dua, 2010). The input to IE system
+is a collection of documents (email, web pages, news groups, news articles, business reports, research
+papers, blogs, resumes, proposals, andsoon)andoutputisarepresentationoftherelevantinformation
+fromthesourcedocumentaccordingtosomespecificcriteria. Theabilityofhumanbeingstoeffectively
+makeuseofthisvastamountofinformationislowasthistaskisquiteboring,tediousandconsumelot
+of time. This explosion of information and need for more sophisticated and efficient information han-
+dling tools highlighted the need of information extraction and retrieval technology (Neil et al., 1998).
+InformationExtractiontechnologieshelpstoefficientlyandeffectivelyanalyzefreetextandtodiscover
+valuableandrelevantknowledgefromitintheformofstructuredinformation. Hence,thegoalofIEisto
+extractsalientfactsaboutpre-specifiedtypesofevents,entities,orrelationships,inordertobuildmore
+meaningful,richrepresentationsoftheirsemanticcontent,whichcanbeusedtopopulatedatabasesthat
+providemorestructuredinput.
+1
+8102
+luJ
+6
+]LC.sc[
+1v38320.7081:viXra
+2 Information Extraction Tasks
+InformationExtractionisoftenanearlystageinpipelineforvarioushighleveltaskssuchasQuestion
+AnsweringSystems(Mollaetal.,2006),MachineTranslation,eventextraction,userprofileextraction,
+andsoon. IEisveryusefulformanycommercialapplicationssuchasBusinessIntelligence,automatic
+annotation of web pages, text mining, and knowledge management (Muludi et al., 2011). Various sub-
+tasksinvolvedinIEare: NamedEntityRecognition(NER),NamedEntityLinking(NEL),Coreference
+Resolution (CR), Temporal Information Extraction, Relation Extraction (RE), Knowledge Base Con-
+structionandReasoning. SharedTasksinthesevarioussub-tasksofIEhavesignificantlycontributedto
+theirprogressandprovidesthefairevaluationofstateoftheartmodels. TheseSharedTasksincludebio-
+information retrieval (bio-IR), bio-Named Entity Recognition (bio-NER), bio-Information Extraction
+(bio-IE),bio-NaturalLanguageProcessing(bio-NLP),CoNLLMultilingualShallowDiscourseParsing
+sharedtask,SemEval(taskonSemanticEvaluation)tonameafew. Asper(Luoetal.,2015),variouslow
+leveltasksinNLPsuchasParts-of-SpeechTagging(POST),chunking,parsing,NamedEntityRecogni-
+tion,arefundamentalbuildingblocksofcomplexNLPtaskssuchasKnowledgeBaseconstruction,text
+summarization, Question-Answering systems, and so on. Hence, the effectiveness of these low level
+tasks highly determine the performance of high end tasks. Error in low level tasks get propagated to
+high level tasks and degrading their overall performance. In this section, we will discuss about various
+sub-tasksinthefieldofInformationExtraction.
+Fig.1GeneralInformationExtractionArchitecture. Adaptedfrom(Costantinoetal.,1997)
+The effectiveness of various Information Extraction tasks down the pipeline highly depends upon
+pre-processingstagessuchasTokenizer,Stemmer,Part-Of-Speechtagger,andparser. Tokenizerextracts
+tokensfromthetext. Tokenizercanbetreatedasaclassifierwhichclassifytokensinto24orthographic
+classes. Stemming process find the root (stem) of the word e.g. stem(reading)=read. Part-of-Speech
+tagger (POS-T) assigns tag to each word from various POS classes. e.g. Sam is a ¡proper-noun¿ and
+theyis¡personal-pronoun¿. NounPhraseRecognizerfindsthenounphrasesfromthetext. Fore.g. ”the
+presidentofUSA”,thepresidentisnounphraseanditreferstoaperson,whereasUSArepresentsnoun
+phrase and refers to name of the country. Named Entity Recognizer, finally assigns particular named
+2
+entity class from various classes such as: person, organization, location, date, time, money, percent,
+e-mail address and web-address. As Part-of-Speech tagging and Syntactic Parsing forms the building
+blockandinitialphaseinthepipelineofvariousInformationExtractiontasks,itisimportanttolookat
+theirrole,state-of-the-artsystemsandhowtheyeffectdownstreamIEtasks.
+2.1 Parts-of-Speech(POS)tagging
+Part-of-Speech tagging labels unannotated words in natural language with Parts-of-Speech labels
+such as noun, verb, adjective, preposition,etc. (Chengyao Lv et al., 2016). Part-of-Speech tagging is
+fundamental step in various NLP tasks such as speech recognition, speech synthesis, machine trans-
+lation, information retrieval, information extraction, and so on. Two factors that determine the tag of
+word are its lexical probability and its contextual probability (Voutilainen, 2003; Sun et al., 2008).
+Part-of-Speech tagging approaches can generally fall into two categories: Rule based approaches and
+statisticalapproaches. Rulebasedapproachesapplylanguagerulestoimprovetheaccuracyoftagging.
+The limitation of this approach lies in requirement of large annotated data which require expert lin-
+guisticknowledge, laborandcost. Inordertoovercometheshortcomingofthisapproach, (Brill,1995)
+proposed ”transformation based approach” in which rules are automatically learned from corpora. On
+the other hand, statistical methods use Decision Trees (Magerman, 1995), Hidden Markov Model (Ra-
+biner,1989),MaximumEntropyclassifier(Ratnaparkhi,1996),SupportVectorMachine(Gimenezand
+Marquez,2004). Recently,deeplearningbasedPart-of-Speechtagginghasgainedmomentum.
+2.2 Parsing
+Numerous parser have been proposed by the Computational Linguistics community. These parsers
+can generally be divided into two broad categories based on their underlying grammatical formalism:
+Constituencyparsersanddependencyparsers.
+Constituency parsers (also known as tree bank parsers) produce syntactic analysis in the form of
+a tree that shows the phrases comprising the sentence and the hierarchy in which these phrases are
+associated. Constituencyparsershavebeenusedforpronounresolution,labelingphraseswithsemantic
+roles and assignment of functional category tags.Constituency parsers overlook functional tags when
+training. Therefore,theycannotusethemwhenlabelingunseentext.
+Dependency parsers analyze the sentence as a set of pairwise word-to-word dependencies. Each
+dependency has a type that reflects its grammatical function. Dependency parsers model language as a
+set of relationships between words and construct a graph for each sentence, and each arc in the graph
+representsagrammaticaldependencyconnectingthewordsofthesentencetoeachother.
+2.3 NamedEntityRecognition(NER)
+IntheNamedEntityRecognition(NER)task,systemsarerequiredtorecognizetheNamedEntities
+occurringinthetext. Morespecifically,thetaskistofindPerson(PER),Organization(ORG),Location
+(LOC)andGeo-PoliticalEntities(GPE).Forinstance,inthestatement”MichaelJordanlivesinUnited
+States”, NER system extracts Michael Jordan which refers to name of the person and United States
+which refers to name of the country. NER serves as the basis for various crucial areas in Information
+Management, such as Semantic Annotation, Question Answering, Ontology Population and Opinion
+Mining.
+2.4 NamedEntityLinking(NEL)
+NamedEntityLinking(NEL)alsoknownasNamedEntityDisambiguation(NED)orNamedEntity
+Normalization(NEN)isthetaskofidentifyingtheentitythatcorrespondstoparticularoccurrenceofa
+3
+noun in a text document. References to entities in natural text is quite ambiguous, because particular
+entity can refer to many mentions and on the other hand, particular mention can refer to many entities.
+For example, ”Paris” can refer to entity mention location (GPE) i.e. city (Capital of France), or it
+can refer to entity mention person (PER) i.e. Paris Hinton (an actress). Hence, Entity Linking is the
+task of resolving named entity mentions to entries in structured Knowledge Base (KB) (Hackey et al.,
+2012). Named Entity Linking is quite important when information extracted from one document is to
+beintegratedwithinformationofsameentitycomingformvariousothersources.
+2.5 CoreferenceResolution(CR)
+Coreference Resolution is the task which determines which noun phrases (including pronouns,
+proper names and common names) refer to the same entities in documents (Kong et al., 2010). For
+instance,inthesentence,”Ihaveseentheannualreport. Itshowsthatwehavegained15%profitinthis
+financial year”. Here, ”I” refers to name of the person, ”It” refers to annual report and ”we” refers to
+the name ofthe company in whichthat person works. Hence, coreference resolution playsvital role in
+tasksasnaturallanguageunderstanding,textsummarization,informationextraction,textualentailment,
+andsoon.
+2.6 TemporalInformationExtraction(EventExtraction)
+Temporal information extraction or event extraction refers to the task of identifying events (i.e in-
+formation which can be ordered in a temporal order)in free text and deriving detailed and structured
+information about them, ideally identifying who did what to whom, where, when and why. Hence,
+temporal expression (also called timex)refers to the task of detecting phrases in natural language text
+that denote a unit of temporal entity in the form of an interval, a particular instance of time or certain
+frequencyrelatedtoparticularevent. Forinstance,inthestatement,”PresidentBarackObamayesterday
+addressed the issue of nuclear deals at White House”. Here yesterday is a noun phrase which refers to
+temporalinformation. Temporalinformationisimportantwherewewanttoextractstructuredinforma-
+tionfromnaturallanguagetextaccordingtosometemporalcriteriasuchasnews,organizationofevents
+date-wiseorbiographies.
+2.7 RelationExtraction(RE)
+Relation Extraction is the task of detecting and classifying pre-defined relationships between en-
+tities identified in the text. In other words, it is way of transforming unstructured (free) text into
+structural form which can be used in web-search, question answering and lot more (Gardner et al.,
+2015). Given a sentence in free text "Jodie Foster is an American acress who won
+Academy Award for movie The Silence of the Lambs",wecanextractafactsuchas
+won(Jodie Foster, Academy Award). Pre-definedrelationscanbeintheformofemployee-
+of, Born-In, andSpouse-ofwhereemployee-ofrelation holdsbetweenparticularperson andanorgani-
+zation, Born-In relation holds between a person and a particular place where that person is born, and
+Spouse-ofrelationholdsbetweentwopersons.
+2.8 KnowledgeBaseReasoningandCompletion
+TherehasbeengrowingtrendofconstructinglargeKnowledgeBases(KBs)suchasFreebase(Bollacker
+etal.,2008),DBpedia(Aueretal.,2007),YAGO(Suchaneketal.,2007),YAGO2(Hoffartetal.,2011),
+Google Knowledge Graph (Dong et al., 2014), NELL (Mitchell et al., 2015). These KBs are currently
+inuseforvariedapplicationssuchasweb-search,question-answering,decisionsupportsystems,digital
+assistants like Siri, Cortanan and Google Now. Though these KBs are large in size (having million of
+4
+facts, billion of entities and million of relations), but they are error-prone and have lot many facts that
+are still missing. For instance, 71% of the persons described in Freebase have no known place of birth
+and 75% of them have no known nationality (Dong et al., 2014). Link prediction in Knowledge Bases
+(KBs)orKnowledgeGraphs(KGs)aimsatdiscoveringnewfacts.
+Thegoaloflinkprediction(alsoknownasKnowledgeBaseCompletion)istodeterminetherelation-
+shipbetweenentities. Therearevariousapplicationsbasedonlinkpredictionsuchasrecommendation
+systems,Knowledgebasecompletionandfindinglinksbetweenusersinsocialnetworks. Inrecommen-
+dationsystems,goalistopredicttheratingofthemovieswhicharenotalreadyratedandrecommending
+it to users to have better user experience. Similarly, in Knowledge Base Systems, the goal is to check
+whether a particular triple not in the KB is likely to be true or not (Socher et al., 2011; Taskar et al,
+2004). Forinstance,(JodieFoster,LivesIn,?) isalinkpredictiontaskwherehead(h)andrelation(r)is
+givenandweneedtofindthemissingtail(t)fromthetriplesalreadypresentintheKB.Hence,itmake
+KB more robust to use for various applications such as question-answering, web/mobile search, social
+media analysis, recommendation systems, co-reference resolution, information retrieval and semantic
+parsing.
+3 State-of-the-art-methods in Information Extraction
+ThemostimportantIEsystemscompetitionsareMessageUnderstandingConferences(MUC)start-
+ing with MUC-6 competition (Morgan et al., 1995).Current IE research seems to be heading in several
+directions, including partial parsing and automated knowledge acquisition (Riloff Ellen, 1997). The
+variousapproachesusedinIEarebroadlycategorizedintothreemaincategories:
+3.1 Patternmatchingbasedapproach
+Inthisapproach,extractionpatternsaredefinedusingaformalismcalledRegularExpressions(RE).
+Thesepatternscanbeeasilymatcheddirectlywiththegiveninputtextandthematchedtextisextracted,
+which corresponds to an occurrence of that entity. For example, if we want to extract corporate news,
+thenwedefinesimpleRegularexpressionswithcuewordssuchasInc.,Co.,Company,Limited,Bank,
+Ptylimited,Pvt. limited,andsoon.
+Though it provides quick and easy process, but this approach has limitations as it is not possible
+to provide all the cue words related to particular domain. Moreover, company names such as ALDI,
+Woolworths,donotcorrelatewithcuewords. Inordertomakeitmoreexploratory,RegularExpressions
+patterns are enriched by incorporating lexical information and incorporating special cases and domain
+knowledge. Despiteitsapparentlimitations,thisapproachiswidelyusedinpractice.
+3.2 Gazetteerbasedapproach
+Anotherapproachistomakeuseofapre-definedlistofallpossiblevaluesofannamedentity,called
+agazetteorgazetteer. Gazetteisonlypossibleforonlythosenamedentitieswhichhavefinitenumberof
+possiblevalues. Thoughthisapproachisfastandaccurate,butthelimitationsliesinpreparingcomplete
+andaccurategazette.
+3.3 MachineLearningbasedapproach
+In this approach, Machine Learning algorithms automatically learn the IE patterns by generaliz-
+ing from a given set of examples. First we have to create a training data-set, which is a collection of
+documents in which all occurrences of named entities of interest are manually marked or tagged. ML
+algorithmssuchasDecisionTrees,NaiveBayesclassifier,SupportVectorMachine(SVM),Conditional
+5
+Random Fields (CRFs), Maximum Entropy (MaxEnt)use features such as word surrounding an occur-
+rence of named entity. These supervised ML approach have limitations in terms of time and efforts
+requiredtocreatesufficientlylargelabeledtrainingdata-set.
+3.4 InformationExtractionTools
+TherearevariouspubliclyandcommerciallyavailabletoolsforInformationExtraction.
+• Public IE tools:GATE(General Architecture for Text Engineering), JULIE, OpenNLP (Apache
+OpenNLP-JavamachinelearningtoolkitforNLP),StanfordNER,GExp,Mallet(Machinelearn-
+ingforlanguagetoolkit),NaturalLanguageToolkit(SuiteofPythonlibrariesforNLP),DBpedia
+Spotlight(OpensourcetoolforNamedEntityRecognitionandNamedEntityLinking)andOpen-
+Calais(AutomatedIEwebservicefromThomsonReuters).
+• Commercial IE tools:Altensity, Open Calais, ClaraBridge, SAS Text Analytics, Business Ob-
+jects,IBMIntelligentMinerand,Lingpipe.
+• Specialized IE tools:Ariadne Genomics Medscan Reader for biomedical documents, RINX for
+resumes.
+4 State-of-the-art-methods in various IE tasks
+4.1 State-of-the-artinNamedEntityRecognition(NER)
+NamedEntityRecognitioncanbeseenasaword-leveltaggingproblemwhereeachwordinasen-
+tenceismappedtoanamedentitytag. Featuresintheformofaffix,capitalization,punctuation,output
+ofsyntacticanalyzers(i.e. POStaggers,chunkers)andexternalresourcesintheformofgazetteers,word
+embeddings,andwordclusterids(Turianetal.,2010;RatinovandRoth,2009)arefedtoclassifierand
+outputisthelabeledtagintheformofperson(PER),organization(ORG),location(GPE),etc.
+Eary NER systems were based on hand-crafted features. These hand-crafted features are fed to
+supervised Machine Learning (ML) systems in the form of rule-based systems or sequence labeling
+algorithms. SupervisedMLapproachesinNERtaskinclude: HiddenMarkovModels(HMM),Support
+Vector Machines (SVM), Maximum Entropy models (MaxEnt), Decision Trees (DT), and Conditional
+RandomFields(CRFs). Amongthese, CRFprovidesbetterresultsasittakescontextofnear-bywords
+into account. Then, research shifted towards using orthographic and language specific resources such
+asgazetteers. Astheseresourcesarecostlytodevelop, requiresexpertiseknowledgeoflinguistics, not
+transferabletonewlanguagesanddomains,whichlimitstheiruse.
+Recently, focus has been shifted on the use of semi-supervised learning (weakly supervised) for
+NERtask. Onesuchtechniqueis”bootstrapping”whichinvolvesinitialsmalldegreeofsupervisionin
+theformofprovidingsetofseedsforstartingthelearningprocess(Burgesetal., 1998).Siencniketal.,
+2015proposedNERusingWord2Vecfeatures. Quetal.,2016proposedtransferlearningbasedNERin
+domainshavingquitelessannotateddatasuchastweetmessages. Kuruetal.,2016proposedCharNER
+i.e. Character based named entity recognition. In this approach, instead of considering entire word as
+basic input feature, they took characters as the primary representation as in (Klein et al., 2003; Gillick
+etal., 2016). Secondly, theyuseastackedbidirectionalLSTM(HochreiterandSchmidhuber, 1997)for
+finallabelingtask.
+Tsai et al., 2016, proposed a cross-lingual NER model that is trained on annotated documents of
+one or more languages and applied to all languages in Wikipedia. Lample et al., 2016 proposed two
+neural architectures for NER based on bidirectional Long Short Term Memory (bidirectional LSTMs)
+and Conditional Random Fields (CRFs)and other model based constructs and labels segments using
+6
+transitionbasedapproachinspiredbyshift-reduceparsers. TheexperimentalresultsshowsthatLSTM-
+CRFmodeloutperformsallstate-of-the-artsystemsgiving90.94F1-scoreonEnglishNERtask.
+4.2 State-of-the-artinNamedEntityLinking(NEL)
+The Named Entity Linking (NEL) also known as Named Entity Disambiguation or Named Entity
+Normalizationtaskaimsatautomaticallylinkingeachnamedentitymentioninasourcetextdocument
+toitsuniquereferentinatargetKnowledgeBase(KB).Forinstance,fromthestatement: ”Wherewould
+PittbewithoutJolie?”, anamedentitylinkershouldlinktheentitymentions”Pitt”and”Jolie”toBrad
+PittandAngelinaJolierespectivelywhichservesasauniqueidentifierforrealpeople.
+TwoevaluationsinparticularhasdrivencomparativeworkinthetaskofNEL:theTACKBP(Knowl-
+edgeBasePopulation)sharedtasksandYAGO2annotationofCoNLL-2003NERdata.
+Early work on entity linking focused on treating as a separate task which was performed after the
+NER step. Typically, first NER system is run to extract entity mentions and then run an entity link-
+ing model to link mentions to a KB. As these two models are optimized separately, they are tractable
+and do not leverage information provided by one model to another. Hence, Luo et al., 2015 proposed
+JERL-Joint Entity Recognition and Linking, to jointly model Named Entity Recognition and linking
+tasks and capture the mutual dependency between them. The SemEval-2015 multilingual Word Sense
+Disambiguation (WSD) and Linking task (Moro and Navigli, 2015) aims to promote joint research in
+theWSDandEntityLinking.
+Recently, NEL systems uses both local and global information (Cucerzan, 2007; Ratinov et al.,
+2011; Alhelbawy and Gauzauskas, 2014). The local information measures the similarity between the
+textmentionandanentitycandidateinKnowledgeBase,andglobalinformationmeasureshowwellthe
+candidateentitiesinadocumentareconnectedtoeachother;withassumptionthatentitiesappearingin
+the same document should be coherent. Pershina et al., 2015 proposed Personalized Page Rank based
+random walk algorithm to disambiguate named entities. Avirup and Radu, 2016 proposed language
+independententitylinking(LIEL)systemwhichtrainedononelanguageworksfornumberofdifferent
+languages.
+Although,NamedEntityRecognition(NER),CoreferenceResolution(CR),Cross-DocumentCoref-
+erence Resolution (CCR), and Named Entity Linking (NEL) involve close relations but they were not
+explored jointly. Chen and Roth, 2013; Zheng et al., 2013 shows that tight integration among these
+singlesub-tasksprovidespromisingresults. Recently,severaljointmodelshavebeenproposedforCR-
+NER (Haghighi and Klein, 2010; Singh et al., 2013), CR-NEL (Hajishirzi et al., 2013), NER-CR-NEL
+(DurrettandKlein,2014)andCCR-NEL(Duttaetal.,2015).
+4.3 State-of-the-artinCoreferenceResolution(CR)
+Coreference Resolution (CR) is the process of linking together multiple expressions of a given en-
+tity. CoreferenceResolutionplayssignificantroleinmakingInformationExtraction,textsummarization
+andQuestion-Answeringsystemsmorerobust. CoreferenceResolutionplaysvitalroleinRelationEx-
+traction(RE)taskwhichaimsatfindingpairs(tuples)ofentitiesthatsatisfysomedefinedrelation. For
+instance,”Samisamanofgreattalent. HeworksforMacquarieUniversity”. Here,ifweaskquestion:
+”Where does Sam work?”, we can’t find a direct statement that answers it. But if we establish relation
+¡work¿ between He and Macquarie University, and if we find that Sam and He are in coreference, we
+canconcludethatworks(Sam,MacquarieUniversity)andwegettheanswertothequery.
+Early work in coreference resolution started with levaraginng lexical and syntactic attributes of the
+noun phrases such as string matching, the distance between coreferent expressions, name alias (Soon
+et al., 2001; Ng and Cardie, 2002). Shane Bergsma et al., 2006 presented approach based on syntactic
+paths for pronoun resolution. Young et al., 2006 proposed a kernel based method to mine syntactic
+information from parse trees. Zhou et al., 2008 proposed context-sensitive convolution tree kernel for
+7
+pronoun resolution. Heuristic rule-based approaches which concentrate on designing heuristic rules to
+identifytheanaphoricrelationbetweennounphraseswerealsousedforcoreferenceresolution(Lappin
+etal.,1994;Kennedyetal.,1996;andvieiraetal.,2000).
+Afterthis,machinelearningapproachesbecamemoreprevalentwhichconsidersitasbinaryclassi-
+ficationtask(Cardineetal.,2008). Atfirst,MLapproachesfocusedonexploitinglexical,grammatical
+andsyntacticfeatures,thenresearchersshiftedfocusonusingsemanticinformation. Huangetal.,2010,
+proposed coreference resolution in biomedical full-text articles with domain dependent features. They
+showed that using appropriate domain dependent features can improve coreference resolution results.
+Results showed 76.2% Precision, 66% Recall and 70.7% F1-measure which is 13.8% improvement
+against not using domain dependent features. Among the ML approaches, one aspect of coreference
+resolution is to directly utilize the parse trees as a structured feature and use a kernel based method to
+automatically mine the knowledge embedded in the parse trees. Kong et al., 2010 proposed a depen-
+dency driven scheme to dynamically determine the syntactic parse tree structure for tree kernel based
+anaphoricity determination in coreference resolution. Experiments on ACE-2003 Corpus demonstrates
+that this approach yield improved F1-score by 2.4, 3.1 and 4.1 on NWIRE, NPAPER and BNEWS
+domains.
+Currently, several supervised entity coreference resolution systems can be categorized into three
+classes: mentionpairmodels(McCarthyetal.,1995),entity-mentionmodels(Yangetal.,2008;Haghighi
+andKlein,2010;Leeetal.,2011)andrankingmodels(Yangetal.,2008;DurrettandKlein,2013;Fer-
+nandes et al., 2014). Among all the three main approaches, ranking models provides state-of-the-art
+performanceforcoreferenceresolution. Recently,trendisshiftingtowardsusingunsupervisedlearning
+algorithmsforcoferenceresolution. HaghighiandKelin,2007presentedamentionpairnon-parameteric
+fully-generative Bayesian model for unsupervised coreference resolution. Ng et al., 2008 proposed
+probabilistic induced coreference partitions via Expectation Maximization (EM) clustering. Poon and
+Domingos, 2008 proposed an entity-mention model to perform joint inference across mentions using
+MarkovLogic. Maetal.,2016proposedanunsupervisedgenerativerankingmodel. Until2015,allstate-
+of-the-art coreference systems operate solely by linking pairs of mentions together (Durrett and Klein,
+2013;MartschatandStrube,2015;Wisemanetal.,2015). Recently,KevinClarkandChrisD.Manning,
+2016useagglomerativeclusteringapproachwhichtreatseachmentionasasingletonclusterattheout-
+set and then repeatedly merging clusters of mentions deemed to be referring to the same entity. Such
+system takes advantage of entity level information i.e. features between cluster of mentions instead of
+betweenjusttwomentions. Moreover,Cross-documentcoreferenceresolution(Gaoetal.,2010)isatthe
+researchforefrontinresearchcommunity. EventCoreferenceResolutioncanbeappliedwithinasingle
+document or across multiple documents and is crucial for various NLP tasks including topic detection
+andtracking,IE,Question-Answering,andtextualentailment(BejanandHarabagiu,2010). Incompar-
+ison to entity coreference resolution i.e. identifying and grouping noun phrases that refers to the same
+discourse entity, event coreference resolution is more complex as single event can be described using
+multipleeventmentions. Morerecently,SemEval-2010Task1wasdedicatedtocoreferenceresolution
+in multiple languages. In CoNLL-2011 shared task, participants had to model unrestricted coreference
+in the English language OntoNotes corpora and CoNLL-2012 shared task involved predicting corefer-
+ence in three languages-English, Chinese and Arabic. Recent work is dominated by machine learning
+approaches. There are many open-source platforms based on machine learning for coreference resolu-
+tionsuchasBART(Verseleyetal.,2008),theIllinoisCoreferencePackage(Bengstonetal.,2008)and
+theStanfordCoreNLP(Manningetal.,2014).
+4.4 State-of-the-artinTemporalExpressionExtraction
+Oftenwefindthatinformationinnewspaperstories,stories,biographies,corporatenewsanddocu-
+mentariesistemporallyordered. Temporalinformationextraction(alsoknownaseventextraction)finds
+8
+applicationsintemporalQuestion-Answeringsystems,MachineTranslationanddocumentsummariza-
+tion. Temporal information extraction involves the identification of event-time, event-document and
+event-event relations from free text (Kolya et al., 2010). Most of the event extraction systems consists
+ofthreesub-tasks(Amamietal.,2012): (1). Pre-Processing: Itprovidessyntacticandsemanticanalysis
+oftextasaninputtoeventdetectormodule. Stepsincludesentencesplitting,tokenizing,Part-of-Speech
+tagging, and parsing. (2). Trigger detection: It assigns each token to an event class. Here the task is
+to identify individual words in the sentence that acts as an event trigger word and assigning the correct
+eventclasstoeachofthedeterminedtrigger. (3). Argumentdetection: Thisstepconsistsoffindingall
+participants in an event and assigning the functional role to each of the determined participants in an
+event.
+Shared tasks in the form of TempEval which aims at finding temporal relations (Verhagen et al.,
+2007) promote research in event extraction. Several methods have been proposed to extract events
+from text. Early approaches include Pattern-matching which try to use context information for finding
+relationsbetweenentities. Boguraevetal.,2005;Manietal.,2006;andChambersetal.,2007proposed
+machine learning based approaches for temporal relation identification. Kolya et al., 2010 used CRF
+based approach for event-event relation identification. They used some of the gold standard TimeBank
+featuresforeventsandtimesfortrainingtheCRF.Variousfeaturesusedwere: Eventclass,Eventstem,
+Eventandtimestring,POSofeventterms(Adjective,Noun,Verb,Adverb,Prep),eventtense(Present,
+Past, Future, Indefinite, None), event aspect (e.g. progressive, perfective, prefective-progressive, or
+none),eventpolarity(positive,negative,neutral),eventmodality,typeoftemporalexpression,temporal
+signal and temporal relation between document creation time and the temporal expression in the target
+sentence(greater than, less than, equal, or none). They reported Precision, Recall and F-score values
+of 55.1%, 55.1% and 55.1% respectively under strict evaluation scheme and 56.9%, 56.9% and 56.9%
+respectively under relaxed evaluation scheme. TimeBank Corpus (Pustejovsky et al., 2003) has largely
+promoted the development of temporal relation extraction. Recently, hybrid approaches based on hand
+coded rules along with supervised classification models using lexical relation, semantic and discourse
+featuresareproposedbyD’SouzaandNg,2013;andChambersetal.,2014. Mirzaetal.,2016proposed
+sievebasedsystemtoperformtemporalandcausalrelationextractionandclassification.
+4.5 State-of-the-artinRelationExtraction
+RelationExtractionenablesbroadrangeofapplicationsincludingQuestion-Answering,Knowledge
+Base Population, and so on. The relation extraction task can be divided into two steps: detecting if
+a relation utterance corresponding to some entity mention pair of interest occurs and classifying the
+detected relation mentions into some predefined classes. There are two types of Relation Extraction
+systems: Closeddomainrelationextractionsystemsconsideronlyaclosedsetofrelationshipsbetween
+two arguments. On the other hand, Open-domain relation extraction systems use an arbitrary phrase
+to specify a relationship. In order to extract relations, the sentences in the free text are analyzed using
+Parts-of-Speech tagger a dependency parser and a Named Entity Recognizer. Early RE approaches
+can be broadly divided into two categories: feature based methods (Kambhatla, 2004; Boscher et al.,
+2005; Zhou et al., 2005; Grisham et al., 2005; Jiang and Zhia, 2007; Chan and Roth, 2010; Sun et
+al., 2011; Nguyen and Grisham,2014) and kernel-based methods (Zelensko et al., 2003; Culotta and
+Sorensen, 2004; Bunescu and Mooney, 2005; Sun and Han, 2014). Lexico-Syntactic Patterns (LSP) or
+HearstPatternsatwordlevel,phraselevelandsentencelevelassyntacticfeaturesforrelationextraction.
+Alternate approach is to use semantic features (Alicia,2007; Hendrickx et al., 2007)of a pair of words
+extractedfromlexicalresourceslikeWordNet(Fellbaum,1998). Hybridapproachescombinessyntactic
+patterns with semantic features of the constituent words(Claudio, 2007; Girju et al., 2005). Tesfaye
+et al., 2016 proposed such hybrid approach getting semantic information extracted from the Wikipedia
+hyperlinkhierarchyoftheconstituentwords. Relationextractionsystems(Feldmanetal.,2008;Etzioni
+9
+etal.,2008)utilizepipelineofprocessessuchasPart-of-Speechtagging,phrasedetection,NamedEntity
+Recognition and Coreference Resolution. Recently, (Boden,et al., 2011)shows that higher precision on
+REtaskisensuredwithdeepdependencyparsingorsemanticrolelabeling/analysis.
+Many approaches to relation extraction use supervised machine learning techniques (Soderland et
+al., 1995; Califf and Mooney, 1997; Lafferty et al., 2001), but these methods require large human an-
+notated training corpus. In order to overcome the problem of labeled data-set, researchers developed
+DistantSupervision(DS)inwhichaknowledgebasesuchasWikipediaorFreebaseisusedtoautomat-
+ically tag training examples from the text corpora(Mintz et al., 2009).Specifically, distant supervision
+uses the KB to find pair of entities E and E for which a relation R holds. Distant Supervision then
+1 2
+makes assumption that any sentence that contains a mention of both E and E is a positive training
+1 2
+instance for R(E ,E ). Unfortunately, distant supervision technique leads to large proportion of false
+1 2
+positivetraininginstances. Toaddressthisshortcoming,therehavebeenattemptstomodeltherelation
+dependencies as Multi-Instance Multi-Class (Bunescu and Mooney, 2007; Riedel et al., 2010) leading
+to state-of-the-art relation extraction results. Based on this approach, Hoffmann et al., 2011 proposed
+MultiR system for relation extraction and Surdeanu et al., 2012 proposed MIML-RE (Multi-Instance
+Multi-Labeling Relation Extraction) system. Additionaly, other relation extraction techniques include
+UniversalSchemas(Riedeletal.,2013;Deeplearning(NguyenandGrisham,2014).
+Recently,researchershaveexploredtheideaofaugmentingdistantsupervisionwithasmallamount
+ofcrowdsourcedannotateddatainordertoimproverelationextractionperformance(Angelietal.,2014;
+Zhangetal.,2012;Pershinaetal.,2014). WiththegrowingpopularityofWord2Vecmodel,Hashimoto
+etal.,2015proposedembeddingbasedmodelforrelationextraction. Recenttrendinrelationextraction
+is to use deep learning techniques such as Convolutional Neural Networks (CNN) (dos Santos et al.,
+2015),RecurrentNeuralNetworks(RNN)(Socheretal.,2012),treestructuredLSTM-RNN(Taietal.,
+2015),andLSTM(Miwaetal.,2016). Linetal.,2016proposedattentionbasedmodelindistantsupervi-
+sionrelationextractionwhichprovestoprovidebetterstate-of-the-artresultsinrelationextraction.There
+has been growing interest in multi-lingual relation extraction. Gamallo et al., 2012 presented a depen-
+dencyparserbasedonOpenRelationExtractionsystemforSpanish,PortugeseandGalician. Recently,
+Tsengetal.,2014proposedanOpenRE(OpenRelationExtraction)forChinesethatemployswordseg-
+mentation,POStagginganddependencyparsing. LewisandSteedman,2013learnclustersofsemanti-
+callyequivalentrelationsacrossFrenchandEnglishbycreatingasemanticsignatureofrelationshipby
+entity-typing. These relations are extracted using CCG (Combinatory Categorical Grammar)parsing in
+English and dependency parsing in French. Gerber and Ngomo, 2012 described a monolingual pattern
+extractionsystemforRDFpredicatesthatusespre-existingKBfordifferentlanguages.
+Past two decades have witnessed a significant advancement in extracting binary domain-dependent
+relations, butmodernquestion-answeringandsummarizationsystemshavetriggeredinterestincaptur-
+ingdetailedinformationinastructuredandsemanticallycoherentfashion,thusmotivatingtheneedfor
+complexn-aryrelationextractionsystems(Khirbatetal.,2016). McDonaldetal.,2005proposedn-ary
+relationextractionsystemthatfactorizecomplexn-aryrelationintobinaryrelations,representingthem
+inagraph,andtriedtoreconstructthecomplexrelationbymakingtuplesfromselectedmaximalcliques
+inthegraph. Then,eachrelationisclassifiedusingMaximumEntropy(MaxEnt)classifier. Recently,Li
+et al., 2015 make use of lexical semantics to train a model based on distant supervision for n-ary rela-
+tionextraction. Khirbatetal.,2016proposedalgorithmforextractingn-aryrelationsfrombiographical
+data which extracts entities using Conditional Random Fields (CRF) and n-ary relations using Support
+VectorMachine(SVM)fromtwomanuallyannotateddata-setswhichcontainsbiographysummariesof
+Australianresearchers.
+Recently, relationextractionmodelsbasedondeeplearninghaveachievedbetterperformancethan
+conventional relation extraction models that rely on hand-crafted features. Li et al., 2016 proposed a
+pre-trainingmethodthatgeneralizeswellknownSeq2Seqmodelfordeeprelationextractionmodelsin
+order to reduce the need of annotated data. Shen et al., 2016 proposed attention based Convolutional
+10
+Neural Network (CNN) architecture which uses word embedding, part-of-speech tag embedding and
+position embedding information. They showed that word level attention mechanism is able to better
+determinepartsofthesentencewhicharemostinfluentialw.r.ttwoentitiesofinterest.
+4.6 State-of-the-artinKnowledgeBaseReasoningandCompletion
+Mostofthereal-worlddataweseearoundusisinherentlyrelational. Whetheritissocialnetworks,
+gene-protein interactions, hyper linking pages for world wide web, clustering of documents based on
+particulartopic,orauthor-publicationcitations. Relationalmachinelearning(SRL)refertosetofmeth-
+ods which are used for statistical analysis of relational or graph-structured data (Nickel et al., 2015).
+SRLaimsatprocessingdataintheformofsets,graphsorsimilaritycomplexstructures,wherethestan-
+dard representation are not used (Blockeel et al., 2006). SRL is well applied in many specialized areas
+suchasweb-mining,socialnetworkanalysis,temporalandspatialanalysiswhicharehighlyinherently
+relational in nature. Prior work on multi-relational learning can be categorized into three categories:
+(1) statistical relational learning (SRL), such as Markov-logic networks, which directly encode multi-
+relational graphs using probabilistic models; (2) path ranking methods, which explicitly explore the
+large relational feature space of relations with random walk; and (3) embedding-based models, which
+embedmulti-relationalknowledgeintolow-dimensionalrepresentationsofentitiesandrelationsviaten-
+sor/matrixfactorization,Bayesianclusteringframework,andneuralnetworks. SRLmodelstrytopredict
+unseen or future relations between entities based on the data already present in the Knowledge Bases
+(KBs).
+4.6.1 ProbabilisticLatentVariablemodels
+Probabilistic latent variable models conditions the probability distribution of the relations between
+two entities on the latent attributes entities and all relations are considered conditionally independent
+given the latent attributes (Minervini et al., 2016). These models are quite similar to Hidden Markov
+Models(Xuetal.,2006;KollerandFriedman,2009)whichallowstheinformationtopropagatethrough
+the network of interconnected latent variables. Wang and Wong (1987) proposed Stochastic Block
+Model(SB)whichassociatesalatentclassvariablewitheachentity. TheSBmodelisfurtherimproved
+using Bayesian non-parametrics in order to find the optimal number of latent class as given in Infinite
+Relational model (Kemp et al., 2006; Xu et al., 2006). These models are further extended in Infinite
+Hidden Semantic Model (Rettinger et al., 2009), Mixed Membership Stochastic Block Model (Airoldi
+etal.,2008)andNon-parametricLatentFeatureRelationalModel(Milleretal.,2009)whichwasbased
+onBayesiannon-parametrics.
+Thoughprobabilisticlatentvariablemodelsgavepromisinglinkpredictionresults,butshowedlim-
+itationsonscalingonlargeKnowledgeGraphsbecauseofthecomplexityoftheprobabilisticinference
+and learning (Koller and Friedman, 2009). As a consequence, these models do not result to be fully
+appropriateformodelinglargeKBs.
+4.6.2 Embeddingmodels
+EmbeddingmodelslearnsvectorspacerepresentationfortheentitiesandrelationsintheKBanduse
+these representations to predict the missing facts. Latent feature models do reasoning over the Knowl-
+edgeBases(KBs)vialatentfeaturesofentitiesandrelations. Theintuitionbehindsuchmodelsisthatthe
+relationshipbetweentwoentitiescanbederivedfromtheinteractionsoftheirlatentfeatures.Earlywork
+focused on Matrix Factorization approaches. Recently, trend is moving towards using tensors for KB
+completiontask. Tensorsaremultidimensionalarrayswhichrepresentsmulti-relationaldataquiteeasily.
+Tensor decomposition have been widely used in the fields of Chemo-metrics and psycho- metrics but
+11
+nowtheyarereceivinghugeattentionbymachinelearningcommunityastensorshavecapabilitytorep-
+resentsocialanalyticsdata,genomicdata,seismicdata,brainsignalsandothermulti-dimensionaldata.
+Similar to matrix factorization, tensor decomposition approaches use component matrices to represent
+the latent space of the corresponding dimension and a core tensor to represent the interactions among
+these component matrices. Predictions are made via generalized matrix operations to reconstruct the
+tensor from the latent factors. Though tensors provide greater descriptive flexibility of multi-relational
+databutthisflexibilitycomesatthecostofhugecomputationwhichisquitelowinmatrices. Tensorsare
+sometimesquitesimilartoextendingSingularValueDecomposition(SVD)approachfrom2-Dmatrices
+to higher dimensions. Nickel et al., (2013) represents knowledge base having n entities and m binary
+relationsintheformofathree-waytensorK ofsizen×n×m. Thismethodapproximateseachslice
+oftheKBtensorK asaproductofanentitymatrix,arelationmatrix,andtheentitymatrixtransposed.
+Various other tensor decomposition methods such as CANDECOMP/PARAFAC (CP) Decomposition
+andTuckerDecomposition(seeKoldaandBader, 2009)arealsoemployedforvariousinformationex-
+traction tasks. Following RESCAL model, lot many extensions were proposed which takes weighted
+tensordecomposition(Londonetal.,2013),coupledmatrixandtensorfactorization(Papalexakisetal.,
+2014) as well as collective matrix factorization approaches (Singh et al., 2008). In order to further ex-
+tendthefunctionality,leveragingrelationaldomainknowledgealongwithtensordecomposition(Chang
+etal.,2014)hasbeenproposed.
+One of the promising breakthroughs for link prediction in KBs is embedding a knowledge graph
+into a continuous vector space while preserving certain information of the graph (Socher et al., 2013,
+Bordes et al., 2013a, Weston et al., 2013, Chang et al., 2013). All of these models differ in their pro-
+jection of embeddings in vector space, score function f(h,r,t) and algorithms to optimize their margin
+basedobjectivefunction. Oneofthemostimportantmodelwhichleadstohundredsofpaperinthefield
+of KBC is TransE (Bordes et al., 2013). The basic idea of TransE is to represent relationship between
+twoentitiescorrespondstotranslationbetweentheembeddingsoftheentities,i.eh+r twhenthetriple
+(h,r,t) holds true. This indicates that the tail entity (t) should be the nearest neighbor of (h, r). Hence,
+TransEassumesthescorefunctionhighif(h,r,t)holdsandlowif(h,r,t)donotholdstrue. Inordertoad-
+dressissuesforN-to-1,1-to-NandN-to-NrelationsinTransE,variousextensionsTransHmodel(Wang
+etal., 2014), STranE(Nguyenetal., 2016), TransR/CTransR(Linetal., 2015)wereproposed. Foreach
+relation r, TransH models the relation as a vector on a hyperplane with W as a normal vector. Thus,
+r
+entity embeddings h and t are first projected to the hyperplane of W , denoted as h⊥ and t⊥. Also,
+r
+STransEmodelintegratesSEmodelwithTransEmodeltohavetworelationspecificmatricesW and
+r,1
+W to identify relation-dependent aspects of both h and t. TransR/CTransR model projects entities
+r,2
+andrelationsindifferentembeddingspaceinordertocapturevariouscontextsofthesamerelationwith
+differententities. PTranE(Linetal.,2015a)takesmultiplesteprelationpathsbetweenentitiesindicating
+theirsemanticrelationships. TransD(Jietal.,2015)considersthemultipletypesofentitiesandrelations
+simultaneously, and replaces transfer matrix by the product of two projection vectors of an entity rela-
+tionpair. TransG(Xaioetal.,2015)addressestheissueofmultiplerelationsemanticsthatarelationmay
+have multiple meanings revealed by the entity pairs associated with the corresponding triples. KG2E
+(Heetal.,2015)usesGaussianembeddingtomodelthedatauncertainty. Thoughithasgoodresultson
+1-to-NandN-to-1relationsbutitdonotprovidereasonablegoodresultson1-to-1andN-to-Nrelations.
+Recently, (Minervini et al., 2016) found that adaptive learning rate plays significant role for learning
+model parameters. They tried various optimization algorithms such as SGD, AdaGrad (Duchi et al.,
+2011), AdaDelta (Zeiler, 2012, Adam (Kingma et al., 2015) and found that AdaGrad with its adaptive
+learningrateprovidesthebestlinkpredictionresults.
+Completeness, accuracy and data quality are important parameters that determine the usefulness of
+knowledge bases and are influenced by the way knowledge bases are constructed (Nickel et al., 2015).
+12
+Recent work based on modeling relation paths between entities by (Neelakantan et al., 2015; Gardner
+and Mitchell, 2015; Luo et al., 2015; Lin et al., 2015a; Guu et al., 2015; Garcia-Duran et al., 2015;
+andToutanovaetal.,2016)showedricherinformationandimprovedrelationprediction. TransE-NMM
+(Nguyenetal.,2016)takesaccountofneighborhoodentitiesandrelationinformationofbothheadand
+tail entities in each triple. Experiment results on TransE-NMM model gives better results on triple
+classification and link prediction. Moreover, RTransE (Garcia-Duran et al., 2015), PTransE (Lin et al.,
+2015a)andTransE-COMP(Guuetal.,2015)areallextensionsofTransEmodel.
+LinkpredictionorKnowledgeBaseCompletionandrelationextractionarecomplementarytoeach
+other. Recent approaches in information extraction combine text-based extraction models with link
+prediction models to infer new relational facts to achieve significant improvement over the individual
+approaches. In (Weston et al., 2013), TransE link prediction model and text based relation extraction
+model are combined to rank candidate facts and promising improvement in relation extraction task is
+achieved. SimilarimprovementhasbeenseenoverTransH(Wangetal.,2014)aswellasTransR(Linet
+al.,2015). LinkpredictiontechniquesonKBcanmakepredictiongivenasingletextualpredicateasan
+example, andthuscanbeuseddirectlyontherelationextractiontaskasshownby(Riedeletal., 2013)
+usingmatrixfactorizationforrelationextraction. Apartfromthis,currentresearchinKnowledgeBases
+aimsatconstructingaKBthatissufficientlyaccurate, hasbroadcoverage, andgetsevolvedovertime.
+TherearethreemainchallengesattheforefrontofKnowledgeBasereasoningandcompletionresearch.
+Theseare: (1). HowtocreateaKBfromscratchwithgoodaccuracyandcoveragebyleveragingpages
+on the web. (2). How to solve the performance challenges at the web-scale, and (3). How to merge
+knowledgeextractedfromdifferentsourcesorusingdifferentmethods,toachievebothhighercoverage
+andbetterquality.
+5 IntegratingInformationExtraction(IE)withInformationRetrieval(IR)
+Systems
+The task of Information Retrieval (IR) system is to provide a list of documents which are most
+relevantinresponsetouserquery. SearchengineslikeGoogleorBing,usewebcrawlerstogatherdocu-
+mentsandcreateamassiveindexofthesedocumentsbynotingwhichwordsoccurinwhichdocument,
+and answer queries by identifying documents that contains these keywords. Then it uses intelligent
+rankingalgorithms(likePageRank)toputmostlikelyonesatthetop(i.e. indecreasingorder). Butstill
+thesesearchengineshavelimitationsastheyprovideonlydocumentsandnospecificanswertothequery.
+Moreover,IRsystemsarestillkeyword(stringmatching)based. Toovercometheselimitations,NLPre-
+search community has moved towards integrating Information Extraction technology with Information
+Retrievaltechnologytomakesearchenginesmorereliable,accurate,specifictouserqueriesandhaving
+highsemanticunderstanding. Though,userqueriescanbeansweredasaQuestion-Answeringproblem
+wherewecanprovidedirectanswertouserqueries,butinordertoaccomplishthisgoal,weneedhighly
+structuredKnowledgeBaseandbetterreasoning/inferencetechniques(Paiketal.,1997). Thusitseems
+that that the ”Semantic Web” paradigm presented by Tim Berners Lee (Lee et al., 2001), according to
+which the Internet should become a structured container for semantic, machine interpretable model of
+knowledgeandinformationisstillfartobeachieved.
+6 Applications of IE
+Information Extraction acts as a key technology in various Natural Language Processing (NLP)
+applications such as Machine Translation, Question-Answering, Text Summarization, Opinion mining,
+etc. The research in the field of IE is in infancy and it is of great significance to information end-user
+industriessuchasfinance,banks,publishers,governments,etc.
+13
+• Question-AnsweringSystem:RecentadvancesinconstructinglargescaleKnowledgeBases(KBs)
+haveenablednewQuestion-AnsweringsystemstoreturnexactanswerfromaKB.State-of-the-art
+methodsinQuestion-AnsweringSystemsaredividedbroadlyintothreemaincategories: Seman-
+tic parsing, information retrieval and embedding based. Semantic parsing (Cai and Yates, 2013;
+Berantetal.,2013;Kwiatkowskietal.,2013;Berantetal.,2014;Faderetal.,2014)aimtolearn
+semanticparserswhichparsenaturallanguagequestionsintologicalformsandthenqueryKBto
+lookup answers. Though, this approach put constraint on training as it is difficult to train model
+atlargescalebecauseoftheircomplexityoftheirinference,theytendtoprovidedeepinterpreta-
+tion of the question. Information retrieval based systems retrieve a set of candidate answers and
+thenconductfurtheranalysistorankthemaccordingtosomespecificcriteria. Embeddingbased
+approaches (Bordes et al., 2014b; Bordes et al., 2014a) learn low dimensional vectors for words
+and knowledge base constituents, and use sum of these vectors to represent questions and their
+candidateanswers.
+• User Profile Extraction:With the rise of social media platforms such as Twitter, Facebook, In-
+stagram and Tumblr. They provide fast source of information as compared to traditional sources
+suchasnews,articles,andmagazines. InformationExtractiontechnologyisusedtoextractinfor-
+mationfromthesesocialmediaintheformofpersonalinformation(profile,age,gender,address,
+politicalorientation,businessaffinity,userinterests),socialinformation(familymembers,friends,
+co-workers, communities involved) and travel information (current location, travel history, vaca-
+tion,etc.)
+• AutoE-mailreplyandAuto-Calender:Wesendarereceivelargenumberofemailsondailyba-
+sis. Majority of these emails have to be replied in Yes/No mode and rest of the emails contains
+information about various upcoming events (like upcoming meetings, seminars, showcases, con-
+ferences,etc.). Reading,indexing,replyingandputtingalltheinformationinthecalenderformat
+and finally adding to calender is quite tedious and time consuming task. Information Extraction
+technology,specificallyeventextractiontechniquesautomaticallyextracteventsfromemailsand
+addthemtothecalender.
+• ResumeProcessing:Extractionofinformationfromresumesisquiteimportantforjob/placement
+agencies. Manually reading individual resume, checking their prospects as per job requirements
+and replying for interview call to every individual is really messy. Using Information Extraction
+technology,resumeareprocessedandrepliedautomatically. Astheformatofresumeisnotfixed
+andeachjobseekermakesitasperitsinterestandrequirementofindustry,itmakesthistaskmore
+difficult. Agenciesuse”resumefilters”tofilteroutunwantedresumesandmaketheirtaskeasier.
+Simple keyword search (string matching) based techniques may result in ignoring prospective
+candidates and hence, high level information extraction technology is used to have more robust
+systems.
+• Classified Advertisements:The advertisements posted in newspapers, news bulletin, websites
+and shopping stores (both online and offline) have unstructured format in the form of natural
+text. ExtractingattributesusingInformationExtractiontechnologytohavestructuredinformation
+depending upon desired attributes is highly beneficial as compared to searching through natural
+text. Hence, IE technology is used to populate the rows in a relational database with values for
+certain attributes of interest as well as to classify various advertisements into some pre-defined
+classeslikecars,shoes,kitchenware,electronic,apparel,andsoon.
+• Customer Services: Companies receives lot of unstructured information in the form of emails,
+chat transcripts, support forum discussions, and daily transactionsreports. So, companies use IE
+14
+toolstoretrieverelevantinformationfromthesesources,classifyingthemandformingstructured
+databasewhichmakesthetaskmucheasierascomparedtosearchingandretrievingmanually.
+• Business Intelligence: Due to dynamic nature of businesses and to remain ahead from competi-
+tors,organizationsacquiremarketinformationintheformofcompetitorspricing,publicopinion,
+market study, promotions by competitors, and business strategies using web information extrac-
+tion technology. Top Business Intelligence tools available in the market are: SAS Analytics Pro,
+IBM Cognos, Microsoft Power BI, Tableau, and SAP. These BI tools acts as a data management
+tools by collecting data from various sources, cleaning data, organizing data in proper format
+and structure and preparing databases for better visualization and reporting. Hence, better data
+managementhelpscompaniestohavebetterdecisionmakingwhichisvitaltoremaininbusiness.
+• Building citation database: With increasing number of scientific papers online, linking refer-
+encesautomaticallywithoutmanualinterventionisquitenecessary. Citationshelpsthescientific
+community to properly credit the information they use. Building database of citations helps user
+to search, count number of citations and cross-referencing of scientific papers. Hence, IE tech-
+nologyisusedtobuildvariouscitationbuildingsystemssuchasCiteseer,GoogleScholar,DBLP,
+Scopus,ThomsonReuter,etc.
+• Social Analysis: Social media platforms such as Facebook, Twitter, Instagram and blogs are
+acting as new style of sharing and exchanging information. Extracting information from social
+mediaposesvariouschallengesastextisnoisy,quiteinformal,andshortincontext. Tomakeuse
+of this vast information, we need better IE tools which meet the listed challenges. Social media
+analysishasgainedlotofattentioninIEresearchcommunityasitprovidesup-to-dateinformation
+comparedtoconventionalsourcessuchasnews.
+7 Current challenges and future research
+7.1 OpenInformationExtraction(OpenIE)
+OpenIEhavebeendrawingmoreandmoreattentionfromresearchcommunitytoenhanceandscale
+IE systems by utilizing large, complex and heterogenous data; and extracting all meaningful relations
+and events without any restrictions. Current challenges includes extending the capability of OpenIE to
+handle n-ary relations and even nested extractions, dealing with multiple languages, extraction of tem-
+porarilychanginginformationandtodistinguishbetweenfacts,opinionsandmisinformationontheweb.
+Moreover,researchisinthedirectionofintegratingIEandsummarization. IEextractsimportantinfor-
+mationintheformofnamedentities,events,relations,andthenthisinformationisfedtosummarization
+templatewhichprovidessummaryoftheactualtext.
+7.2 BioIE
+Though lot of progress has been made in NLP to handle common unstructured text, less attention
+has been given to bio-medical text. Bio-medical text in the form of patient discharge summaries, doc-
+tor’sprescriptions,scientificpublicationsprovidesvariouschallengestostandardIEtechniques. Hence,
+BioIE is important to various applications in healthcare industry including clinical decision support,
+integrative biology, bioinformatics, biocuration assistance, and pharmacovilance. State-of-the-art IE
+techniquesstilllackuptohumanlevelperformanceinhealth-careindustry. Hence,futureresearchisto
+exploreanddevelopIEtechniquesforhealth-careindustry.
+15
+7.3 BusinessAnalytics
+Business Intelligence and Analytics refers to set of tools and systems that analyses data to help
+an organization to better understand its business and markets, and provides a way of better decision
+making. BusinessAnalyticsheavilyreliesonvariousadvanceddatacollection,extraction,analysisand
+summarization technologies. Current state-of-the-art business analytics tools can work on clean and
+stored data. As, text generated by users is often grammatically wrong, error-prone, and abbreviated,
+future research is in the direction to have IE techniques that can work on noisy unstructured data and
+havingcapabilitytohandlestreamdatainordertohaveprocessinginrealtime.
+7.4 TextIEinImagesandVideos
+Images and videos contains lot of text data which acts as an useful information for automatic an-
+notation, indexing and structuring of images and videos. Text data present in images and videos can
+acts as a cue stating what image or video is about. Hence, extracting text data from images and videos
+cangreatlyhelpinretrievalsystemsandindexing. Textinformationextractionfromimagesandvideos
+involvevariousstepssuchasdetection, localization, tracking, extraction, enhancementandrecognition
+oftext. Eachstepposesvariouschallengesastherelieslotofvariationsintextduetodifferencesinsize,
+style,orientation,contrast,andcomplexbackground. Theresearchinthisareaisstillinitsnascentstage
+and scientists are working to apply better computer vision and natural language processing techniques
+toimproveitsperformance.
+7.5 WebHarvesting
+Astheamountofinformationonthewebgrows,itbecomeshardertokeeptrackofandtoeffectively
+make use of this information. How one can find the information one is looking for in a useful format,
+easily and quickly is the current challenge. Search engines scan the documents and return the URLs.
+They also find and return meta description and meta keywords embedded in web pages, but do not
+provide the exact information as per user requirements. The general process of finding information by
+auseris: (1). Scanthecontentuntilwefindtheinformation,(2). Marktheinformationbyselectingor
+highlightingit,(3). Switchingtoanotherprogramsuchasspreadsheet,wordprocessorordatabase,and
+(4). Pasting the information into that application. Web Harvesting tools automate the reading, copying
+and pasting necessary to collect information for analysis. Hence, future research is to develop web
+harvestingtoolswhichactsasanend-to-endinformationextractionsystems.
+8 Conclusion
+Information Extraction field has progressed with variety of information extraction techniques such
+as Open Information Extraction (OpenIE), semi-structured extraction via infoboxes and various KBs
+suchasGoogleKnowledgeGraph,MicrosoftSatari,YAGO,DBPedia,NELLandProbase.
+There is considerable excitement in NLP community at the prospects of Information Extraction
+technology due to rise of social media platforms such as Twitter, Facebook, Instagram, and so on.
+Social media reacts to world events faster than traditional news sources, and its sub-communities play
+close attention to topics that other sources might ignore. But analyzing the text in social media is
+challenging as the text is short, language is informal, capitalization is inconsistent, spelling variations
+and abbreviations run rampant. Moreover, research is shifting towards joint models that learn two or
+moretasks. McCallumetal.,2003proposedjointPOStaggingandchunking,FinkelandManning,2009
+proposedjointmodelforparsingandNERtogether,Yuetal.,2011workedonjointlyentityidentification
+and relation extraction from Wikipedia, Sil, 2013 proposed joint NER and Entity Linking, Surdeanu et
+al.,2008jointlyoptimizedparsingandsemanticrolelabeling,Wangetal.,2015proposedjointmodelfor
+16
+Information Extraction and KB completion based on statistical relational learning (Getoor and Taskar,
+2007).
+Recently, deep learning has been widely used in various areas including Computer Vision, Speech
+Recognition, and Natural Language Processing. In NLP tasks, deep learning has been successfully
+applied to Part-of-Speech tagging (Collobert et al., 2011), Sentiment Analysis (dos Santos and Gatti,
+2014), Parsing (Socher et al., 2013), Machine Translation (Sutskever et al., 2014). Moreover, attention
+based models based on deep learning has attracted lot of interest in research community. It has been
+successfullyappliedtoImageClassification(Mnihetal.,2014),SpeechRecognition(Chorowskietal.,
+2014), Image Captioning (Xu et al., 2015), Machine Translation (Bahdanau et al., 2014), and Part-of-
+Speech tagging (Barrett et al., 2016). Future research is in direction to have web harvesting tools for
+end-to-end information extraction as well as improving existing techniques to handle noisy data from
+socialmedia.
+References
+[Costantino et al., 1997] Marco Costantino, Richard G Morgan, Russell J. Collingham, Roberto
+Garigliano, Natural Language Processing and Information Extraction: qualitative analysis of financial
+newsarticles,1997.
+[Morgan et al., 1995] R.Morgan, R.Garigliano, P.Callaghan, S.Poria, M.Smith, A.Urbanowicz,
+R.Collingham, M.Costantino, C.Cooper, and the LOLITA group, University of Durham: Description
+oftheLOLITAsystemasusedinMUC-6,inSixthMessageUnderstandingConference(MUC-6),Mor-
+ganKaufman,November,1995.
+[Neiletal.,1998]PaulO’NeilandWoojinPaik,TheChronologicalInformationExtractionSystem
+(CHESS),IEEE,1998.
+[Ellen Riloff, 1997] Riloff Ellen, Information Extraction as a stepping stone toward story under-
+standing, in Understanding Language Understanding: Computational models of Reading, edited by
+RamandMoorman,MITPress,1997.
+[Dzunicetal. 2006]ZoranDzunic,SvetislavMomcilovic,BranimirTodorovicandMiomirStankovic,
+CoreferenceResolutionUsingDecisionTrees,8thSeminaronNeuralNetworkApplicationsinElectri-
+calEngineering,NEUREL-2006.
+[Bikel et al., 1997] M.D.Bikel, S.Miller, R.Schwartz and R.Weischedel, Nymble: A high perfor-
+mancelearningname-finder,InProceedingsoftheFifthConferenceonAppliedNaturalLanguagePro-
+cessing,1997,pp. 194-201.
+[Fang et al., 2008] Kong Fang, Liyancui, Zhou Guodong, Zhu Qiaoming, Qian Peide, Using Se-
+manticRolesforCoreferenceResolution, InternationalConferenceonAdvancedLanguageProcessing
+andWebInformationTechnology,IEEE,2008.
+[Soon et al., 2001] W.M Soon, H.T. Ng and Lim, A Machine Learning approach to coreference
+resolutionofnounphrase,ComputationalLinguistics,2001.
+[NgandCardie,2002]V.NgandC.Cardie,Improvingmachinelearningapproachestocoreference
+resolution, Proceedings of the 40th Annual Meeting of the Association for Computational Linguistics,
+2002.
+[Bergsma and Lin, 2006] S.Bergsma and D.K.Lin, Bootstrapping path-based pronoun resolution,
+COLING-ACL,2006.
+[Yang and Su, 2007] X.F.Yang and J.Su, Coreference Resolution using Semantic Relatedness In-
+formationfromAutomaticallyDiscoveredPatterns,ACL,Prague,CzechRepublic,June,2007.
+[Zhou et al., 2008] G.D.Zhou, F.Kong and Q.M.Zhu, Context-sensitive convolution tree kernel for
+pronounresolution,IJCNLP,2008.
+17
+[Gaoetal.,2010]SanyuanGao,SiLi,WeiranXu,JunGuo,Cross-DocumentCoreferenceResolu-
+tionbasedonAutomaticTextSummary,IEEE,2010.
+[Kolyaetal.,2010]AnupKumarKolya,AsifEkbalandSivajiBandyopadhyay,Event-EventRela-
+tionIdentification: ACRFbasedApproach,IEEE,2010.
+[Verhagenetal.,2007]M.Verhagen,R.Gaizauskas,F.Schilder,M.Hepple,G.KatzandJ.Pustejovsky,
+SemEval-2007Task15: TempEvalTemporalRelationIdentification,InProceedingsofthe4thInterna-
+tionalWorkshoponSemanticEvaluations(SemEval-2007), pages75-80, Prague, June, 2007, Associa-
+tionofComputationalLinguistics.
+[Boguraev and Ando, 2005] B.Boguraev and R.K.Ando, TimeMLCompliant Text Analysis for
+Temporal Reasoning, In Proceedings of Nineteenth International Joint Conference on Artificial Intelli-
+gence(IJCAI-05),pages997-1003,Edinburgh,Scotland,August,2005.
+[Manietal.,2003]I.Mani,B.Wellner,M.Verhagen,C.M.Lee,J.Pustejovsky,MachineLearningfor
+Temporal Relation, In Proceedings of the 44th Annual meeting of the Association for Computational
+Linguistics,Sydney,Australia,2003.
+[Chamber et al., 2007] N.Chambers, S.Wang and D.Jurafsky, Classifying Temporal Relations be-
+tween Events, In Proceedings of the Association for Computational Linguistics Demo and Poster Ses-
+sions,pages173-176,Prague,CzechRepublic,June,2007.
+[Huangetal.,2010]CuiliHuang,YaqiangWang,YongmeiZhang,YuJinandZhonguaYu,Coref-
+erence Resolution in biomedical full-text articles with domain dependent features, 2nd International
+ConferenceonComputerTechnology(ICCTD),2010.
+[ShalomandLeass,2004]LappinSalomandJ.HerbertLeass,Analgorithmforpronominalanaphora
+resolution,ComputationalLinguistics,2004.
+[KennedyandBoguraev,1996]ChristopherKennedyandBranimirBoguraev,PronominalAnaphora
+ResolutionwithoutaParser,InProceedingsofthe16thInternationalConferenceonComputationalLin-
+guistics,1996.
+[RenataandMassimo,2000]VieiraRenataandPoesioMassimo,AnEmpiricallybasedsystemfor
+processingDefiniteDescriptions,ComputationalLinguistics,pages525-579,2000.
+[Caroline and Ted, 2008] Gasperin Caroline and Briscoe Ted, Statistical anaphora resolution in
+biomedical texts, In Proceedings of the 22nd International Conference on Computational Linguistics
+(COLING),pages257-264,Manchester,2008.
+[Kong et al., 2010] Fang Kong, Jianmei Zhou, Guodong Zhou and Qiaoming Zhu, Dependency
+tree based Anaphoricity determination for Coreference Resolution, International Conference on Asian
+LanguageProcessing,2010.
+[Etzionietal.,2008]O.Etzioni,M.Banko,S.SoderlandandD.S.Weld,OpenInformationExtraction
+fromtheWeb,ACMCommunications,pages68-74,2008.
+[Feldmanetal.,2008]R.Feldman,Y.RegevandM.Gorodetsky,AmodularInformationExtraction
+System,JournalofIntelligentDataAnalytics,pages51-71,2008.
+[Bodem et al., 2011] Christoph Boden, Thomas Hafele and Alexander Loser, Classification Algo-
+rithmsforRelationPrediction,ICDEWorkshop,2011.
+[Muludietal.,2011]KurniaMuludi,DwiH.Widyantoro,KuspriyantoandOeripS.Santoso,Multi-
+Inductive Learning Approach for Information Extraction, International Conference on Electrical Engi-
+neeringandInformatics,Bandung,Indonesia,17-19July,2011.
+[Amamietal., 2012]MahaAmami, AymenElkhlifiandRimFaiz, BioEv: ASystemforLearning
+BiologicalEventExtraction,InternationalConferenceonInformationTechnologyande-Services,2012.
+18
+[Burges,1998]C.J.CBurges,AtutorialonSupportVectorMachinesforPatternRecognition,Data
+MiningandKnowledgeDiscovery,pages121-167,1998.
+[Leeetal.,2001]T.Berners-Lee,J.HendlerandO.Lassila,TheSemanticWeb,InScientificAmeri-
+can,pp. 29-37,May,2001.
+[Yangetal.,2015]BishanYang,ClaireCardieandPeterFrazier,AHierarchicalDistance-dependent
+Bayesian Model for Event Coreference Resolution, Transactions of the Association for Computational
+Linguistics,Vol. 3,pp.517-528,2015.
+[Bejan and Harabagiu, 2014] Cosmin Adrian Bejan and Sanda Harabagiu, Unsupervised Event
+CoreferenceResolution,ComputationalLinguistics,pp. 311-347,2014.
+[CardieandWagstaff,1999]ClaireCardieandKiriWagstaff,NounPhrasecoreferenceascluster-
+ing, InProceedingsofthe1999JointSIGDATConferenceonEmpiricalMethodsinNaturalLanguage
+ProcessingandVeryLargeCorpora,pages82-89,1999.
+[Raghunathanetal.,2010]KarthikRaghunathan,HeeyoungLee,SudarshanRangarajan,Nathanael
+Chambers,MihaiSurdeanu,DanJurafsky,andChristopherManning,Amulti-passsieveforcoreference
+resolution,pages492-501,InEMNLP,2010.
+[Lee et al., 2011] Heeyoung Lee, Yves Peirsman, Angel Chang, Nathanael Chambers, Mihai Sur-
+deanuandDanJurafsky,Stanford’smulti-passsievecoreferenceresolutionsystemattheCoNLL-2011
+sharedtask,InProceedingsoftheFifteenthConferenceonComputationalNaturalLanguageLearning:
+SharedTask,pages28-34,2011.
+[Stoyanov et al., 2009] Veselin Stoyanov, Nathan Gilbert, Claire Cardie, and Ellen Riloff, Conun-
+drumsinnounphrasecoreferenceresolution: Makingsenseofthestate-of-the-art,InProceedingsofthe
+JointConferenceofthe47thAnnualMeetingoftheACLandthe4thInternationalJointConferenceon
+NaturalLanguageProcessingoftheAFNLP,Vol. 2,pages656-664,2009.
+[RahmanandNg,2011]AltafRahmanandVincentNg,Coreferenceresolutionwithworldknowl-
+edge,InAssociationforComputationalLinguistics,pages814-824,2011.
+[DurrettandKlein,2010]GregDurrettandDanKlein,Coreferenceresolutioninamodular,entity-
+centeredmodel,inNAACL,pages385-393,2010.
+[Haghighi and Klein, 2013] Aria Haghighi and Dan Klein, Easy victories and uphill battles in
+coreferenceresolution,InEMNLP,pages1971-1982,2013.
+[Zelaia et al., 2015] Ana Zelaia, Olatz Arregi and Basilio Sierra, A Multi-classifier Approach to
+support Coreference Resolution in a Vector Space Model, Proceedings of NAACL-HLT, 2015, pages
+17-24,Denver,Colorado,AssociationforComputationalLinguistics,2015.
+[Orasanetal.,2008]ConstantinOrasan,DanCristea,RuslanMitkovandAntonioBranco,Anaphora
+ResolutionExercise: anOverview,ProceedingsoftheLREC,2008.
+[Versley et al., 2008] Yannick Versley, Simone Paolo Ponzetto, Massimo Poessio, Vladimir Eidel-
+man, Alan Jern, Jason Smith, Xiaofeng Yang, and Alessandro Moschitti, Bart: a modular toolkit for
+coreferenceresolution,ProceedingsoftheHLT-Demonstrations,pp. 9-12,2008.
+[Bengtson and Roth, 2008] Eric Bengtson and Dan Roth, Understanding the value of features for
+coreferenceresolution,ProceedingsoftheEMNLP,pages. 294-303,2008.
+[Manningetal.,2014]ChristopherD.Manning,MihaiSurdeanu,JohnBauer,JennyFinkel,Steven
+J.BethardandDavidMcClosky,TheStanfordCoreNLPNaturalLanguageProcessingToolkit,Proceed-
+ingsof52ndAnnualMeetingoftheAssociationforComputationalLinguistics: SystemDemonstrations,
+pp. 55-60,2014.
+[Soderland et al., 1995] S.Soderland, D.Fisher, J.Aseltine, and W.Lehnert, CRYSTAL: Inducing
+a conceptual dictionary, In Proceedings of the Fourteenth International Joint Conference on Artificial
+Intelligence,pages1314-21,1995.
+19
+[Califf and Mooney, 1997] M.Califf and R.Mooney, Relational Learning of pattern-match rules
+forInformationExtraction,InWorkshopinNaturalLanguageLearning,AssociationforComputational
+Linguistics,1997.
+[Laffertyetal.,2001]JohnD.Lafferty,AndrewMcCallum,andFernandoC.N.Pereira,Conditional
+RandomFields: Probabilisticmodelsforsegmentingandlabelingsequencedata,InProceedingsofthe
+EighteenthInternationalConferenceonMachineLearning(ICML),2001.
+[Mintzetal.,2009]MikeMintz,StevenBills,RionSnow,andDanJurafsky,DistantSupervisionfor
+relation extraction without labeled data, In Proceedings of Association for Computational Linguistics,
+2009.
+[BunescuandMooney,2007]RazvanBunescuandRaymondMooney,Learningtoextractrelations
+fromthewebusingminimalsupervision,InProceedingsofthe45thAnnualMeetingoftheAssociation
+forComputationalLinguistics,2007.
+[Riedeletal.,2010]SebastianRiedel,LiminYao,andAndrewMcCallum,Modelingrelationsand
+their mentions without labeled text, In Proceedings of the Sixteenth European Conference on Machine
+Learning(ECML),pages148-163,2010.
+[Hoffmanetal.,2011]RaphaelHoffman,CongleZhang,XiaoLing,LukeZettlemoyer,andDaniel
+S.Weld,Knowledgebasedweaksupervisionforinformationextractionofoverlappingrelations,InPro-
+ceedingsofAssociationforComputationalLinguistics,2011.
+[Surdeanu et al., 2012] Mihai Surdeanu, Julie Tibshirani, Ramesh Nallapati, and Christopher
+D.Manning, Multi-Instance Multi-Label learning for relation extraction, In Proceedings of EMNLP,
+pages455-465,AssociationforComputationalLinguistics,2012.
+[Riedel et al., 2013] Sebastian Riedel, Limin Yao, Andrew McCullum, and Benjamin M.Marlin,
+Relationextractionwithmatrixfactorizationanduniversalschemas,pages74-84,NAACL-HLT,2013.
+[NguyenandGrisham,2014]ThienHuuNguyenandRalphGrisham,Employingwordrepresenta-
+tionsandregularizationfordomainadaptationofrelationextraction,InProceedingsofthe52ndAnnual
+MeetingoftheAssociationforComputationalLinguistics,volume2,pages68-74,2014.
+[Angelietal.,2014]GaborAngeli,JulieTibshirani,JeanY.Wu,andChristopherD.Manning,Com-
+biningdistantandpartialsupervisionforrelationextraction,InEMNLP,2014.
+[Zhang et al., 2012] Ce Zhang, Feng Niu, Christopher Re, and Jude Shavlik, Big data versus the
+crowd: Looking for relationships in all the right places, In Proceedings of the 50th Annual Meeting of
+theAssociationforComputationalLinguistics,Longpapers,volume1,pages825-834,Associationfor
+ComputationalLinguistics,2012.
+[Pershinaetal.,2014]MariaPershina,BonanMin,WeiXu,andRalphGrisham,Infusionoflabeled
+dataintodistantsupervisionforrelationextraction,InProceedingsoftheAssociationforComputational
+Linguistics,2014.
+[Alicia and Fahlman, 2007] Alicia T. and Scott E. Fahlman, CMU-AT: Semantic Distance and
+BackgroundKnowledgeforIdentifyingSemanticRelations,Proceedingsofthe4thInternationalWork-
+shoponSemanticEvaluations(SemEval-2007),pages121-124,Prague,2007.
+[Hendrickx et al., 2007] I. Hendrickx, R.Morante, C.Sporleder, Antal V.D.Bosch, ILK: Machine
+Learning of semantic relations with shallow features and almost no data, Proceedings of the 4th In-
+ternational Workshop on Semantic Evaluations (SemEval-2007), pages 121-124, Prague, June, 2007.
+[Fellbaum, 1998] C.Editor.Fellbaum, WordNet: An electronic lexical database and some of its ap-
+plications,MITPress,1998.
+[Claudioetal.,2007]G.Claudio,L.Alberto,P.Daniele,andR.Lorenza,FBK-IRST:KernelMethods
+for Semantic Relation Extraction, Proceedings of the 4th International Workshop on Semantic Evalua-
+20
+tions(SemEval-2007),pages121-124,Prague,June,2007.
+[Girju et al., 2005] R.Girju, D.Moldovan, M.Tatu and D.Antohe, Automatic discovery of Part-
+Wholerelations,AssociationforComputingMachinery,2005.
+[Tesfaye et al., 2016] Debela Tesfaye, Michael Zock, and Solomon Teferra, Combining syntactic
+patternsandWikipedia’shierarchyofhyperlinkstoextractmeronymrelations,ProceedingsofNAACL-
+HLT2016.
+[Hashimotoetal.,2015]KazumaHashimoto,PontusStenetorp,MakotoMiwa,andYoshimasaTsu-
+ruoka, Task Oriented learning of word embeddings for semantic relation classification. In Proceedings
+of the Nineteenth Conference on Computational Natural Language Learning, pages 268-278, Beijing,
+China,ACL,2015.
+[dosSantosetal.,2015]CicerodosSantos,BingXiang,andBowenZhou,Classifyingrelationsby
+ranking with convolutional neural networks, In Proceedings of the 53rd Annual Meeting of the Asso-
+ciation for Computational Linguistics and the 7th International Joint Conference on Natural Language
+Processing,volume1,pages626-634,ACL,2015.
+[Socheretal.,2012]RichardSocher,BordyHuval,ChristopherD.ManningandAndrewY.Ng,Se-
+manticcompositionalitythroughrecursivematrix-vectorspaces,InProceedingsofthe2012JointCon-
+ference on Empirical Methods in Natural Language Processing and Computational Natural Language
+Learning,pages1201-1211,ACL,2012.
+[Xuetal.,2015a]KunXu,YansongFeng,SongfangHuang,andDongyanZhao,Semanticrelation
+classification via convolutional neural networks with simple negative sampling, In Proceedings of the
+2015ConferenceonEmpiricalMethodsinNaturalLanguageProcessing,pages536-540,ACL,2015.
+[Xu et al., 2015b] Yan Xu, Lili Mou, Ge Li, Yunchuan Chen, Hao Peng, and Zhi Jin, Classifying
+relationsviaLSTMnetworksalongshortestdependencypaths, InProceedingsofthe2015Conference
+onEmpiricalMethodsinNaturalLanguageProcessing,pages1785-1794,ACL,2015.
+[Tai et al., 2015] Kai Sheng Tai, Richard Socher, and Christopher D.Manning, Improved semantic
+representationsfromtree-structuredLSTMnetworks,InProceedingsofthe53rdAnnualMeetingofthe
+AssociationforComputationalLinguistics,pages1556-1566,Beijing,China,ACL,July,2015.
+[Lin et al., 2016] Yankai Lin, Shiqi Shen, Zhiyuan Liu, Huanbo Luan, and Maosong Sun, Neural
+RelationExtractionwithSelectiveAttentionoverInstances,Proceedingsofthe54thAnnualMeetingof
+theAssociationforComputationalLinguistics,pages1105-1116,August7-12,2016.
+[Gamalloetal.,2012]PabloGamallo,MarcosGarcia,andSantiagoFernandez-Lanza,Dependency
+basedopeninformationextraction,InProceedingsofROBUS-UNSUP,2012.
+[Tseng et al., 2014] Yuan-Hsein Tseng, Lung-Hao Lee, Shu-Yen Lin, Boshun Liao, Mei-Jun Liu,
+Hsin-Hsi Chen, Oren Etzioni, and Anthony Fader, Chinese Open relation extraction for knowledge
+acquisition,InProceedingsofEACL,2014.
+[Lewis and Steedman, 2013] Mike Lewis and Mark Steedman, Unsupervised Induction of cross-
+lingualsemanticrelations,InProceedingsofEMNLP,2013.
+[Gerber and Ngomo, 2012] Daniel Gerber and Alex-Cyrille Ngonga Ngomo, Extracting multilin-
+gualnaturallanguagepatternsforRDFspredicates,InProceedingsofthe18thInternationalConference
+onKnowledgeEngineeringandKnowledgeManagement,2012.
+[Khirbat et al., 2016] Gitansh Khirbat, Jianzhong Qi, and Rui Zhang, N-ary Biographical Rela-
+tionExtractionusingshortestpathdependencies,InProceedingsofAustralasianLanguageTechnology
+AssociationWorkshop,pages74-83,2016.
+[McDonaldetal.,2005]RyanMcDonald,FernandoPereira,SethKulick,ScottWinters,YangJin,
+and Pete White, Simple algorithms for complex relation extraction with applications to bio-medical
+21
+informationextraction,InProceedingsofthe43rdAnnualMeetingoftheAssociationsfortheCompu-
+tationalLinguistics,2005.
+[Lietal.,2015]HongLi,SebastianKrause,FeiyuXu,AndreaMoro,HansUszkoreit,andRoberto
+Navigli,Improvementofn-aryrelationextractionbyaddinglexicalsemanticstodistantsupervisionrule
+learning,InProceedingsofthe7thInternationalConferenceonAgentsandArtificialIntelligence,2015.
+[Lietal.,2016]ZhuangLi,LizhenQu,QiangkaiXu,andMarkJohnson,Unsupervisedpre-training
+with Seq2Seq reconstruction loss for deep relation extraction models, In Proceedings of Australasian
+LanguageTechnologyAssociationWorkshop,pages54-64,2016.
+[ShenandHuang,2016]YatianShenandXuanjingHuang,AttentionbasedConvolutionalNeural
+NetworkforSemanticRelationExtraction,ProceedingsoftheCOLING,26thConferenceonComputa-
+tionalLinguistics,Technicalpapers,pages2526-2536,December,2016.
+[Mirza and Tonelli, 2016] Paramita Mirza and Sara Tonelli, CATENA: CAusal and TEmporal
+relationextractionfromNAturallanguagetexts,ProceedingsoftheCOLING,26thConferenceonCom-
+putationalLinguistics,Technicalpapers,pages64-75,December,2016.
+[D’Souza and Ng, 2013] Jennifer D’Souza and Vincent Ng, Classifying temporal relations with
+rich linguistic knowledge, In Proceedings of the 2013 Conference of the North American Chapter of
+the Association for Computational Linguistics: Human Language Technologies, pages 918-927, ACL,
+2013.
+[Chamberetal.,2014]NathanaelChambers,TaylorCassidy,BillMcDowell,andStevenBethard,
+Denseeventorderingwithamulti-passarchitecture,TransactionsoftheAssociationforComputational
+Linguistics,2014.
+[Bollacker et al. 2008] Kurt Bollacker, Colin Evans, Praveen Paritosh, Tim Sturge, and Jamie
+Taylor. 2008. Freebase: ACollaborativelyCreatedGraphDatabaseforStructuringHumanKnowledge.
+In Proceedings of the 2008 ACM SIGMOD International Conference on Management of Data, pages
+1247-1250.
+[Bordes et al. 2011] Antoine Bordes, Jason Weston, Rnan Collobert, and Yoshua Bengio. 2011.
+LearningStructuredEmbeddingsofKnowledgeBases. InProceedingsoftheTwenty-FifthAAAICon-
+ferenceonArtificialIntelligence,pages301-306.
+[Bordesetal. 2012]AnotoineBordes,XavierGlorat, JasonWeston, andYoshuaBengio. 2012. A
+SemanticMatchingEnergyFunctionforLearningwithMulti-relationalData. MachineLearning,94(2):
+233-259.
+[Bordes et al. 2013] Antoine Bordes, Nicolas Usunier, Alberto Garcia-Duran, Jason Weston, and
+OksanaYakhnenko. 2013. TranslatingEmbeddingsforModelingMulti-relationalData. InAdvancesin
+NeuralInformationProcessingSystems26,pages2787-2795.
+[Carlsonetal. 2010]AndrewCarlson,JustinBetteridge,BryanKisiel,BurrSettles,EstevamRHr-
+uschka,Jr,andTomM.Mitchell. 2010. TowardsanArchitectureforNeverEndingLanguageLearning.
+InProceedingsoftheTwenty-FourthAAAIConferenceonArtificialIntelligence,pages1306-1313.
+[Guuetal. 2015]KelvinGuu,JohnMiller,andPercyLiang. 2015. TraversingKnowledgeGraphs
+in Vector Space. In Proceedings of the 2015 Conference on Empirical Methods in Natural Language
+Processing,pages318-327.
+[Miller1995]GeorgeAMiller. 2015. WordNet: ALexicalDatabaseforEnglish. Communications
+oftheACM,38(11):39-41
+[Mikolov et al. 2013] Tomas Mikolov, Wen-tau Yih, and Geoffrey Zweig. 2013. Linguistic Regu-
+laritiesinContinuousSpaceWordRepresentations. InProceedingsofthe2013ConferenceoftheNorth
+American Chapter of the Association for Computational Linguistics: Human Language Technologies,
+22
+pages746-751.
+[Yang et al. 2015] Bishan Yang, Wen-tau Yih, Xiaodong He, Jianfeng Gao, and Li Deng. 2015.
+Embedding Entities and Relations for Learning and Inference in Knowledge Bases. In Proceedings of
+theInternationalConferenceonLearningRepresentations.
+[Wang et al. 2014] Zhen Wang, Jianwen Zhang, Jianlin Feng, and Zheng Chen. 2014. Knowl-
+edge Graph Embedding by Translating on Hyperplanes. In Proceedings of the Twenty-Eighth AAAI
+ConferenceonArtificialIntelligence,pages1112-1119.
+[Toutanovaetal. 2016]KristinaToutanova,XiVictoriaLin,Wen-tauYih,HoifungPoon,andChris
+Quirk. 2016. CompositionalLearningofEmbeddingsforRelationPathsinKnowledgeBasesandText.
+In Proceedings of the 54 th Annual Meeting of the Association for Computational Linguistics, June.
+2016.
+[Socher et al. 2013] Richar Socher, Danqi Chen, Christopher D Manning, and Andrew Ng. 2013.
+Reasoning with Neural Tensor Networks for Knowledge Base Completion. In Advances in Neural
+InformationProcessingSystems,pages926-934.
+[Suchaneketal. 2007]FabianMSuchanek,GjergjiKasneci,andGerherdWeikum. 2007. YAGO:
+A Core of Semantic Knowledge. In Proceedings of the 16 th International Conference on World Wide
+Web,pages697-706.
+[Nickel et al. 2011] Maxmilian Nickel, Volker Tresp, and Hans-Peter-Kriegel. 2011. A Three-
+WayModelforCollectiveLearningonMulti-RelationalData. InProceedingsofthe28thInternational
+ConferenceonMachineLearning,pages809-816.
+[Nickel et al. 2015] Maxmilian Nickel, Kevin Murphy, Volker Tresp, and Evgeniy Gabrilovich.
+2015. A Review of Relational Machine Learning for Knowledge Graphs. Proceedings of the IEEE,
+2016.
+[Chang et al. 2014] Kai-Wei Chang, Wen-tau Yih, Bishan Yang, and Christopher Meek. 2014.
+TypedTensorDecompositionofKnowledgeBasesforRelationExtraction. InProceedingsofthe2014
+ConferenceonEmpiricalMethodsinNaturalLanguageProcessing(EMNLP),pages1568-1579.
+[Nguyenetal. 2016]DatQuocNguyen,Kairitsirts,LizhenQu,andMarkJohnson. 2016. StransE:
+anovelembeddingmodelofentitiesandrelationshipsinknowledgebases. InProceedingsofthe15th
+Annual Conference of the North American Chapter of the Association for Computational Linguistics:
+HumanLanguageTechnologies.
+[Linetal. 2015a]YankaiLin,ZhiyuanLiu,HuanboLuan,MaosongSun,SiweiRao,andSongLiu.
+2015a. Modeling Relation Paths for Representation Learning of Knowledge Bases. In Proceedings of
+the2015ConferenceonEmpiricalMethodsinNaturalLanguageProcessing,pages705-714.
+[Nguyenetal. 2016]DatQuocNguyen,KairitSirts,LizhenQu,andMarkJohnson. 2016. Neigh-
+borhood Mixture Model for Knowledge Base Completion. In Proceedings of the 2016 Conference on
+NaturalLanguageLearning(CoNLL),2016.
+[Xiaoetal. 2016]HanXiao,MinlieHuang,andXiaoyanZhu. 2016. TransG:AGenerativeModel
+for Knowledge Graph Embedding. In Proceedings of the 54 th Annual Meeting of the Association for
+ComputationalLinguistics,pages2316-2325.
+[Linetal. 2015]YankaiLin,ZhiyuanLiu,MaosongSun,YangLiu,andXuanZhu. 2015. Learning
+EntityandRelationEmbeddingsforKnowledgeGraphCompletion. InProceedingsoftheAssociation
+oftheAdvancementofArtificialIntelligence,2015.
+[BollaM,1993]M.Bolla. Spectra,Euclideanrepresentationsandclusteringsofhypergraphs. Dis-
+creteMathematics,117(1-3),1993.
+[Zien et al., 1999] J. Y. Zien, M. D. F. Schlag, and P. K. Chan. Multi-level spectral hypergraph
+partitioning with arbitrary vertex sizes. IEEE Transactions on Computer-Aided Design of Integrated
+23
+CircuitsandSystems,18(9):13891399,1999.
+[Wimalasuriya and Dou, 2010] C.Daya Wimalasuriya and Dejing Dou, Ontology based informa-
+tion extraction: An Introduction and a survey of current approaches, Journal of Information Science,
+June2010,36:306-323
+[Assal et al., 2011] Hisham Assal, John Seng, Franz Kurfess, Emily Schwarz, and Kym Pohl,
+Semantically-EnhancedInformationExtraction,IEEE,2011.
+[MiwaandBansal, 2016]MakotoMiwaandMohitBansal, End-to-EndRelationExtractionusing
+LSTMsonSequencesandTreeStructures,Proceedingsofthe54thAnnualMeetingoftheAssociation
+forComputationalLinguistics,pages1105-1116,August7-12,2016.
+24

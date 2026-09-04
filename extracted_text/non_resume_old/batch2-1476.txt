@@ -1,0 +1,21 @@
+Invoice no: 39010889
+Date of issue: 01/15/2018
+—}) Seller: Client:
+Giles-Grant Alexander, Smith and Gordon
+78246 Galloway Crossing 28105 Robert Mountain
+Port Daniel, TN 00769 Dennisburgh, WV 19648
+Tax Id: 984-94-2495 Tax Id: 904-94-6672
+IBAN: GBOS9WRTN33346557839572
+7) ITEMS
+No. Description Qty UM Net price Net worth VAT [%] Gross
+worth
+1, 1920s Flapper Gatsby Cocktail 4,00 each 8,99 35,96 10% 39,56
+Dress Chiffon Wedding Party
+Evening Formal Dresses
+2. Lularoe Nicole Dress Size Small 1,00 each 3,75 3,75 10% 4,13
+Light Solid Grey/ White Ringer
+Tee Trim
+7} SUMMARY
+VAT [%] Net worth VAT Gross worth
+10% 39,71 3,97 43,68
+Total $ 39,71 $ 3,97 $ 43,68

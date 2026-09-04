@@ -1,0 +1,35 @@
+Invoice no: 44438156
+Date of issue: 09/08/2020
+—____) Seller: Client:
+Hebert-Richard Fletcher-Maxwell
+7043 Finley Forest 3122 Tamara Junctions
+South Chad, NJ 25880 Pattersonchester, MD 44348
+Tax Id: 939-88-0760 Tax Id: 973-97-2866
+IBAN: GB72XTXT68882517532092
+7) ITEMS
+No. Description Qty UM Net price Net worth VAT [%] Gross
+worth
+1, Gaming PC Desktop Computer 4,00 each 903,80 3 615,20 10% 3 976,72
+RGB Intel i7, RTX 2060, 16GB
+RAM, 240GB SSD, 2TB HDD
+2. Pre Built Gaming Computer 4 2,00 each 577,49 1 154,98 10% 1 270,48
+GHZ AMD Ryzen 8GB RAM
+Desktop 240 GB SSD DVD WIFI
+3. 10-Core Gaming Computer 4,00 each 501,32 2 005,28 10% 2 205,81
+Desktop PC Tower 500 GB Quad
+8GB AMD R7 GRAPHICS NEW
+4. Gaming PC Computer RX 580 3,00 each 400,00 1 200,00 10% 1 320,00
+8GB Ryzen 5 2x8GB Ram
+5. HP Desktop Computers Core i5 3,00 each 139,95 419,85 10% 461,83
+16GB 2TB 256GB SSD Wifi 22"
+LCD Windows 10 Pro PC
+6. Dell OptiPlex 390 SFF Computer 4,00 each 59,95 239,80 10% 263,78
+Windows 7 Pro i3 3.10GHz 4GB
+RAM 232GB HDD
+7. Custom Build HP EliteDesk 800 3,00 each 124,99 374,97 10% 412,47
+G1 Tower 15-4570 3.20GHzZ
+Desktop Computer PC
+—_____] SUMMARY
+VAT [%] Net worth VAT Gross worth
+10% 9 010,08 901,01 9 911,09
+Total $9 010,08 $ 901,01 $9911,09

@@ -1,0 +1,29 @@
+SOURAV MITRA 
+Email: sourav.mitra@example.com | Phone: +91-9876054321 
+LinkedIn: linkedin.com/in/sourav-mitra | GitHub: github.com/souravmitra 
+PROFILE 
+Highly motivated CSE undergraduate with strong academic record. Interested in research in Al and computer vision. Skilled in Python, OpenCV, and academic writing. 
+EDUCATION 
+B.Tech Computer Science Engineering 
+IIT Kharagpur | 2021-2025 
+CGPA: 9.3/10 
+TECHNICAL SKILLS 
+- Languages: Python, C++ 
+- Libraries: OpenCV, scikit-learn, TensorFlow 
+- Tools: Git, LaTeX 
+PROJECTS 
+1. **Face Mask Detection using Computer Vision* 
+** 
+- Used OpenCV and TensorFlow for real-time detection 
+2. **Traffic Sign Classifier** 
+- CNN model with 94% accuracy on GTSRB dataset 
+RESEARCH & PUBLICATIONS 
+- Co-authored paper on "Al-based Driver Monitoring Systems" in IEEE Conference 
+CERTIFICATIONS 
+- Deep Learning Specialization - Coursera 
+- Data Science Methodology - IBM 
+ACHIEVEMENTS 
+- Dean's List 2022, 2023 
+- Winner, College Research Grant 
+LANGUAGES 
+English, Bengali, Hindi

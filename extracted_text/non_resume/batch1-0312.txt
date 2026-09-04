@@ -1,0 +1,27 @@
+Invoice no: 89959314
+Date of issue: 09/01/2012
+—}) Seller: Client:
+Robinson Group Wolf and Sons
+785 Bishop Views Suite 203 639 Michael Prairie Suite 405
+West Georgeside, ME 40138 Taylortown, LA 49456
+Tax Id: 959-80-8241 Tax Id: 989-78-0289
+IBAN: GB580KMX16153133332824
+7) ITEMS
+No. Description Qty UM Net price Net worth VAT [%] Gross
+worth
+1, Vintage Set of 3 Cobalt Blue 3,00 each 24,00 72,00 10% 79,20
+Glass Wine Glasses / Water
+Goblets Barware Stemware
+2. Press Wine 15L Fruit Cider 5,00 each 279,00 1 395,00 10% 1 534,50
+Apple Crusher Juice Grape
+Stainless Maker Grapes New
+3. NIB Corkit Wine Cork & Bottle 3,00 each 14,95 44,85 10% 49,33
+Display Holder Industrial
+Steampunk Modern Art NEW
+4. CYLINDER GLASS PAROT for 2,00 each 35,00 70,00 10% 77,00
+100ml WHISKEY WINE BEER
+FORCES OF ALCOHOL HOOCH
+—__ 7} SUMMARY
+VAT [%] Net worth VAT Gross worth
+10% 1 581,85 158,19 1 740,04
+Total $ 1581,85 $ 158,19 $ 1 740,04

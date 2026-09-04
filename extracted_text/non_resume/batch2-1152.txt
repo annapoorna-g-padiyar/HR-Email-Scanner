@@ -1,0 +1,19 @@
+Invoice no: 37051524
+Date of issue: 02/07/2019
+—____) Seller: Client:
+Smith, Hamilton and Miller Mcmahon PLC
+4061 Collins View 920 Anderson Walk Apt. 255
+Brownport, NH 68989 New Tabithaberg, KS 76020
+Tax Id: 903-82-5671 Tax Id: 934-81-1173
+IBAN: GB28AZPN15125864938176
+7) ITEMS
+No. Description Qty UM Net price Net worth VAT [%] Gross
+worth
+3. The Fortune of War (Aubrey / 5,00 each 4,49 22,45 10% 24,70
+Maturin) by Patrick OBrian
+4, Seashells of North America: A 3,00 each 4,49 13,47 10% 14,82
+Guide to Field Ident
+1] SUMMARY
+VAT [%] Net worth VAT Gross worth
+10% 76,33 7,63 83,96
+Total $ 76,33 $ 7,63 $ 83,96

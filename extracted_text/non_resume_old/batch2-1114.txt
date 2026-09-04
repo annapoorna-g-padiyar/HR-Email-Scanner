@@ -1,0 +1,28 @@
+Invoice no: 66661720
+Date of issue: 06/11/2012
+—}) Seller: Client:
+Cooper Inc Gilbert, Turner and Alvarez
+9787 Rodney Centers Suite 591 177 Thomas Turnpike
+Allenshire, PA 31088 Lake Jose, OR 27323
+Tax Id: 989-99-5185 Tax Id: 966-73-3396
+IBAN: GB70RKJM11991089978217
+7) ITEMS
+No. Description Qty UM Net price Net worth VAT [%] Gross
+worth
+1, Joma Boys Youth Super Copa 3,00 each 19,99 59,97 10% 65,97
+102 Soccer Cleats 5.5 White
+Yellow Blue Futbo! NEW
+2. Nike Shoes Size 7 4,00 each 8,65 34,60 10% 38,06
+3. Harry Potter Hogwarts Adult 3,00 each 17,48 52,44 10% 57,68
+Child Robe Cloak Halloween
+COS Costumes Party Xmas.
+4, Lands' End Kids Boys Snow 5,00 each 9,50 47,50 10% 52,25
+Winter Boots Size 5 Blue Warm
+Zip Up Easy On Easy Off
+5. Teva Hurricane 1019390 All 2,00 each 9,99 19,98 10% 21,98
+Black Sandals with Hook and
+Loop Closure, Youth's 5
+_______] SUMMARY
+VAT [%] Net worth VAT Gross worth
+10% 214,49 21,45 235,94
+Total $ 214,49 $ 21,45 $ 235,94

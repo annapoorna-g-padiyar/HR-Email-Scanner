@@ -1,0 +1,23 @@
+Invoice no: 70385376
+Date of issue: 11/18/2019
+—}) Seller: Client:
+Barnes Ltd Curry PLC
+944 Smith Union Apt. 598 538 Guy Tunnel Suite 002
+East Nancyville, OK 75357 Jenniferbury, IL 53416
+Tax Id: 929-78-4914 Tax Id: 999-80-0234
+IBAN: GB83WGZN27553760052374
+7) ITEMS
+No. Description Qty UM Net price Net worth VAT [%] Gross
+worth
+3. The Trapper's Bible: The Most 5,00 each 13,49 67,45 10% 74,20
+Complete Guide on Trapping
+and Hunting Tips Ever (
+4, Rebecca to the Rescue 1,00 each 4,89 4,89 10% 5,38
+(American Girl (Quality))
+5. Beverley Nichols : A Life by 4,00 each 35,95 143,80 10% 158,18
+Bryan Connon 2005 Hardcover
+New
+—__] SUMMARY
+VAT [%] Net worth VAT Gross worth
+10% 229,61 22,96 252,57
+Total $ 229,61 $ 22,96 $ 252,57

@@ -1,0 +1,13 @@
+10 | DESCRIPTION QUANTITY PRICE, $ TOTAL, $
+M 80 Rubber& Vinyl Spray Adh. Yellow 24 fl oz. 6 cans/case
+01 2 281.00 281.00
+M 570 Seam Sealer WHT 120z 12 cartridges/case
+02 5 76.00 76.00
+AEB2461 PTFE 10"x36YDS Smil Glass Cloth Fabric / No Adh.
+03 7 151.00 151.00
+4179 Prot.Tp. 6"x1000' CLEAR MQQ 12 rolls
+04 731.00 731.00
+Subtotal 1165
+Sales Tax 8% 98.60
+Total Due 1382.60
+THANK YOU..

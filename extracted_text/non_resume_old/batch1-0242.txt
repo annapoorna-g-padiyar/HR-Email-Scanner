@@ -1,0 +1,30 @@
+Invoice no: 58715920
+Date of issue: 01/05/2015
+—}) Seller: Client:
+Adams-Kelly Moore Inc
+6437 Jeff Junctions Suite 405 688 Weeks Manors
+Thompsonside, HI 18600 Lake Jasonland, WV 37430
+Tax Id: 926-85-9144 Tax Id: 909-96-2678
+IBAN: GB76NLAL90225033364269
+7) ITEMS
+No. Description Qty UM Net price Net worth VAT [%] Gross
+worth
+1, 3'x2' Black Marvels Top Dining 4,00 each 2 585,00 10 340,00 10% 11 374,00
+Table Italian Handmade Floral
+Art Christmas Gift
+2. 18" White Marble Coffee Table 2,00 each 394,64 789,28 10% 868,21
+Top Carnelian Floral Inlay Art
+Furniture Gift W541
+3. 48 Inches Marble Coffee Table 1,00 each 3 400,00 3 400,00 10% 3 740,00
+Top Inlay with Yellow Stone Art
+Dinette Table Top
+4. 24"x24" Black Marble Round 1,00 each 1 188,00 1 188,00 10% 1 306,80
+Top Center Table Florals tnlaid
+Art Christmas Gift
+5. 15"x15" White Marble Coffee 3,00 each 575,99 1 727,97 10% 1 900,77
+Table Top With 15" Tall Stand
+Semi Precious Art Deco
+7} SUMMARY
+VAT [%] Net worth VAT Gross worth
+10% 17 445,25 1 744,53 19 189,78
+Total $17 445,25 $1 744,53 $19 189,78

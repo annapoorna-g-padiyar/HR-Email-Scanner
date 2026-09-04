@@ -1,0 +1,21 @@
+Invoice no: 17322793
+Date of issue: 01/10/2018
+—}) Seller: Client:
+Nguyen-Lucas Mendoza, Nunez and Woods
+406 Diane Ports Suite 864 7034 Thomas Villages Apt. 284
+Port Catherine, ID 57435 New Jaclynborough, IA 36598
+Tax Id: 916-80-7493 Tax Id: 993-85-6301
+IBAN: GB60JKJS37379700273186
+7) ITEMS
+No. Description Qty UM Net price Net worth VAT [%] Gross
+worth
+1. YILONG 6'x9' Handmade Silk 4,00 each 12 960,00 51 840,00 10% 57 024,00
+Rug Beige Living Room Luxury
+Home Decor Carpet 0992
+2. Geometric Design Hand Knotted 4,00 each 283,08 1 132,32 10% 1 245,55
+Heriz Serapi 4X6 Indoor Area
+Rug Oriental Carpet
+7} SUMMARY
+VAT [%] Net worth VAT Gross worth
+10% 52 972,32 5 297,23 58 269,55
+Total $ 52 972,32 $ 5 297,23 $ 58 269,55

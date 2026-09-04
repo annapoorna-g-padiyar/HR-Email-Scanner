@@ -1,0 +1,15 @@
+Invoice no: 59598986
+Date of issue: 06/28/2017
+—____) Seller: Client:
+Stevenson-Stone Lloyd Ltd
+227 Ronald Highway Apt. 371 PSC 5023, Box 2921
+Smithstad, WY 74763 APO AA 70787
+Tax Id: 917-73-6686 Tax Id: 941-79-9264
+IBAN: GB13VINJ44190548708312
+7) ITEMS
+No. Description Qty UM Net price Net worth VAT [%] Gross
+1. StellaLuxe One Shoulder Lace 1,00 each 25,00 25,00 10% 27,50
+—_) SUMMARY
+VAT [%] Net worth VAT Gross worth
+10% 200,00 20,00 220,00
+Total $ 200,00 $ 20,00 $ 220,00

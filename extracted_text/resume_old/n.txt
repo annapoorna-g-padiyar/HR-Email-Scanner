@@ -1,0 +1,31 @@
+VISHAL REDDY
+Email: vishal.reddy@example.com | Phone: +91-9900112233
+GitHub: github.com/vishalreddydev | LinkedIn: linkedin.com/in/vishal-reddy
+OBJECTIVE
+Enthusiastic BCA graduate with experience in full-stack web development using modern
+JavaScript frameworks, Seeking junior developer role to deliver responsive and scalable web
+applications.
+EDUCATION
+Bachelor of Computer Applications
+Osmania University, Hyderabad | 2020 — 2023
+CGPA: 8.7/10
+TECHNICAL SKILLS
+- Languages: JavaScript, Python, SQL
+- Frontend: React, HTML5, CSS3
+- Backend: Node.js, Express
+- Database: MongoDB, MySQL
+- Tools: Git, Postman
+PROJECTS
+1, **E-Commerce Web App**
+- React frontend with Node.js/Express backend
+- Features cart, user authentication, payment gateway
+2. **Blog Platform**
+~ MERN stack app with rich text editor and comment system
+CERTIFICATIONS
+- Full-Stack Web Development — freeCodeCamp
+- MongoDB for Developers — MongoDB University
+ACHIEVEMENTS
+- Built college website with team of 4 students
+- Won 2nd prize at campus WebDev Hackathon
+LANGUAGES
+English, Telugu, Hindi

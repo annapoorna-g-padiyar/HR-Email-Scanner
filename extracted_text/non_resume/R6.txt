@@ -1,0 +1,461 @@
+E-Mai istant tomati
+-Mail Assistant — Automation of E-Mail Handling
+. . .
+and Management using Robotic Process Automation
+Arpit Khare Sudhakar Singh Richa Mishra
+Department of Electronics and Department of Electronics and Department of Electronics and
+Communication Communication Communication
+University of Allahabad University of Allahabad University of Allahabad
+Prayagraj, India Prayagraj, India Prayagraj, India
+arpitkhare33 @gmail.com sudhakar@allduniv.ac.in richa_mishra@allduniv.ac.in
+Shiv Prakash Pratibha Dixit
+Department of Electronics and King George’s Medical University
+Communication Lucknow, India
+University of Allahabad pdkgmu@gmail.com
+Prayagraj, India
+shivprakash@allduniv.ac.in
+Abstract—tn this paper, a workflow for designing a bot using Considering the situation of a business owner, it is quite a
+Rabotic Process Automation (RPA), associated with Artificial tedious task to handle the jobs/internship application
+Intelligence (AI) that is used tor information extraction, performed through email communication. Therefore,
+classification, etc., is proposed. The bot is equipped with many —_—_ automation in this service is of utmost essential so that the
+features that make email handling a stress-free job. It © working population in the world can be free from the
+automatically login into the mailbox through secured channels, —_ irrelevant workload of managing their mailboxes. Hereby, we
+distinguishes between the useful and not useful emails, classifies propose the approach for building an E-mail Assistant that is
+. i nn while he/she works on the othcr important aspects of running
+relevant directories. It moves the not useful emails into the his/her busi It st tine ti sorting th h th
+trash, Further, the bot can also be trained to rename the ns er Dusiness, It stops was ng Ime sorting Mroug ©
+attached files with the names of the sender/applicant in case of inbox, addition, deletion, £ te. Further, these problems fall
+a job application for the sake of convenience, The bot is designed under the category of finding similar substructures problem
+and tested using the UiPath tool to improve the performance of | Which is an NP-complete problem [5] in nature and needs an
+the system. The paper also discusses the further possible _&fficient algorithm to solve the exponential order problem.
+functionalities that can be added on to the bot, The emergence of artificial intelligence (Al) in the former
+Keywords—E-Mail Automation, Artificial Intelligence (AD, cra has changed the process of handling business related to the
+Robotic Process Automation (RPA), Expert Systems, Virtual use of machines ; nstead of a human being he nee using robotic
+Assistant, UiPath. process automation (RPA) [6]. This paradigm shift not only
+supports organizations but also increases profit by reducing
+I. INTRODUCTION waste. Likewise, new customer registration requires several
+Electronic mail also well-known as email or e-mail since checks and information. This whole process can be changed
+1993 is basically used to exchange digital information among into a series of tasks where robot system can be trained and
+recipients [1]. The present email technology has three parts repeated over the relevant systems [7]. So now this whole
+the message envelope, the message header, and the message process can be managed by the robots for 24x7 perfectly and
+bod y “hae wpe deprived of any error. This technology is different from other
+ody [2]. The common web-based email services include Avr
+Gmail, Outlook, Hotmail, Yahoo! Mail, etc. [3]. As per the Sectors, fre quent repetition of the process can be treated
+consumer email survey conducted on Adobe's consumers in oper ation-intensive, where employees are not needed to take
+2018, office workers check their electronic mail account onan —-(MMtlatve, are subjective to a rule with already established
+i . standards [6].
+average of 2.5 hours each day [4]. When it comes to work-
+related e-mails, the average human being spends more than 3 The proposed bot is designed using UiPath [8], a robotic
+hours a day. That is a huge amount of time spent on repetitive process automation (RPA) tool [9]. It is equipped with the
+communication instead of actual creative work [4]. Emails are following features to make email handling a stress-free job. It
+the leading element in all official communications with nearly automatically login into the mailbox through secured channels
+86% of business professionals choosing emails as their and distinguishes between useful and not useful emails based
+preferred mode of communication [4]. As per a survey [4], on the provided keywords. It classifies the mails into different
+90% of consumers check their email during office hours, —_dircctorics c.g., Work (for work-related cmails, CV, Resumes)
+while 9% check their emails constantly. Also, 85% of | and Reccipts (for Bills and Invoices), It downloads the
+consumers check their email before getting to work, and more — attachments (if any) from the classified emails, creates
+than 25% do so as soon as thcy wake up on the bed [4]. different directories for different categories, and stores the
+downloaded files into the relevant directories. It moves the not
+useful mails into the trash. This bot can also be trained to
+©2022 IEEE. Personal use of this material is permitted, Permission from IEEE must be obtained for all other uses, in any current or future media, including
+reprinting/republishing this material for advertising or promotional purposes, creating new collective works, for resale or redistribution to servers or lists, or
+reuse of any copyrighted component of this work in other works.
+Citation:
+A. Khare, $. Singh, R. Mishra, S. Prakash and P, Dixit, "E-Mail Assistant - Automation of E-Mail Handling and Management using Robotic Process
+Automation,” 2022 International Conference on Decision Aid Sciences and Applications (DASA), 2022, pp. 511-516, doi:
+10.1109/DASA54658.2022.9765017.
+URL: https://doi-org/10.1109/DASA54658.2022.9765017
+rename the attachment files with the names of the the classification of PDF text to extract the information from
+sender/applicant in case of a job application for the sake of publications or reports using Information Extraction (IE)
+convenience. The bot is tested on several test emails to verify | systems. Authors designed a text classification method that
+its proper functioning. automatically classifics PDF text into title, abstract, main
+The rest of the paper is organized as follows. Section two content, semi-structured, and metadata categories. Automatic
+. . : ° p classification of email messages into different
+consists of a review of related works. Section three describes fold rsh dite ctories is an open and Ghallenging problem
+the design of the proposed E-Mail Assistant. Testing of the P : : , 4
+designed bot is carried out in Section four. Finally. ‘Section particularly for the machine learning algorithms. Tam et al.
+five concludes the paper with the scope of future works [17] used supervised leaming algorithms for organizing
+pap P ° emails into different folders automatically. They discussed the
+Il, RELATED LITERATURE problems due to the oneal semantics applied by the users.
+. . e meaning of the different folders varies from person to
+Presently advanced technologies transformed the business person which is an obstacle for learning methods. Further, as
+enich ¢ into automate 4 Pane using the software robots the number of emails being received is increasing, efficient
+Which are based on pre ie atl a gorithms, Condle At Itean automatic foldering is getting essential [18]. Brailes and Meek
+were the first to analyse email classification as the
+“robotic process automation” which leads to organizational Coble of text classification An extensive study was carried
+(ucluding coetne coave ey ovouteally ‘nadine to the out in Po) on the email foldering problem using the Enron
+F . > ‘orpus ataset.
+foundation ofa hybrid workforce [10]. npus [21]
+Several techniques have been developed for automating E prcuze ct al. [22] proposed the idea ore lligent email by
+" applyin to email. They considered the user-oriente
+Mail system and enabling it with smart features. Email spam, approach and applicd the concepts of machine Icarning and
+also known as junk mal is one oF the most teavous issues. NLP (natural language processing) to propose intelligent
+any times vahd and relevant emails are received in the spam ~— email and defined it as an intelligent system for supporting
+[11]. The huge number of incoming emails is another email interfaces. Dalli et al. [23] designed an Adaptive
+problem, users waste a lot of time and energy in the efforts of Information Management (AIM) service to be used in a voice-
+identifying relevant and useful emails. To avoid this problem, based Virtual Personal Assistant (VPA). The AIM service is
+emails need to be categorized and labeled based on the inside consisting of three components: an email summariser, email
+information, so that users can identify the useful emails even —cateporiser, calendar scheduling, and an adaptive
+before opening them [11]. Alsmadi and Alhami [11] proposed prioritisation service.
+a machine learning-based solution to predict the real sender of a oo.
+a mail by training the model using some training mails from _ The proposed approach uses similar functionalities as
+the past. This approach provided a good accuracy to the discussed above to integrate into one software robot using
+prediction but still, the identification of real scnder was | RPA. The frequency of emails per day even in a mid-size
+trapped in the probabilities of machine learning models. The organization is large enough and needs a storage of huge size.
+uncertainties of identification cannot be implemented in real- The recent technological developments can manage big data
+life business problems, as it could lead to some hazardous [24] so that the massive email traffic can be handled
+situations for a business owner. The amount of work efficiently. Segregation of emails can be done into different
+performed to just identify the sender is also not feasible. Thus, groups and the responses can be sent by the RPA based
+there is a requirement of'a technique to perform this task with Solution while the critical ones not assigned in any group can
+full accuracy and the least effort. be controlled by the particular personnel. Increased workload
+. . on users demands more efficient works for responding the
+R The: hyporhesis of the study is that the Case Based query. There are other aspects also which need to be
+‘ablem é , elon 4 ond hie. oh ane to Ny va ‘be recognized like tagging and prioritizing of incoming emails,
+problem of email overload and this can be analyzed by moving these emails to other locations, its labeling and,
+ane the cm data sets. vt Stiows that it mapped the sending emails at scheduled time or in a particular context,
+orthcoming queries by using analogous prior queries an also to the right recipient. RPA is an evolving technique that
+reprocessing the responses [12]. Email management requires ses software and algorithmic programmed systems which act
+significant efforts from ef cena processing: The wind as mumans for the suppor of proficient business processes. ‘
+: : ar c eads to a decrease in the cost of human resource-relate
+: ; . “Ne ercent .
+end systems for generation of short email responses ¥ P . , ;
+automatically [14]. Moreover, it also gives an idea on RPA RPA is highly used in industry but also an attractive field
+which is a software-based solution completely. For instance of research in the scientific domain. Ribeiro et al. [26]
+imitating human activities in a sequential way that leads to _—sinvestigated the contribution of RPA tools with Al for the
+meaningful action, without any kind of human intervention is improvement of ERP-related processes. Authors in [27] have
+referred as Robotic Process Automation [15]. It can also focused on the gap between the virtual assistant and
+provide important data on email classification along with | recommendation system in the view of various technological
+utilizing natural language processing and data mining aspects for designing a conversational system. Enriquez et al.
+activities, Spam detection, etc. [11]. Furthermore, the social [28] presented a systematic mapping study on RPA based
+behaviors of the users are used to determine a novel email research and development in the scientific and industrial
+classification method for enterprises. domain. A systematic literature review is carried out in [9] on
+. . . . . RPA. An assessment framework derived from this literature
+problem in the EMail gyetean Bui ef a 1 Tie] have addroveed review is also presented, All these works show the importance
+and pertinence of RPA which needs to be explored and applied — which tends to attain the envisioned task of segregating the
+in the different domains to design the efficient bot. emails.
+The bot has become a commonly used automation system 3) Email Logger: It records each and every email with
+for large-scale scientific computing besides data-intensive __its lot of information (sender, recciver, timestamp) along with
+applications. Each bot is typically linked with a deadline of __ its batch ID respectively.
+exccution to guarantee the Quality of Service (QoS) such as 4) Ingestion Layer: This layer constitutes the emails
+security, flow-time, reliability, and trust, etc, and low QoS _ present in the email logger which consist of'a header, subject,
+typically imposes penalties, however, the provider of services and body i.e. content. It has a unique ID for each email.
+may charge users based on user demand and QoS parameters 5) Web Scraping: It deals with the extraction of email
+obtained [29]. Further, the applications of the bot in real-life body content which preserves the unique ID. It appends the
+problems [26]-[28] are such as the loop bounds are known her inf ti lated t iL. Information stored in thi
+during compile-time, data-flow computation, and various other in Ormation related 10 Eman’. Information stored in this
+numerical algorithms e.g. Gaussian elimination, Fourier 44t@ format is allowed and prepared for analysis in the
+transform, and its variants. Moreover, RPA which is used in 4nalyzing module.
+bot has many benefits in automation of organization and
+business methods associated with advances of artificial
+intelligence methods, algorithms, tools, and techniques which Se eee EEE tg mail box
+allows improved accuracy, precision, and execution of RPA = : 5
+methods to extract the information in classification,
+regression, recognition forecast, and optimization. a
+<>
+III. PROPOSED DESIGN OF THE E-MAIL ASSISTANT PS
+The E-Mail Assistant would have the following
+functionalities and features.
+e A secured robot that could login to the system when a
+allowed to do so.
+e Identify the senders without manually checking on [Ss = 2) Ss os Idemtify
+devices. Reply Reply All__forward | bene Celete sits
+e Save the user’s time by not opening the mails from Dates | ener
+advertising agencies/companies, Subjects
+e Increase the user’s convenience by classifying the em
+mails into various categories.
+¢ Download the attachments if any automatically
+without human intervention. Categorizing = dl Discarding the ap
+¢ Classify the downloaded attachments into two folders the E-Mails ompany mas
+— Useful and Not Useful.
+e Inside the Useful folder, further classify them into rt
+various folders like — bills, resume, offer letter,
+Fig. 1 depicts the system design of the proposed E-Mail
+Assistant. It also shows the order of different activities 8.
+erformed by the bot. The bot is designed and implemented [ae —o- re an :
+using the UiPath tool on Window’s operating system.
+UiPath is an RPA platform for the end-to-end high-scale §
+automation. This tool offers solutions for the enterprises to har]
+automate the repetitive tasks of offices for rapid business Way Downloading the attachments of the mails
+transformation. Using it, one can convert tedious and ig
+annoying tasks into an automation process using multiple
+utilities [8]. The main components of these tools are (i) a fr Classifying the attachments (like resume, finance
+native email application server, (ii) an email processor engine, WO bills. etc.) and saving them in scnarate folders
+and (iii) an analyzing module. It works effectively due to its ig
+independent and integrated issues. The main part is to
+categorize the incoming emails a long with its segregation and eek Categorizing the resumes according to the post applied for
+gencrate an autoreply to all the important cmails. ie =, a . (like Data Analyst, HR, Advertising Manager, Digital
+1) Native Email Application Server: It has a public ae Marketing Director etc.) and saving them in scparate folders
+inbox that receives incoming emails from exterior to the rt
+environment. These emails arc referred to an Email Logger.
+2) Email Processor Engine: This engine comprises of ~
+the Email Logger, Ingestion Layer, Web Scraping, Data . . |
+Enrichment Module, RPA Algorithm, and Segregated Mail "8: !- System Design.
+Router. All of these modules execute in an integrated fashion
+6) Data Enrichment Module: This module deals with IV. WORKFLOW EXECUTION AND TESTING
+the removal of irrelevant and noisy features from the emails The UiPath version-2019.10.1 (free edition) was installed
+that optimizes the size of the emails, on the Windows 10 operating system running on the machine
+7) RPA Algorithm: It compriscs a protocol with email —_ with 64-bit Intel(R} Corc(TM) i5-8250U CPU @ 1.60GHz
+services in which IDs of email class labels are assigned for | and 8 GB RAM. The objective of testing is to demonstrate that
+every email to direct them respectively. the bot is working properly with the functionalities specified.
+8) Segregated Mail Router: This module directs the a
+autoreply to the respective email ids. This system segregates Properties Hiiinniirniininninnncntens AE
+the inbound email into a local folder according to the topic of ViPath. Mail IMAP Activities. GetIMAPMailMessages
+discussion and decisive action can be taken further. It also DisplayName Get IMAP Mail Mes[=]
+consists ofa prediction module that does feature selection and a meus [Specifies the o [J
+its representation of the content of the emails which can MailFolder [anboe Lal
+predict the probable responses to the emails one by one using Port ee |
+the permitted response and cluster. Server | *imap-amaite [|
+There are many email activities available in UiPath 5 tegon —_—_—_———_.
+. . Email { email EJ
+software and each one is based on the different protocols to | Password [pass [a]
+be used like Internet Message Access Protocol (IMAP), Post 1 Mise ——
+Office Protocol version 3 (POP3), Simple Mail Transfer | Private o
+Protocol (SMTP), Exchange, and Outlook. In the proposed |] Options
+bot, IMAP is used. In the UiPath, the DeleteMessages O
+“GetIMAPMailMessages” mail message activity is MorkAsRead O
+configured first. It is configured with the Mail Folder name, OnlyUnreadMessages O
+“qe SecureConnection Auto
+Port number, Server name, email-id, and password. Top a
+Gencrally, the mail folder name is “Inbox”. If the robot is ' Output —
+being configured with a Gmail account, then port number 993 | Messages joup ss La J \
+is used in most cases. For a Gmail account, the server’s name # Properties | “= Outline Eg Objects
+is “imap.gmail.com”. Email-id and password can be provided
+through the window’s credential manager [30]. It is also —~2lCq=91911090—_ rT
+possible to sct the number of emails which is exccuted by the ‘ lomtsincistaeaentatntectewre | ———_—_—_ TT
+robot in one go. The output argument of this | |UiPath Mail Activities SaveMallAttachme rts ce
+. ” . a : | i&Common i
+List<MailMessage>. This output can be stored in any 1 Input |
+variable, say “output_mail”. Further, the list of unwanted | FolderPath | The futt poth of [.]
+mail senders which are already known can be also provided Message The Maitmessac |. |
+through an excel sheet, so the mails received from those will A Mise
+be considered not useful. I. Private a) |
+Options
+Emails are classified into various categories like | Filter [ Represents ares [... |
+bills/invoices, resumes, etc. on the basis of some keywords. © Output _ |
+To download and save the attachment at the destined foldcr, Attachments The retrieved at [..]
+the Save attachments activity is used and provided with the |
+Folder Path i.e., the path of the folder where the attachments
+are intended to get downloaded, and also provided with each
+mail from the List<MailMessage>. The robot is trained to
+open each downloaded file one by one and recheck the |
+information given in it. It identifies the useful attachments.
+The definition of useful attachments can be modified as per |
+the user’s requirements. In this paper, the following definition | | Properties | E> Outline ER Objects
+is used — If any document contains the following keywords:
+resume, cv, bill, ete. it is classified to be useful, Further, the Fig.2. Configuration of “Get MAPMailMessages” activity
+useful attachments are classified into various folders as per
+the above keywords. The windows activities can be used to
+train the robot to rename the attachment files to appropriate
+names if the application demands to do so in the real world.
+The various parameters used in the activity are shown as
+screenshot in Fig, 2 and described in TABLE I.
+The procedure discussed above to design the proposed E-
+Mail Assistant can be represented in the form of the algorithm
+as shown in Algorithm 1.
+TABLE |. PARAMETERS USED IN THE ACTIVITY
+the user are automatically sent to the trash. We can extend this
+The amount of time (in milliseconds) activity should be classification to other categories like Spam or any other
+TimcoutMS allowed to wait before giving an crror message, in case desired label. Meanwhile, the emails may contain a few
+ofan ela aa bee woke 7 attachments. The bot makes the user’s task easier and makes
+MailFolder | pe the working directory for them free from opening the emails exclusively. It downloads
+A “The port number on which the robot should receive the the attachments and then classifies them into many folders
+ort emails. bascd on the keywords by doing altogether these tasks
+‘The server's name from which the emails should be repeatedly. At this time, the bot makes these folders and then
+erver Me . ae . : .
+extracted (“imap.gmail.com”), _ - stores the downloaded attachments in the appropriate folders.
+The email id of the user ean be given at the run ime | The Control via different criteria is important for the users to
+ace The password for the email id of the uscr can be given contro] the bot using different implementations,
+Password at the run time through Window’s Credential manaper, A Performance Evaluation
+top | The number of emails that should be taken into work . ‘ . .
+starting from the top). Various QoS (Quality of Service) parameters for the
+The variable in which all the messages are stored. effectiveness of the Email Automation Robot are measured as
+follows. Efficiency: The ratio of valuable work performed by
+the bot. Time consumption: Time taken by the bot to process
+- - —— and throughput. Accuracy: A state of the bot to be precise.
+Algorithm 1, Algorithm of proposed E-Mail Assistant Precision: The Precision indicates how precise (accurate) the
+Configure the Get IMAP mail message activity model of the bot is.
+Give permission to the robot from the google account by .
+canpwing access of less Sear as naner with email-id and To assess the efficacy of the system, a Gmail account has
+password eS ENE EDN ONE been used whercin the incoming cmails were read and replied
+output_mail = List<MailMessage> to using two cases.
+For each mail-in output_mail repeat . . . .
+if is_important(mail) 1) CASE I — Email processing without the rohot (i.e.
+_ open the mail . . manually): In the study published in Harvard Business
+Classify the mail into various categories based on some Revi : b th :
+keywords eview [31], it was observed that an average American
+Download the attachment file spends approximately 78 seconds on an email. This sums up
+Classify the attachment into important and non-important to taking 702 seconds to process 9 emails
+Classify the important attachments into folders: Bills, .
+Resumes, Invoices, ete. 2 — E-mai i Wi Le
+Classify the Resume files, into cligible and not cligible 2) CASE Il — E-mail processing with the robot (ie.
+candidates automation): Tasks like opening the email by user’s
+Rename all of them with the sender’s name, designation, ercdentials, looking over the reecived email, choosing
+and date of application important emails, reading the email’s content, and respondin,
+Sending a mail to all eligible candidates to call for an p ~ i 6 ata P . 16
+intervicw (optional) to the emails personally are done by hand in Case | while in
+End Case II, the bot does the same for the user deprived of any
+Several Gmail account holders were requested to send _ kind of human involvement. It has been found that itis tough
+emails of different types with subjects containing keywords for a user to read and segregate all the emails incoming into
+like “bills”, “invoice”, “role” etc. Each such email also the inbox, also classify the unwanted and annoying emails,
+contains an attachment of miscellaneous types. As soonasthe and respond to all the important emails scparatcly.
+bot is being executed, it starts performing classification ofthe Nonetheless when the user uses the email automation, in
+mails on the basis of the above-defined keywords into two which the email is segregated and categorized specifically
+folders! raeels esas ve Work and Receipt. Ao, phe bot according to the list automatically when it gets entered into
+creates different folders in the loca! machine tor downloading the inbox. It can be efficiently compared to the first case
+the files attached with the incoming mails, and thus downloads deprived of the automation which rcquircs the least
+the attachments into the two different folders Work and : at fil for th k 4 b fe d
+Receipt. The screenshot of the main workflow with the volvement of the user for the work to be performe
+different componcnts of this bot is shown in Fig. 3. manually.
+The inbox page of the test email-id received the emails 3) Time Consumption: With reference to Case 1, it has
+which are from various contacts and of various categorics | been observed that manual work increases in absence of
+(e.g.- Receipts, Resume, Bills, etc.). All these incoming emails | automation which enhances time consumption. At the same
+are the input to the test cases. In the next step of workflow time, there is a need to read all the emails, segregate and
+execution, the bot is allowed to handle all the unread emails respond accordingly. Case II is significantly less time-
+of the inbox. The bot a oh ided with fe following consuming in comparison to the process done without RPA.
+instructions: move the emails wit the! cyword “Resume in There are certain factors like the number of recciving cmails,
+the subject to the folder/label “Work”, similarly, the emails the extent of the contents present in subject and body, and
+with the keyword “Bill” or “Invoice” to the folder/label ize of th hed fil he 1 k ‘ hich d y 2
+“Receipt”. Note that, these emails are not automatically !2¢ of the attached tiles that play a key role which determine
+categorized by the classification algorithms of Google in how much time will be consumed in completing the task in
+Gmail. Instead, it is performed on the basis of the instructions both cases. In Fig. 4, we can see that it took our bot 75
+given to the bot allowing it to customize the classification. | seconds to handle 9 emails with attachments and in
+Also, the emails which are considered to be not important for
+classifying the attachments, whereas for an average human to some mistakes due to human errors in reading or
+being it took 702 seconds to perform the same task. understanding the class of the email, this makes the accuracy
+4) Accuracy: The accuracy level is determined by how of the process to be reduced, While, when this process is done
+. ; . . . . by an RPA bot, then the probability of misclassification of an
+many emails are appropriately classified in the designated : : se
+directory/folder for that email. In Case I, when the attachment file that is working on the keywords basis is
+ory : . an almost nil, this makes Case II’s process of RPA bot much
+classification process is donc by a human being, it may Icad .
+more effective.
+| Output essence
+rocess tith An Twin | (O10; p=
+Pec Sengton @TA 0, O 4, © u | © wes
+[Additional information (e.g, author, contact information and applications involved and required external setup)} | sea rch
+| © Debug started for file: EmaitAutomation
+@ BlankProcess execution started
+Read configuration file and initiafize @ Processing unread mail: 1
+0) applications used in the process. @ Process Complete
+Start © Processing unread maith 2
+D a ® Process Complete
+0 © Processing unread mail: 3
+Gatem bce © Process Complete
+© Processing unread mail: 4
+Successful @ Process Complete
+t © Processing unread mail: 5
+@ Process Complete
+End Pr 5
+o = F1 Get Transaction Data © Processing unread mail: 6
+End process and Get the next transaction to be @ Process Complete
+alate ns used. processed. © Processing unread mail 7
+© Process Complete
+’ D ad © Processing unread mail: 8
+2 a o> © Process Complete
+No Data ; © Processing unread mail 9
+oP, System Exce... @ Process Complete
+ilesTaned. © BlankProcess execution ended in: 00:01:15
+eve Tran: oe
+Fig. 4. Exccution time for RPA bot to process 9
+$c] Process Transaction Business Exe-y emails
+Process a single transaction. Suchess
+The result of the processing can be:
+1) Success, 2} Business Exception, 3)
+System Exception,
+In the case of a system exception,
+the transaction can be
+automatically retried,
+C3) al
+Fig. 3. Workflow of the Robot
+V. CONCLUSION AND FUTURE WORK security threat. The workflow execution and testing have been
+This paper deals with the automation of E-Mail handling done on several test emails, and tis found fo be working as
+and management. The automation gives relief from logging P&T the functionalities defined. Using the windows activities,
+: ‘os . ran the robot can be trained to rename the attached files of emails
+into the system for inbox management. Regarding this, it to the desired +f th licati ds to d in th
+proposes a simple and novel workflow to design an Intelligent O the desired names It ine application needs to Co so In re
+E-Mail Assistant using UiPath, an RPA tool. The robot real world, For example, it can rename the resumes like
+provides a good Icvel of comfort to its uscrs with the equipped <candidatc_name>_ highest_qualification>_<apptication_¢
+functionalities. It automatically and securely login into the ate> etc. A 'so, i can send mail to the eligible candidates wit
+mailbox, classifies and sub-classifies the emails based on an interview call,
+essential keywords. It automatically downloads the Moreover, this bot can be made more intelligent and robust
+attachments and stores them in different folders respective to by machine learning approaches for classifying, processing
+the classified emails. It can also rename the attached files the downloaded images using image processing algorithms,
+according to the requirements. The bot does not override and many more. The bot can be trained to scan the image using
+human commands/actions to counter the issue of any kind of — an optical character reader (OCR) and to perform
+classification based on scanning, which will free up the robot Banks to Absorb COVID-19s Impact Through New Emerging
+from relying on the subject entered by the sender and Technologies and Strategies for Competitive Advantage,” in EE
+evaluating the file being sent. Further, it can be also trained to Collaboration Technologies und Strategies for Competitive
+: . : : vantage Amid Challenging Times, 1GI Global, 2021, pp. 50-75.
+send responses and take actions on the basis of Incoming ft6] D. D. A. Bui, G. Del Fiol, and §$. Jonnalagadda, “PDF text
+emails. For example, training it to respond to a mail regarding classification to leverage information extraction from publication
+a meeting by checking the schedule in the owner’s online reports,” J. Biomed. Inform., vol. 61, pp. 141-148, Jun. 2016, doi:
+calendar, and suggesting some alternate time if the user is 10.1016/,jbi.2016.03.026. . ; ;
+already engaged in other meetings during the mentioned time —-‘([17]_—_T. Tam, A. Ferrcira, and A. Lourengo, “Automatic foldering of
+: : : ste email messages:a combination approach,” in Lecture Notes in
+in the received email, will increase the level of comfort of the Computer Science (including subseries Lecture Notes in Artificial
+user. Also, for the emails containing bills and receipts, Intelligence and Lecture Notes in Bioinformatics), 2012, vol. 7224
+payment can be done instantly if the user allows the bot to LNCS, pp. 232-243, doi: 10.1007/978-3-642-28997-2_20.
+handle this task too, considering the security issues preferred [18] __—_S. Whittaker and C. Sidner, “Lmail overload: exploring personal
+by the user. information management of email,” in Conference on [Human
+Factors in Computing Systems - Proceedings, 1996, pp. 276-283,
+On the other hand, one of the key challenges is RPA doi: 10.4324/9781315806389-24. ; .
+maintenance, as user interfaces may change more frequently, [9] J. D. Brutlag and C. Meck, “Challenges of the Email Domain for
+. . Text Classification,” Proceedings of the Seventeenth International
+whereas RPA change, sometimes the RPA reconfiguration is Conference on Machine Learning, 2000. .
+a challenging issue. Therefore, RPA bot optimization willbe [20] R. Bekkerman, A. McCallum, and G. Iluang, “Automatic
+performed as suggested in the future direction. Further, the Categorization of Email into Folders : Benchmark Experiments on
+scope for UiPath can be extended to imaginable boundaries Enron and SRI Corpora,” 2004. .
+with different optimization and machine learning techniques. (2!) —_—8. Klimt and Y. Yang, “The enon corpus: A new dataset for email
+classification research,” in Lecture Notes in Artificial Intelligence
+(Subseries of Lecture Notes in Computer Science), 2004, val. 3201,
+ACKNOWLEDGMENT pp. 217-226, doi: 10.1007/978-3-$40-301 15-8. 22,
+The authors are indebted to the Mae Fah Luang University [22] M. Dredze er al., “Intelligent email: Aiding users with Al,” in
+for supporting the free registration in this conference. Proceedings of the National Conference on Artificial Intelligence,
+2008, vol. 3, pp. 1524-1527.
+SEER ENCE (23) A. Dalli, Y. Xia, and Y. Wilks, “FASIL email summarisation
+REFERENCES system,” in COLING 2004: Proceedings of the 20th International
+0] C. Liithje and F. Thicle, “Communication Moods-Emails in Conference on Computational Linguistics, 2004, pp. 994-es, doi:
+scholarly communication,” SCM Stud. Commun. Media, vol. 9, no. 10.3115/1220355.1220498,
+3. pp. 367-393, 2020. [24] S. Singh, P. Singh, R. Garg, and P. K. Mishra, “Big Data:
+(2] N.S. Scott ef al., “CPC's 50th Anniversary: celebrating 50 ycars Technologies, Trends and Applications,” Jnr. J. Comput. Sci. Inf.
+of open-source software in computational physics,” Comput. Phys. Technol. vol. 6, no. 5, pp. 4633-4639, 2015.
+Commun., vol. 252, p. 107269, 2020. [25] V. Leno, A. Polyvyanyy, M. Dumas, M. La Rosa, and F, Maggi,
+[3] E. Milne, Email and the Everyday: Stories of Disclosure, Trust, “Robotic process mining: vision and challenges,” Bus, \& Inf. Syst.
+and Digital Labor. MIT Press, 2021. Eng., vol, 63, no. 3, pp. 301-314, 2021.
+[4] G. Abromovich, “Study: Contrary To Popular Belicf, Email Is [26] J. Ribeiro, R. Lima, T. Eckhardt, and S, Paiva, “Robotic Process
+Alive And Well,” 2018. . Automation and Artificial Intelligence in Industry 4.0 - A
+{5] S. Chakravarthy, A. Venkatachalam, and A. Telang, “A graph- Literature review,” Procedia Comput. Sci., vol. 181, pp. 51-58,
+based approach for multi-folder email classification,” in Jan. 2021, doi: 10.1016/j-procs.2021.01.104.
+Proceedings - [EEE International Conference on Data Mining, (27] D. Rafailidis and Y. Manolopoulos, “The Technological Gap
+ICDM, Dec. 2010, pp. 78-87, doi: 10.1109/ICDM.2010.55. Between Virtual Assistants and Recommendation Systems,”
+[6] N. Jha, D. Prashar, and A. Nagpal, “Combining artificial arXiv, Dec. 2018.
+intelligence with robotic process automation—an_ intelligent {28} J. G. Enriquez, A. Jimenez-Ramirez, F. J. Dominguez-Mayo, and
+automation approach,” in Deep Learning und Big Data for J. A. Garcia-Garcia, “Robotic Process Automation: A Scicntific
+Intelligent Transportation, Springer, 2021, pp. 245-264. and Industrial Systematic Mapping Study,” /EEE Access, vol. 8,
+[7] M. Ahmet Unal and O. Bolukbas, “The Acquirements of pp. 39113-39129, 2020, doi: 10.1109/ACCESS.2020.2974934.
+Digitalization with RPA (Robotic Process Automation) [29] M. Adam, M. Wessel, and A. Benlian, “Al-based chatbots in
+Technology in the Vakif Participation Bank,” in 2021 The 4th customer service and their effects on user compliance,” Electron.
+International Conference on Information Science and Systems, Mark., pp. 1-19, Mar. 2020, doi: 10.1007/s12525-020-004 14-7,
+2021, pp. 68-73. (30) D. Rountree, “4 - System Security,” in Security for Microsoft
+18] “Robotic Process Automation | UiPath.” https://www.uipath.com/ Windows System Administraturs, D. Rountree, Ed. Boston:
+{accessed Mar, 29, 2021). Syngress, 2011, pp. 109-134.
+[9] J. Wewcrka and M. Reichert, “Robotic Process Automation -- A (31) M. Plummer, “How to Spend Way Less Time on Email Every
+Systematic Litcrature Review and Asscssment Framework,” Day.”.
+arXiv, Dee. 2020.
+[to] M. Lacity and L. Willcocks, “Becoming Strategic with Intelligent
+Automation,” A/S Q. Exec., vol. 10, no. 2, pp. 1-14, 2021.
+{11) {. Alsmadi and I. Alhami, “Clustering and classification of email
+contents,” J. King Saud Univ. - Comput. Inf. Sci., vol. 27, no. 1,
+pp. 46-57, Jan. 2015, doi: 10.1016 jksuci.2034,.03.014.
+{12} M. A. Naeem, I. W. S. Linggawa, A. A. Mughal, C, Lutteroth, and
+G. Weber, “A Smart Email Clicnt Prototype for Effective Reuse of
+Past Replies,” JEEE Access, vol. 6, pp. 69453-69471, 2018.
+{13] S. Park, A. X. Zhang, L. S. Murray, and D. R. Karger,
+“Opportunities for automating email processing: A need-finding
+study,” in Proceedings of the 2019 CHI Conference on Human
+Factors in Computing Systems, 2019, pp. 1-12.
+[{14] M. Peng, B. Gao, J. Zhu, J. Huang, M. Yuan, and F. Li, “High
+quality information extraction and query-oriented summarization
+for automatic query-reply in social network,” Expert Svst. Appl.,
+vol. 44, pp. 92-101, 2016.
+115] N.K. Bhasin and K. Gulati, “A Study of the Readiness of Indian

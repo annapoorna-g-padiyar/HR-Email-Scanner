@@ -1,0 +1,31 @@
+Invoice no: 72945558
+Date of issue: 11/11/2019
+—}) Seller: Client:
+Moore, Edwards and Beasley Wyatt-Gonzales
+792 Ashley Creek Apt. 031 770 Peterson Drive Apt. 927
+West Susan, NM 14436 Dillonshire, CO 17893
+Tax Id: 958-76-1225 Tax Id: 961-98-5648
+IBAN: GB15QKGI12289317413206
+7) ITEMS
+No. Description Qty UM Net price Net worth VAT [%] Gross
+worth
+1, Sheepskin Shaggy Faux Fur 5,00 each 8,99 44,95 10% 49,45
+Silky Plush Soft Fabric
+Rectangular Rug Doormat
+Carpet
+2. All-Over Modern Gabbeh 2,00 each 806,00 1 612,00 10% 1 773,20
+Kashkoli Oriental Area Rug
+Hand-knotted Foyer Carpet 4x6
+3. Bedroom Decor Carpets Living 1,00 each 33,86 33,86 10% 37,25
+Room Line Pattern Green Rug
+Modern Simple Area Rugs
+4, Chindi Rugs Carpet New Design 1,00 each 29,99 29,99 10% 32,99
+Bohemian Garden Yoga Mat
+Indian Kilim Coverlet
+5. YILONG 5.5'x8' Handknotted 4,00 each 10 560,00 42 240,00 10% 46 464,00
+Silk Area Rugs Home Decor
+Classic Blue Carpet 0790
+—_}] SUMMARY
+VAT [%] Net worth VAT Gross worth
+10% 43 960,80 4 396,08 48 356,88
+Total $ 43 960,80 $ 4 396,08 $ 48 356,88

@@ -1,0 +1,18 @@
+Invoice no: 68963398
+Date of issue: 01/16/2017
+—____) Seller: Client:
+Tucker-Shaw Trevino-Sanders
+USS French 6971 Michael Squares Suite 138
+FPO AP 70555 New Christopherborough, WA 66988
+Tax Id: 960-71-9245 Tax Id: 926-84-4496
+IBAN: GBO3NATL58994809703909
+______) ITEMS
+No. Description Qty UM Net price Net worth VAT [%] Gross
+worth
+Size 4.5aY
+2. Under Armour UA Curry 3 2,00 each 4,90 9,80 10% 10,78
+Black/Black Size 6Y
+—_______] SUMMARY
+VAT [%] Net worth VAT Gross worth
+10% 90,80 9,08 99,88
+Total $ 90,80 $ 9,08 $ 99,88

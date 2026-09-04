@@ -1,0 +1,16 @@
+Invoice no: 69638281
+Date of issue: 07/09/2014
+—_—_ Seller: Client:
+Powers-Parker Anderson-Lindsey
+152 Johnson Estate 72498 Joseph Mill Apt. 418
+Kevinland, AK 42225 West Paul, AZ 08086
+Tax Id: 971-95-7260 Tax Id: 968-92-6539
+IBAN: GB88ABQW68230357564176
+______) ITEMS
+No. Description Qty UM Net price Net worth VAT [%] Gross
+worth
+6Y
+—______] SUMMARY
+VAT [%] Net worth VAT Gross worth
+10% 60,00 6,00 66,00
+Total $ 60,00 $ 6,00 $ 66,00

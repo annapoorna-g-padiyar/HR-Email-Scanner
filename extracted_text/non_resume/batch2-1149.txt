@@ -1,0 +1,28 @@
+Invoice no: 92605642
+Date of issue: 01/12/2017
+—}) Seller: Client:
+Harvey Ltd Thompson and Sons
+42858 Lee Viaduct Apt. 076 535 Owens Plains
+Kaylachester, WY 14778 Joseton, NJ 87206
+Tax Id: 934-71-2763 Tax Id: 989-87-9429
+IBAN: GB75XMGY06911793541207
+7) ITEMS
+No. Description Qty UM Net price Net worth VAT [%] Gross
+worth
+1, Nike Air Jordan 7 Retro BG 5,00 each 79,95 399,75 10% 439,73
+‘Bordeaux’ 2015 304774-034
+GS Youth Size 4Y
+2. Florsheim kid's boys Lace Up 4,00 each 29,99 119,96 10% 131,96
+Oxford Suede Dress Shoes Size
+6M Solid Beige
+3. KEEN Kids Newport H2 Blue 2,00 each 18,00 36,00 10% 39,60
+Hiking Waterproof Sport
+Sandals Size 6
+4. Boys Soccer Cleats 5.5 Diadora 5,00 each 19,99 99,95 10% 109,94
+Calcio MD JR Pearlized White
+Youth NEW $68 Kids
+5. Boys Black Dress Shoes 2,00 each 4,50 9,00 10% 9,90
+_______] SUMMARY
+VAT [%] Net worth VAT Gross worth
+10% 664,66 66,47 731,13
+Total $ 664,66 $ 66,47 $ 731,13

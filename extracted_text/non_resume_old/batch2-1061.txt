@@ -1,0 +1,18 @@
+INVOICE
+INVOICE NO.
+122
+DATE:
+March 13, 2022
+DUE DATE:
+April 13, 2022
+Bill from Bill To
+SCINTREX LTD. FUSEBOX DESIGN
+222 Snidercroft Road 120 Nugget Ave
+Invoices kyip@scintrexltd.com TORONTO, Ontario, Canada
+CONCORD, Ontario, Canada
+10 | DESCRIPTION QUANTITY PRICE, $ TOTAL, $
+03 Araldite 2012 GP Epoxy 50ml 6 cartridges/box | 120 140.00 140.00
+cartridges/case
+———— eee
+04 100.00 100.00
+sw)

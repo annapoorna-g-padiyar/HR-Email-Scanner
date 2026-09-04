@@ -1,0 +1,59 @@
+CAIUS KESSLER CAREER OBJECTIVE
+Highly-driven computer science student with growing
+Software Engineer
+knowledge in Bitbucket, Oracle, and Java, seeking a software
+Intern engineering internship at Microsoft. As a Microsoft Certified:
+Azure Developer Associate, I'm ready to contribute my passion
+and skills to help drive innovation as a global technology leader.
+ckessler@email.com
+(123) 456-7890
+Seattle, WA WORK EXPERIENCE
+LinkedIn
+Data Entry Specialist
+Expedia Group
+EDUCATION May 2021 - current Seattle, WA
+Processed and entered 1,200+ travel records per week into
+B.S.
+Oracle databases.
+Computer Science Utilized Java-based tools to import and export data,
+University of Washington reducing data transfer time by 34%.
+Developed and deployed a Django-based web interface,
+September 2020 - current
+increasing data accessibility for remote team by 22%.
+Seattle, WA
+Generated data-driven insights, supporting key business
+Relevant courses
+decisions and driving a 6% increase in revenue.
+Computer Science I and II
+Gathered monthly reports on data entry metrics, helping
+Discrete Mathematics strategic planning and resource allocation.
+Data Structures and
+Algorithms
+Computer Organization and PROJECTS
+Architecture
+Tech Pursuit
+Operating Systems
+Creator
+2020 - 2021
+SKILLS
+Designed a robust database architecture utilizing Oracle,
+enhancing game performance by 38%.
+Visual Studio
+Streamlined game development process by integrating
+Bitbucket
+Visual Studio, reducing overall project time by 11%.
+Oracle
+Implemented version control and collaboration using
+Django
+Bitbucket, leading to a 21% decrease in code conflicts.
+Windows
+Enhanced game character AI using Java, increasing positive
+Java user reviews by 29%.
+Conducted extensive playtesting and user feedback analysis
+every month, eliminating game bugs.
+HOBBIES
+Food Photography
+CERTIFICATIONS
+Travel Photography
+Video editing and post- Microsoft Certified: Azure Developer Associate
+production Oracle Certified Professional: Java SE 11 Developer

@@ -1,0 +1,31 @@
+RAVI PATEL 
+Email: ravi.patel@example.com | Phone: +91-8899776655 
+GitHub: github.com/ravipatelapps | LinkedIn: linkedin.com/in/ravi-patel 
+OBJECTIVE 
+BCA graduate passionate about mobile app development. Proficient in Android Studio and Flutter. Seeking opportunities to design and develop user-friendly mobile applications. 
+EDUCATION 
+Bachelor of Computer Applications 
+Gujarat University, Ahmedabad | 2020 - 2023 
+CGPA: 8.4/10 
+TECHNICAL SKILLS 
+- Languages: Java, Dart, Kotlin 
+- Frameworks: Flutter, Android SDK 
+- Tools: Android Studio, Git 
+- Database: Firebase, SQLite 
+PROJECTS 
+1. **Personal Expense Tracker (Android App)** 
+- Built using Kotlin and SQLite 
+- 
+Features charts and local storage 
+2. **Food Delivery App (Flutter)** 
+- Cross-platform UI with Firebase backend 
+- User authentication and order history 
+CERTIFICATIONS 
+- Flutter & Dart - The Complete Guide - Udemy 
+- Android App Development for Beginners - Coursera 
+- 
+EXTRACURRICULAR 
+- College App Club - Lead Developer 
+- Organized Android Workshop for juniors 
+LANGUAGES 
+English, Gujarati, Hindi

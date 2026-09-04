@@ -1,0 +1,21 @@
+Invoice no: 30208398
+Date of issue: 05/24/2019
+—____) Seller: Client:
+Thomas, White and Smith Green, Scott and Miller
+8485 Jack Key Apt. 255 101 Ford Stravenue
+New Miguel, HI 95698 Scotttown, DE 22621
+Tax Id: 952-82-4303 Tax Id: 936-91-7429
+IBAN: GB66EKEI36897474997889
+7) ITEMS
+No. Description Qty UM Net price Net worth VAT [%] Gross
+worth
+1. 3D Stones Florals Corridor 2,00 each 15,19 30,38 10% 33,42
+Carpet Doorway Mat Soft
+Antislip Living Room Area Rug
+2. Round Rug Carpet For Living 1,00 each 9,87 9,87 10% 10,86
+Room Decor Faux Fur Rugs Kids
+Room Long Plush Rugs
+7} SUMMARY
+VAT [%] Net worth VAT Gross worth
+10% 40,25 4,03 44,28
+Total $ 40,25 $ 4,03 $ 44,28

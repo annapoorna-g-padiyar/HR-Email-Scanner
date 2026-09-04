@@ -1,0 +1,33 @@
+Invoice no: 92239505
+Date of issue: 04/08/2017
+—}) Seller: Client:
+Brown-Ramos Brown Ltd
+247 Klein Shores 632 James Creek Suite 605
+Lake Bradley, AZ 40528 Port Saraside, LA 07245
+Tax Id: 975-84-3029 Tax Id: 910-98-1630
+IBAN: GB61UBZQ94827748265609
+7) ITEMS
+No. Description Qty UM Net price Net worth VAT [%] Gross
+worth
+1, Nugget Play Couch - Dew Drop 4,00 each 550,00 2 200,00 10% 2 420,00
+2. Moves Furniture Tool Transport 2,00 each 7,60 15,20 10% 16,72
+Shifter Moving Wheel Slider
+Remover Roller Heavy
+3. 50"x30" White Coffee Top Table 2,00 each 2 495,00 4 990,00 10% 5 489,00
+Lapis Pietradura Inlay
+Handmade Veterans Day Gift
+4. Real Madrid Inflatable Chair 4,00 each 43,95 175,80 10% 193,38
+(SG16136)
+5. 12" White Marble Coffee Table 3,00 each 295,73 887,19 10% 975,91
+Top Malachite Precious Inlay
+Decor Furniture W534
+6. 6'x3' Random Marble Dining 1,00 each 5 709,09 5 709,09 10% 6 280,00
+Table Top Lapis Pietra Dura
+Inlay Decorative Art E947
+7. 6'x3' Black Marble Large Dining 1,00 each 5 303,66 5 303,66 10% 5 834,03
+Table Top Very Fine Handmade
+Marquetry Birds Art
+7} SUMMARY
+VAT [%] Net worth VAT Gross worth
+10% 19 280,94 1 928,09 21 209,03
+Total $19 280,94 $1928,09 $ 21 209,03

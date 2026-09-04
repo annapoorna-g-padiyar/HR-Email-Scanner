@@ -1,0 +1,28 @@
+Invoice no: 67457914
+Date of issue: 08/14/2011
+—}) Seller: Client:
+Banks, Pugh and Acosta Flynn Group
+484 Lisa Court Suite 199 PSC 4938, Box 4992
+West Leonardchester, NJ 88447 APO AP 21301
+Tax Id: 981-97-2409 Tax Id: 932-73-8030
+IBAN: GB91S0BT31015897727167
+7) ITEMS
+No. Description Qty UM Net price Net worth VAT [%] Gross
+worth
+1, Alarco Gaming PC Desktop 2,00 each 500,00 1 000,00 10% 1 100,00
+Computer Intel i5v 8Gv WIN
+10¥1Tbe NVIDIA GTX 650 16GB
+2. Dell Dimension 3000 Computer 5,00 each 80,00 400,00 10% 440,00
+Pentium 4 2.80 Ghz with 2gb of
+ram
+3. personal computer 1,00 each 59,00 59,00 10% 64,90
+4. HP Pro 3500 Microtower 5,00 each 74,99 374,95 10% 412,44
+Desktop Computer 3.4GHz i3
+4GB 500GB Windows 10 Pro
+5. HP XW9400 AMD Dual Core 1,00 each 225,00 225,00 10% 247,50
+2216 2.6GHz /8GB/250GB/ PC
+Computer / Desktop
+_______] SUMMARY
+VAT [%] Net worth VAT Gross worth
+10% 2 058,95 205,89 2 264,84
+Total $ 2 058,95 $ 205,89 $ 2 264,84

@@ -1,0 +1,17 @@
+Invoice no: 52997801
+Date of issue: 10/10/2015
+—_—_ Seller: Client:
+Williams Ltd Rhodes, Weiss and Padilla
+20587 John Brook 230 Jennings Extensions Suite 837
+Amandaland, MI 87206 Thomasmouth, UT 86974
+Tax Id: 940-97-2481 Tax Id: 940-76-7749
+IBAN: GB70VRSX22616384745365
+______) ITEMS
+No. Description Qty UM Net price Net worth VAT [%] Gross
+1. 125*150cm/49*59inch Cat Nap 5,00 each 39,48 197,40 10% 217,14
+Blanket Tapestry Carpet
+Country Mat Home Decoration
+1] SUMMARY
+VAT [%] Net worth VAT Gross worth
+10% 197,40 19,74 217,14
+Tota! $ 197,40 $ 19,74 $ 217,14

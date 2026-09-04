@@ -1,0 +1,30 @@
+Invoice no: 14165207
+Date of issue: 02/13/2014
+—____) Seller: Client:
+Patel-Park Adkins, Hodges and Hawkins
+90300 Wyatt Alley 6886 Fernandez Village
+Rebeccaton, OH 55733 Brianhaven, MD 41714
+Tax Id: 974-78-8779 Tax Id: 978-85-6532
+IBAN: GB17UACN61973740684599
+7) ITEMS
+No. Description Qty UM Net price Net worth VAT [%] Gross
+worth
+1. The Art of Glen Loates 2,00 each 6,08 12,16 10% 13,38
+2. Black Dragon Codex (The 3,00 each 4,49 13,47 10% 14,82
+Dragon Codices) by R.D.
+Henham
+3. Quilts of IItusion 3,00 each 5,79 17,37 10% 19,11
+4 Walleye wisdom 1,00 each 4,49 4,49 10% 4,94
+5. Fundamentals of Cosmobiology. 1,00 each 9,95 9,95 10% 10,94
+A Correspondence Study.
+Eleonora Kimmel (1972) SC
+6. Dont Sweat the Small Stuff... 4,00 each 4,49 17,96 10% 19,76
+and Its All Small Stuff: Simple
+Ways to Keep
+7. Red Dragon Codex (Deckle 3,00 each 4,49 13,47 10% 14,82
+Edge) (The Dragon Codices) by
+R.D. Henham
+1] SUMMARY
+VAT [%] Net worth VAT Gross worth
+10% 88,87 8,89 97,76
+Total $ 88,87 $ 8,89 $ 97,76

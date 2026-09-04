@@ -1,0 +1,18 @@
+Invoice no: 94027975
+Date of issue: 07/22/2014
+—____) Seller: Client:
+Johnson, Williams and Melton Taylor-Levy
+860 Trevor Haven Apt. 352 672 Garcia Radial
+Smithhaven, DE 07366 Murphytown, NY 26166
+Tax Id: 966-99-3696 Tax Id: 989-85-7084
+IBAN: GB26IDCU76104457507324
+______) ITEMS
+No. Description Qty UM Net price Net worth VAT [%] Gross
+worth
+1, Joma Boys Youth Gol-102 4,00 each 19,99 79,96 10% 87,96
+Soccer Cleats Shoes Size 4
+White Red Futbol NEW
+1] SUMMARY
+VAT [%] Net worth VAT Gross worth
+10% 79,96 8,00 87,96
+Tota! $ 79,96 $ 8,00 $ 87,96

@@ -1,0 +1,58 @@
+GIULIA WORK EXPERIENCE
+GONZALEZ Python Developer
+DoorDash
+Python Developer
+September 2017 - current Detroit, MI
+· Worked on building new Angular components for the customer-
+ggonzalez@email.com facing web app, which improved the time on page for the
+average user by 2 minutes
+(123) 456-7890
+· Collaborated with an agile team of 6, and helped prioritize and
+Detroit, MI
+scope feature requests to ensure that the biggest impact
+LinkedIn
+features were worked on first
+Github
+· Built extensive test coverage for all new features, which reduced
+the number of customer complaints by 23%
+· Acquired and ingested data to build and maintain data pipelines
+EDUCATION that led to discovering an opportunity for a new site feature,
+boosting revenue by 6%
+M.S.
+· Communicated with internal teams and stakeholders, working
+Computer Science to determine solutions for the user experience
+University of Chicago
+2014 - 2016 Python Developer Intern
+Chicago, IL
+Knewton
+April 2016 - April 2017 Chicago, IL
+B.S. · Worked alongside another developer to implement RESTful APIs
+Computer Science in Django that enabled internal analytics team to increase
+reporting speed by 24%
+University of Pittsburgh
+· Using Selenium, built out a unit testing infrastructure for a client
+2010 - 2014
+web application that reduced the number of bugs reported by
+Pittsburgh, PA
+the client by 11% month over month
+· Provided project updates to leadership team of 3, and offered
+recommendations for design
+SKILLS
+· Diagnosed issues causing slow speeds in applications, and
+HTML/ CSS documented the process to making the database query system
+more robust
+SQL (PostgreSQL, Oracle)
+· Participated in writing scalable code with a team of 4 interns
+JavaScript (Angular)
+and 1 developer for applications for a math course
+Python (Django)
+REST APIs (GraphQL)
+AWS (Redshift, S3)
+PROJECTS
+Git
+Cryptocurrency Price Tracker
+Creator
+· Incorporated API calls to several applications, and stored data
+efficiently in PostgreSQL backend
+· Utilized D3.js to allow users to dynamically visualize price
+movements over time periods of their choosing

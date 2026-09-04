@@ -1,0 +1,21 @@
+Invoice no: 11203483
+Date of issue: 06/02/2020
+—}) Seller: Client:
+Delgado Inc Carlson-Goodwin
+41552 Jordan Plains 26555 Jessica Harbors Suite 023
+New Christopher, MI 02998 Amberton, WY 07978
+Tax Id: 929-90-4705 Tax Id: 949-79-2413
+IBAN: GB16TBWT48221428700516
+7) ITEMS
+No. Description Qty UM Net price Net worth VAT [%] Gross
+worth
+1, Vintage Set of 3 Cobalt Blue 1,00 each 24,00 24,00 10% 26,40
+Glass Wine Glasses / Water
+Goblets Barware Stemware
+2. Wine Glass European Style Wine 5,00 each 31,79 158,95 10% 174,84
+Glass Rack for Home Kitchen
+Bar Restaurant
+7} SUMMARY
+VAT [%] Net worth VAT Gross worth
+10% 182,95 18,29 201,24
+Total $ 182,95 $ 18,29 $ 201,24

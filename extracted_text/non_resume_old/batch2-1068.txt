@@ -1,0 +1,21 @@
+Invoice no: 12749571
+Date of issue: 06/06/2020
+—____) Seller: Client:
+Rocha, Lang and Taylor Reyes, Ross and Jackson
+423 Julie Tunnel Suite 454 32509 Nichols Valley Apt. 448
+Lake Ralph, MS 09399 Nathanfort, MN 42590
+Tax Id: 930-82-7059 Tax Id: 915-95-2276
+IBAN: GB97TUGN89347445201937
+______) ITEMS
+No. Description Qty UM Net price Net worth VAT [%] Gross
+worth
+1, HP Desktop Computer 400 G1 4,00 each 139,95 559,80 10% 615,78
+Core i3 3.4GHz 8GB 256GB SSD
+19" LCD Windows 10 PC
+2. Dell 9020 15-4570 | 16GB | 2TB | 1,00 each 349,95 349,95 10% 384,94
+SSD Windows 10 Pro Desktop
+Computer PC WiFi DVD
+1] SUMMARY
+VAT [%] Net worth VAT Gross worth
+10% 2 109,75 210,98 2 320,73
+Tota! $2 109,75 $ 210,98 $ 2 320,73

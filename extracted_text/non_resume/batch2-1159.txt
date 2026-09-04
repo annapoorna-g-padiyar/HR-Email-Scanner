@@ -1,0 +1,17 @@
+INVOICE
+INVOICE NO.
+103
+DATE:
+February 22, 2022
+DUE DATE:
+March 12, 2022
+Bill from Bill To
+PREMIER ELEVATOR SHAW DENTAL LABORATORY INC.
+1400 Phillip Murray Ave 105 - 123 Bentworth Avenue, Unit 1
+Mon-Thurs 7am to 5pm Receiving Only NORTH YORK, Ontario, Canada
+OSHAWA, Ontario, Canada L1J 7E8
+10 | DESCRIPTION QUANTITY PRICE, $ TOTAL, $
+Freight - TO BE DETERMINED and added to the
+02 | invoice at the time of shipping. 4 212.00 212.00
+04 3M 90451C Bondo Filler Metal Reinforced 0.7pt | 82.00 82.00
+4cans/case Includes hardener

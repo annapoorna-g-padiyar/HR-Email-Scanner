@@ -1,0 +1,17 @@
+Invoice no: 22729351
+Date of issue: 08/21/2014
+—____) Seller: Client:
+Bray, Holloway and Henderson Williams Ltd
+3298 Chelsea Springs 3082 Jean Port
+Lyonsview, WY 34484 Port Jessicaborough, OH 40501
+Tax Id: 948-70-0984 Tax Id: 949-97-7905
+IBAN: GBO8XQVL89512087892916
+______) ITEMS
+No. Description Qty UM Net price Net worth VAT [%] Gross
+1, 18" White Marble Coffee Table 2,00 each 394,64 789,28 10% 868,21
+Top Carnelian Floral Inlay Art
+Furniture Gift W541
+1] SUMMARY
+VAT [%] Net worth VAT Gross worth
+10% 789,28 78,93 868,21
+Total $ 789,28 $ 78,93 $ 868,21

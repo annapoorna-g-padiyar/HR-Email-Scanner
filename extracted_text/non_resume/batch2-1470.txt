@@ -1,0 +1,24 @@
+Invoice no: 44376762
+Date of issue: 10/26/2015
+—____) Seller: Client:
+Ward, Ford and Simmons Kline Inc
+9781 Kevin Burg 100 Theresa Avenue
+Sanchezmouth, NC 18817 Porterton, ID 81987
+Tax Id: 993-99-3737 Tax Id: 958-88-0840
+IBAN: GB72RWBC68899008737522
+7) ITEMS
+No. Description Qty UM Net price Net worth VAT [%] Gross
+worth
+1, 6'x3' Marvelous Marble Dining 1,00 each 5 588,90 5 588,90 10% 6 147,79
+Outdoor Table Top Inlay
+Marquetry Design Art E842B
+2. 12" White Marble Center Coffee 3,00 each 248,78 746,34 10% 820,97
+Table Top Lapis Random Inlay
+Cafeteria Decor W294
+3. 1/2/3/4 Seater L Sofa Couch 1,00 each 7,99 7,99 10% 8,79
+Stipcover Furniture Protector
+Stretch Sofa Covers
+—______} SUMMARY
+VAT [%] Net worth VAT Gross worth
+10% 6 343,23 634,32 6 977,55
+Total $ 6 343,23 $ 634,32 $6977,55

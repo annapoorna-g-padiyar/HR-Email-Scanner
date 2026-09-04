@@ -1,0 +1,32 @@
+Invoice no: 99106655
+Date of issue: 06/12/2017
+—}) Seller: Client:
+Harris and Sons Thomas-Vazquez
+9044 Wright Estates 4883 Hernandez Junction
+New Jaclyn, NH 42689 Willliamview, MS 95898
+Tax Id: 975-96-8439 Tax Id: 972-72-1040
+IBAN: GB26VMRU44682967112758
+7) ITEMS
+No. Description Qty UM Net price Net worth VAT [%] Gross
+worth
+1. Dell Precision Workstation 3,00 each 139,00 417,00 10% 458,70
+Computer Intel Xeon Quad Core
+16GB 1TB Windows 10 Pro
+2. gaming pc desktop computer 2,00 each 850,00 1 700,00 10% 1 870,00
+intel i5
+3. Sentry Gaming Computer | 3,00 each 594,99 1 784,97 10% 1 963,47
+Ryzen 3 3200G | 16 GB Ram |
+Build-to-Order
+4, Dell Desktop Computer{Jintel 3,00 each 69,95 209,85 10% 230,84
+Core 2 Duo 8GB 1TB HD
+DWindows 10 PC 22" LCD Wifi
+5. Dell Desktop Computer Tower 5,00 each 149,95 749,75 10% 824,73
+Quad Intel Core i5 8GB 1TB HD
+DVD Wifi Windows 10 PC
+6. Quality Dell Windows XP Pro 3,00 each 119,99 359,97 10% 395,97
+Desktop PC Computer Core 2
+vPro 4Gb 250Gb DVD WiFi
+—_] SUMMARY
+VAT [%] Net worth VAT Gross worth
+10% 5 221,54 522,15 5 743,69
+Total $5 221,54 $ 522,15 $ 5 743,69

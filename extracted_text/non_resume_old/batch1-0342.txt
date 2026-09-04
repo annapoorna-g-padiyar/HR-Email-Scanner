@@ -1,0 +1,20 @@
+Invoice no: 79064100
+Date of issue: 05/25/2018
+—}) Seller: Client:
+Love Inc Brown and Sons
+1195 Hayes Parkways 074 Davis Circle Apt. 374
+New Justinshire, NY 24322 New Susanmouth, KS 25871
+Tax Id: 960-75-3286 Tax Id: 992-88-6386
+IBAN: GB43DZUR91203484671992
+7) ITEMS
+No. Description Qty UM Net price Net worth VAT [%] Gross
+worth
+1. Rickshaw Decoration Gift Wine 1,00 each 71,49 71,49 10% 78,64
+Rack Retro Holder Bar Home
+Ornaments Vintage Iron
+2. New without boxes heavy duty 1,00 each 12,95 12,95 10% 14,24
+plastic wine glasses lot of 16
+—_____] SUMMARY
+VAT [%] Net worth VAT Gross worth
+10% 84,44 8,44 92,88
+Total $ 84,44 $ 8,44 $ 92,88

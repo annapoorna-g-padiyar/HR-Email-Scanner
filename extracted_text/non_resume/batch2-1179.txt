@@ -1,0 +1,22 @@
+Invoice no: 38089221
+Date of issue: 08/16/2017
+—}) Seller: Client:
+Blake PLC Meyer LLC
+19119 Fletcher Motorway 98920 Stout Fort Suite 987
+West Danaberg, MD 44200 West Samantha, OK 53993
+Tax Id: 988-92-0222 Tax Id: 980-72-9218
+IBAN: GB68CXFU17823975962997
+7) ITEMS
+No. Description Qty UM Net price Net worth VAT [%] Gross
+worth
+1. NWT $1200 J.Crew Silk Chiffon 3,00 each 295,00 885,00 10% 973,50
+Ivory Wedding Dress with
+Beading
+2. Burent Orange Long Dress With 1,00 each 75,00 75,00 10% 82,50
+Beads SUE WONG SIZE 2
+3. New Wallis black floral midi 1,00 each 38,00 38,00 10% 41,80
+dress sleeveles, size UK 12
+—_____] SUMMARY
+VAT [%] Net worth VAT Gross worth
+10% 998,00 99,80 1 097,80
+Total $ 998,00 $ 99,80 $ 1097,80

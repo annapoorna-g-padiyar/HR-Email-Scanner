@@ -1,0 +1,15 @@
+Invoice no: 77715322
+Date of issue: 08/23/2013
+—_—_ Seller: Client:
+Pena-Boyd Branch-White
+7048 Michael Ridge 51915 Kathryn Keys
+Bethfurt, WV 92025 Timothyville, DE 87126
+Tax Id: 997-96-7320 Tax Id: 917-96-4735
+IBAN: GB98HWVS80522515394628
+______) ITEMS
+No. Description Qty UM Net price Net worth VAT [%] Gross
+worth
+—__] SUMMARY
+VAT [%] Net worth VAT Gross worth
+10% 35,94 3,59 39,53
+Total $ 35,94 $ 3,59 $ 39,53

@@ -1,0 +1,28 @@
+Invoice no: 83855509
+Date of issue: 05/12/2012
+—}) Seller: Client:
+James LLC Gould-Arnold
+70439 Cameron Springs PSC 6247, Box 0845
+Jenniferstad, GA 66385 APO AA 66552
+Tax Id: 912-80-3426 Tax Id: 922-83-1638
+IBAN: GBSOWMEM42471234416569
+7) ITEMS
+No. Description Qty UM Net price Net worth VAT [%] Gross
+worth
+1, Sony PlayStation 2 Console - 1,00 each 79,99 79,99 10% 87,99
+Black (SCPH-39001) w/ 2
+Controllers and 5 Games
+2. Xbox Series X Console 3,00 each 750,00 2 250,00 10% 2 475,00
+CONFIRMED PRE-ORDER
+3. SEGA Dreamcast White Console 5,00 each 93,00 465,00 10% 511,50
+[Japan Import] HKT-3000
+4, Sega V Saturn Victor Console 3,00 each 119,99 359,97 10% 395,97
+RG-JX1 Gray Tested Working
+Japan
+5. SONY Playstation2 Console 4,00 each 60,00 240,00 10% 264,00
+SCPH-39000 " Aqua Color" /
+TESTED 11182
+_______] SUMMARY
+VAT [%] Net worth VAT Gross worth
+10% 3 394,96 339,50 3 734,46
+Total $3 394,96 $ 339,50 $ 3 734,46

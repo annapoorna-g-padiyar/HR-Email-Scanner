@@ -1,0 +1,32 @@
+Invoice no: 44649974
+Date of issue: 11/27/2012
+—____) Seller: Client:
+Herrera-Hamilton Lopez and Sons
+Unit 9664 Box 1517 77872 John Route
+DPO AP 13280 South Timothyside, IN 97218
+Tax Id: 965-78-2034 Tax Id: 922-96-4823
+IBAN: GB57RRQX95304279112019
+7) ITEMS
+No. Description Qty UM Net price Net worth VAT [%] Gross
+worth
+1. Nintendo Wii White Console 2,00 each 100,00 200,00 10% 220,00
+RVL-001 Bundle 10 games
+Complete Gamecube
+Compatible
+2. Presale Microsoft Xbox Series X 1,00 each 655,00 655,00 10% 720,50
+1TB Black Console Confirmed
+Order Free Shipping
+3. Xbox One X 1 TB Console w/ 2,00 each 200,00 400,00 10% 440,00
+Wireless Controller
+4. Sony PlayStation 1 PS1 Console 3,00 each 14,99 44,97 10% 49,47
+model scph-75012
+5. PlayStation Vita Minecraft 3,00 each 266,00 798,00 10% 877,80
+Special Edition Bundle Console
+SONY JPN import F/S
+6. Nintendo Wii Console Mario Kart 4,00 each 199,97 799,88 10% 879,87
+Controller Wii Fit 2 Board
+Remotes Game BUNDLE
+—_____} SUMMARY
+VAT [%] Net worth VAT Gross worth
+10% 2 897,85 289,79 3 187,64
+Total $ 2 897,85 $ 289,79 $ 3 187,64

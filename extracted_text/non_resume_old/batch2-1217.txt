@@ -1,0 +1,26 @@
+Invoice no: 13305187
+Date of issue: 08/24/2013
+—}) Seller: Client:
+Stewart-Peterson Clark, Mcdonald and Spencer
+0464 Dunn Squares 288 Davidson Plains Apt. 693
+Morganhaven, OR 99315 Matthewsstad, LA 85413
+Tax Id: 924-95-1132 Tax Id: 911-85-9578
+IBAN: GBO8IVWZ45270863836939
+7) ITEMS
+No. Description Qty UM Net price Net worth VAT [%] Gross
+worth
+1, Super SNES SFC Mini Family TV 2,00 each 24,69 49,38 10% 54,32
+Video Game Console Retro AV
+Out Built-in 620 Games
+2. Sega V Saturn Victor Console 2,00 each 119,99 239,98 10% 263,98
+RG-JX1 Gray Tested Working
+Japan
+3. 8397 Nintendo DSi console Red 3,00 each 6,99 20,97 10% 23,07
+Japan NDS x
+4, Sony Playstation 3 PS3 Slim 1,00 each 119,00 119,00 10% 130,90
+320GB Console w/games & Cord
+CECH-3001B -TESTED
+7} SUMMARY
+VAT [%] Net worth VAT Gross worth
+10% 429,33 42,93 472,26
+Total $ 429,33 $ 42,93 $ 472,26

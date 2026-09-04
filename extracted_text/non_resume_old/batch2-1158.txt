@@ -1,0 +1,28 @@
+Invoice no: 28052243
+Date of issue: 09/18/2017
+—____) Seller: Client:
+Alexander Ltd Parsons, Gonzales and Wilson
+113 Lyons Mews Apt. 326 84809 Christian Gateway
+West Jacqueline, ID 92038 Port Jeffery, WI 97992
+Tax Id: 950-74-4186 Tax Id: 931-97-4154
+IBAN: GBO4CEUC66641518649328
+7) ITEMS
+No. Description Qty UM Net price Net worth VAT [%] Gross
+worth
+1, Winnie the Pooh by A. A. Milne 1,00 each 19,73 19,73 10% 21,70
+Illustrated by Shepard
+Collector's New Hardcover
+2. Holy Bible Crossway English 1,00 each 38,95 38,95 10% 42,85
+Standard Version Genuine
+leather ESV Very Nice
+3. Diabetic Dream Desserts 1,00 each 4,49 4,49 10% 4,94
+4, Rod: The Autobiography by Rod 4,00 each 4,49 17,96 10% 19,76
+Stewart
+5. Michelangelo and the Popes 1,00 each 4,49 4,49 10% 4,94
+Ceiling by Ross King
+6. Experience by Martin Amis 1,00 each 4,89 4,89 10% 5,38
+7. Selected poetry of W H Auden 1,00 each 4,89 4,89 10% 5,38
+—______} SUMMARY
+VAT [%] Net worth VAT Gross worth
+10% 95,40 9,54 104,94
+Total $ 95,40 $ 9,54 $ 104,94

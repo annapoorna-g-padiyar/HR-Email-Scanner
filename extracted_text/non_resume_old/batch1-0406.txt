@@ -1,0 +1,15 @@
+Invoice no: 59334099
+Date of issue: 12/04/2019
+—____) Seller: Client:
+Jones LLC Roberts and Sons
+83363 Hopkins Light Apt. 606 874 Mary Lock
+Alejandroshire, NM 15108 Lake Wayne, OR 37846
+Tax Id: 947-97-3877 Tax Id: 948-83-5320
+IBAN: GB70MKIO11579991870319
+______) ITEMS
+No. Description Qty UM Net price Net worth VAT [%] Gross
+worth
+1} SUMMARY
+VAT [%] Net worth VAT Gross worth
+10% 97,00 9,70 106,70
+Total $ 97,00 $ 9,70 $ 106,70

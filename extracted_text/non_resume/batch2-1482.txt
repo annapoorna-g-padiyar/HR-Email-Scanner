@@ -1,0 +1,26 @@
+Invoice no: 67914047
+Date of issue: 08/13/2019
+—____) Seller: Client:
+Watson-Lawrence Clark-Banks
+218 Matthew Lane Suite 614 41435 Keith Stravenue Suite 104
+Barrchester, NJ 12095 Lake Megan, WA 88326
+Tax Id: 993-90-7833 Tax Id: 909-76-9839
+IBAN: GBI5HHVD38169865932524
+7) ITEMS
+No. Description Qty UM Net price Net worth VAT [%] Gross
+worth
+1, European Style Wine Rack 1,00 each 7,67 7,67 10% 8,44
+Plastic Water Bottle Display Mat
+Wine Holder Organizer
+2. Hammered Brass Over Stainless 1,00 each 9,99 9,99 10% 10,99
+steel Stemless Wine Glasses/
+Candle Holders
+3. 4 Piece Glass Set Wine 1,00 each 12,00 12,00 10% 13,20
+Champagne Glasses New In Box
+Party Sparkle Cheers Bubbly
+4, Happy Feet Rooster Wine Bottle 5,00 each 26,95 134,75 10% 148,23
+Holder
+7} SUMMARY
+VAT [%] Net worth VAT Gross worth
+10% 164,41 16,44 180,85
+Total $ 164,41 $ 16,44 $ 180,85

@@ -1,0 +1,21 @@
+Invoice no: 34806238
+Date of issue: 12/19/2011
+—}) Seller: Client:
+Russell, Clarke and Friedman Simpson PLC
+6246 Matthew Forges Apt. 042 6458 Lucas Fort
+West Victoriatown, VT 87333 West Ronaldstad, WA 11370
+Tax Id: 963-79-7719 Tax Id: 905-97-5147
+IBAN: GB57LVXK99747676341485
+7) ITEMS
+No. Description Qty UM Net price Net worth VAT [%] Gross
+worth
+1. Nintendo Switch Animal 5,00 each 399,00 1 995,00 10% 2 194,50
+Crossing: New Horizon Special
+Edition Console BRAND NEW
+2. Sony PlayStation 5 Console - 5,00 each 849,99 4 249,95 10% 4 674,95
+PS5- PRESALE- Disc Version Pre
+Order Confirmed
+7} SUMMARY
+VAT [%] Net worth VAT Gross worth
+10% 6 244,95 624,50 6 869,45
+Total $ 6 244,95 $ 624,50 $ 6 869,45

@@ -1,0 +1,55 @@
+SALVADOR SANZ
+Embedded Software Engineer
+salvador.sanz@email.com (123) 456-7890 Dover, DE
+LinkedIn
+WORK EXPERIENCE CAREER SUMMARY
+Senior Embedded Software Engineer Proven and hard-working
+embedded software engineer with
+Dice
+10+ years of experience. My passion
+2019 - current Dover, DE is combining clean and scalable
+Contributed to the design of software system architecture code with cutting-edge physical
+to establish a stable foundation for 25+ applications hardware, and I am eager to solve
+Managed 3 long-term development programs and 6 creative problems for Oracle
+short-cycle custom design tasks consumers to create an improved
+user experience.
+Owned 100% of technical leadership responsibilities for
+product feature research and development
+Spearheaded all aspects of product development from
+EDUCATION
+system design to testing
+Bachelor of Science
+Software Engineer III, Embedded Systems
+Computer Science
+Google
+Carnegie Mellon University
+2015 - 2019 Dover, DE
+2007 - 2011
+Architected, implemented, and maintained 50+ complex
+Pittsburgh, PA
+firmware/software designs
+Wrote clean, robust, testable, reusable, and sustainable
+code tailored for embedded systems
+SKILLS
+Worked with 4 multi-functional teams to determine
+software architecture and specifications
+Python
+Developed and maintained 12+ engineering tools used to
+Perl
+debug, analyze, and test embedded products
+RISC CPUA
+Operating System Hardware
+Research & Development Embedded
+RTOS
+Software Engineer
+JTAG/SWD
+Superpedestrian C/C++
+2011 - 2015 Dover, DE QEMU
+Collaborated with 3 multidisciplinary teams to build
+verification plans, frameworks, tools, and tests
+Architected and developed 10+ tools and infrastructures
+to support efficient building, debugging, and deployment
+Reviewed and updated 300+ software requirements and
+designs for verifiability
+Coordinated 100% of software testing resources (internal
+& external) and provided schedule estimates

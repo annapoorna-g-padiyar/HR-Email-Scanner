@@ -1,0 +1,17 @@
+Invoice no: 46108974
+Date of issue: 09/16/2014
+—_—_ Seller: Client:
+Avila and Sons Blake, Smith and Barker
+791 Knight Common 3190 Khan Port Apt. 353
+West Justin, MI 52423 South Melissa, WV 97735
+Tax Id: 980-75-2755 Tax Id: 962-73-5805
+IBAN: GBSONELU67491500047751
+______) ITEMS
+No. Description Qty UM Net price Net worth VAT [%] Gross
+1, Dell Desktop Computers 9 5,00 each 129,95 649,75 10% 714,73
+Core i5 16GB 2TB HD 512GB
+SSD J Windows 10 PC 22" LCD
+_______} SUMMARY
+VAT [%] Net worth VAT Gross worth
+10% 649,75 64,98 714,73
+Tota! $ 649,75 $ 64,98 $ 714,73

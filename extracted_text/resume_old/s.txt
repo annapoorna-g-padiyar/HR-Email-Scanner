@@ -1,0 +1,30 @@
+NISHA THOMAS 
+Email: nisha.thomas@example.com | Phone: +91-9876098765 
+GitHub: github.com/nisharobotics | LinkedIn: linkedin.com/in/nisha-thomas 
+PROFILE 
+Innovative CSE student with experience in robotics programming and Al integration. Keen to work on intelligent systems that bridge software and hardware. 
+EDUCATION 
+B.Tech in Computer Science Engineering 
+College of Engineering, Trivandrum | 2021 - 2025 
+CGPA: 9.0/10 
+TECHNICAL SKILLS 
+- Programming: Python, C++, ROS 
+- 
+- Robotics: Arduino, Raspberry Pi 
+- Al Libraries: TensorFlow, OpenCV 
+- Tools: Git, Jupyter 
+PROJECTS 
+1. **Autonomous Line-Following Robot** 
+- 
+Controlled with Arduino 
+PID algorithm for smooth turns 
+2. **Face Recognition Entry System** 
+- Python + OpenCV 
+- Trained on custom dataset 
+CERTIFICATIONS 
+- Introduction to Robotics - Coursera 
+- Machine Learning by Stanford - Coursera 
+ACHIEVEMENTS 
+- Won 1st place, College Robotics Competition - Presented paper on "Al in Robotics" at TechFest 
+LANGUAGES 
+English, Malayalam, Hindi

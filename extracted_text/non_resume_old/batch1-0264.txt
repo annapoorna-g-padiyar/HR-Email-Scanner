@@ -1,0 +1,24 @@
+Invoice no: 74221189
+Date of issue: 10/26/2015
+—}) Seller: Client:
+Perry Inc Caldwell-Jordan
+840 Michael Key Suite 713 778 Morris Locks
+Patrickburgh, AL 35846 West Travisborough, LA 17973
+Tax Id: 923-86-7278 Tax Id: 900-75-2035
+IBAN: GB31MRRO28973280067169
+7) ITEMS
+No. Description Qty UM Net price Net worth VAT [%] Gross
+worth
+1. ZARA TRAFALUC Metallic Gold 2,00 each 12,99 25,98 10% 28,58
+Black Stripe L/S Collar Dress
+Small S
+3. Xhilaration Womens L Burgandy 2,00 each 14,95 29,90 10% 32,89
+Boho Embroidered Festival Mini
+Dress NEW
+4. Women Elegant Fashion O-Neck 4,00 each 12,00 48,00 10% 52,80
+Knee Length Short Sleeve Retro
+Floral Print Dress
+____] SUMMARY
+VAT [%] Net worth VAT Gross worth
+10% 238,88 23,89 262,77
+Total $ 238,88 $ 23,89 $ 262,77

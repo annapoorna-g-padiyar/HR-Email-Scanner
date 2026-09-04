@@ -1,0 +1,35 @@
+Invoice no: 62841726
+Date of issue: 08/02/2019
+—}) Seller: Client:
+Lopez Inc Hall-Johnson
+4044 Shannon Ridge 8611 Carrillo Harbor Apt. 073
+Markburgh, MI 23144 Acevedohaven, ND 98261
+Tax Id: 971-88-2887 Tax Id: 988-98-6010
+IBAN: GB51UDFZ50779626756269
+7) ITEMS
+No. Description Qty UM Net price Net worth VAT [%] Gross
+worth
+1, Cables 500gb,Sony PlayStation 4,00 each 100,00 400,00 10% 440,00
+4 PS4 CUH 1215A Jet Black
+Console w/ Controller
+2. Nintendo Switch Lite Turquoise 5,00 each 135,00 675,00 10% 742,50
+Blue CONSOLE ONLY - No
+Charger [B1-3]
+3. Sony PlayStation 2 Fat Console 2,00 each 80,00 160,00 10% 176,00
+PS2 SCPH-30001
+4 B306 Nintendo 3DS console 1,00 each 14,99 14,99 10% 16,49
+Misty Pink Japan x
+5. NEW Microsoft Xbox 360 Slim 1,00 each 275,00 275,00 10% 302,50
+4GB Black Console W/2 Games
+And Kinect Bundle +EXTRA
+6, Microsoft Xbox One S$ 1TB 1,00 each 199,99 199,99 10% 219,99
+Console - “All Digital” Edition
+(Games NOT Included)
+7. Nintendo Gameboy Pocket 4,00 each 65,00 260,00 10% 286,00
+Console Green with Box
+MGB-001 Japan Tested Working
+59
+—_____] SUMMARY
+VAT [%] Net worth VAT Gross worth
+10% 1 984,98 198,50 2 183,48
+Total $1984,98 $ 198,50 $2 183,48

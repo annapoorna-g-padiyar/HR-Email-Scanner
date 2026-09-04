@@ -1,0 +1,27 @@
+Invoice no: 75828650
+Date of issue: 03/23/2018
+—}) Seller: Client:
+Brown-Gomez Stanley, Murray and Foster
+7628 Brown Drive Apt. 608 139 Elizabeth Inlet Apt. 836
+Vanceborough, TX 52750 Juliaberg, OK 62160
+Tax Id: 919-77-0110 Tax Id: 928-92-5144
+IBAN: GB65TMCF64770598800450
+7) ITEMS
+No. Description Qty UM Net price Net worth VAT [%] Gross
+worth
+1, Gaming PC Desktop Computer 3,00 each 809,99 2 429,97 10% 2 672,97
+Intel i7 RGB, GTX 1660, 16GB
+RAM, 2TB HDD, 480GB SSD
+2. Dell Precision Workstation 3,00 each 139,00 417,00 10% 458,70
+Computer Intel Xeon Quad Core
+16GB 1TB Windows 10 Pro
+3. Dell Desktop Computer PC Intel 4,00 each 92,95 371,80 10% 408,98
+Windows 10 Pro WIFI DVD Dual
+LCD Monitor 17°/19"
+4. Dell Desktop PC Computer Core 5,00 each 144,95 724,75 10% 797,23
+2 Duo CPU 500GB 46GB Dual 19"
+LCD Wifi Windows 10
+—__ 7} SUMMARY
+VAT [%] Net worth VAT Gross worth
+10% 3 943,52 394,35 4 337,87
+Total $3 943,52 $ 394,35 $ 4 337,87

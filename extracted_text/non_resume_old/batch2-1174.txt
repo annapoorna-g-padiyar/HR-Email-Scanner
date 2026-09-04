@@ -1,0 +1,30 @@
+Invoice no: 21133488
+Date of issue: 10/25/2013
+—}) Seller: Client:
+Wagner-Johnson Castillo, Bryant and Williams
+596 Cristian Lodge Apt. 247 41038 Cooper Court
+Yvonneport, MS 05323 East Mark, NJ 25562
+Tax Id: 972-79-9098 Tax Id: 912-86-6582
+IBAN: GB36XFRV33635407017459
+7) ITEMS
+No. Description Qty UM Net price Net worth VAT [%] Gross
+worth
+1, 60cmx90cm Sheepskin Fluffy 4,00 each 31,52 126,08 10% 138,69
+Skin Faux Fur Fake Rug Mat
+Carpet Rugs Red
+2. YILONG 4'x6' Traditional 2,00 each 3 600,00 7 200,00 10% 7 920,00
+Handmade Carpet Sitting Room
+Hand Knotted Silk Rug 076B
+3. Yilong 5'x8' Handknotted Silk 2,00 each 8 000,00 16 000,00 10% 17 600,00
+Area Rug Home Decor Kid
+Friendly Carpet L398
+4. YILONG 1.2x1.7' 300L 5,00 each 188,00 940,00 10% 1 034,00
+Handmade Tree of Life Silk
+Carpet Home Tapestry LH693A
+5. YILONG 9'x12' Handknotted Silk 4,00 each 7 800,00 31 200,00 10% 34 320,00
+Valuable Rug Furniture Indoor
+Carpet QO1A
+7} SUMMARY
+VAT [%] Net worth VAT Gross worth
+10% 55 466,08 5 546,61 61 012,69
+Total $ 55 466,08 $5 546,61 $ 61 012,69

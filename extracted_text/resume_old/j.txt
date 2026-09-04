@@ -1,0 +1,22 @@
+SUNITA RAO 
+Email: sunita.rao@example.com | Phone: +91-9988774411 
+LinkedIn: linkedin.com/in/sunita-rao 
+OBJECTIVE 
+Recent BCA graduate with a strong academic record. Eager to learn and contribute to an IT team. Interested in entry-level software development roles. 
+EDUCATION 
+Bachelor of Computer Applications 
+Osmania University, Hyderabad | 2020-2023 Percentage: 82% 
+SKILLS 
+- Languages: C, Java, Python (basic) 
+- Web: HTML, CSS, JavaScript 
+- Database: MySQL 
+ACADEMIC PROJECT 
+- Student Attendance Management System 
+- Simple CRUD app using Java and MySQL 
+INTERNSHIP 
+- N/A (Fresher, open to training opportunities) 
+EXTRACURRICULAR 
+- Volunteer, College Cultural Fest Team 
+- Participated in college quiz competitions 
+LANGUAGES 
+English, Telugu, Hindi

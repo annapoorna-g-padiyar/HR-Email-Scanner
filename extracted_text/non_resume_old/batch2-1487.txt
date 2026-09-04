@@ -1,0 +1,18 @@
+Invoice no: 29688105
+Date of issue: 11/04/2017
+—____) Seller: Client:
+Cummings, Marshall and Vincent Morgan-Hunter
+01009 Owens Inlet Suite 062 656 Weber Lake Apt. 410
+North Antonio, WV 55963 Maryton, ND 64925
+Tax Id: 993-72-5462 Tax Id: 998-74-2144
+IBAN: GB29BFCA34342768097738
+______) ITEMS
+No. Description Qty UM Net price Net worth VAT [%] Gross
+worth
+2. Dell Optiplex Desktop Computer 5,00 each 149,95 749,75 10% 824,73
+with Dual 19" LCD Monitors
+Windows 10 Pro
+_______]} SUMMARY
+VAT [%] Net worth VAT Gross worth
+10% 3 229,75 322,98 3 552,73
+Total $ 3 229,75 $ 322,98 $ 3 552,73

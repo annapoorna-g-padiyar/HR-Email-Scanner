@@ -1,0 +1,30 @@
+Invoice no: 29526190
+Date of issue: 01/13/2013
+—}) Seller: Client:
+Roberts Inc Gonzalez-Rogers
+599 Leonard Villages 56937 Rebecca Park
+Brianchester, NH 02077 New Katherineberg, GA 82171
+Tax Id: 924-85-6926 Tax Id: 984-96-4946
+IBAN: GB79BIVU29102526438495
+7) ITEMS
+No. Description Qty UM Net price Net worth VAT [%] Gross
+worth
+1, Sentry Gaming Computer | 4,00 each 594,99 2 379,96 10% 2 617,96
+Ryzen 3 3200G | 16 GB Ram |
+Build-to-Order
+2. Dell OptiPlex 390 SFF Computer 3,00 each 59,95 179,85 10% 197,84
+Windows 7 Pro i3 3.10GHz 4GB
+RAM 232GB HDD
+3. CLEARANCE! Fast Dell Desktop 4,00 each 209,00 836,00 10% 919,60
+Computer PC DUAL CORE
+WINDOWS 10 4/8/16GB RAM
+4. Dell T1700 Precision 1,00 each 689,99 689,99 10% 758,99
+Workstation Computer | Quad
+Xeon 32GB 1TB SSD Win 10 Pro
+5. Dell Desktop Computer Optiplex 2,00 each 99,95 199,90 10% 219,89
+790 USFF Core i3 4GB 250GB
+HD Windows 10 Pro PC
+7} SUMMARY
+VAT [%] Net worth VAT Gross worth
+10% 4 285,70 428,57 4714,27
+Total $4 285,70 $ 428,57 $4714,27

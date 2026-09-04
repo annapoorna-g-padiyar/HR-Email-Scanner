@@ -1,0 +1,28 @@
+Invoice no: 67175530
+Date of issue: 03/10/2016
+—}) Seller: Client:
+Ponce, Kelley and Johnson Harrison PLC
+3519 Peterson Loaf Apt. 574 958 King Hollow
+North Charleneport, PA 07990 Tammychester, WV 84707
+Tax Id: 950-78-7584 Tax Id: 942-81-3256
+IBAN: GB22KFJQ82918379726293
+7) ITEMS
+No. Description Qty UM Net price Net worth VAT [%] Gross
+worth
+1. 25"x25" White Marble Top 4,00 each 2 728,00 10 912,00 10% 12 003,20
+Counter Table Carnelian
+Marquetry Art Columbus Day
+Gift
+2. 24 Inches Round Marble Coffee 1,00 each 446,25 446,25 10% 490,87
+Table Top Intay Sofa Table with
+Geometrical Design
+3. 24"x24" Marble Black Top 3,00 = each 1150,00 3 450,00 10% 3 795,00
+Coffee Table Inlaid Floral Art
+Christmas Gift Home Deco
+4, 4Pcs Adjustable Stainless Steel 4,00 each 11,95 47,80 10% 52,58
+Cabinet Legs Kitchen Feet
+Round Stand Holders
+—_____] SUMMARY
+VAT [%] Net worth VAT Gross worth
+10% 14 856,05 1 485,61 16 341,66
+Total $ 14 856,05 $1 485,61 $ 16 341,66

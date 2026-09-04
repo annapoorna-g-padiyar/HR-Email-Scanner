@@ -1,0 +1,22 @@
+Invoice no: 40020790
+Date of issue: 11/12/2012
+—____) Seller: Client:
+Moore PLC Bennett PLC
+01252 Adams Meadow 20385 Pham Knoll Suite 665
+New Lawrenceberg, KS 40645 Alexabury, OK 73255
+Tax Id: 938-95-2062 Tax Id: 943-88-7730
+IBAN: GB10GUQX91646947661378
+7) ITEMS
+No. Description Qty UM Net price Net worth VAT [%] Gross
+worth
+2. Rebecca and Ana (American Girt 1,00 each 4,49 4,49 10% 4,94
+(Quality))
+3. Harry Potter and the Chamber 1,00 each 7,62 7,62 10% 8,38
+of Secrets (Book 2) by Rowling,
+J. K. Paperback The
+4, BOOOMEBS6EC Mishneh Torah 5,00 each 23,99 119,95 10% 131,94
+Sefer Shoftim
+7} SUMMARY
+VAT [%] Net worth VAT Gross worth
+10% 150,02 15,00 165,02
+Total $ 150,02 $ 15,00 $ 165,02

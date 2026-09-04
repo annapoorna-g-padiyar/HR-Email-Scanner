@@ -1,0 +1,33 @@
+Invoice no: 79465852
+Date of issue: 12/15/2012
+—____) Seller: Client:
+Rowland, Johnson and Miller Martinez and Sons
+903 Beltran Neck USCGC Smith
+East Michael, MT 97999 FPO AE 40033
+Tax Id: 931-98-8595 Tax Id: 906-75-9103
+IBAN: GB17LBHN30547495406612
+7) ITEMS
+No. Description Qty UM Net price Net worth VAT [%] Gross
+worth
+1, In the Footsteps of the Russian 3,00 each 25,87 77,61 10% 85,37
+Snowman (Paperback or
+Softback)
+2. BOOOMEBSEC Mishneh Torah 2,00 each 23,99 47,98 10% 52,78
+Sefer Shoftim
+3. Seashells of the World - A Guide 4,00 each 4,49 17,96 10% 19,76
+to the Better-Known Species
+(Golden Nature Guid
+4, KING JAMES VERSION (KJV), 4,00 each 52,99 211,96 10% 233,16
+RAINBOW STUDY BIBLE, BLACK
+LEATHER with INDEX
+5. Shaping the World: Sculpture 5,00 each 43,28 216,40 10% 238,04
+from Prehistory to Now by
+Antony Gormley (English)
+6. AMERICAN VICTORIAN COTTAGE 4,00 each 10,00 40,00 10% 44,00
+HOMES By Palliser & Co., Dover
+Edition
+7. American Zoos 2,00 each 4,89 9,78 10% 10,76
+7} SUMMARY
+VAT [%] Net worth VAT Gross worth
+10% 621,69 62,17 683,86
+Total $ 621,69 $ 62,17 $ 683,86

@@ -1,0 +1,29 @@
+Invoice no: 74427960
+Date of issue: 04/03/2014
+—}) Seller: Client:
+Butler, Salazar and Davis Wright, Beasley and Berry
+6654 Hernandez Way Apt. 147 99159 Acosta Plains Apt. 575
+New Nicole, NJ 46095 New Johnnystad, SD 03879
+Tax Id: 936-75-4533 Tax Id: 935-98-7501
+IBAN: GB52FDWQ97948410395314
+7) ITEMS
+No. Description Qty UM Net price Net worth VAT [%] Gross
+worth
+1, Libbey Snowflake Wine Dessert 1,00 each 16,00 16,00 10% 17,60
+Glass/Tumbler Set of 8.
+2. Moonshine Still 8Gal/30L Water 4,00 each 89,99 359,96 10% 395,96
+Alcohol Distiller Home Brew
+Wine Making Kit 3 Pot
+3. Air Pressure Pump Wine Opener 4,00 each 17,28 69,12 10% 76,03
+Set Bottle Cork Remover
+Accessory Tool For Bar.
+4 Vintner's Reserve Wine Bottle 5,00 each 59,95 299,75 10% 329,73
+Opener With Stand VERY NICE
+Ready to Ship
+5. Lifefactory 17 oz Wine Glass 4 2,00 each 27,99 55,98 10% 61,58
+Pack with Silicone Sleeves,
+Grass Green
+7} SUMMARY
+VAT [%] Net worth VAT Gross worth
+10% 800,81 80,08 880,89
+Total $ 800,81 $ 80,08 $ 880,89

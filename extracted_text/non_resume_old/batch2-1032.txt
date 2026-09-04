@@ -1,0 +1,26 @@
+Invoice no: 49701600
+Date of issue: 12/26/2017
+—____) Seller: Client:
+Watson-Booth Morris LLC
+1339 Smith Views 956 Obrien Circles
+South Jessicatown, LA 80763 Lake Jeffreyport, PA 72821
+Tax Id: 924-92-0446 Tax Id: 993-81-2565
+IBAN: GB68LUEC08536897844114
+7) ITEMS
+No. Description Qty UM Net price Net worth VAT [%] Gross
+worth
+1, $5.00 Desktop Computers!!! 5,00 each 5,00 25,00 10% 27,50
+2. Desktop Computer Super 3,00 each 22,71 68,13 10% 74,94
+Writemaster Intel Core Duo
+3. Desktop Computer Gaming PC 5,00 each 579,00 2 895,00 10% 3 184,50
+Build Your Own Ryzen 3000G
+3200G 3.5Ghz+ Vega or GTX
+4, HP ProDesk 400 G5 Mini 4,00 each 270,00 1 080,00 10% 1 188,00
+Desktop Computer i5-9500T
+8GB 256GB SSD W10P
+5. Gaming PC Computer RX 580 4,00 each 400,00 1 600,00 10% 1 760,00
+8GB Ryzen 5 2x8GB Ram
+_____] SUMMARY
+VAT [%] Net worth VAT Gross worth
+10% 5 668,13 566,81 6 234,94
+Total $5 668,13 $ 566,81 $ 6 234,94

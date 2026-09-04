@@ -1,0 +1,31 @@
+Invoice no: 69808761
+Date of issue: 12/11/2020
+—}) Seller: Client:
+Foster-Quinn Howe, Vega and Garcia
+65055 Monroe Trace 350 Shannon Forges Suite 707
+North Joshuaburgh, AL 73597 Spencefurt, WA 28673
+Tax Id: 934-73-5500 Tax Id: 997-98-5465
+IBAN: GB70GUXN71938160660396
+7) ITEMS
+No. Description Qty UM Net price Net worth VAT [%] Gross
+worth
+1, jordan 4 kids Size 8 2,00 each 23,00 46,00 10% 50,60
+2. boys bogs waterproof boots 2,00 each 9,80 19,60 10% 21,56
+youth size 3
+3. Skechers Blue Athletic Shoes 5,00 each 11,99 59,95 10% 65,95
+Kids Size 2 EUC
+4. Joma Youth Boys Gol 205 Piso 4,00 each 19,99 79,96 10% 87,96
+Multitaco Soccer Cleats 2.5
+White Blue Yellow NEW
+5. Adidas Baseball Youth Cleats 5,00 each 11,99 59,95 10% 65,95
+Spikes Kids Shoes Black White
+Size 12K
+6. Lands' End Kids Boys Snow 3,00 each 9,50 28,50 10% 31,35
+Winter Boots Size 5 Blue Warm
+Zip Up Easy On Easy Off
+7. Reebok Kids Boys Blue Sneakers 5,00 each 5,00 25,00 10% 27,50
+Shoes US 11 No Laces
+1] SUMMARY
+VAT [%] Net worth VAT Gross worth
+10% 318,96 31,90 350,86
+Total $ 318,96 $ 31,90 $ 350,86

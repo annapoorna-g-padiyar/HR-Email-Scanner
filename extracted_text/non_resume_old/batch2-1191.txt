@@ -1,0 +1,21 @@
+Invoice no: 44953898
+Date of issue: 03/30/2021
+—}) Seller: Client:
+Vasquez Ltd Valdez-Frederick
+17241 Harris Trail 567 Dougherty Gateway
+South Zachary, OR 48607 West Austin, NJ 60733
+Tax Id: 915-73-6216 Tax Id: 986-94-3558
+IBAN: GB85ZBJE23206754562251
+7) ITEMS
+No. Description Qty UM Net price Net worth VAT [%] Gross
+worth
+1, Nordic Cartoon Phoenix Carpets 4,00 each 13,66 54,64 10% 60,10
+Kids Bedroom Area Rugs Parlor
+Anti-slip Mat Decor
+2. YILONG 2.5'x4' Small Hand 3,00 each 2 000,00 6 000,00 10% 6 600,00
+Knotted Silk Carpets Antistatic
+Floor Area Rug 844B
+7} SUMMARY
+VAT [%] Net worth VAT Gross worth
+10% 6 054,64 605,46 6 660,10
+Total $ 6 054,64 $ 605,46 $ 6 660,10

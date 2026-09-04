@@ -1,0 +1,26 @@
+Invoice no: 32898957
+Date of issue: 06/24/2018
+—}) Seller: Client:
+Anderson PLC Arnold-Sullivan
+204 Caitlyn Port Suite 918 9211 Cherry Viaduct Apt. 762
+Megantown, WY 57081 Jasonview, FL 55160
+Tax Id: 971-96-5206 Tax Id: 997-86-3506
+IBAN: GB76YYEV23677268350249
+7) ITEMS
+No. Description Qty UM Net price Net worth VAT [%] Gross
+worth
+1, 10" Cuphead Game Soft Plush 2,00 each 26,99 53,98 10% 59,38
+Doll Cuphead Mugman Mecup
+Brocup kids Gift US Stock
+2. Adidas Baseball Youth Cleats 5,00 each 11,99 59,95 10% 65,95
+Spikes Kids Shoes Black White
+Size 12K
+3. Timberland brown slip on shoes 3,00 each 2,00 6,00 10% 6,60
+size 4.5 juniors
+4, Joma Youth Boys Gol 205 Piso 5,00 each 19,99 99,95 10% 109,94
+Multitaco Soccer Cleats 5.5
+White Blue Yellow NEW
+7} SUMMARY
+VAT [%] Net worth VAT Gross worth
+10% 219,88 21,99 241,87
+Total $ 219,88 $ 21,99 $ 241,87

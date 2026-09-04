@@ -1,0 +1,28 @@
+Invoice no: 77839932
+Date of issue: 02/27/2018
+—}) Seller: Client:
+Phillips, Miller and Yoder Greer Group
+PSC 3089, Box 3008 54660 Derek Light Suite 711
+APO AP 67367 Dawnbury, WI 07207
+Tax Id: 937-92-4836 Tax Id: 991-96-1867
+IBAN: GB19KWTJ12244377941466
+7) ITEMS
+No. Description Qty UM Net price Net worth VAT [%] Gross
+worth
+1, Old Navy Womens Sleeveless 1,00 each 12,00 12,00 10% 13,20
+Rayon Dress Hawaiian Florat
+Print Size XS
+2. Women Elegant Fashion O-Neck 1,00 each 12,00 12,00 10% 13,20
+Knee Length Short Sleeve Retro
+Floral Print Dress
+4, NWT $1200 J.Crew Silk Chiffon 4,00 each 295,00 1 180,00 10% 1 298,00
+lvory Wedding Dress with
+Beading
+5. O'Neill Black Pink gray green 2,00 each 5,00 10,00 10% 11,00
+Floral Dress Beach coverup xs 0
+6. NWT Modcloth Blue Floral 2,00 each 65,00 130,00 10% 143,00
+Formal Full Length Maxi Dress
+—______] SUMMARY
+VAT [%] Net worth VAT Gross worth
+10% 1 364,00 136,40 1 500,40
+Total $ 1 364,00 $ 136,40 $1500,40

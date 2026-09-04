@@ -1,0 +1,24 @@
+Invoice no: 45141161
+Date of issue: 11/18/2011
+—}) Seller: Client:
+Webster-Pierce Carter, Kelley and Scott
+584 Howell Gateway Apt. 071 10615 Parker Squares Suite 427
+Christinaport, DE 37391 Waltershaven, TN 05191
+Tax Id: 924-70-3297 Tax Id: 929-73-2229
+IBAN: GBO4QTVN37160669532304
+7) ITEMS
+No. Description Qty UM Net price Net worth VAT [%] Gross
+worth
+1, 24" Sale Online Coffee Top 2,00 each 1 188,00 2 376,00 10% 2 613,60
+Table Marquetry Inlay Floral
+Design Christmas Gift
+2. 18" Black Marble Coffee Table 4,00 each 377,65 1 510,60 10% 1 661,66
+Top Mother of Pearl Inlay
+Furniture Decors H1883B
+4. 12" White Marble Coffee Table 2,00 each 295,73 591,46 10% 650,61
+Top Malachite Precious Inlay
+Decor Furniture W534
+____] SUMMARY
+VAT [%] Net worth VAT Gross worth
+10% 4 778,06 477,81 5 255,87
+Total $4 778,06 $ 477,81 $5 255,87

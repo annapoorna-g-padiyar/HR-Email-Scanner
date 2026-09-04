@@ -1,0 +1,36 @@
+Invoice no: 51467723
+Date of issue: 04/21/2019
+—}) Seller: Client:
+Johnson-Brooks Proctor, Morgan and Williams
+3584 Kristina Glens 9074 Edward Burg Suite 328
+New Cory, IN 89490 Nicolasport, OH 05143
+Tax Id: 964-92-2746 Tax Id: 939-82-6262
+IBAN: GB98EUIF69254716304143
+7) ITEMS
+No. Description Qty UM Net price Net worth VAT [%] Gross
+worth
+1, 25"x25" Marble Black Top 5,00 each 2 789,00 13 945,00 10% 15 339,50
+custom Table Carnelian
+Marquetry Art Halloween Gift
+2. 7'x4' Marble Side Dining 1,00 each 14 721,08 14 721,08 10% 16 193,19
+Outdoor Table Top Lapis Pietra
+Dura Inlay Hallway E960
+3. 4'x2' Marble Black Center Top 3,00 each 3 288,00 9 864,00 10% 10 850,40
+Table Mosaic Gemstone Patio
+Art Black Friday Gift
+4. 6'x3' White Marble Living Room 4,00 each 5 590,21 22 360,84 10% 24 596,92
+Dining Table Top Marquetry
+Inlay Furniture H4743A
+5. 6'x3' Black Marble Inlaid Dining 4,00 each 7 525,06 30 100,24 10% 33 110,26
+Center Table Top Peacock Inlay
+Patio Decor E966
+6. 12” Marble Side Coffee Table 1,00 each 250,04 250,04 10% 275,04
+Top Malachite Mosaic Floral
+Inlay Garden Decor W168
+7. 24"x24" White Marble Top 2,00 each 2 788,00 5 576,00 10% 6 133,60
+Counter Table 18" Tall Multi
+Color Stone Elephant Art
+1) SUMMARY
+VAT [%] Net worth VAT Gross worth
+10% 96 817,20 9 681,72 106 498,92
+Total $ 96 817,20 $ 9 681,72 $ 106 498,92

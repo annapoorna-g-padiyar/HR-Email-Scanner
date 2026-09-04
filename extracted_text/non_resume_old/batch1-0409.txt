@@ -1,0 +1,25 @@
+Invoice no: 77931288
+Date of issue: 10/20/2019
+—}) Seller: Client:
+Owens-Perez Phillips PLC
+8364 Patricia Road Suite 934 14915 Anthony Cove Apt. 445
+North Maria, UT 50077 Port Stephaniechester, CO 36812
+Tax Id: 911-98-5449 Tax Id: 963-90-3628
+IBAN: GB91XBBY85035471802843
+7) ITEMS
+No. Description Qty UM Net price Net worth VAT [%] Gross
+worth
+1, Bottle tops lid reusable 5,00 each 9,99 49,95 10% 54,95
+vacuume Sealer stopper flip cap
+cork wine beer
+2. 6) Vintage Leaf Etched Straight 3,00 each 65,00 195,00 10% 214,50
+Sided Wine Glasses. Set of 6
+Unknown Maker
+3. 38/40/42/44mm Silicone Sport 5,00 each 3,68 18,40 10% 20,24
+iWatch Band Strap for Apple
+Watch Series 6 5 43 SE
+e
+7] SUMMARY
+VAT [%] Net worth VAT Gross worth
+10% 299,85 29,98 329,83
+Total $ 299,85 $ 29,98 $ 329,83

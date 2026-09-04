@@ -1,0 +1,21 @@
+Invoice no: 81153047
+Date of issue: 12/12/2020
+—}) Seller: Client:
+White, Watkins and Barton Sparks, Wang and West
+0156 Hansen Way 663 Eric Green Suite 721
+Port Kenneth, NH 21117 Port Richard, TN 24870
+Tax Id: 924-73-0685 Tax Id: 942-71-8958
+IBAN: GB43DZX021262972226499
+7) ITEMS
+No. Description Qty UM Net price Net worth VAT [%] Gross
+worth
+1, Rectangle Area Rug Wood Grain 4,00 each 32,81 131,24 10% 144,36
+Carpet Mat for Living Room
+Bedroom - 180x60cm
+2. Romantic Rose Flowers Area 4,00 each 13,37 53,48 10% 58,83
+Rugs Kitchen Living Room Floor
+Mat Non-slip Carpets
+7} SUMMARY
+VAT [%] Net worth VAT Gross worth
+10% 184,72 18,47 203,19
+Total $ 184,72 $ 18,47 $ 203,19

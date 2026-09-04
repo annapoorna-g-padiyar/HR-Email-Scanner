@@ -1,0 +1,26 @@
+Invoice no: 10109831
+Date of issue: 10/21/2018
+—}) Seller: Client:
+Morris-Gardner Rodriguez-Wolfe
+1973 Harris Mount 037 Justin Square Suite 669
+Port Jessica, OR 42573 Jenniferton, TX 52958
+Tax Id: 941-74-8463 Tax Id: 919-86-7830
+IBAN: GB32GPBX81916146873863
+7) ITEMS
+No. Description Qty UM Net price Net worth VAT [%] Gross
+worth
+1, Bobby Fischer s Chess Games 1,00 each 13,53 13,53 10% 14,88
+2. Beverley Nichols : A Life by 2,00 each 35,95 71,90 10% 79,09
+Bryan Connon 2005 Hardcover
+New
+3. Michelangelo and the Popes 3,00 each 4,49 13,47 10% 14,82
+Ceiling by Ross King
+4, Diabetic Dream Desserts 2,00 each 4,49 8,98 10% 9,88
+5. Jesus (Hardback or Cased Book) 4,00 each 31,96 127,84 10% 140,62
+6. HIROSHIGE One Hundred 5,00 each 24,23 121,15 10% 133,27
+Famous views of Edo by
+Taschen NEW HARDCOVER
+_______] SUMMARY
+VAT [%] Net worth VAT Gross worth
+10% 356,87 35,69 392,56
+Total $ 356,87 $ 35,69 $ 392,56

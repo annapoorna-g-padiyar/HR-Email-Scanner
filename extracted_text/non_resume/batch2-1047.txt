@@ -1,0 +1,33 @@
+Invoice no: 99040677
+Date of issue: 03/21/2018
+—____) Seller: Client:
+Yates, Hughes and Caldwell Nelson, Berg and Davis
+885 Catherine Bypass 0664 Lisa Dam
+West Carriefort, CO 66862 New Michael, AR 84391
+Tax Id: 944-90-4818 Tax Id: 979-99-1411
+IBAN: GB84LUXE37301177105423
+7) ITEMS
+No. Description Qty UM Net price Net worth VAT [%] Gross
+worth
+1, Dell Desktop Computer PC 3,00 each 144,99 434,97 10% 478,47
+Optiplex 790 Quad Core i5 8GB
+480GB SSD Windows 10 Wifi
+2. HP Compaq 6200 Pro SFF 3,00 each 113,96 341,88 10% 376,07
+Desktop Computer Pentium
+Windows 10 System 500GB 1TB
+3. CUSTOM BUILT AMD RYZEN 5,00 each 1 400,00 7 000,00 10% 7 700,00
+THREADRIPPER GAMING
+COMPUTER , 32 GB RAM,
+4. Intel core i7 Geforce GTX1060 2,00 each 689,99 1 379,98 10% 1517,98
+Super Game Gamer Master
+Gaming Desktop Computer PC
+5. FAST Dell Optiplex Windows 10 3,00 each 124,95 374,85 10% 412,34
+Desktop Computer Tower C2D
+4GB DVD WiFi 17" LCD
+6. Dell Desktop Computer PC Intel 5,00 each 92,95 464,75 10% §11,23
+Windows 10 Pro WIFI DVD Dual
+LCD Monitor 17"/19"
+1) SUMMARY
+VAT [%] Net worth VAT Gross worth
+10% 9 996,43 999,64 10 996,07
+Total $9 996,43 $ 999,64 $ 10 996,07

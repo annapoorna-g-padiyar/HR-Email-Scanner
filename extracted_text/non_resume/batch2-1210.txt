@@ -1,0 +1,29 @@
+Invoice no: 89639004
+Date of issue: 01/03/2014
+—}) Seller: Client:
+Riley, Ferguson and Delgado Perkins, Melendez and Anderson
+980 Anna Radial 906 Mark Station Apt. 881
+Lake Jessicashire, Hl 24117 Wileytown, AL 97670
+Tax Id: 935-70-8811 Tax Id: 977-91-2502
+IBAN: GBSOHYNX85118576853487
+7) ITEMS
+No. Description Qty UM Net price Net worth VAT [%] Gross
+worth
+1, INC International Concepts 5,00 each 88,91 444,55 10% 489,00
+Children Shoes nvyzc7, Black,
+Size Little Kid 2.5
+2. 5 YOUTH Boys Big Kids Nike 3,00 each 89,99 269,97 10% 296,97
+Jordan 6-17-23 Basketball White
+red Black 428818 100
+3. NEW TOMMY HILFIGER RED 1,00 each 34,50 34,50 10% 37,95
+WHITE BLUE #5 COLOR BLOCK
+BEACH SANDALS BOYS KIDS 8/9
+4, Diadora Youth Boys Avanti MD 1,00 each 19,99 19,99 10% 21,99
+JR Soccer Cleats Size 2.5 Yellow
+Black NEW
+5. Timberland Kid's Brown Field 1,00 each 39,99 39,99 10% 43,99
+Scuff-Proof Boots Size 7
+7} SUMMARY
+VAT [%] Net worth VAT Gross worth
+10% 809,00 80,90 889,90
+Total $ 809,00 $ 80,90 $ 889,90

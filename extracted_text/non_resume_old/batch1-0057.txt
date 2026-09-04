@@ -1,0 +1,30 @@
+Invoice no: 89299747
+Date of issue: 04/14/2018
+—}) Seller: Client:
+Jones, Davis and Moses Cox LLC
+6622 Davis Court 164 Dean Bypass
+Curtismouth, MA 23635 Lake Stephenchester, AR 78025
+Tax Id: 921-74-6878 Tax Id: 967-86-2378
+IBAN: GB41VOYB69288847998165
+7) ITEMS
+No. Description Qty UM Net price Net worth VAT [%] Gross
+worth
+1, Vintage Crystal Red Wine 5,00 each 35,45 177,25 10% 194,98
+Glasses NOS West Germany
+1983 6 10 ounce elegant stems
+2. Wine Bottle Holder From Costa 5,00 each 5,00 25,00 10% 27,50
+Rica Has A Parrot Painted On It
+3. Birthday Girl Wine Glass by 2,00 each 23,75 47,50 10% 52,25
+Lolita
+4, Metal Storage Shelf Wine Glass 2,00 each 22,42 44,84 10% 49,32
+Rack Wine Glasses for The
+Cabinet
+5. Unicorn Wine Bottle Display 3,00 each 15,85 47,55 10% 52,30
+6. 100pcs Heat Shrink Capsules 2,00 each 5,75 11,50 10% 12,65
+PVC Wine Bottle Caps
+Shrinkable Seal Film Covers
+3cm
+—_] SUMMARY
+VAT [%] Net worth VAT Gross worth
+10% 353,64 35,36 389,00
+Total $ 353,64 $ 35,36 $ 389,00

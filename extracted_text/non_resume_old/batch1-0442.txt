@@ -1,0 +1,22 @@
+Invoice no: 39193381
+Date of issue: 06/19/2015
+—}) Seller: Client:
+Miller-Nunez Mata Group
+0417 Wright Parks 8093 Rachel Square Suite 024
+South Davidstad, CT 55259 Michaelberg, ND 41121
+Tax Id: 960-91-0327 Tax Id: 903-92-0926
+IBAN: GB98STHZ78196586386978
+7) ITEMS
+No. Description Qty UM Net price Net worth VAT [%] Gross
+worth
+1, HP ProDesk 600 G4 Desktop 5,00 each 599,99 2 999,95 10% 3 299,95
+Computer 6-Core i7-8700T
+16GB 512GB SSD Win10 Pro
+64bi
+2. Dell Desktop Computer{intel 4,00 each 69,95 279,80 10% 307,78
+Core 2 Duo 8GB 1TB HD
+DWindows 10 PC 22" LCD Wifi
+_______] SUMMARY
+VAT [%] Net worth VAT Gross worth
+10% 3 279,75 327,98 3 607,73
+Total $3 279,75 $ 327,98 $ 3 607,73

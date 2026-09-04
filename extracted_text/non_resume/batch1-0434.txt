@@ -1,0 +1,24 @@
+Invoice no: 86504530
+Date of issue: 08/03/2014
+—}) Seller: Client:
+Campbell, Hernandez and Myers Ward, Stewart and Bennett
+7539 Silva Island Unit 3754 Box 7172
+West Vincentbury, NJ 79795 DPO AA 86105
+Tax Id: 956-92-8436 Tax Id: 928-95-8430
+IBAN: GB51XYWR02122483867316
+7) ITEMS
+No. Description Qty UM Net price Net worth VAT [%] Gross
+worth
+1. 5'x2' Marble White Center Table 3,00 each 3 888,89 11 666,67 10% 12 833,34
+Top With 18" Tall Stand
+Pauashell Inlay Art Deco
+2. 4'x2' Black Center Top Table 2,00 each 3 688,00 7 376,00 10% 8 113,60
+Italian Marquetry Gemstone Art
+Columba's Day Gift
+3. 4Pcs Adjustable Stainless Steel 3,00 each 11,95 35,85 10% 39,43
+Cabinet Legs Kitchen Feet
+Round Stand Holders
+—___] SUMMARY
+VAT [%] Net worth VAT Gross worth
+10% 19 078,52 1 907,85 20 986,37
+Total $ 19 078,52 $1 907,85 $ 20 986,37

@@ -1,0 +1,27 @@
+Invoice no: 62340078
+Date of issue: 08/20/2016
+—}) Seller: Client:
+Snyder, Keller and Watts Snyder-Lopez
+96337 Monique Ford Suite 295 31474 Cynthia Motorway Apt. 242
+Morristown, CO 27877 Port Jose, NJ 60295
+Tax Id: 932-71-7785 Tax Id: 924-90-9203
+IBAN: GB64AFAQ09758188665412
+7) ITEMS
+No. Description Qty UM Net price Net worth VAT [%] Gross
+worth
+1, HP Desktop Computers Core i5 3,00 each 139,95 419,85 10% 461,83
+16GB 2TB 256GB SSD Wifi 22"
+LCD Windows 10 Pro PC
+2. Optiplex Desktop Computer PC - 5,00 each 157,30 786,50 10% 865,15
+Intel Core 2 Duo - 4GB Memory -
+160GB Hard
+4. Fast HP Desktop PC Computer 2,00 each 201,99 403,98 10% 444,38
+Dual Core 3.0Ghz 8GB 2TB
+Windows 10 Pro WIFI monitor
+5. HP All-in-One Computer 22” 2,00 each 449,99 899,98 10% 989,98
+Full-HD Display Intel 2.90GHz
+4GB 1TB HD Win10 - TEAL
+_______] SUMMARY
+VAT [%] Net worth VAT Gross worth
+10% § 110,31 511,03 5 621,34
+Total $5 110,31 $ 511,03 $5 621,34

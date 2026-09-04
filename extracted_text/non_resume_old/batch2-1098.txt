@@ -1,0 +1,8 @@
+10 | DESCRIPTION QUANTITY PRICE, $ TOTAL, $
+01 2 273.00 273.00
+Permabond 105 Cyanoacrylate 1-0z 10 bottles/case
+02 5 68.00 68.00
+-og femevons 106 Cyanoacrylate 1-0z 10 bottles/case frm fan |
+04 723.00 723.00
+Total Due 1349.00
+THANK YOU..

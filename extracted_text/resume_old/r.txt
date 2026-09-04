@@ -1,0 +1,28 @@
+AMIT KUMAR 
+Email: amit.kumar@example.com | Phone: +91-9988776622 
+GitHub: github.com/amitgamedev | LinkedIn: linkedin.com/in/amit-kumar 
+OBJECTIVE 
+Computer Science Engineering student passionate about game development and interactive design. Proficient with Unity and C#. Seeking a role to build engaging games. 
+EDUCATION 
+B.Tech Computer Science Engineering 
+SRM Institute of Science and Technology, Chennai | 2021-2025 
+CGPA: 8.4/10 
+TECHNICAL SKILLS 
+- Game Engines: Unity (C#), Unreal Engine (basics) 
+- Languages: C#, Python 
+- Graphics: Blender, Photoshop 
+- Tools: Git, Trello 
+PROJECTS 
+1. **2D Platformer Game** 
+- Built in Unity 
+- Features custom levels and physics interactions 
+2. **VR Gallery Experience* 
+** 
+- Basic VR environment prototype using Unity 
+CERTIFICATIONS 
+- Unity Game Developer Course - Udemy 
+- Introduction to Game Design - Coursera 
+ACHIEVEMENTS 
+- Finalist, College Game Jam 2023 - Member, Campus GameDev Club 
+LANGUAGES 
+English, Hindi

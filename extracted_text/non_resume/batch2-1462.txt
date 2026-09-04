@@ -1,0 +1,27 @@
+Invoice no: 91007389
+Date of issue: 06/12/2016
+—}) Seller: Client:
+Morgan-Rasmussen Gonzalez-Carter
+Unit 2685 Box 5728 PSC 9477, Box 5200
+DPO AP 91384 APO AA 77580
+Tax Id: 976-72-4295 Tax Id: 937-91-6318
+IBAN: GB79FIBH87168756549834
+7) ITEMS
+No. Description Qty UM Net price Net worth VAT [%] Gross
+worth
+1. YILONG 4'x6' Yellow Handmade 2,00 each 3 600,00 7 200,00 10% 7 920,00
+Carpet Living Room Hand
+Knotted Silk Rugs 077B
+2. Unicorn Series Small Large Long 1,00 each 46,50 46,50 10% 51,15
+Floor Carpet Area Rugs Various
+Size Soft Rug
+3. Turkish Kayseri Small Kilim Rug, 4,00 each 55,00 220,00 10% 242,00
+Doormat, Bathmat, Decor Area
+Rug Carpet 41"x74*
+4. Nordic Cartoon Phoenix Carpets 2,00 each 13,66 27,32 10% 30,05
+Kids Bedroom Area Rugs Parlor
+Anti-stip Mat Decor
+—__ 7} SUMMARY
+VAT [%] Net worth VAT Gross worth
+10% 7 493,82 749,38 8 243,20
+Total $7 493,82 $ 749,38 $ 8 243,20

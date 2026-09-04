@@ -1,0 +1,18 @@
+Invoice no: 25789818
+Date of issue: 10/25/2013
+—____) Seller: Client:
+Wheeler, Fischer and Chandler Martin, Lucas and Fitzgerald
+09564 Victoria Street Suite 382 3697 Thompson Falls Apt. 916
+South Emilyport, MS 57946 Frederickberg, CA 26105
+Tax Id: 939-94-2942 Tax Id: 957-96-2070
+IBAN: GB14LQZ165799305746455
+______) ITEMS
+No. Description Qty UM Net price Net worth VAT [%] Gross
+worth
+2. Dell T1700 Precision 4,00 each 689,99 2 759,96 10% 3 035,96
+Workstation Computer | Quad
+Xeon 32GB 1TB SSD Win 10 Pro
+_______]} SUMMARY
+VAT [%] Net worth VAT Gross worth
+10% 4 059,96 406,00 4 465,96
+Total $ 4059,96 $ 406,00 $ 4 465,96

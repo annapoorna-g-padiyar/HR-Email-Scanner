@@ -1,0 +1,16 @@
+Invoice no: 53739283
+Date of issue: 03/05/2019
+—____) Seller: Client:
+Cook Group Thompson-Hill
+106 Evans Bypass 906 Lori Coves
+West Joshuatown, NY 15580 Brentmouth, NY 44326
+Tax Id: 968-72-3112 Tax Id: 954-71-5987
+IBAN: GB74PJGZ30450360243723
+______) ITEMS
+No. Description Qty UM Net price Net worth VAT [%] Gross
+worth
+1. TODDLER SHAQ HIGH TOP 3,00 each 9,99 29,97 10% 32,97
+—______] SUMMARY
+VAT [%] Net worth VAT Gross worth
+10% 29,97 3,00 32,97
+Total $ 29,97 $ 3,00 $ 32,97

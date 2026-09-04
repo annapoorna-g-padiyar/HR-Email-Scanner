@@ -1,0 +1,15 @@
+Invoice no: 61669642
+Date of issue: 11/12/2013
+—_—_ Seller: Client:
+Carter Inc Torres, Sutton and Weeks
+7936 Smith Streets 618 Perez Shoals Suite 978
+Mariahchester, PA 08114 Bradshawton, TN 51301
+Tax Id: 940-76-9247 Tax Id: 909-87-3064
+IBAN: GB89DNYK55635059269556
+______) ITEMS
+No. Description Qty UM Net price Net worth VAT [%] Gross
+worth
+1} SUMMARY
+VAT [%] Net worth VAT Gross worth
+10% 137,62 13,76 151,38
+Total $ 137,62 $ 13,76 $ 151,38

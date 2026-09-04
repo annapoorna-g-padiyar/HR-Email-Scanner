@@ -1,0 +1,31 @@
+Invoice no: 23897213
+Date of issue: 07/14/2019
+—}) Seller: Client:
+Moore, Thomas and Crosby Aguirre Ltd
+1983 Kelly Streets Apt. 218 0395 Yu Stream
+North Andrew, CT 56538 Port Richard, KS 72808
+Tax Id: 943-88-9123 Tax Id: 924-73-4934
+IBAN: GBO2DWPT02935660860053
+7) ITEMS
+No. Description Qty UM Net price Net worth VAT [%] Gross
+worth
+1. Gourmet s Old Vienna Cookbook 2,00 each 11,84 23,68 10% 26,05
+A Viennese Memoir
+2. Introduction to Thematic 5,00 each 8,99 44,95 10% 49,45
+Cartography
+3. Titans of the Rising Sun - 1,00 each 7,53 7,53 10% 8,28
+Yamato Class Battleships of
+World War II Book
+4, Rage By Bob Woodward - 2,00 each 22,93 45,86 10% 50,45
+Donald Trump NEW
+HARDCOVER Sept 2020
+5. The Epic of Gilgamesh 4,00 each 4,49 17,96 10% 19,76
+6. HIROSHIGE One Hundred 3,00 each 24,23 72,69 10% 79,96
+Famous views of Edo by
+Taschen NEW HARDCOVER
+7. All American History Vol 1 4,00 each 9,99 39,96 10% 43,96
+Student Reader
+1] SUMMARY
+VAT [%] Net worth VAT Gross worth
+10% 252,63 25,26 277,89
+Total $ 252,63 $ 25,26 $ 277,89

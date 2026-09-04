@@ -1,0 +1,22 @@
+Invoice no: 57283501
+Date of issue: 06/06/2016
+—}) Seller: Client:
+Coleman, Gibson and Campbell Roth Ltd
+142 Thomas Forge Suite 936 1727 Robert Ports Suite 290
+East Stacey, ID 50905 Andreatown, PA 21849
+Tax Id: 963-92-8121 Tax Id: 935-94-9730
+IBAN: GBO5SAQI15476914500784
+7) ITEMS
+No. Description Qty UM Net price Net worth VAT [%] Gross
+worth
+1. Vintner's Reserve Wine Bottle 1,00 each 59,95 59,95 10% 65,95
+Opener With Stand VERY NICE
+Ready to Ship
+e
+3. Hammered Brass Over Stainless 5,00 each 9,99 49,95 10% 54,95
+steel Stemless Wine Glasses/
+Candle Holders
+—_____] SUMMARY
+VAT [%] Net worth VAT Gross worth
+10% 124,50 12,45 136,95
+Total $ 124,50 $ 12,45 $ 136,95

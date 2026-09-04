@@ -1,0 +1,21 @@
+Invoice no: 60866416
+Date of issue: 02/17/2021
+—____) Seller: Client:
+Parker, Patterson and Smith Arnold PLC
+29573 Carolyn Course 1983 Michael Islands Apt. 059
+Vincenttown, VT 21566 New Jenniferburgh, {1D 25217
+Tax Id: 953-71-2756 Tax Id: 942-90-5696
+IBAN: GB94WSHN30369012384367
+______) ITEMS
+No. Description Qty UM Net price Net worth VAT [%] Gross
+worth
+1, ViewSonic VOT 133 Nettop Mini 4,00 each 39,99 159,96 10% 175,96
+PC Computer VS14165 E-350 @
+1.6GHz 2GB 320GB NO OS
+2. Custom Build Dell Desktop 1,00 each 99,00 99,00 10% 108,90
+Computer i5 | 16GB | 1TB SSD |
+HDMI Windows 10 PC WiFi
+—_______} SUMMARY
+VAT [%] Net worth VAT Gross worth
+10% 258,96 25,90 284,86
+Total $ 258,96 $ 25,90 $ 284,86

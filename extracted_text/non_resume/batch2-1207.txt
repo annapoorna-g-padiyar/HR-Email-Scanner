@@ -1,0 +1,25 @@
+Invoice no: 82054028
+Date of issue: 03/19/2014
+—}) Seller: Client:
+Mercado, Crawford and Cruz Salinas, Smith and Johnson
+616 Christopher Spring 7783 Jackson Keys
+Dianeside, TN 85697 North Meganborough, WA 17335
+Tax Id: 959-74-9780 Tax Id: 986-85-9739
+IBAN: GB57EVDC19507604049983
+7) ITEMS
+No. Description Qty UM Net price Net worth VAT [%] Gross
+worth
+1, 1 Set Holdups Wine Bottle 4,00 each 5,99 23,96 10% 26,36
+Holder
+2. Wine Bottle Opener Corkscrew 4,00 each 8,65 34,60 10% 38,06
+Set RED 5 pc Stopper Pourer
+Foil Cutter Bottle
+3. Yeti Rambler 30 oz and 100z 4,00 each 59,99 239,96 10% 263,96
+wine tumbler Sea Foam
+4, Stemware Rack Display Kitchen 5,00 each 42,32 211,60 10% 232,76
+Wine Glass Holder Bottle
+Carbon Steel Free Punch
+____] SUMMARY
+VAT [%] Net worth VAT Gross worth
+10% 510,12 §1,01 561,13
+Total $ 510,12 $ 51,01 $ 561,13

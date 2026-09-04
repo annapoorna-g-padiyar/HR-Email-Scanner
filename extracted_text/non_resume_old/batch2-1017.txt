@@ -1,0 +1,15 @@
+Invoice no: 64904048
+Date of issue: 03/16/2018
+—____) Seller: Client:
+Curtis-Castillo Garcia Group
+1838 Ferguson Estate Suite 521 13129 Ellis Spur Apt. 579
+Jacksonhaven, TN 09443 West Rebeccamouth, KS 25319
+Tax Id: 926-71-9758 Tax Id: 980-94-0192
+IBAN: GB690ZJD90636072139365
+______) ITEMS
+No. Description Qty UM Net price Net worth VAT [%] Gross
+worth
+—_______] SUMMARY
+VAT [%] Net worth VAT Gross worth
+10% 411,85 41,19 453,04
+Total $ 411,85 $ 41,19 $ 453,04

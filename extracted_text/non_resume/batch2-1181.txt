@@ -1,0 +1,33 @@
+Invoice no: 44710409
+Date of issue: 02/11/2017
+—}) Seller: Client:
+Johnson, Goodman and Stevens King-May
+561 David Drive 5962 Scott Lights
+Port Daniel, KS 33505 Sarastad, UT 81317
+Tax Id: 990-99-9216 Tax Id: 911-96-2684
+IBAN: GB48ZPIW39675532475337
+7) ITEMS
+No. Description Qty UM Net price Net worth VAT [%] Gross
+worth
+1, Silky Fake Fur Fluffy Carpets 2,00 each 14,12 28,24 10% 31,06
+Non-slip Shaggy Area Rug Floor
+Mat Light Pink
+2. Chef Pattern Kitchen Floor Rugs 5,00 each 15,96 79,80 10% 87,78
+Carpet Blanket Area Mats Home
+Supply 40x60cm
+3. Pretty Woman Small Large Long 1,00 each 36,30 36,30 10% 39,93
+Floor Carpet Area Rugs Various
+Size Soft Rug
+4. Yilong 8x10ft Hand knotted 1,00 each 5 040,00 5 040,00 10% 5 544,00
+Wool Carpets Home Decor
+Modern Villa Area Rug P39
+5. Guecl Area Rugs Living Room 2,00 each 84,95 169,90 10% 186,89
+Carpet FN061215 Loca! Brands
+Floor Decor The US D...
+6. Floor Cushion Optical Illusions 2,00 each 12,11 24,22 10% 26,64
+Mats Checkered Round Area
+Rug Home Decor Kitchen
+1) SUMMARY
+VAT [%] Net worth VAT Gross worth
+10% 5 378,46 537,85 5 916,31
+Total $5 378,46 $ 537,85 $5 916,31

@@ -1,0 +1,30 @@
+Invoice no: 72562961
+Date of issue: 11/01/2014
+—____) Seller: Client:
+Vasquez Group Rogers, Fry and Banks
+442 Jason Club Suite 138 5952 Brooks Spur Apt. 372
+Robertview, DC 00536 Michealshire, NM 28671
+Tax Id: 997-87-1556 Tax Id: 917-96-8177
+IBAN: GB98HMBO81052420814038
+7) ITEMS
+No. Description Qty UM Net price Net worth VAT [%] Gross
+worth
+1, Jones Wear Dress Women White 3,00 each 20,00 60,00 10% 66,00
+Pink Floral Sleeveless Formal
+Tea Dress Size 12
+2. Women Sexy Lingerie Lace 4,00 each 0,99 3,96 10% 4,36
+Dress Underwear Babydoll
+Sleepwear G-string Bikini Lot
+3. Boden Size 8 US Green & Navy 1,00 each 35,00 35,00 10% 38,50
+Dark Blue Belted Midi Wool Knit
+Sweater Fall Dress
+4. Boden Wren Ponte Midi Dress 3,00 each 58,99 176,97 10% 194,67
+w/Color Block Hem NWT Size
+10P Black Pink 10 Petite
+5. R&M; RICHARDS WOMAN’S 1,00 each 29,99 29,99 10% 32,99
+BLUE PRINT LONG DRESS WITH
+SHRUG JACKET SIZE 18W NWT
+7} SUMMARY
+VAT [%] Net worth VAT Gross worth
+10% 305,92 30,59 336,51
+Total $ 305,92 $ 30,59 $ 336,51

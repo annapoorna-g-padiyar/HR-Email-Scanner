@@ -1,0 +1,26 @@
+Invoice no: 74337375
+Date of issue: 11/26/2018
+—}) Seller: Client:
+Trujillo-Johnson Garrett, Simmons and Smith
+07030 Stevenson Stravenue 52259 Alexander Station Suite 695
+Kathleenview, WA 77540 East Crystalmouth, NJ 44771
+Tax Id: 989-77-5388 Tax Id: 946-90-5500
+IBAN: GBO9ARDNO04052597984359
+7) ITEMS
+No. Description Qty UM Net price Net worth VAT [%] Gross
+worth
+1, Nightmares in the Sky: 5,00 each 7,50 37,50 10% 41,25
+Gargoyles and Grotesques
+2. Warman's Star Wars Field Guide 1,00 each 5,77 5,77 10% 6,35
+by Wells, Stuart W., Ill
+3. The Great One: The Complete 2,00 each 4,89 9,78 10% 10,76
+Wayne Gretzky Collection
+4. Winnie the Pooh by A. A. Milne 5,00 each 19,73 98,65 10% 108,52
+Illustrated by Shepard
+Collector's New Hardcover
+5. Q&A a Day: 5-Year Journal 1,00 each 4,49 4,49 10% 4,94
+6. Entertaining 4,00 each 4,49 17,96 10% 19,76
+_______] SUMMARY
+VAT [%] Net worth VAT Gross worth
+10% 174,15 17,42 191,57
+Total $ 174,15 $ 17,42 $ 191,57

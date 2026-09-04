@@ -1,0 +1,18 @@
+Invoice no: 25492793
+Date of issue: 09/05/2016
+—_—_ Seller: Client:
+Maxwell-Cameron Romero and Sons
+85897 Cisneros Mills Unit 9974 Box 9522
+Port Rebecca, AR 96237 DPO AP 23588
+Tax Id: 939-77-7186 Tax Id: 972-76-7187
+IBAN: GB59TXKU62047056885522
+______) ITEMS
+No. Description Qty UM Net price Net worth VAT [%] Gross
+worth
+2. Size 3y Nike Air Speed Turf (PS) 1,00 each 75,00 75,00 10% 82,50
+Sneakers Shoe BV2526 100
+White/Blue/Red
+—______} SUMMARY
+VAT [%] Net worth VAT Gross worth
+10% 79,50 7,95 87,45
+Total $ 79,50 $ 7,95 $ 87,45

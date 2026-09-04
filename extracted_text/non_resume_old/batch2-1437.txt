@@ -1,0 +1,21 @@
+Invoice no: 30191249
+Date of issue: 03/10/2014
+—}) Seller: Client:
+Jones-Miller Cooke Ltd
+72928 Tyrone Light 4620 Kelly Spur
+New Lindastad, SC 67802 New Jerry, HI 23964
+Tax Id: 951-80-8038 Tax Id: 991-96-0309
+IBAN: GB65MOHO78188087130698
+7) ITEMS
+No. Description Qty UM Net price Net worth VAT [%] Gross
+worth
+1, Fluffy Floor Mat Anti-Skid 5,00 each 3,89 19,45 10% 21,40
+Shaggy Area Rugs Dining Living
+Room Carpet Home Decor
+2. Yilong 5.6'x8.3' Four Seasons 1,00 each 2 999,00 2 999,00 10% 3 298,90
+HandKnotted Silk Area Rugs
+Antistatic Carpets 1813
+7} SUMMARY
+VAT [%] Net worth VAT Gross worth
+10% 3 018,45 301,84 3 320,29
+Total $3 018,45 $ 301,84 $ 3 320,29

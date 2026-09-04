@@ -1,0 +1,30 @@
+Invoice no: 60416276
+Date of issue: 04/01/2016
+—}) Seller: Client:
+Hodge PLC Juarez PLC
+6135 Jones Circles 10905 Gill Island
+Daniellechester, KS 45378 North Angela, SC 31326
+Tax Id: 921-87-3414 Tax Id: 996-94-0765
+IBAN: GB91GROG44838999022802
+7) ITEMS
+No. Description Qty UM Net price Net worth VAT [%] Gross
+worth
+1, Calvin Klein Women Long Active 3,00 each 8,99 26,97 10% 29,67
+Dress. Size Small
+2. Evening Dress Sexy Cocktail US 3,00 each 11,89 35,67 10% 39,24
+Mini Women Party Bandage
+Long Sleeve Club Bodycon
+3. Matilda Jane Womans Lets Go 5,00 each 19,60 98,00 10% 107,80
+Together Black Knit Dress Size
+M Medium NWT
+4, Burent Orange Long Dress With 3,00 each 75,00 225,00 10% 247,50
+Beads SUE WONG SIZE 2
+5. StellaLuxe One Shoulder Lace 4,00 each 25,00 100,00 10% 110,00
+Dress
+6. Zara black dress in Small 2,00 each 25,00 50,00 10% 55,00
+7. LuLaRoe Nicole Dress Size Large 5,00 each 1,99 9,95 10% 10,94
+26
+—_____] SUMMARY
+VAT [%] Net worth VAT Gross worth
+10% 545,59 54,56 600,15
+Total $ 545,59 $ 54,56 $ 600,15

@@ -1,0 +1,16 @@
+Invoice no: 56116801
+Date of issue: 07/23/2011
+—____) Seller: Client:
+Gates, Miller and Marsh Montgomery-King
+890 James Canyon 62448 Curtis View Apt. 593
+East Bradley, NH 65556 Caitlinview, ME 11029
+Tax Id: 998-84-9885 Tax Id: 916-91-8018
+IBAN: GB35RSNT76151117524830
+______) ITEMS
+No. Description Qty UM Net price Net worth VAT [%] Gross
+worth
+25
+—______] SUMMARY
+VAT [%] Net worth VAT Gross worth
+10% 5,97 0,60 6,57
+Total $ 5,97 $ 0,60 $ 6,57

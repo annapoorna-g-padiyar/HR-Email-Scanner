@@ -1,0 +1,25 @@
+Invoice no: 37598290
+Date of issue: 09/04/2016
+—}) Seller: Client:
+Beck, Martin and Jones Kent, Russell and Dixon
+96795 Warner Walks Apt. 050 455 Travis Isle
+Amandaburgh, AK 23688 South Stephen, NC 82421
+Tax Id: 975-71-1426 Tax Id: 969-90-3717
+IBAN: GB30LWAS78775539494703
+7) ITEMS
+No. Description Qty UM Net price Net worth VAT [%] Gross
+worth
+1. Nintendo Wii U WUP-101(02) 3,00 each 40,00 120,00 10% 132,00
+32GB Console - Black - US
+Model
+2. New Sony Playstation 4 Slim 5,00 each 399,99 1999,95 10% 2 199,95
+1TB 3 Game Bundle Console.
+Sealed!!!
+3. Nintendo Wii - Original 8GB 2,00 each 45,00 90,00 10% 99,00
+Black Home Console
+4, Nintendo 64 console complete 3,00 each 249,99 749,97 10% 824,97
+in box with extra controller
+____] SUMMARY
+VAT [%] Net worth VAT Gross worth
+10% 2 959,92 295,99 3 255,91
+Total $2 959,92 $ 295,99 $3 255,91

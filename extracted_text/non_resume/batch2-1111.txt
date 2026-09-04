@@ -1,0 +1,34 @@
+Invoice no: 75948191
+Date of issue: 11/28/2016
+—}) Seller: Client:
+Parker, Garrett and Williams Johnson PLC
+293 Sanchez Drives 255 Michael Locks
+East Christy, DC 50325 Henryburgh, DC 61908
+Tax Id: 903-80-9653 Tax Id: 964-77-9903
+IBAN: GB72DABK43311283740800
+7) ITEMS
+No. Description Qty UM Net price Net worth VAT [%] Gross
+worth
+1, 7'x4' Buy Marble Dining Table 1,00 each 14 721,08 14 721,08 10% 16 193,19
+With Black Top Marquetry Inlay
+Hallway Decor E944
+2. 52"x26" White Marble Top 1,00 each 7 777,00 7 777,00 10% 8 554,70
+Center Table Carnelian
+Pietradura Inlaid Halloween Gift
+3. 25"x25" White Marble Top 1,00 each 2 728,00 2 728,00 10% 3 000,80
+Counter Table Carnelian
+Marquetry Art Columbus Day
+Gift
+4 14 Inches Black Marble Coffee 4,00 each 225,25 901,00 10% 991,10
+Cum Chess Board Table Top
+with Unique Design
+5. 27"x27" Black Marble Top 1,00 each 1 588,00 1 588,00 10% 1 746,80
+Coffee Table Floral Inlay Art
+Black Friday Gift Décor
+6. 54 Inches Black Marble Dinning 4,00 each 4120,00 16 480,00 10% 18 128,00
+Table Top Unique Hallway Table
+with Luxurious Art
+7] SUMMARY
+VAT [%] Net worth VAT Gross worth
+10% 44 195,08 4 419,51 48 614,59
+Total $ 44 195,08 $4419,51 $ 48 614,59

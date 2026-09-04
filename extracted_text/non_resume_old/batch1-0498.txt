@@ -1,0 +1,29 @@
+Invoice no: 33310882
+Date of issue: 01/23/2020
+—}) Seller: Client:
+Brown Group Davis, Hogan and Hardin
+2672 Rodriguez Parks 456 Snyder Crossroad
+Lindseyfort, TN 83907 New Erikmouth, IA 43321
+Tax Id: 989-79-2897 Tax Id: 917-78-6794
+IBAN: GB92THKG55938218455949
+7) ITEMS
+No. Description Qty UM Net price Net worth VAT [%] Gross
+worth
+1, NEC PC Engine INTERFACE UNIT 5,00 each 159,99 799,95 10% 879,95
+IFU-30 CD ROM Console
+PI-TGOO1 Tested Japan
+2. Original xbox console (Works 3,00 each 38,00 114,00 10% 125,40
+Great, Tested)
+3. Super Nintendo SNES System 4,00 each 149,99 599,96 10% 659,96
+Console SNS-001 with 2
+Controllers Cleaned And Tested
+4, Nintendo BLUE Wii System 4,00 each 99,98 399,92 10% 439,91
+Game Console Complete with 2
+Motion Remotes Tested Work
+5. Magnavox Odyssey 2 2,00 each 155,00 310,00 10% 341,00
+Microprocessor Console System
+w Joy Sticks & 15 Games - 1978
+7} SUMMARY
+VAT [%] Net worth VAT Gross worth
+10% 2 223,83 222,38 2 446,21
+Total $ 2 223,83 $ 222,38 $ 2 446,21

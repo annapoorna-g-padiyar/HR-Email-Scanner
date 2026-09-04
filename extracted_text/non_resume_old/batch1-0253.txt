@@ -1,0 +1,29 @@
+Invoice no: 12492197
+Date of issue: 07/05/2020
+—}) Seller: Client:
+Holland-Austin Evans-Martin
+89901 Carrie Prairie 2752 Timothy Court
+Gardnerview, IN 49654 Yorkport, AR 44256
+Tax Id: 934-97-2041 Tax Id: 947-95-5228
+IBAN: GB530KXE29036888230337
+7) ITEMS
+No. Description Qty UM Net price Net worth VAT [%] Gross
+worth
+1, Nintendo Game Boy Micro 4,00 each 130,00 520,00 10% 572,00
+Console - Black (OXYSFBB)
+2. Handheld Video Game Console 3,00 each 15,99 47,97 10% 52,77
+400 in 1 Mini Retro Console Built
+in Video Games
+3. Nintendo Switch Lite Turquoise 1,00 each 130,00 130,00 10% 143,00
+Blue CONSOLE ONLY - No
+Charger [B4-1]
+4, Super Nintendo SNES System 4,00 each 103,99 415,96 10% 457,56
+Console Controller & Cables -
+SNS-001 + 3 Games
+5. SONY Playstation2 Slim Console 1,00 each 90,00 90,00 10% 99,00
+set " SCPH-90000 / White " /
+TESTED Working 11194
+7} SUMMARY
+VAT [%] Net worth VAT Gross worth
+10% 1 203,93 120,39 1 324,32
+Total $ 1 203,93 $ 120,39 $1324,32

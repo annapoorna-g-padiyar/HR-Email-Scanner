@@ -1,0 +1,24 @@
+Invoice no: 14060530
+Date of issue: 10/06/2016
+—}) Seller: Client:
+Archer, Boyd and Simpson Moore-Park
+9766 Garza Ville Apt. 285 3401 Kim Falls Apt. 918
+Hectormouth, ND 98159 Lake Carolineton, NM 42384
+Tax Id: 994-80-4544 Tax Id: 991-96-6409
+IBAN: GB17OWKFS0732476761153
+7) ITEMS
+No. Description Qty UM Net price Net worth VAT [%] Gross
+worth
+1, Electric wine opener Automatic 1,00 each 25,09 25,09 10% 27,60
+bottle opener Red wine
+Corkscrew
+2. Frosted Satin Wine Goblet 5,00 each 32,00 160,00 10% 176,00
+Glasses Crooked Stem Set Of 3
+3. Libbey Classic White Wine 5,00 each 18,74 93,70 10% 103,07
+Glasses, Set of 4 14 ounce Glass
+4, Pier 1 Multi-color Cordial 1,00 each 30,00 30,00 10% 33,00
+Liqueur Wine Glasses Set of 4
+7} SUMMARY
+VAT [%] Net worth VAT Gross worth
+10% 308,79 30,88 339,67
+Total $ 308,79 $ 30,88 $ 339,67

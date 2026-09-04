@@ -1,0 +1,31 @@
+Invoice no: 35804413
+Date of issue: 08/09/2019
+—}) Seller: Client:
+Miller, Davies and Harper Rivera, Thompson and Foster
+8252 Abigail Villages 109 Ortega Trace
+Lake Shirley, NM 21031 Ryanhaven, OK 58652
+Tax Id: 941-72-2542 Tax Id: 950-80-2559
+IBAN: GB860CRS47833781553885
+7) ITEMS
+No. Description Qty UM Net price Net worth VAT [%] Gross
+worth
+1, Floor Mat Carpet Doormat 4,00 each 34,77 139,08 10% 152,99
+Abstract Painting Tree Area Rug
+Room Decor 180x60cm
+2. 100cm Nordic Round Area Rug 1,00 each 30,98 30,98 10% 34,08
+Abstract Geometric Patterns
+Non-Slip Floor Carpet
+3. Yilong 9'x12' Oversized 5,00 each 7 800,00 39 000,00 10% 42 900,00
+Handwoven Silk Carpet
+Luxurious Villa Area Rug
+HFOS58A
+4. Yilong 6'x9' Handknotted Silk 3,00 each 10 800,00 32 400,00 10% 35 640,00
+Area Rug Medallion Deep Red
+Home Carpet 0962
+5. YILONG 6'x9" Handmade Silk 3,00 each 12 000,00 36 000,00 10% 39 600,00
+Area Rug Chinese Art Deco
+Classic Indoor Carpet
+—_}] SUMMARY
+VAT [%] Net worth VAT Gross worth
+10% 107 570,06 10 757,01 118 327,07
+Total $107570,06 $10757,01 $ 118 327,07

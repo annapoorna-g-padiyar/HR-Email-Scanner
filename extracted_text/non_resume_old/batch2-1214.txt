@@ -1,0 +1,38 @@
+Invoice no: 90711845
+Date of issue: 07/11/2015
+—____) Seller: Client:
+Marshall, Sutton and Lynch Ayers-Armstrong
+4362 Reed Keys Apt. 601 USCGC Massey
+Carolchester, AZ 39804 FPO AE 24682
+Tax Id: 911-91-9741 Tax Id: 912-74-7926
+IBAN: GB12DSJW12725414066684
+7) ITEMS
+No. Description Qty UM Net price Net worth VAT [%] Gross
+worth
+1, 10-Core Gaming Computer 4,00 each 439,98 1 759,92 10% 1 935,91
+Desktop PC Tower SSD Quad
+16GB R7 Graphic CUSTOM
+BUILT
+2. Alarco Gaming PC Desktop 4,00 each 500,00 2 000,00 10% 2 200,00
+Computer Intel i5
+,8G,1TB,Win10,WIFI,NVIDIA GTX
+650 1GB
+3. 10-Core Gaming Computer 1,00 each 501,32 501,32 10% 551,45
+Desktop PC Tower 500 GB Quad
+8GB AMD R7 GRAPHICS NEW
+4, Dell Desktop Computer Optiplex 1,00 each 99,95 99,95 10% 109,95
+790 USFF Core i3 4GB 250GB
+HD Windows 10 Pro PC
+5. Dell Desktop Computer 3020 1,00 each 134,95 134,95 10% 148,44
+Micro Tiny PC Intel i3 4GB
+120GB SSD Windows 10 WiFi
+6. 6 Gigabit Lan Firewall Desktop 2,00 each 237,00 474,00 10% §21,40
+Computer onboard CPU Intel
+core 13 15 17 Router
+7. HP Elite 8100 Desktop 5,00 each 209,00 1 045,00 10% 1 149,50
+Computer Package - Intel Core
+i5 3.2-GHz, 8GB RAM, 500GB H
+_______] SUMMARY
+VAT [%] Net worth VAT Gross worth
+10% 6 015,14 601,51 6 616,65
+Total $6 015,14 $ 601,51 $ 6 616,65

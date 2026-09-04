@@ -1,0 +1,26 @@
+AFREEN KHAN 
+Email: afreen.khan@example.com | Phone: +91-9876123450 
+LinkedIn: linkedin.com/in/afreen-khan 
+OBJECTIVE 
+BCA student with interest in cloud technologies and virtualization. Proficient in AWS basics and virtualization tools. Seeking internship in cloud support or DevOps. 
+EDUCATION 
+Bachelor of Computer Applications Aligarh Muslim University | 2021 – 2024 
+CGPA: 8.8/10 
+SKILLS 
+- Cloud: AWS (EC2, S3), Azure (basics) 
+- Virtualization: VMware, VirtualBox 
+- OS: Linux, Windows Server 
+- Programming: Python, Bash 
+PROJECTS 
+1. **AWS Web Hosting** 
+- Deployed static website on AWS S3 and configured CloudFront 
+2. **Linux Server Automation** 
+- Bash scripts to automate user creation and permissions 
+CERTIFICATIONS 
+- AWS Certified Cloud Practitioner 
+- Introduction to Cloud Computing - IBM 
+EXTRA ACTIVITIES 
+- Member, Cloud Computing Club 
+- Participated in AWS Educate events 
+LANGUAGES 
+English, Urdu, Hindi

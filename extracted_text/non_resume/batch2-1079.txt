@@ -1,0 +1,15 @@
+Invoice no: 85469338
+Date of issue: 12/23/2019
+—_—_ Seller: Client:
+Adams, Cooper and Jimenez Garcia-Smith
+653 Kathleen Bypass Unit 5095 Box 7891
+Scottville, NM 92146 DPO AP 82784
+Tax Id: 987-78-0805 Tax Id: 977-97-1468
+IBAN: GB67PVQR31943629087269
+______) ITEMS
+No. Description Qty UM Net price Net worth VAT [%] Gross
+worth
+1} SUMMARY
+VAT [%] Net worth VAT Gross worth
+10% 50,85 5,08 55,93
+Total $ 50,85 $ 5,08 $ 55,93

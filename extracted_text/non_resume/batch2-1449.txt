@@ -1,0 +1,32 @@
+Invoice no: 56508008
+Date of issue: 06/17/2019
+—}) Seller: Client:
+Rivera-Liu Montoya-Johnson
+2168 John Highway 7176 Stevens Union
+Jonesport, NE 77359 Randallville, AZ 60323
+Tax Id: 987-99-9601 Tax Id: 916-97-8679
+IBAN: GB290AHU64877916145413
+7) ITEMS
+No. Description Qty UM Net price Net worth VAT [%] Gross
+worth
+1, EU Blichmann Riptide Brewing 4,00 each 200,00 800,00 10% 880,00
+Pump - Hombrew Beer Wine
+Food Grade Stainless Steel
+2. confetti wine glass 1,00 each 15,00 15,00 10% 16,50
+3. Wine Rack 1,00 each 9,00 9,00 10% 9,90
+4, Wine Glass European Style Wine 1,00 each 31,79 31,79 10% 34,97
+Glass Rack for Home Kitchen
+Bar Restaurant
+5. Lifefactory 17 oz Wine Glass 4 2,00 each 27,99 55,98 10% 61,58
+Pack with Silicone Sleeves,
+Grass Green
+6. New Never Used CROFTON 3,00 each 3,00 9,00 10% 9,90
+CHEFS COLLECTION WINE
+COOLING STICK IN PACKAGE
+7. Keep the Boos Coming Staintess 2,00 each 19,99 39,98 10% 43,98
+Steel Stemless Wine Tumbler,
+12 02.
+—__] SUMMARY
+VAT [%] Net worth VAT Gross worth
+10% 960,75 96,08 1 056,83
+Total $ 960,75 $ 96,08 $ 1056,83

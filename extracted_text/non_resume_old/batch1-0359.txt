@@ -1,0 +1,20 @@
+Invoice no: 29534383
+Date of issue: 05/30/2017
+—____) Seller: Client:
+Cook, Bartlett and Giles Smith, Herrera and Graves
+2754 Michelle Run 2921 Reyes Vista
+New Nicholaston, AR 10614 Garrettland, ND 23081
+Tax Id: 974-75-0354 Tax Id: 943-83-6136
+IBAN: GBO4BHIO03438425054876
+7) ITEMS
+No. Description Qty UM Net price Net worth VAT [%] Gross
+worth
+1, Lilly Pulitzer XS Spike the Punch 1,00 each 44,89 44,89 10% 49,38
+Cassie Cotton Dress with
+Quarter Sleeves
+2. Lilly Pulitzer 8 Sunkissed with 5,00 each 56,89 284,45 10% 312,90
+Glow Janice Shift Dress
+_____) SUMMARY
+VAT [%] Net worth VAT Gross worth
+10% 329,34 32,93 362,27
+Total $ 329,34 $ 32,93 $ 362,27

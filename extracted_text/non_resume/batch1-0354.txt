@@ -1,0 +1,26 @@
+Invoice no: 49929761
+Date of issue: 02/04/2021
+—____) Seller: Client:
+Garcia Ltd Anderson, Davidson and Webster
+000 Debra Island Suite 564 0321 Kimberly Curve
+South Bettyville, WY 32232 North Sarah, ND 66658
+Tax Id: 996-99-0521 Tax Id: 977-75-8747
+IBAN: GB94SZVA49788231227821
+7) ITEMS
+No. Description Qty UM Net price Net worth VAT [%] Gross
+worth
+1. Lularoe Nicole Dress Size Small 5,00 each 3,75 18,75 10% 20,63
+Light Solid Grey/ White Ringer
+Tee Trim
+2. Escada Long Black Dress SZ 40 3,00 each 74,99 224,97 10% 247,47
+100% Silk Lining
+3. Sequence dress Size Small 2,00 each 35,00 70,00 10% 77,00
+4, balmain dress 36 2,00 each 1 550,00 3 100,00 10% 3 410,00
+5. Max Studio Womens Black 1,00 each 15,99 15,99 10% 17,59
+Sleeveless Floral Casual Dress
+Medium
+6. KAREN SCOTT 3X DRESS 5,00 each 5,99 29,95 10% 32,95
+_______] SUMMARY
+VAT [%] Net worth VAT Gross worth
+10% 3 459,66 345,97 3 805,63
+Total $3 459,66 $ 345,97 $ 3 805,63

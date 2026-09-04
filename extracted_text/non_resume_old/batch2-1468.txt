@@ -1,0 +1,21 @@
+Invoice no: 22106351
+Date of issue: 04/07/2016
+—}) Seller: Client:
+Robles-Johnson Pratt PLC
+60917 Simmons Plain 14252 Melanie Mill
+South Jasonshire, MS 04192 Hansenborough, OR 87233
+Tax Id: 992-79-8536 Tax Id: 950-77-9703
+IBAN: GB59QGLI97037852205908
+7) ITEMS
+No. Description Qty UM Net price Net worth VAT [%] Gross
+worth
+1, 6'x3' Marble Counter Height 4,00 each 5 469,38 21 877,52 10% 24 065,27
+Dining Table Top Multi Inlay
+Furniture Decor E955A
+2. 16"x16" White Coffee Top Table 1,00 each 736,75 736,75 10% 810,42
+Mop Inlay Filigree Pietradura
+Floral Art Décor
+7} SUMMARY
+VAT [%] Net worth VAT Gross worth
+10% 22 614,27 2 261,43 24 875,70
+Total $ 22 614,27 $ 2 261,43 $ 24 875,70

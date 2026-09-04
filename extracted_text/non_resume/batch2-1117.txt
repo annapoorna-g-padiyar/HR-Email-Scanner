@@ -1,0 +1,17 @@
+Invoice no: 41743642
+Date of issue: 08/15/2016
+—____) Seller: Client:
+Kennedy-Meyer Franco, Cowan and Flores
+869 Garcia Parkway Apt. 609 596 Gomez Stravenue
+Lake Charlenemouth, PA 33107 Stacystad, IN 52913
+Tax Id: 992-83-9816 Tax Id: 960-99-4902
+IBAN: GB93MCVU13902203550275
+______) ITEMS
+No. Description Qty UM Net price Net worth VAT [%] Gross
+1, Portable Wine Rack Bar 4,00 each 46,78 187,12 10% 205,83
+Stainless Steel With Handle
+Single Bottle Free Standing
+1] SUMMARY
+VAT [%] Net worth VAT Gross worth
+10% 187,12 18,71 205,83
+Tota! $ 187,12 $ 18,71 $ 205,83

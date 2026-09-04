@@ -1,0 +1,24 @@
+Invoice no: 65250014
+Date of issue: 07/23/2012
+—}) Seller: Client:
+Sullivan and Sons Wagner, Branch and Thompson
+07821 Theresa Fort Apt. 605 26233 Hamilton Springs
+Tammyside, RI 76556 East Christopherport, VT 81110
+Tax Id: 911-88-5956 Tax Id: 958-76-8109
+IBAN: GB14UPG)16381503554240
+7) ITEMS
+No. Description Qty UM Net price Net worth VAT [%] Gross
+worth
+1, Selected poetry of W H Auden 3,00 each 4,89 14,67 10% 16,14
+3. Die with Zero by Bill Perkins 1,00 each 3,49 3,49 10% 3,84
+(P'.D,'F, 2020)
+4. Shaping the World: Sculpture 3,00 each 43,28 129,84 10% 142,82
+from Prehistory to Now by
+Antony Gormley (English)
+5. Day Trading Joe Ross New Hard 3,00 each 125,00 375,00 10% 412,50
+cover English edition
+6. High-Yield Behavioral Science 1,00 each 3,99 3,99 10% 4,39
+7] SUMMARY
+VAT [%] Net worth VAT Gross worth
+10% 544,95 54,50 599,45
+Total $ 544,95 $ 54,50 $ 599,45

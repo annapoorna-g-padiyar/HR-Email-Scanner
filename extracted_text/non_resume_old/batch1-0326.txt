@@ -1,0 +1,17 @@
+Invoice no: 26660573
+Date of issue: 03/08/2014
+—____) Seller: Client:
+Nelson, Norris and Barron Sparks-Burton
+50980 Baker Mountain Apt. 577 5730 Steven Flats
+South Melissachester, NE 54837 Turnerfurt, ND 59258
+Tax Id: 986-79-0395 Tax Id: 932-97-8239
+IBAN: GBO7KDNO98244986566456
+7) ITEMS
+No. Description Qty UM Net price Net worth VAT [%] Gross
+1, Vintage Crystal Red Wine 4,00 each 35,45 141,80 10% 155,98
+Glasses NOS West Germany
+1983 6 10 ounce elegant stems
+7] SUMMARY
+VAT [%] Net worth VAT Gross worth
+10% 141,80 14,18 155,98
+Total $ 141,80 $ 14,18 $ 155,98

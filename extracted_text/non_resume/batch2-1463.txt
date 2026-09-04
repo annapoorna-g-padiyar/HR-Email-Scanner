@@ -1,0 +1,25 @@
+Invoice no: 27692020
+Date of issue: 02/21/2013
+—}) Seller: Client:
+Alvarado-Holden Shaffer, Huang and Scott
+36495 Evans Junctions Suite 430 364 Brandon Point
+Brownstad, AK 68487 West Jamiechester, RI 04318
+Tax Id: 939-90-5218 Tax Id: 997-72-0529
+IBAN: GB54GM0G56338412285664
+7) ITEMS
+No. Description Qty UM Net price Net worth VAT [%] Gross
+worth
+1, Papaya Floral Dress Medium 1,00 each 9,00 9,00 10% 3,90
+Blue White
+2. DESIGNER MICHAEL KORS 4,00 each 20,00 80,00 10% 88,00
+DRESS SIZES
+3. Women Black Dress Mori Girl 1,00 each 13,99 13,99 10% 15,39
+Puff Sleeve Korean Casual
+Loose Peter Pan Collar
+4, Guess Dress Size 6 1,00 each 20,00 20,00 10% 22,00
+5. New Wallis black floral midi 1,00 each 38,00 38,00 10% 41,80
+dress sleeveles, size UK 12
+—__] SUMMARY
+VAT [%] Net worth VAT Gross worth
+10% 160,99 16,10 177,09
+Total $ 160,99 $ 16,10 $ 177,09

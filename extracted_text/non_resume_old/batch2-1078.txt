@@ -1,0 +1,23 @@
+Invoice no: 86836447
+Date of issue: 04/20/2021
+—____) Seller: Client:
+Craig-Johnson Reed LLC
+27200 Brian Stravenue 12171 Gilmore Route
+New Carolyntown, ID 83621 Kingview, NM 77407
+Tax Id: 963-92-1628 Tax Id: 993-83-9839
+IBAN: GBO7CVHF48608891416677
+7) ITEMS
+No. Description Qty UM Net price Net worth VAT [%] Gross
+worth
+1, Threshold Quality Strafford 4,00 each 24,99 99,96 10% 109,96
+Champagne Glasses Set of 4,
+New in Box, Wine Flutes
+2. Twas The Nightcap Before 5,00 each 16,95 84,75 10% 93,22
+Christmas Rosy Red Felt Fabric
+Wine Bottle Cover
+3. Wine Glasses Goblets Pair Clear 4,00 each 12,00 48,00 10% 52,80
+Glass
+1] SUMMARY
+VAT [%] Net worth VAT Gross worth
+10% 232,71 23,27 255,98
+Total $ 232,71 $ 23,27 $ 255,98

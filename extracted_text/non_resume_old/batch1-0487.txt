@@ -1,0 +1,20 @@
+Invoice no: 63279909
+Date of issue: 01/27/2012
+—}) Seller: Client:
+Jacobson-Wilson Baker PLC
+842 Jessica Port 27210 Allison Rue
+Wilsonborough, NC 68492 New Michellefort, NH 37075
+Tax Id: 989-82-7249 Tax Id: 988-98-5445
+IBAN: GB43PBLX16667607456773
+7) ITEMS
+No. Description Qty UM Net price Net worth VAT [%] Gross
+worth
+1. Nintendo 64 Pokemon Pikachu 1,00 each 199,98 199,98 10% 219,98
+Limited Edition video game
+console set
+2. B360 Nintendo 2DS console 2,00 each 29,99 59,98 10% 65,98
+Blue Japan
+—_____] SUMMARY
+VAT [%] Net worth VAT Gross worth
+10% 259,96 26,00 285,96
+Total $ 259,96 $ 26,00 $ 285,96

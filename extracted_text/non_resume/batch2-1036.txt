@@ -1,0 +1,35 @@
+Invoice no: 15966359
+Date of issue: 09/08/2018
+—____) Seller: Client:
+Hammond PLC Bauer Inc
+2078 Kennedy Street 1222 Kayla Burg
+South Jeffrey, LA 76543 West Ralph, DC 70427
+Tax Id: 916-74-2344 Tax Id: 926-73-2019
+IBAN: GB17XQWC78386028566789
+7) ITEMS
+No. Description Qty UM Net price Net worth VAT [%] Gross
+worth
+1, Keen Waterproof Hiking Shoes 4,00 each 35,97 143,88 10% 158,27
+Kids Boys Size 12 Brown Black
+Outdoor Sneakers
+2. 5Ps Face Masks Men Women 2,00 each 4,39 8,78 10% 9,66
+Unisex Kid Cover Clothing Mask
+Reusable Washable Cloth
+3. KushyShoo Children Kid Rain 5,00 each 22,99 114,95 10% 126,44
+Boot Shoes Rubber, Monkey,
+Size Youth 1
+4. Kid Connection Kids Winter 2,00 each 21,59 43,18 10% 47,50
+Waterproof Boots Size 5 Cozy &
+Warm Slipn On Booties
+5. Fila Shoes Sneakers Kids size 11 5,00 each 15,00 75,00 10% 82,50
+Red black Gray
+6. The Children’s Place Brown 2,00 each 8,00 16,00 10% 17,60
+Dress Boy Lace Up Shoes Size
+12
+7. Joma Boys Youth Gol-102 2,00 each 19,99 39,98 10% 43,98
+Soccer Cleats Shoes Size 4
+White Red Futbo! NEW
+—_____] SUMMARY
+VAT [%] Net worth VAT Gross worth
+10% 441,77 44,18 485,95
+Total $ 441,77 $ 44,18 $ 485,95

@@ -1,0 +1,22 @@
+Invoice no: 50757405
+Date of issue: 05/31/2018
+—}) Seller: Client:
+Russell LLC Nelson Group
+20385 Rogers Port 06374 Wright Plaza
+Joannafurt, IL 12170 West Sandraberg, NY 58040
+Tax Id: 912-95-6191 Tax Id: 947-83-8992
+IBAN: GB59JYOJ77573614107450
+7) ITEMS
+No. Description Qty UM Net price Net worth VAT [%] Gross
+worth
+26
+2. Athleta Coral Paisley Print 3,00 each 39,99 119,97 10% 131,97
+Stretch Ruching Wrap Athletic
+Dress Size L
+3. Talbots Petite 8 Navy & White 1,00 each 14,99 14,99 10% 16,49
+Dandelion Puffs Sleeveless
+Dress
+—_____] SUMMARY
+VAT [%] Net worth VAT Gross worth
+10% 136,95 13,70 150,65
+Total $ 136,95 $ 13,70 $ 150,65

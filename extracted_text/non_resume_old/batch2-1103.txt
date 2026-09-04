@@ -1,0 +1,21 @@
+Invoice no: 43493497
+Date of issue: 11/14/2011
+—}) Seller: Client:
+Elliott Ltd Brown, Thomas and George
+4031 Thomas Rapid 978 Chen Trace
+Lake Autumntown, WV 85533 South Jessica, MN 23015
+Tax Id: 995-94-4957 Tax Id: 925-83-8533
+IBAN: GB23TVMP80788774697158
+7) ITEMS
+No. Description Qty UM Net price Net worth VAT [%] Gross
+worth
+1, Cottage Crafts Marble Dinning 4,00 each 5 596,00 22 384,00 10% 24 622,40
+Table Top Round Conference
+Table Size 60 Inches
+2. 16" Marble Coffee Table Top 4,00 each 318,71 1 274,84 10% 1 402,32
+Mother of Peral Peacock Inlay
+Restaurant Decors W366
+7} SUMMARY
+VAT [%] Net worth VAT Gross worth
+10% 23 658,84 2 365,88 26 024,72
+Total $ 23 658,84 $ 2 365,88 $ 26 024,72

@@ -1,0 +1,29 @@
+Invoice no: 90265578
+Date of issue: 12/29/2017
+—}) Seller: Client:
+Cabrera-Thompson Martin-Morgan
+16353 Foster Brooks 2857 Wilson Pass Suite 600
+Lake Tylerport, UT 12516 Ashleychester, NH 99275
+Tax Id: 938-79-6613 Tax Id: 934-98-5592
+IBAN: GB76KYBW37918613762226
+7) ITEMS
+No. Description Qty UM Net price Net worth VAT [%] Gross
+worth
+1, Vintage Metal Art Sculpture 3,00 each 25,98 77,94 10% 85,73
+Carving Chef Wine Bottle Holder
+and Display Tin Chef
+2. Set of 4 Green Wine glasses 2,00 each 0,99 1,98 10% 2,18
+3. set of 6 German Roemer wine 2,00 each 55,00 110,00 10% 121,00
+glasses ,make in france
+4. Vintage Wine Basket Holder - 3 5,00 each 32,99 164,95 10% 181,45
+Bottles
+5. 6) Vintage Leaf Etched Straight 5,00 each 65,00 325,00 10% 357,50
+Sided Wine Glasses. Set of 6
+Unknown Maker
+6. Selmash Lux Home Alcohol 2,00 each 157,90 315,80 10% 347,38
+Distiller Kit for wine brewing, 15
+20 301
+—______] SUMMARY
+VAT [%] Net worth VAT Gross worth
+10% 995,67 99,57 1095,24
+Total $ 995,67 $ 99,57 $1095,24

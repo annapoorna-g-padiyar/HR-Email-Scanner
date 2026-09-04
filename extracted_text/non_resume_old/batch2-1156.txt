@@ -1,0 +1,32 @@
+Invoice no: 48548333
+Date of issue: 02/11/2017
+—____) Seller: Client:
+Wallace-Harmon Smith, Smith and Short
+82999 Smith Points PSC 2314, Box 6456
+Lake Robert, VT 50851 APO AP 94995
+Tax Id: 932-76-2638 Tax Id: 922-94-1497
+IBAN: GB1LOLTEY59777356079510
+7) ITEMS
+No. Description Qty UM Net price Net worth VAT [%] Gross
+worth
+1. Nike Air Max 90 All Black 3,00 each 74,99 224,97 10% 247,47
+Leather Running Shoes
+833412-001 Size 7Y (Women’s
+8.5)
+2. Boys Soccer Cleats 5.5 Diadora 3,00 each 19,99 59,97 10% 65,97
+Calcio MD JR Pearlized White
+Youth NEW $68 Kids
+3. nike kd trey 5 Kids 4.5 4,00 each 4,75 19,00 10% 20,90
+4, Durango Lil Little Kid Saddle 5,00 each 68,00 340,00 10% 374,00
+Western Casual Western Tan
+Boys - Size 2M
+5. New KID CUDI "WZRD" Rap Hip 1,00 each 22,49 22,49 10% 24,74
+Hop Soul Music Men's Black
+T-Shirt Size S to 3XL
+6. nickelodeon TMNT Teenage 5,00 each 42,98 214,90 10% 236,39
+Mutant Ninja Turtles D L M R 6in
+Action Figure Kids Toy
+—_____} SUMMARY
+VAT [%] Net worth VAT Gross worth
+10% 881,33 88,13 969,46
+Total $ 881,33 $ 88,13 $ 969,46

@@ -1,0 +1,24 @@
+Invoice no: 48839074
+Date of issue: 11/15/2011
+—}) Seller: Client:
+Hamilton Ltd Nelson, Salas and Gregory
+210 Stewart Lights Suite 306 1946 Le Avenue
+Port Morganville, IN 01943 Lake Leslie, CA 43678
+Tax Id: 986-72-4878 Tax Id: 909-92-7443
+IBAN: GB49BCIZ13661696728975
+7) ITEMS
+No. Description Qty UM Net price Net worth VAT [%] Gross
+worth
+1. YILONG 4'x6' Golden Handmade 1,00 each 3 600,00 3 600,00 10% 3 960,00
+Carpet House Decor Hand
+Knotted Silk Rugs 088B
+2. Soft Sheepskin Mat Faux Fur 1,00 each 8,11 8,11 10% 8,92
+Rug Small Shaggy Non Slip
+Floor Carpet Light Pink
+3. Colorful Marble Printed Living 3,00 each 12,49 37,47 10% 41,22
+Room and Bedroom Area Rugs
+Carpet CNK2413
+—___] SUMMARY
+VAT [%] Net worth VAT Gross worth
+10% 3 645,58 364,56 4010,14
+Total $3 645,58 $ 364,56 $4010,14

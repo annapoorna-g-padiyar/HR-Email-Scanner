@@ -1,0 +1,31 @@
+Invoice no: 52230192
+Date of issue: 08/10/2012
+—}) Seller: Client:
+Campbell-Gordon Smith, Richardson and Brown
+679 Pope Plains Suite 458 2192 Kenneth Walk
+Meganburgh, HI 68136 Obrienmouth, MN 10662
+Tax Id: 941-97-5712 Tax Id: 979-94-7617
+IBAN: GB57FLQY83891707664947
+7) ITEMS
+No. Description Qty UM Net price Net worth VAT [%] Gross
+worth
+1, Multi Color Stones Inlay Art 1,00 each 517,50 517,50 10% 569,25
+Coffee Table Top Marble Patio
+Sofa Table 27 Inches
+2. SOFA SET 1,00 each 250,00 250,00 10% 275,00
+3. 12" White Marble Side Coffee 3,00 each 247,78 743,34 10% 817,67
+Table Top Jasper Elephant Inlay
+Garden Decor W026
+4, 35" Round Marble Coffee Top 1,00 each 1 259,00 1 259,00 10% 1 384,90
+Table Floral Marquetry Inlay
+Furniture Decors B430
+5. 24 Inches Marble Sofa Table Top 3,00 each 615,00 1 845,00 10% 2 029,50
+Inlay Coffee Table with
+Malachite Stone Work
+6. 6'x3' Marble Counter Height 2,00 each 5 469,38 10 938,76 10% 12 032,64
+Dining Table Top Multi Inlay
+Furniture Decor E955A
+—_) SUMMARY
+VAT [%] Net worth VAT Gross worth
+10% 15 553,60 1555,36 17 108,96
+Total $ 15 553,60 $ 1555,36 $17 108,96

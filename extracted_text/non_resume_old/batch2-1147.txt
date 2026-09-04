@@ -1,0 +1,18 @@
+INVOICE
+INVOICE NO.
+129
+DATE:
+March 20, 2022
+DUE DATE:
+April 20, 2022
+Bill from Bill To
+WESTROCK ACCOUNTS PAYABLE PACART INC.
+P.O. Box 100084 poinvoices@westrock.com 100 Carnforth Road
+DULUTH, Georgia, United States North York, Ontario, Canada
+10 | DESCRIPTION QUANTITY PRICE, $ TOTAL, $
+Low Profile SuperHighTack 1/2" Glue Dots 1/64"th 4000/roll
+01 |16rls/case 2 356.00 356.00
+12/case
+[a| sarin | [mm]
+04 Araldite 2012 GP Epoxy 50ml 6 cartridges/box | 120 106.00 106.00
+cartridges/case

@@ -1,0 +1,28 @@
+ROHIT SHARMA 
+Email: rohit.sharma@example.com | Phone: +91-9123456722 
+LinkedIn: linkedin.com/in/rohit-sharma | GitHub: github.com/rohit-network 
+PROFILE 
+Computer Science Engineering student specializing in networking and network security. Hands-on experience with Cisco equipment and routing protocols. 
+EDUCATION 
+B.E. in Computer Science Engineering 
+― 
+Visvesvaraya Technological University, Karnataka | 2021 2025 CGPA: 8.5/10 
+SKILLS 
+- Networking: TCP/IP, Routing, Switching 
+- Tools: Cisco Packet Tracer, Wireshark 
+- Certifications: CCNA (pursuing) 
+- Programming: Python (Network Automation), Bash 
+PROJECTS 
+1. **Simulated Campus Network Design** 
+- Used Cisco Packet Tracer 
+- Configured VLANS, RIP, and ACLS 
+2. **Basic Network Intrusion Detection** 
+- Python scripts to monitor suspicious traffic patterns 
+WORKSHOPS 
+- Cisco Networking Workshop, College TechFest 
+- Ethical Hacking Basics Workshop 
+CERTIFICATIONS 
+- Introduction to Cybersecurity - Cisco NetAcad 
+- Networking Essentials - Cisco 
+LANGUAGES 
+English, Kannada, Hindi

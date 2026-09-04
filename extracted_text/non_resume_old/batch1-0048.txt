@@ -1,0 +1,33 @@
+Invoice no: 96947403
+Date of issue: 10/09/2011
+—}) Seller: Client:
+Frazier-Rose Cruz LLC
+124 Martin Forks 22989 Daniel Run
+East Chelsealand, HI 91917 South Jennifer, LA 86324
+Tax Id: 944-92-0144 Tax Id: 985-88-9141
+IBAN: GB67TUVG95262505800602
+7) ITEMS
+No. Description Qty UM Net price Net worth VAT [%] Gross
+worth
+1, Lolita Happy Retirement Wine 2,00 each 8,00 16,00 10% 17,60
+Glass 15 Ounce GLS11-5534H
+2. Wine Glass European Style Wine 4,00 each 31,79 127,16 10% 139,88
+Glass Rack for Home Kitchen
+Bar Restaurant
+3. Libbey Classic White Wine 2,00 each 18,74 37,48 10% 41,23
+Glasses, Set of 4 14 ounce Glass
+4. Cuisinart Stainless Steel Electric 5,00 each 19,90 99,50 10% 109,45
+Wine Opener - CWO-25 - Brand
+New in the Box
+5. Double Lever Wine Corker Used 4,00 each 6,30 25,20 10% 27,72
+In Good Shape
+6. Electric Automatic Wine Bottle 1,00 each 6,28 6,28 10% 6,91
+Opener w/Foil Cutter
+Rechargeable Corkscre
+7. VTG 1970s MCM Brown Steel 5,00 each 34,00 170,00 10% 187,00
+Tube Wall or Desk Mounted
+12-Wine Rack Bottle Holder
+7} SUMMARY
+VAT [%] Net worth VAT Gross worth
+10% 481,62 48,16 529,78
+Total $ 481,62 $ 48,16 $ 529,78

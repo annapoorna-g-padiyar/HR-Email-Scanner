@@ -1,0 +1,63 @@
+Z A R A G R E E N E
+SOFTWARE ENGINEERING MANAGER
+CONTACT WORK EXPERIENCE
+zaragreen@email.com Software Engineering Manager
+(123) 456-7890
+Google LLC
+Mountain View, CA
+May 2019 - April 2023 / Mountain View, CA
+LinkedIn
+Boosted application performance by 23% through the strategic use of
+Github Docker for containerization and deployment.
+Enhanced CI/CD pipelines by integrating Jenkins, accelerating release
+cycles by 21%.
+EDUCATION
+Optimized data storage and retrieval with MySQL, contributing to a
+29% increase in database performance.
+M.S.
+Mentored 5 junior engineers on best practices, increasing their
+Computer Science with a
+productivity and improving code quality.
+concentration in Software
+Improved application architecture using AWS Cloud Services,
+Theory or Software Systems
+reducing server response times by 28%.
+Stanford University
+2010 - 2012
+Systems Analyst
+Stanford, CA
+IBM
+October 2015 - April 2019 / Armonk, NY
+B.S.
+Developed custom system monitoring tools using Java, improving
+Computer Science
+infrastructure stability by 29%.
+Carnegie Mellon University
+Implemented Git for version control and collaboration, reducing code
+2006 - 2010
+conflicts by 15%.
+Pittsburgh, PA
+Led the migration of legacy systems to modern technology stacks,
+improving system performance by 28%.
+Enhanced website interface design with React.js, boosting click-
+SKILLS
+through rates by 24%.
+Eclipse Leveraged MySQL for data management and analysis, boosting
+Git database performance by 26%.
+Docker
+Amazon Web Services (AWS) IT Support Technician
+Jenkins PNC Financial Services Group
+React.js
+September 2012 - September 2015 / Pittsburgh, PA
+MySQL
+Resolved an average of 35 daily IT support tickets, resulting in a 28%
+Java increase in end-user satisfaction.
+Used remote desktop tools to provide timely and efficient support,
+decreasing average ticket resolution time by 19%.
+CERTIFICATIONS
+Introduced a centralized knowledge base, reducing ticket escalation
+AWS Certified Developer from rates by 23%.
+Amazon Web Services Coordinated with vendors for timely hardware replacements and
+upgrades, improving equipment reliability.
+Provided ongoing IT support for remote workforce, improving
+productivity by 22%.

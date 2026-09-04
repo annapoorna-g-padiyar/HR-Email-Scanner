@@ -1,0 +1,27 @@
+Invoice no: 23990963
+Date of issue: 10/12/2018
+—}) Seller: Client:
+Mitchell-Hunt Ross, Smith and Bowers
+603 Martinez Rue 051 Bradley Fields
+Payneburgh, ID 68262 Princebury, MD 44067
+Tax Id: 904-74-8528 Tax Id: 977-75-4279
+IBAN: GB27BENS48163969399117
+7) ITEMS
+No. Description Qty UM Net price Net worth VAT [%] Gross
+worth
+1, Waterford Elegance Chardonnay 2,00 each 19,98 39,96 10% 43,96
+Wine Glass, Pair - 40001097
+New In Box
+2. Metal 12" tabletop Wine Bottle 2,00 each 45,00 90,00 10% 99,00
+Display Rack Holder Caddy
+barware glass grapes
+3. Wine Opener Accessories Gift 3,00 each 11,71 35,13 10% 38,64
+Tools Set with Waiters
+Corkscrew Opener 5 Piece*
+4. Mikasa Cheers Metallics Gold 1,00 each 9,99 9,99 10% 10,99
+1402 Wine Glasses With Original
+Stickers ~Set Of 2
+—__ 7} SUMMARY
+VAT [%] Net worth VAT Gross worth
+10% 175,08 17,51 192,59
+Total $ 175,08 $17,51 $ 192,59

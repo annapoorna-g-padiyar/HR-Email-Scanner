@@ -1,0 +1,28 @@
+Invoice no: 68899128
+Date of issue: 10/15/2013
+—}) Seller: Client:
+Dominguez LLC Werner, Gilmore and Martin
+31931 Cherry Spur 08361 Nguyen Mountain
+Michaelview, MO 55717 Jesusberg, OK 18158
+Tax Id: 946-75-0726 Tax Id: 948-87-8263
+IBAN: GBO3WSOL06269905573746
+7) ITEMS
+No. Description Qty UM Net price Net worth VAT [%] Gross
+worth
+1. Checkered Gabbeh Kashkoli 1,00 each 417,24 417,24 10% 458,96
+Oriental Area Rug
+Contemporary Hand-knotted
+6x8 Carpet
+2. YILONG 1.2x1.7° 300L Tree And 3,00 each 188,00 564,00 10% 620,40
+Birds Handmade Silk Rug
+Carpet Tapestry LH691A
+3. Silky Fake Fur Fluffy Carpet 3,00 each 14,61 43,83 10% 48,21
+Non-slip Shaggy Area Rug Floor
+Mat White+Brown
+4, Luxury Bedroom Carpet Faux 2,00 each 14,46 28,92 10% 31,81
+Fur Area Rugs Shaggy for Floor
+Reading Room Gray
+—_____] SUMMARY
+VAT [%] Net worth VAT Gross worth
+10% 1 053,99 105,40 1 159,39
+Total $ 1 053,99 $ 105,40 $1159,39

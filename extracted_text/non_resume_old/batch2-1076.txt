@@ -1,0 +1,18 @@
+Invoice no: 48784080
+Date of issue: 03/01/2017
+—____) Seller: Client:
+Lopez and Sons Webb, Robbins and Molina
+56402 Eddie Heights Suite 630 20445 Lewis Trace
+Michellestad, SD 43985 Lake Amandaland, WV 07706
+Tax Id: 957-98-9113 Tax Id: 934-95-6526
+IBAN: GB26QTCU22201573653585
+______) ITEMS
+No. Description Qty UM Net price Net worth VAT [%] Gross
+worth
+1, PlayStation Vita Minecraft 3,00 each 266,00 798,00 10% 877,80
+Special Edition Bundle Console
+SONY JPN import F/S
+1] SUMMARY
+VAT [%] Net worth VAT Gross worth
+10% 798,00 79,80 877,80
+Tota! $ 798,00 $ 79,80 $ 877,80

@@ -1,0 +1,18 @@
+Invoice no: 60188354
+Date of issue: 12/06/2013
+—____) Seller: Client:
+Warner LLC Mack-Brown
+30672 Phillips Inlet Apt. 660 33689 Burke Ways
+Morganburgh, KY 31851 Gregoryberg, MO 47336
+Tax Id: 902-85-4991 Tax Id: 968-92-4030
+IBAN: GB67RXQQ75427668589587
+7) ITEMS
+No. Description Qty UM Net price Net worth VAT [%] Gross
+worth
+1, Metal 12" tabletop Wine Bottle 2,00 each 45,00 90,00 10% 99,00
+Display Rack Holder Caddy
+barware glass grapes
+7] SUMMARY
+VAT [%] Net worth VAT Gross worth
+10% 90,00 9,00 99,00
+Total $ 90,00 $ 9,00 $ 99,00

@@ -1,0 +1,16 @@
+Invoice no: 31386585
+Date of issue: 02/03/2021
+—_—_ Seller: Client:
+Rodgers-Garcia Bruce-Reid
+4296 Lucas Springs Suite 455 7895 White Estate
+Carolfort, Hl 78427 Port Ethanland, MA 15193
+Tax Id: 984-74-8068 Tax Id: 917-98-0997
+IBAN: GB84ZVVN32534578508768
+______) ITEMS
+No. Description Qty UM Net price Net worth VAT [%] Gross
+worth
+Black Console
+—______] SUMMARY
+VAT [%] Net worth VAT Gross worth
+10% 199,98 20,00 219,98
+Total $ 199,98 $ 20,00 $ 219,98

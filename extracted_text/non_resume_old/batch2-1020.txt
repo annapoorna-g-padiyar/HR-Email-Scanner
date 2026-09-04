@@ -1,0 +1,29 @@
+Invoice no: 88082213
+Date of issue: 05/07/2021
+—}) Seller: Client:
+Harris and Sons Lowe-Nelson
+01530 Dylan Glens Suite 554 947 Rios Lake
+West Beth, FL 69304 Brandtview, SD 76483
+Tax Id: 905-83-9295 Tax Id: 922-72-5534
+IBAN: GB15BVYH97081086231198
+7) ITEMS
+No. Description Qty UM Net price Net worth VAT [%] Gross
+worth
+1. PS2 SAKURA PINK Console 4,00 each 166,00 664,00 10% 730,40
+System Boxed SCPH-50000
+Tested Japan
+2. Nintendo DSOriginal NTR-001 4,00 each 0,99 3,96 10% 4,36
+Console - Camouflage - Tested
+Works
+3. Nintendo Switch Lite Console - 5,00 each 310,00 1 550,00 10% 1 705,00
+Gray - with Animal Crossing
+New Horizons Game
+4, Nintendo Switch Lite Gray 4,00 each 135,00 540,00 10% 594,00
+CONSOLE ONLY - No
+Accessories or Charger [B5-2]
+5. Microsoft Xbox One S Console 3,00 each 179,00 537,00 10% 590,70
+500GB in Great Condition
+7} SUMMARY
+VAT [%] Net worth VAT Gross worth
+10% 3 294,96 329,50 3 624,46
+Total $ 3 294,96 $ 329,50 $ 3 624,46

@@ -1,0 +1,23 @@
+Invoice no: 93421319
+Date of issue: 12/11/2019
+—}) Seller: Client:
+Miranda-Miller Nguyen, Peters and Kelly
+205 Jean Loop 36868 Tamara Groves Suite 399
+Kennedyland, MI 64951 South Clarence, MI 97670
+Tax Id: 922-90-5724 Tax Id: 919-83-1212
+IBAN: GB78LONP76435078194710
+7) ITEMS
+No. Description Qty UM Net price Net worth VAT [%] Gross
+worth
+2. FASHIONCRAFT ‘Love Is A 1,00 each 9,99 9,99 10% 10,99
+Voyage’ Wine Bottle Topper
+Silvertoned 3 1/2”
+3. Electric wine opener Automatic 1,00 each 25,09 25,09 10% 27,60
+bottle opener Red wine
+Corkscrew
+4. Wagner Vineyards uncork new 2,00 each 3,99 7,98 10% 8,78
+york Wine Glass
+7} SUMMARY
+VAT [%] Net worth VAT Gross worth
+10% 59,06 5,91 64,97
+Total $ 59,06 $ 5,91 $ 64,97

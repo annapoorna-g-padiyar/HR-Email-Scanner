@@ -1,0 +1,26 @@
+Invoice no: 98964062
+Date of issue: 05/30/2018
+—____) Seller: Client:
+Scott LLC Lawrence-Pacheco
+9206 Sierra Crossing 688 Holland Isle
+Lake Ronaldberg, DC 76862 South Maria, MD 09676
+Tax Id: 941-73-3427 Tax Id: 923-92-8409
+IBAN: GB96GQJZ03988921998435
+7) ITEMS
+No. Description Qty UM Net price Net worth VAT [%] Gross
+worth
+1, FABULOUS Nike Boy's Kyrie 3 3,00 each 29,99 89,97 10% 98,97
+White Basketball Shoes Size
+5.5Y 859466-103 WITH BOX
+2. Joma Youth Boys Gol 205 Piso 5,00 each 19,99 99,95 10% 109,94
+Multitaco Soccer Cleats 5.5
+White Blue Yellow NEW
+3. Under Armour UA Curry 3 4,00 each 4,90 19,60 10% 21,56
+Black/Black Size 6Y
+4, Diadora Youth Boys Avanti MD 2,00 each 19,99 39,98 10% 43,98
+JR Soccer Cleats Size 2.5 Yellow
+Black NEW
+7} SUMMARY
+VAT [%] Net worth VAT Gross worth
+10% 249,50 24,95 274,45
+Total $ 249,50 $ 24,95 $ 274,45

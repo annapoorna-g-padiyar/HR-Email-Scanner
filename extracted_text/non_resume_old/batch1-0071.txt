@@ -1,0 +1,29 @@
+Invoice no: 45234802
+Date of issue: 09/06/2013
+—}) Seller: Client:
+Williams-Burns Richards-Lester
+5316 Rachel Plain 55143 Daugherty Shores
+Parrishborough, OR 24949 Lake Lindseytown, ME 94332
+Tax Id: 927-73-6186 Tax Id: 982-97-3510
+IBAN: GB34RTBN99351163234844
+7) ITEMS
+No. Description Qty UM Net price Net worth VAT [%] Gross
+worth
+1, Dell Desktop Computer Tower 1,00 each 114,95 114,95 10% 126,45
+Core i3 8GB 500GB HD DVD Wifi
+Windows 10 PC
+2. Custom Build HP Desktop 2,00 each 329,00 658,00 10% 723,80
+Computer 16GB | 2TB | SSD |
+Windows 10 Windows 7 PC WiFi
+3. HP 2220 Desktop Computer 4,00 each 70,00 280,00 10% 308,00
+Barebone system
+4 WS Pro Mini Pocket PC Windows 4,00 each 119,00 476,00 10% 523,60
+10 Computer Stick Intel 28350
+Quad Core
+5. Intel Compute Stick (32GB, Intel 1,00 each 45,00 45,00 10% 49,50
+Atom, 1.33GHz, 2GB) PC
+Desktop
+7} SUMMARY
+VAT [%] Net worth VAT Gross worth
+10% 1 573,95 157,40 1 731,35
+Total $ 1573,95 $ 157,40 $1731,35

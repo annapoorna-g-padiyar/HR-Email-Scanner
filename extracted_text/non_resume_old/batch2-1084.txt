@@ -1,0 +1,28 @@
+Invoice no: 86000943
+Date of issue: 07/29/2014
+—____) Seller: Client:
+Allen, Beltran and Petersen Barnes, Martin and Torres
+176 Conley Stravenue Apt. 621 0864 Cardenas Spur
+Katherineberg, LA 68483 Lake Charlene, VA 72761
+Tax Id: 920-95-4326 Tax Id: 949-92-5246
+IBAN: GB22QDX059315609463293
+7) ITEMS
+No. Description Qty UM Net price Net worth VAT [%] Gross
+worth
+1, R&M; RICHARDS WOMAN'S 4,00 each 29,99 119,96 10% 131,96
+BLUE PRINT LONG DRESS WITH
+SHRUG JACKET SIZE 18W NWT
+2. DESIGNER MICHAEL KORS 5,00 each 20,00 100,00 10% 110,00
+DRESS SIZES
+3. J Crew A Line Ponte Dress Red 4,00 each 11,75 47,00 10% 51,70
+Size 0
+4, HERVE LEGER Bandage Dress 3,00 each 289,00 867,00 10% 953,70
+Long Gown Flared V Neck
+Metallic Silver Size S
+5. Coolibar Sun Protection Tunic 3,00 each 26,99 80,97 10% 89,07
+Dress Cover Up Size Small S
+Pink Pattern UPF 50
+_______] SUMMARY
+VAT [%] Net worth VAT Gross worth
+10% 1 214,93 121,49 1 336,42
+Total $1 214,93 $121,49 $1336,42

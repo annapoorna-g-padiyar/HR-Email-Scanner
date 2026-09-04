@@ -1,0 +1,22 @@
+Invoice no: 76098038
+Date of issue: 08/20/2012
+—}) Seller: Client:
+Kennedy-Odonnell Hinton LLC
+95136 Scott Square Suite 709 10934 Lopez Knolls Apt. 343
+Richardburgh, IL 78162 New Jennifer, RI 52627
+Tax Id: 948-84-7030 Tax Id: 954-92-4603
+IBAN: GB87DYDA89569581986723
+7) ITEMS
+No. Description Qty UM Net price Net worth VAT [%] Gross
+worth
+1, Leidenfcost Vineyards 4,00 each 3,99 15,96 10% 17,56
+Stemware Wine Glass
+3. BLACK Butterfly Winged 2,00 each 8,95 17,90 10% 19,69
+Corkscrew WINE BOTTLE
+OPENER Swing-a-Way
+4. Fabulous at 50 wine glass, Out 1,00 each 20,00 20,00 10% 22,00
+of the Box, 33
+7} SUMMARY
+VAT [%] Net worth VAT Gross worth
+10% 153,86 15,39 169,25
+Total $ 153,86 $ 15,39 $ 169,25

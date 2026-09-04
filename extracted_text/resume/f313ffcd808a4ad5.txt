@@ -1,0 +1,43 @@
+Rober: Simrch __ Phone (133) 436 78 99
+nic ‘i / Website 7 yorscwilkmsurog. com
+Senior Architect «ae inkealn: inkedlin.com/qvdlkresurme,
+Address: 1737 Marshvilie Road, Alabarna,
+SUMMARY
+Designing the architecture of complete solutions as wellas managing project iife-cycles and
+teams of engineers,
+SKILLS
+WORK EXPERIENCE
+Senior Architect
+ABC Corporation ~May-2012 ~ August 2015 . .
+* Update Oracle Hyperion, Essbase ASO/BSO cubes with member modifications. o.
++ . Update Oracle Hyperlon Planning applications, Reviewing the Quantitles and the contractors.
+Involeas, oe ee
++. Research business issues that ‘are reflected in Planning and Essbase,
+«. Modify and-test Essbasé business rules and calc-Scripts. Bulld reports In Oracle Hyperion
+’Financlal Reporting. ; ’ oo
+« Develop Maxt seripts.and Windows batches toremotely muin.them... 0. 2.0...
+* ‘Set up batch processes and schedules.to automate Oracle Hyperlon Financlal reports,
+* Architectural Design confllet solutions, ‘créating detalls whenever néeded, Sita Supérvislon ahd
+Inspections with quality checklists, 0 00" pe ees
+Senior Architect _
+ABC Corporation -:2009-'2012:
++ . Qver-a large-scale re-engineerlng effort of a mission critical project management systern for a:
+-large Engineering and Constructlon company, soto oy
++ The'application consisted of. more than 400 SQLForms 3.0 character-base ‘screens and
+processes,,
+* The database was re-engineered from’an.Oracle ROBMS version 6;x to. an Oracle.RDBMS,
+verslon Fx. Te a
++ All.Screens were re-designed fora Windows-based cllent-server architecture utillzing Oracle.
+Designer and Developer - ae
+* Additional activities Included the Introductionof database level referential (ntegrity for all
+tables and perforrnance enhancing de-normalization of data, ; 4
++ Primary responsibilities Included development, of application infrastructure (programming. and.
+GUI standards, templates, libraries, and referenced: objects), prograrnming of critical Screens:
+and management of the prograrnming effort for more than.20 consultants and in-house =~
+programmers, mA, os or -.
++ All programming done using Oracle Technology tools; Including the Oracle database (81),
+» PLUSQL, Oracle Developer.(Forras and Reports) and Oracle Designer,,
+EDUCATION
+Bachelors of Science in Business Administration - (Cotorado Technical University-- Colorado
+Springs, CO)
+“Ql THE Eros Bids une Template ss the copyright of Gwikrésurne. com. s3yo Gubtelings

@@ -1,0 +1,29 @@
+Invoice no: 85473134
+Date of issue: 04/24/2017
+—____) Seller: Client:
+Saunders-Lee Molina Inc
+956 Ryan Street Apt. 935 74699 Lee Flats Apt. 165
+Davidton, SD 89340 Port Amymouth, AK 84827
+Tax Id: 991-83-4896 Tax Id: 936-85-0485
+IBAN: GB64NXOM90738015286952
+7) ITEMS
+No. Description Qty UM Net price Net worth VAT [%] Gross
+worth
+1. The Home Stretch 1,00 each 5,38 5,38 10% 5,92
+2. Q&A a Day: 5-Year Journal 1,00 each 4,49 4,49 10% 4,94
+3. Evolutionary Analysis 1,00 each 6,43 6,43 10% 7,07
+4, Black Dragon Codex (The 5,00 each 4,49 22,45 10% 24,70
+Dragon Codices) by R.D.
+Henham
+5. CS Forester' Hornblower Saga 4,00 each 169,95 679,80 10% 747,78
+11 Books Series Collection Set -
+BRAND NEW
+6. The Complete Idiots Guide to 4,00 each 4,49 17,96 10% 19,76
+Trouble-Free Home Re
+7. Hekate Soteira : A Study of 3,00 each 24,12 72,36 10% 79,60
+Hekate's Role in the Chaldean
+Oracles and Related...
+_______] SUMMARY
+VAT [%] Net worth VAT Gross worth
+10% 808,87 80,89 889,76
+Total $ 808,87 $ 80,89 $ 889,76

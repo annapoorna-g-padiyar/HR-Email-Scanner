@@ -1,0 +1,26 @@
+Invoice no: 76322049
+Date of issue: 05/21/2021
+—____) Seller: Client:
+Carter, Molina and Garcia Jones LLC
+6710 Sean Ports 0875 Charles Village Suite 140
+Lake Kristine, CT 42610 Reidfort, NC 33037
+Tax Id: 932-98-4214 Tax Id: 950-91-2299
+IBAN: GB73AHPS77365053663190
+7) ITEMS
+No. Description Qty UM Net price Net worth VAT [%] Gross
+worth
+1, Straw Dogs : Thoughts on 4,00 each 13,99 55,96 10% 61,56
+Humans and Other Animals,
+Paperback by Gray, John, L...
+2. Titans of the Rising Sun - 3,00 each 7,53 22,59 10% 24,85
+Yamato Class Battleships of
+World War Il Book
+3. The Graphic Design Reference 2,00 each 20,18 40,36 10% 44,40
+& Specification Book:
+Everything Graphic Designers
+4, Sasinowski M-Legacy Of Ra 3,00 each 19,40 58,20 10% 64,02
+BOOK NEW
+7} SUMMARY
+VAT [%] Net worth VAT Gross worth
+10% 177,11 17,71 194,82
+Total $ 177,11 $ 17,71 $ 194,82

@@ -1,0 +1,24 @@
+Invoice no: 38477420
+Date of issue: 05/22/2021
+—}) Seller: Client:
+Pope, Shaw and Solis Robbins, Nelson and Wolf
+147 Davis Place Suite 960 5204 Adam Causeway Apt. 572
+Lake Erikamouth, VA 36179 Taylorside, VA 38648
+Tax Id: 965-70-0661 Tax Id: 949-84-1673
+IBAN: GB64NJRC91002069706751
+7) ITEMS
+No. Description Qty UM Net price Net worth VAT [%] Gross
+worth
+1. Battlestations! (Star Trek: The 2,00 each 4,49 8,98 10% 9,88
+Original Series)
+2. A TIME FOR MERCY by John 1,00 each 2,69 2,69 10% 2,96
+Grisham
+3. How to Win Friends & Influence 1,00 each 6,62 6,62 10% 7,28
+People
+5. The WORLD of ART Time Life 1,00 each 50,00 50,00 10% 55,00
+Books~CompleteSet of 24 +
+American Modern Art
+—______} SUMMARY
+VAT [%] Net worth VAT Gross worth
+10% 72,28 7,23 79,51
+Total $ 72,28 $ 7,23 $ 79,51

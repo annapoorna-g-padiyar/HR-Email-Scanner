@@ -1,0 +1,32 @@
+PRIYA MENON 
+Email: priya.menon@example.com | Phone: +91-9988776655 
+LinkedIn: linkedin.com/in/priya-menon | GitHub: github.com/priyamenon 
+CAREER OBJECTIVE 
+Detail-oriented BCA student with a strong foundation in statistics, Python, and data 
+visualization. Passionate about uncovering insights from data. Looking for a data analyst internship to gain real-world experience. 
+EDUCATION 
+Bachelor of Computer Applications 
+St. Xavier's College, Mumbai | 2021 - 2024 
+- CGPA: 9.1/10 
+TECHNICAL SKILLS 
+- Programming: Python, R 
+- Tools: Excel, Tableau, Power BI 
+- Libraries: NumPy, Pandas, Matplotlib, Seaborn 
+- Databases: SQLite, MySQL 
+PROJECTS 
+1. **Sales Analysis Dashboard** (Tableau) 
+- 
+Built an interactive dashboard for a retail dataset 
+- Included KPIs, regional breakdowns, and trend analysis 
+2. **Covid-19 Data Analysis** (Python) 
+- 
+Analyzed global COVID-19 datasets 
+- Created visualizations and statistical summaries using Pandas 
+CERTIFICATIONS 
+- Google Data Analytics Professional Certificate 
+- Data Visualization with Tableau - Coursera 
+EXTRA ACTIVITIES 
+- Presented paper on “Big Data Trends" in college seminar 
+- Volunteer, NSS Unit - Blood donation camp 
+LANGUAGES 
+English, Hindi, Malayalam

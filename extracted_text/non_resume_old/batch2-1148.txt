@@ -1,0 +1,12 @@
+10 | DESCRIPTION QUANTITY PRICE, $ TOTAL, $
+M 570 Seam Sealer WHT 120z 12 cartridges/case
+01 2 276.00 276.00
+AEB2461 PTFE 10"x36YDS Smil Glass Cloth Fabric / No Adh.
+02 5 71.00 71.00
+4179 Prot.Tp. 6"x1000' CLEAR MOQ 12 rolls
+03 7 146.00 146.00
+0 101740 4179 Prot.Tp. 12"x1000' CLEAR MOQ 6 rolls
+04 726.00 726.00
+Sales Tax 8% 97.00
+Total Due 1361.00
+THANK YOU..

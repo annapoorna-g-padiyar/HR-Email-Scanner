@@ -1,0 +1,29 @@
+Invoice no: 30684166
+Date of issue: 04/16/2020
+—}) Seller: Client:
+Brown Group Bullock PLC
+18447 James Course 857 Stewart Parkway Suite 381
+Ariasmouth, RI 28548 Janicefurt, RI 75233
+Tax Id: 925-73-9594 Tax Id: 922-75-8678
+IBAN: GB32VIFN45679055794517
+7) ITEMS
+No. Description Qty UM Net price Net worth VAT [%] Gross
+worth
+1, Women Sexy Lingerie Lace 1,00 each 0,99 0,99 10% 1,09
+Dress Underwear Babydoll
+Sleepwear G-string Bikini Lot
+2. Vintage 80s All That Jazz Blue 4,00 each 10,00 40,00 10% 44,00
+Velvet Dress Small/Medium
+3. Lilly Pulitzer Lillywood California 2,00 each 76,00 152,00 10% 167,20
+8 Shift Dress
+4. Andrea Polizzi Women's 4,00 each 0,99 3,96 10% 4,36
+Sleeveless Shift Dress Silver
+Size 8
+5. 14 Colors Women Spaghetti 1,00 each 4,71 4,71 10% 5,18
+Strap Bodycon Mini Dress Sexy
+Party Club Wear Dresses
+6. Lilly Pulitzer dress size 0 2,00 each 45,00 90,00 10% 99,00
+—______] SUMMARY
+VAT [%] Net worth VAT Gross worth
+10% 291,66 29,17 320,83
+Total $ 291,66 $ 29,17 $ 320,83

@@ -1,0 +1,21 @@
+Invoice no: 91851148
+Date of issue: 11/08/2015
+—}) Seller: Client:
+Freeman, Carter and Peterson Ryan-Harrison
+653 Ferrell Corners 86000 Matthew Valleys Suite 493
+West Matthewborough, NJ 47608 Fischermouth, AZ 42861
+Tax Id: 942-70-7601 Tax Id: 999-85-7578
+IBAN: GB84KJBN36231109439197
+7) ITEMS
+No. Description Qty UM Net price Net worth VAT [%] Gross
+worth
+1, Nintendo N64 Atomic Purple 5,00 each 51,00 255,00 10% 280,50
+Console in box Mario Kart in box
++Extras
+2. Clear Purple 10 Levels 4,00 each 109,00 436,00 10% 479,60
+brightness Backlit V2 iPS LCD
+GameBoy Advance GBA Console
+7} SUMMARY
+VAT [%] Net worth VAT Gross worth
+10% 691,00 69,10 760,10
+Total $ 691,00 $ 69,10 $ 760,10

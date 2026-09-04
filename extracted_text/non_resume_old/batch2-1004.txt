@@ -1,0 +1,35 @@
+Invoice no: 21195585
+Date of issue: 03/02/2021
+—}) Seller: Client:
+Castro, Santiago and Jones Alexander and Sons
+72467 Alexander Squares 276 Campbell Crossing Suite 019
+Lewismouth, OR 20090 Rosestad, LA 48608
+Tax Id: 922-85-8895 Tax Id: 989-87-2291
+IBAN: GB24AERI42073326639952
+7) ITEMS
+No. Description Qty UM Net price Net worth VAT [%] Gross
+worth
+1, CLEARANCE!!! Fast HP Desktop 2,00 each 89,99 179,98 10% 197,98
+Computer PC Core 2 Duo
+WINDOWS 10 + LCD + KB + MS
+2. Vintage Microsolutions Pentium 4,00 each 390,00 1 560,00 10% 1 716,00
+133mhz Desktop Tower PC
+Windows 95 5.25 Floppy
+3. computer 3,00 each 299,99 899,97 10% 989,97
+4. 10-Core Gaming Computer 5,00 each 439,98 2 199,90 10% 2 419,89
+Desktop PC Tower SSD Quad
+16GB R7 Graphic CUSTOM
+BUILT
+5. AMD Custom Built Quad Core 1,00 each 599,99 599,99 10% 659,99
+Ryzen 5 Gaming PC Computer
+8GB DDR4 Vega 11 SSD
+6. Dell Optiplex 790 Computer i7 1,00 each 159,99 159,99 10% 175,99
+@ 3.40 Ghz Quad Core 250GB
+4GB Working
+7. Fast i7 RGB Gaming Desktop PC 3,00 each 790,00 2 370,00 10% 2 607,00
+Computer VR-Ready WiFi AAA
+Fortnite GTAV PUBG IG3
+—_____] SUMMARY
+VAT [%] Net worth VAT Gross worth
+10% 7 969,83 796,98 8 766,81
+Total $ 7 969,83 $ 796,98 $ 8 766,81

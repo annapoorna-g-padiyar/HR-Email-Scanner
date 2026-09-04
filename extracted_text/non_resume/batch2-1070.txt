@@ -1,0 +1,26 @@
+Invoice no: 24303420
+Date of issue: 04/18/2017
+—}) Seller: Client:
+Johns, Carlson and Hoffman Malone and Sons
+1727 Timothy Summit 692 David Landing
+Pratthaven, ID 05539 Carterview, VA 17419
+Tax Id: 951-97-3238 Tax Id: 911-90-9004
+IBAN: GBS2GLVF07998823306604
+7) ITEMS
+No. Description Qty UM Net price Net worth VAT [%] Gross
+worth
+1, KAREN SCOTT 3X DRESS 5,00 each 5,99 29,95 10% 32,95
+3. Lilly Pulitzer dress size 0 1,00 each 45,00 45,00 10% 49,50
+4 14 Colors Women Spaghetti 5,00 each 4,71 23,55 10% 25,90
+Strap Bodycon Mini Dress Sexy
+Party Club Wear Dresses
+5. Old Navy Womens Sleeveless 4,00 each 12,00 48,00 10% 52,80
+Rayon Dress Hawaiian Floral
+Print Size XS
+6. CLIFFORD & WILLS BLACK 1,00 each 5,99 5,99 10% 6,59
+NET/MESH OVER TAUPE LONG
+DRESS SIZE 4
+—_____] SUMMARY
+VAT [%] Net worth VAT Gross worth
+10% 472,49 47,25 519,74
+Total $ 472,49 $ 47,25 $ 519,74

@@ -1,0 +1,21 @@
+Invoice no: 12757551
+Date of issue: 06/26/2016
+—}) Seller: Client:
+Kelley LLC Robinson, Keller and Thomas
+PSC 8548, Box 9105 PSC 9219, Box 9857
+APO AE 71241 APO AA 54726
+Tax Id: 948-82-5874 Tax Id: 953-87-8996
+IBAN: GBS2HWNN86695101566210
+7) ITEMS
+No. Description Qty UM Net price Net worth VAT [%] Gross
+worth
+1, Nintendo Gameboy Color 1,00 each 120,00 120,00 10% 132,00
+Console Clear with Box Manual
+CGB-001 GBC Japan Tested 63
+2. B408 Nintendo Gameboy Color 5,00 each 74,99 374,95 10% 412,44
+console Ice Blue Toysrus
+Limited Japan GBC REAR x
+7} SUMMARY
+VAT [%] Net worth VAT Gross worth
+10% 494,95 49,50 544,45
+Total $ 494,95 $ 49,50 $ 544,45

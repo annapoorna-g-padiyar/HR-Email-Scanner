@@ -1,0 +1,21 @@
+Invoice no: 63138304
+Date of issue: 07/11/2017
+—____) Seller: Client:
+Fowler PLC Jones PLC
+97357 Shannon Plains Apt. 019 55584 Moore Centers Apt. 561
+Elizabethside, MN 49242 Terrellchester, VA 78396
+Tax Id: 905-91-8522 Tax Id: 997-91-0949
+IBAN: GB22WITAS4794508312642
+7) ITEMS
+No. Description Qty UM Net price Net worth VAT [%] Gross
+worth
+1, Alarco Gaming PC Desktop 1,00 each 500,00 500,00 10% 550,00
+Computer Intel iSv 8Gv 1Tbv
+WIN 104 NVIDIA GTX 650 1GB
+2. Alarco Gaming PC Desktop 5,00 each 500,00 2 500,00 10% 2 750,00
+Computer Intel isv 8Gv WIN
+10”1Tbv NVIDIA GTX 650 1GB
+7} SUMMARY
+VAT [%] Net worth VAT Gross worth
+10% 3 000,00 300,00 3 300,00
+Total $ 3 000,00 $ 300,00 $ 3 300,00

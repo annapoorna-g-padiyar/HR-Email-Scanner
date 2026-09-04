@@ -1,0 +1,58 @@
+WORK EXPERIENCE
+SOFTWARE ARCHITECT Cisco Systoms 2015-05 - Present
+Chief Software Architect
+—_— Responsibllities
+« Collaborating with product line management toidentify, refine. andtranslate customer needs into concrete
+SEAN ERVINE technical requirements.
+« Working with strategic accounts across EMEA supporting operators In defining thelr 25 year IT strategies
+Oly, State covering sdltware, integration, and business Lansformation needs
+000-000-0006 » Supporting the custamers’ systems consclidation and processingwhere operator merger andacquisition had
+emailvemalcon taken place.
+« Laading architectural tasks and decisions across the current and future Cisco software portfolio.
+__ = Coordinating activities including product development, protetype development, andimplementation
+functions. all the way through from use-case creation though to customer delivery.
+» Evaluating the canddate architectures and technologies through intemal prototyping ‘skunkworks* activities
+SUMMARY In order ta drive improvements to software architectures tn crder to reduce integration casts or to suppart
+new system features with the goal of reducing nlegration cost whilst adding new features.
+Seasoned IT Professional with over yeas « Maintaining knowledge of industry standards and trends and act as “go-to" subject matter expert in key
+experience, highly mouvated, goal-oriented and cevelopingtrends.
+thriving to excel in software technologies. have
+an imate desire for kecping up to-date with
+technology and bullding prototypes. A Ogilvy 2010-10 = 2015-04
+demenstratedhislery of delivery orientedwork ;
+ethic for satisfied teammembers, leadership, and Lead Software Architect
+clierts. Responsibilities
+» Designed and developed a mobile-first responsive application with RESTIul web senices and APIs.
+SKILLS « Adopted micro-serices for identified ue cases with a new tech slacki.e. NodeJS, MongoDB, Mailgun API.
+; « Concepiualized andimplemented Reds caching in the application.
+Team Leadership = Implemented email solution using Mailgua ESP.
+ooo » Developed iOS app prototype for receipt processing using OCR AR.
+» Developeda prototype for Integrating telephony and texting API tothe product sulte.
+» Developedan email processor ETL tool using outlook VBA.
+Strategic Planning « Designed andimplemented a data warehouse and Bl.
+« Evaluated AWS and Azure toidentify provider and migrate infrastructure from managed virtualization tothe
+ee cloud. :
+« Worked on developing a go-to-market strategy by Comverting the prochct to SaaS on AWS: included defining
+the tech stack developing a prototype and latec if approved, use it as an accelerator project.
+Account Management
+CCS
+GE Healtheare 2006-06 - 2010-09
+Software Architect
+Product Development Responsibilities
+—————— + Worked in one of the biggest projects of the company delivered for ‘the largest drug retailing chain in the
+USA’,
+« Supervised several intems who were performing their endof studies project within the company.
+Project Management « Developed and created a local web application: a space for the employees where they coud find
+Ss _ documentation, video recordings af workshop sessions held intemally, and photos of the events organized by
+the company.
+» Developeda web application used by the clients to communicate sensitive and highty secured configuration
+Technology Consulting files.
+» Develspeda mobile version Android and iOS) of one of our products. a cloud-basedweb Forecast. and
+| replenishment application, communicating with a distributed backend system.
+« Developeda dashboard to track in real time the available deployed assets in the cloud
+INTERESTS
+« Tennis « Snocker EDUCATION
+* Boxing + Table Tenris STANFORD UNIVERSITY 2000 - 2003
+Bachelor of Science In Computer Science
+Stanford University 2003 - 2005
+Master of Sciance in Computer Science

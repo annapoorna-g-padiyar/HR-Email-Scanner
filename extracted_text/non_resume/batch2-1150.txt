@@ -1,0 +1,22 @@
+Invoice no: 25173203
+Date of issue: 07/10/2011
+—}) Seller: Client:
+Banks, Moreno and Young Sawyer, Spencer and Garcia
+538 Silva Bridge 6652 Hill Port Suite 470
+Williechester, UT 89145 Charlesville, AZ 88486
+Tax Id: 990-84-5251 Tax Id: 993-96-8724
+IBAN: GB94AEJW70634584953125
+7) ITEMS
+No. Description Qty UM Net price Net worth VAT [%] Gross
+worth
+2. Taste of Home Bake Shop 1,00 each 4,49 4,49 10% 4,94
+Favorites: 383 Reader Reci
+3. Principles of Virology, 2 Volume 1,00 each 121,90 121,90 10% 134,09
+Set (ASM Books)
+4, Dont Sweat the Small Stuff... 1,00 each 4,49 4,49 10% 4,94
+and Its All Small Stuff: Simple
+Ways to Keep
+7} SUMMARY
+VAT [%] Net worth VAT Gross worth
+10% 136,10 13,61 149,71
+Total $ 136,10 $ 13,61 $ 149,71

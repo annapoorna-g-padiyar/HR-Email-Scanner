@@ -1,0 +1,80 @@
+AI – Powered Resume Parser 
+Kushal Kumar1, Logamithran2, Mohamed Aadil3, Nagappan4
+Artificial Intelligence and Data Science, Sri Shakthi Institute of Engineering and Technology, Coimbatore, India.
+---------------------------------------------------------------------***---------------------------------------------------------------------
+Abstract - This project presents the design and development of an AI-powered resume parser aimed at automating the extraction and classification of key information from resumes. Leveraging machine learning techniques with Python, the system extracts fields such as name, contact information, education, skills, and work experience. It is deployed using Flask for web interface integration, with model serialization handled by Pickle and structured data storage managed by SQL databases. The parser addresses challenges related to diverse resume formats and entity extraction accuracy, applying optimization techniques to enhance model performance. Evaluation metrics such as precision, recall, and F1-score demonstrate the effectiveness and efficiency of the system in parsing resumes. The system enables seamless integration with applicant tracking systems, significantly reducing manual effort and improving recruitment workflows. Future improvements may include support for multiple languages and incorporation of deep learning models for enhanced accuracy.
+Key Words: Artificial intelligence, Information extraction, Machine learning, Natural language processing, Recruitment automation, Resume parsing.
+1. INTRODUCTION
+The increasing use of artificial intelligence (AI) in recruitment has transformed traditional hiring workflows by enabling automation and enhancing efficiency. One significant advancement in this domain is the development of AI-powered resume parsers that automatically extract and classify key information from candidate resumes. Manual resume screening is often time-consuming and prone to human errors, whereas AI-based solutions offer faster processing and greater consistency. This paper presents the design, implementation, and evaluation of an AI-driven resume parser built using Python and Flask, with Pickle used for model serialization and an SQL database employed for structured data storage. The proposed system focuses on extracting essential resume fields such as name, contact information, education, skills, and work experience, handling diverse file formats including PDF and DOCX. By leveraging machine learning and natural language processing techniques, the system improves the speed and accuracy of candidate data extraction, facilitating seamless integration with applicant tracking systems.
+The remainder of this paper discusses the relevant background, describes the methodology, addresses the challenges encountered, presents evaluation results, and outlines future directions for enhancing the system’s capabilities.
+2. RELATED WORK
+Several resume parsing systems have been developed utilizing traditional rule-based methods and, more recently, AI-driven approaches. Early techniques primarily relied on keyword matching and regular expressions, which often struggled with diverse resume formats. Advances in NLP and ML have enabled the extraction of semantic meaning from resumes, improving entity recognition accuracy. Research has shown that machine learning models, including Random Forest, Support Vector Machines (SVMs), and deep learning-based Named Entity Recognition (NER), outperform manual and heuristic methods. Industry solutions like Sovren, HireAbility, and DaXtra have set benchmarks, though proprietary limitations restrict their customization. This project builds upon these developments by employing a custom-trained ML model designed for flexibility and easy integration with Applicant Tracking Systems (ATS).
+3. METHODOLOGY
+The system follows a multi-phase methodology:
+Data Collection: A diverse set of resumes in PDF and DOCX formats was gathered for training and testing purposes.
+Preprocessing: Text extraction using libraries such as pdfminer and docx2txt, followed by tokenization, lemmatization, and removal of noise.
+Feature Engineering: Identification of key entities such as names, skills, education qualifications, and work experience using NLP-based pattern recognition.
+Model Training: A Random Forest Classifier was trained on labeled entities to classify extracted text segments. Model serialization was done using Pickle for efficient deployment.
+Web Deployment: A Flask API was developed for user interactions, allowing resume file uploads and returning structured JSON outputs.
+Database Management: Extracted information is stored in an SQL database for efficient querying and further analysis.
+Table -1: Group Statistics
+Table -2: Independent Samples Test
+4. RESULTS
+The performance of the resume parser was evaluated using standard metrics:
+Precision: 89.2%
+Recall: 87.5%
+F1-Score: 88.3%
+Parsing Speed: Average of 1.32 seconds per resume.
+The system demonstrated high accuracy in entity extraction across various resume formats. Testing involved 200 resumes, with feedback from HR professionals validating the parser's practical usability. The parser handled diverse layouts and mixed formatting with minimal errors.
+5. DISCUSSION
+The proposed AI-powered resume parser successfully automated the extraction of key information from resumes with high efficiency and accuracy. Handling multiple document formats, particularly inconsistent DOCX files, posed a significant challenge that was mitigated through enhanced preprocessing techniques. Although the model performed well, minor inaccuracies in complex layouts suggest potential benefits from exploring deep learning models such as Bidirectional LSTM or transformers like BERT. Integration with real-time applicant tracking systems (ATS) was smooth due to the system’s modular architecture, but scaling to high-volume parsing scenarios would require optimization of database and server resources.
+6. CONCLUSIONS
+This study demonstrated the development and deployment of an AI-powered resume parsing system that improves recruitment workflows by automating the extraction and classification of critical candidate information. Leveraging machine learning and natural language processing, the system achieved high accuracy while maintaining low parsing times. Future enhancements may include support for multiple languages, incorporation of deep learning-based entity recognition, and integration with larger HRMS platforms for seamless end-to-end recruitment automation.
+REFERENCES
+Jurafsky, D., & Martin, J. H. (2021). Speech and Language Processing (3rd ed.). Draft.
+HireAbility Resume Parser Documentation.
+Sovren Resume/CV Parser Whitepaper.
+Chiticariu, L., Li, Y., & Reiss, F. R. (2013). "Rule-Based Information Extraction is Dead! Long Live Rule-Based Information Extraction Systems!" Proceedings of EMNLP.
+Bird, S., Klein, E., & Loper, E. (2009). Natural Language Processing with Python. O’Reilly Media.
+Metric
+N
+Mean
+Std. Deviation
+Std. Error Mean
+Precision
+50
+0.892
+0.045
+0.0064
+Recall
+50
+0.875
+0.051
+0.0072
+F1-Score
+50
+0.883
+0.048
+0.0068
+Parsing Speed (s)
+50
+1.32
+0.15
+0.021
+t
+df
+Siq. (2-tailed)
+Mean Difference
+Std. Error Difference
+Equal variances assumed
+-1.564
+98
+0.121
+-0.032 sec
+0.020
+Equal variances not assumed
+-1.589
+96.4
+0.115
+-0.032 sec
+0.019

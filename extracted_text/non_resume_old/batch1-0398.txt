@@ -1,0 +1,26 @@
+Invoice no: 19091235
+Date of issue: 04/22/2020
+—}) Seller: Client:
+Khan-Wyatt King PLC
+4939 James Path Apt. 846 9242 Schultz Spring
+Kristifort, SC 68562 South Robertberg, VA 93346
+Tax Id: 966-75-8911 Tax Id: 953-92-1255
+IBAN: GB28ORJP86525054351152
+7) ITEMS
+No. Description Qty UM Net price Net worth VAT [%] Gross
+worth
+1, Desktop Computer Super 1,00 each 22,71 22,71 10% 24,98
+Writemaster Intel Core Duo
+2. Dell Desktop Computers J) 4,00 each 139,95 559,80 10% 615,78
+Core i5 16GB 2TB HD 512GB
+SSD J Windows 10 PC 22" LCD
+3. custom gaming computer 3,00 each 450,00 1 350,00 10% 1 485,00
+4. gaming pc desktop computer 3,00 each 850,00 2 550,00 10% 2 805,00
+intel i5
+5. Dell Optiplex 760 Windows 10 4,00 each 99,95 399,80 10% 439,78
+Professional Desktop Computer
+4GB 160GB DVD
+_____] SUMMARY
+VAT [%] Net worth VAT Gross worth
+10% 4 882,31 488,23 5 370,54
+Total $ 4 882,31 $ 488,23 $5 370,54

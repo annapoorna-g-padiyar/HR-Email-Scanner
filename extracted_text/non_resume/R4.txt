@@ -1,0 +1,315 @@
+Data-driven HR
+Résumé Analysis Based on Natural Language Processing and Machine Learning
+Tim Zimmermann Leo Kotschenreuther Karsten Schmidt
+Hasso Plattner Institute SAP Labs SAP Labs
+Potsdam, Germany Palo Alto, USA Palo Alto, USA
+tim.zimmermann @ student. hpi.de Lkotschenreuther@sap.com karsten.schmidt0] @sap.com
+\oO
+—
+mf Abstract—Recruiters usually spend less than a minute looking pdf2htmlEX =e e
+at each résumé when deciding whether it’s worth continuing ==) sfrs ES labeled data
+Cc the recruitment process with the candidate. Recruiters focus on segmentation|=_——= Ji training
+=) keywords, and it’s almost impossible to guarantee a fair process eeanta (El scikit-learn, Weka
+— . . . . : CSS style == tassiication(”) ML classification
+of candidate selection. The main scope of this paper is to tackle keywords |__—=—= —O model
+—_ this issue by introducing a data-driven approach that shows PDF spaces = HTML O ;
+N how to process résumés automatically and give recruiters more personal work education \ skills
+time to only examine promising candidates. Furthermore, we ™ tools data experience, \
+— y €x pr ig ¢ 9 - nae
+—) show how to leverage Machine Learning and Natural Language m processing —— = — S—
+O Processing in order to extract all required information from m= data
+rh the résumés. Once the information is extracted, a ranking score
+oO is calculated. The score describes how well the candidates fit Figure 1. From Document to Information: First we convert the PDF
+et based on their education, work experience and skills, Later this documents to HTML. Based on HTML structure, layout, and the content,
+paper illustrates a prototype application that shows how this we identify sections (personal, work experience, education and skills) using
+N * ; Pa an a pre-trained ML classifier.
+> novel approach can increase the productivity of recruiters. The
+= application enables them to filter and rank candidates based on
+— predefined job descriptions. Guided by the ranking, recruiters channels. This is important, because according to Erica
+\O can get deeper insights from candidate profiles and validate —_ Breuer, tailored résumés are still the most effective way to
+ie) why and how the application ranked them. This application —_ apply for a job [2]. This information flooding is maybe onc
+i) shows how to improve the hiring process by giving an unbiased of the reasons, why recruiters often ignore candidates that
+\O hiring decision support. did not explicitly apply for a position instead of actively
+S Index Terms—Computer Science, Machine Learning, Natural seeking them «Having the tight tous x he bjectively Judge
+Language Processing, Human Resources Nett pre a) find the best match an
+~ uae B b) process more potential candidates.
+> In this research prototype, we leveraged current state-
+i 1. Motivation of-the-art technology in natural language processing (NLP)
+~ and machine learning (ML) to demonstrate how data-driven
+3S Data-driven HR is the current trend in HR departments HR can significantly improve the quality and speed of the
+to replace the outdated notion of support function and tum- — whole recruiting process.
+ing HR into a pro-active counselor and education partner
+within a corporate environment. Especially, the ‘war for 2, From Document to Information
+talent’ and the amount of applications for open positions
+lead to new dimensions in processing candidate profiles and Most external? job seekers have to provide multiple
+finding the best match [1]. Recruiters and hiring managers — documents to prove their education, their work eligibility,
+can easily be biased or accidentally applying ‘filters’! on language certificates, formal trainings, and a résumé stating
+candidates without having a full 360° view on an individual prior work experience, education, awards, skills and more.
+candidate. Moreover, when having multiple profiles and — We observed that most résumés are provided as a PDF docu-
+multiple positions to fill, the problem of matching internal —_ ment and leveraged their typical structured nature. Because,
+and external candidates is multiplying the necessary efforts. simple text extraction (e.g., xpdf’s pdf2text [3]) may result
+Candidates can easily flood recruiting inboxes via online
+2. Job hunting on online portals, such as linkedin is mostly focusing on
+1. E.g., only looking for a specific keyword or degree; and missing professionals
+domain knowledge for a position to fill 3. External - outside of an organization
+~~ re
+em se
+Slcattng bd .‘° 5 aoe)
+‘
+. mt di ef. eo % - °
+Barlendingye © Hygiene® @ 4.0 ot . .
+° 4 ° “Fete.
+Menu Desig Sue es te
+j . 8
+P —¢ Seafood
+Military and Police Gastronomy
+Surveillance
+0 %%%,
+ilitary Operations ot
+bat SA . Py e'
+e ¢ ° Grime Prevention oe
+48 o Toe * °! o% rt ~
+Air Force ° o &
+g*e +
+Pid
+~, ° *
+: Py oe? oom
+&* %e .
+o 4 thmee © © 00
+seed oe% ~ ~ fe oe, 2
+yee e; "fe Pe ons abe wo othe . een! ‘
+: : o % eee 8 .° “ee ~ et 2? qe:
+ee e e oe ow”
+Ld of ° eo . 4
+“se, (xy e oe Coe om, “73° ‘
+oe e
+e . ote 8% © eee) Mee t e J
+o Reo Awe aoree . ee ee wn
+Figure 2. This map shows clusters of related skills derived using word-cmbedding [4]. Each dot represents a particular skill, the coloring represents
+different skill clusters.
+in mixed segments (see Fig 1), leveraging layout information Eventually, the skills section requires a customized pro-
+is crucial. To correctly identify all entities in a résumé, we cessing, too. We pre-trained a skill co-occurrence model
+employed segment-specific processors. For instance, once — using word-embedding [4] based on a large corpus of 800k
+we identified the personal section or skill section, we instruct __ profiles. For an easy validation and visualization we reduced
+the processing pipeline accordingly. For the segmentation — the high dimensionality from hundred down to two using
+we identify headlines, extract font information, positioning, | Stochastic Neighborhood Embedding (t-SNE [5]) and auto-
+keywords, and spaces. Once the résumé is split a pre-trained matically identified clusters (see Fig 2) of related skills.
+classifier* helps to correctly identify a section and route it The whole pre-processing pipeline transforms a résumé
+to the right processor. document into a set of structured information entities that
+Each processor is using Named Entity Recognition can easily be processed.
+(NER) to label locations, institutes, names, titles, and date
+information. Given the huge variety of date spellings, a sepa- :
+rate regular expression step is necessary to normalize them. 3+ From Information to Knowledge
+For instance, ‘Summer 2015’, ‘Present/Now’ or ‘2004,10
+- 2005,9° are some of the non-standard instances which The goal is to get a complete picture of a candidate’s fit
+‘ . : « > . ege . .
+will be replaced with a normalized form ‘mm/dd/yyyy’ or to a specific job position. Thus, we need to combine multiple
+a duration type, respectively. dimensions of information, such as skills, education, and
+When inspecting segments like work experience, we re- — work experience. In this section we will show how we
+apply the segmentation logic to split into individual career —_ measure fit on each dimension and how we can merge them
+steps before labeling employer, dates, and role. to gain a final ranking score representing a candidate’s fit.
+To ensure consistent quality, a combination of NLP/ML
+and well-defined rules helps to label education experience. 3.1. Scori
+The degree identification is based on a normalized bache- ete SCOFINE
+lor, master, doctoral degree ranking with a certain spelling
+variation tolerance. Contrary, the segment identification is In our prototype, each candidate is assigned a score
+solely ML classification based. between 0 and 100 indicating its match to a given job
+description. The score is the weighted average of the three
+4, We used various SVM, RK, DI’ models and compared their perfor. CalCgories: education, work expenence, and skills. By de-
+mance fault, the skills score is twice as important as the other two.
+3.2, Education
+The education score is based on academic degree as Mrimal Work Experience .
+well as the university’s ranking. For university ranking we 2 O°
+used: Times Higher Education [6] and QS [7]. Both of them o Desired Skills
+include a score between 0 and 100, with 100 being the best>.
+We use the average of both scores. If a university is not
+listed in one of these rankings, its score for that ranking is Data Scientist nd
+considered to be 0. We know that this may be unfair, but University Degree
+almost all universities we checked for our prototype were CO Bachelor C+H+X = JavaX
+present in at [cast onc of the rankings. By default, the degree
+score is a constant number: 20 (Bachelor), 35 (Master) J Master Data Science x
+or 50 (Doctoral). The sum of degree score and university ta Pro Linear Algebra x
+ranking score leads to the final education score. Note, that
+for scoring only the most recent university and degree are Scilab x
+taken into account instead of previous ones. One of the ; ;
+reasons is that certain school types, e.g., High Schools, are Add desired skills
+not considered for university rankings which would result eso <<
+in 0 scoring. Eventually, candidates with multiple entries . . . . teat
+. Figure 3. Various ways for candidate filtering: minimal work experience in
+may have a couple of low (or zero) scores. An alternative years, most current university degree and the mix of desired skills.
+would be to have a more fine-grained weighting based on
+duration/degree and even courses taken if available or to
+only consider the ‘top’ scorer. Nevertheless, the goal of the skill with the shortest distance is identified. The score
+the prototype is to show how external data can objectively _for this desired skill is calculated as follows:
+improve judgment about education qualities. .
+SCOrTe = 8COTCmatch — & * distance (1)
+3.3. Work Experience Whereas scorémetch iS a constant, which reflects the score
+for exact matching skills of distance zero. Other skills are
+Our second score is for work experience that depends _ based on distance punishment regulated by the a parameter.
+on duration of employment as well as on an employer score.
+Additionally, the more recent the employment the more this 4. Prototype Application
+employment contributes to the work experience score. For
+simplincation, each month of experience is worth one point. To experience the potential of our application, we built a
+t is extremely difficult to rank employers. Not only be- hat allows for filtering, ranking. and comparison
+cause the lack of data for each and every company out there P Peat a I 8 ; d nes B ilabl p ay
+(especially start-ups and SMEs), but also because there is not oF candidates. in [ 3] Wwe made a screencast available showing
+t . all major capabilities.
+a single criteria to rank them. Moreover, how much does a
+ranking criteria such as ‘revenue’ or ‘number of employees’ . .
+support an individual’s fit and level of experience. In order to 4.1, Ranking Candidates
+have at least some employer ‘quality’ metric in our ranking, . . . .
+we relied on employer’s prior selectivity on hiring. We used Candidates are assigned multiple scores as described
+the training set of 800k profiles introduced in Section 2 in _in Section 3.1. These scores are used to sort them based
+order to evaluate the career progress of employees based on ON _ ranking in various visualizations (see Section 4.3) of
+their current employer. Since we don’t have enough data to candidates. Either a weighted overall ranking can be applied
+take the complete career into account, we take the average ‘OF a fine-grained focused ranking based on individual skills,
+education score of its employees as employer score. The education, or work experience.
+final score is the sum of the experience points and the
+average of the weighted employer scores. It is limited to 4.2. Filtering Candidates
+100 points.
+To filter candidates, the user® has different options (see
+3.4, Skills Figure 3). One option is to filter by required degree(s). An-
+other option is to specify the minimum number of years of
+The skill score is the average scores of all desired skills, | work experience. Note, filtering does not affect the scoring,
+To calculate a specific skill score, we match the skill to —_it just helps to reduce the pool size of candidates.
+the skill set of the candidate. For each candidate skill, the The user can also select any ensemble of skills to specify
+distance (see Section 2) to the desired skill is calculated and a desired candidate profile. Skill selection is supported by
+5. For THE 100 means ‘perfect’ and for QS 100 means ‘first’ 6. Recruiter or hiring manager
+Mikaela Greene 89% Tyler Wright 87% Maud Le Car 87% Sophia Bernard aac
+Pro PhO PRD Master
+Experience Expenence Expenence Expenence
+Educaton — Skills © Education sts a] Education” — ” Suits ca} Education” — Skits 8
+Nera 4 vO Sb Educazon Experience jwa “BR
+ie 89 400 98 48 100 100 tine Dunon a ow ohanne Defa ; 5
+100 (o]
+M, Greene.
+ao 88 90 98 $0 rT] rd C -
+80
+S. Bernard Tyler Wright)
+i,
+a" rag a
+M. Le Car 82 as 98 60 y
+ro —-
+§0 |
+3-Ryan 79 79 80 40 Lb
+Master | (e]
+30
+2: Dupont 75 84 98 |
+Po 20
+| Q
+1) Defay PP 83 sa | 0 i
+re ft | | | [le
+| Tyler Wright Mikaela Groane Maud Le Car Sophia Bernard Justina Dupont = Johanne Dofay Jack Ryan
+Figure 4. Different views for ranking and comparing candidates: A shows the card view highlighting most important information (i.e., how well everyone
+fits the search requirements) for each candidate. B shows the score view which enables the user to inspect each specific score which plays a role in the
+overall score. Subligure C shows the score chart. 11 displays the overall skill scores and the overall work experience scores ordered decreasingly by the
+skill scores, A screencast showcasing these features is available in [8].
+an auto-complete list, which is based on the large corpus of — area of the triangle in the chart, the better the candidate’s
+800k profiles described in Section 2. score is relative to all other candidates,
+Note, skill scoring and ranking relics on the co- Convenience features, like bookmarking of candidates
+occurrence model on our training profiles. The benefit of or direct contact options are present as well.
+that is that new skills automatically appear and mapped as
+long as new skill profiles are added. The downside is that we : : . a
+may experience a slight delay of new skills being correctly Fes Scores. q tabular view of feores is depicted in Figure
+mapped, because it requires some occurrences of these new - This view lets the user quickly evaluate how a candidate
+skills. fits wart. specific skills. There is a column for each of
+Additionally, users can add related skills at any time and re hiked rhea categories as well as a ue Gesirea ski's
+even start by using pre-defined job templates. gniign Ps 8 ‘ , Pt
+percentage is colored green. The user also has the option
+to sort by a specific category or skill.
+4.3. Comparing Candidates
+. . . . 4.3.3. Score Chart. The score chart (see Figure 4) dis-
+The tool gives the user multiple ways of displaying the pays the overall skill scores and overall work experience
+candidate pool. scores of the candidates. It is ordered decreasingly by the
+skill scores. If two candidates have the same skill score, the
+43.1. Cards. The default way of displaying the candidates candidate with the better work experience score comes first.
+is the card view shown in Figure 4A. Every candidate is § The advantage of this view is that the user can visually
+represented by a card containing the most important aspects, | compare how candidates perform in the mentioned score
+such as name, score, and most recent degree. parts in particular. For instance, the example shows that skill
+Each card also has a chart that shows the score broken _ fit is fairly similar for all the candidates, but the score for
+down in the three categories (education, work experience, | work experience is quite different. This helps to navigate
+and skills). The user can quickly sec which category a candidate filtering by visually guiding towards distinctive
+candidate excels in or falls behind. Generally, the bigger the | dimensions.
+Tyler Wright Rark: 1 | Score: 87%
+‘Tyler WRIGHT
+secant ttt anette ee
+2 SSS, 7 2 rrnmacnet an teomaee Cnrmerrmarase Bee Personal «| Education © | Experience .
+> Siitynosintas nomen
+exrenence ° twright @stanford.edu Stanford University Waimart Labs
+* remade dye agecre eoyertistren bona \ (950)-810-8847 0. 2083 - 2018 2015
++ Ghanscwstcc even howe mapa Dower anes me, BILITY Columbia University Goldman Sachs
+: (ronal ou pea teen cams onan to muon br mony, Bachetor, 2007 - 2011 201t- 2013
+. TS ee ee etait Texas Instruments
++ Adee Pence, Sar does, berate, apebatenbieene er) 2008
+wuss’ Draped Acar parecer ves Pope one oor evans mn Se Adobe Research
+i
+as, Desired Skils + | Other Skils + | Job Scores .
+wnsncn tie OO ee Average 96% ‘Optimizations. Data Scientst 6%
+1 EE nie cH 100% | Proparrnng Languages Secret ee 88%
+erenests Tava 100% eed dava Developer 89%
+(cea carer ig tm Aan eid, ta A, ey, ply Pe pre. tc, Data caxe Bascal arse sed
+Oman 100% ; atabase Engneer 85
+—_ —___ Gemeutational Physics 10S Software Engneer 83%
+es | 88, Age Coach/Seum Masi 75%
+ta Frivoneall Web Developer 70%
+hogerwgSSSSSSSC:CdS;~CséAcrod Marketing Manager 69%
+Linear Algebra 89% ose MORE
+Figure 5. Profile View of a candidate showing the original résumé on the left and detail cards on the right. Any card content can be hovered to highlight
+relevant appearances in the document. Except for the Job Scores card, all cards are specific to the current résumé and the previously defined job profile.
+4.4, Inspecting Candidates 5. Summary and next Steps
+One of the main features of the application is to analyze . .
+and explain the match between candidate skill set and job This research prototype shows how to use a data-driven
+profile requirements. On the profile page (see Figure 5), the approach including multiple datasources in order to guide a
+original résumé is embedded on the left, while the extracted User in matching candidates and jobs. Using ML and NLP,
+information is grouped in cards on the right. it is possible to build a pipeline that first extracts all the
+relevant information from résumés and provides them in a
+4.4.1. Context. Hovering over an item of the extracted structured way. Once résumés are processed, external data
+information cards, e.g., a skill, all occurrences of that skill for employers and educational institutes are included as well
+are highlighted in the original résumé. This provides the '0 calculate candidate matches. Recruiters can tailor their
+user with the ability to easily validate and learn more about —_- Search and filtering to specific job roles, Additionally, there
+the context of that skill. For instance, projects or classes this are several options and dimensions to compare candidates,
+skill was applied in. Eventually, the application allows for a detailed analysis of
+the résumé to validate ranking and matching recommenda-
+4.4.2. Related Skills - Desired Skills Card. Not only does = Hons.
+the desired skills card visualize skill match quality for job However, because we developed a prototype, there are
+profile skills, but each skill can also be expanded to show the _— potential next steps and areas to further improve. First
+top similar skills and the degree of similarity. For instance, of all, weights to calculate scores are not optimized yet.
+Scilab is only a 90 % match. Since this skill is not explicitly | More specifically, user research is necessary to evaluate
+mentioned in the résumé, contributing skills, i.e., similar various configurations. Secondly, in this work, we focused
+skills indicate knowledge in this area and based on our skill —_— on extracting the most important information from résumés.
+mapping technique a matching score below 100% can be _—In fact, there are much more qualities to collect and to
+calculated, assess, €.g., awards, courses, job details, and languages. In
+addition, assessing career performance could be extremely
+4.4.3. Match - Job Scores Card. This card lists the top job — beneficial. Other criteria to take into account could be costs
+profiles for this candidate based on our scoring fit measure. of hiring candidates, relocation, or training to fill the gaps.
+This is especially helpful for candidates who avoid applying © When hiring people it is important to know whether they
+for too many positions at the same time and recruiters who —_are going to fit into the team and can adapt to the corporate
+struggle to find the best candidate for a job. This card culture. Given all the data points that are available today,
+emphasizes if this candidate would be even a better fit for there are many more extensions of our prototype presented
+another job she has not applied for. in this work.
+Acknowledgments
+The authors would like to thank the team from SAP
+Innovation Center, Palo Alto: Frank Blechschmidt, Fredrick
+Chew, Pascal Crenzin, Stephan Haarmann, Michael Janke,
+Jaeyoon Jung, Roger Li, Bhumi Patel, Stefan Selent and
+René Springer.
+References
+(1] The Telegraph, hitp://www.telegraph.co.uk/finance/jobs/10949825/
+Employers-reccive-39-applications-for-every-graduate-job.html, July
+2014
+(2] Erica Breuer, Don’t just copy and paste: 4 things to put on
+LinkedIn but not your résumé, http://mashable.com/2016/03/27/
+differences-linkedin-resume, March 2016.
+13] Xpdf, http://www.foolabs.com/xpdf/, April 2016
+[4] Christopher Olah’s blag, Deep Learning, NLP, and Representations,
+http://colah.github.io/posts/2014-07-NILP-RNNs- Representations/,
+July 2014
+[5] Laurens van der Maaten, t-SNE, https://lvdmaaten.github.io/tsne/ April
+2016
+(6] Times Higher Education, World University Rankings 2015-2016,
+https://www.timeshighereducation.com/world-university-rankings/
+2016/world-ranking, April 2016
+(7] QS World University Rankings 2015/16, http://www.topuniversities.
+com/qs-world-university-rankings, April 2016
+[8] Innovation Center Silicon Valley, SAP, Résumé Explorer Prototype
+Screencast, https://youtu.be/qlW-QUkfg9k, March 2016

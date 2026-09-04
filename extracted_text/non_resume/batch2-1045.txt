@@ -1,0 +1,19 @@
+Invoice no: 97539049
+Date of issue: 10/14/2014
+—____) Seller: Client:
+Blair-Goodwin Stewart PLC
+6279 William Lodge Unit 7207 Box 6802
+South Brian, MI 82014 DPO AP 23371
+Tax Id: 973-95-8841 Tax Id: 903-94-3980
+IBAN: GB50INSD55746518192680
+7) ITEMS
+No. Description Qty UM Net price Net worth VAT [%] Gross
+worth
+intel iS
+2. Dell Desktop Computer PC Core 3,00 each 144,95 434,85 10% 478,33
+i5 8GB 500GB HD DVD Wifi 19"
+LCD Windows 10 Pro
+_____) SUMMARY
+VAT [%] Net worth VAT Gross worth
+10% 2 134,85 213,49 2 348,34
+Total $2 134,85 $ 213,49 $ 2 348,34

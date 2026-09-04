@@ -1,0 +1,31 @@
+Invoice no: 12303489
+Date of issue: 03/08/2013
+—____) Seller: Client:
+Zimmerman, Peck and Evans Hernandez LLC
+USCGC Johnson 0478 Jessica Centers
+FPO AA 99119 Tammyside, OK 18673
+Tax Id: 935-77-6195 Tax Id: 905-75-6208
+IBAN: GB11FGNI89114977909958
+7) ITEMS
+No. Description Qty UM Net price Net worth VAT [%] Gross
+worth
+1, Gaming PC Desktop Computer 5,00 each 999,50 4 997,50 10% 5 497,25
+HDMI RGB Intel i7 RTX 2060,
+HDD+SSD, Windows 10, Wifi
+2. Custom Gaming Computer 5,00 each 1 092,27 5 461,35 10% 6 007,49
+Ryzen 7 2700 32GB DDR4
+Nvidia RTX 2060 RGB SSD
+500GB HDD
+3. Custom Build Dell Optiplex 9020 1,00 each 221,99 221,99 10% 244,19
+MT i5-4570 3.20GHz Desktop
+Computer PC
+4, hp or Dell Desktop PC Computer 5,00 each 179,99 899,95 10% 989,95
+Dual Core 4GB RAM DUAL 19"
+LCDs WiFi Windows 10
+5. Custom Build Dell Desktop 1,00 each 99,00 99,00 10% 108,90
+Computer i5 | 16GB | 2TB | SSD
+Windows 10 PC WiFi DVD
+—_}] SUMMARY
+VAT [%] Net worth VAT Gross worth
+10% 11 679,79 1 167,98 12 847,77
+Total $11 679,79 $1167,98 $12 847,77

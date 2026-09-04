@@ -1,0 +1,27 @@
+Invoice no: 35986686
+Date of issue: 03/26/2017
+—____) Seller: Client:
+Martinez-Valdez Holmes, Garza and Sullivan
+109 Hunter Fields Apt. 745 PSC 7517, Box 8651
+Brittanyville, WA 28906 APO AP 91170
+Tax Id: 903-78-3332 Tax Id: 980-88-2130
+IBAN: GBO7AWUY93582278640499
+7) ITEMS
+No. Description Qty UM Net price Net worth VAT [%] Gross
+worth
+1. 26"x26" Top White Marble 2,00 each 2 226,00 4 452,00 10% 4 897,20
+Coffee Table Historical Taj
+Mahal Art Black Friday Gift
+2. 6'x3’ Black Marble Top Dining 4,00 each 5 710,22 22 840,88 10% 25 124,97
+Room Table Sets Scagaliola
+Very Pietradure Decor
+3. 24 Inches Round Marble Coffee 2,00 each 446,25 892,50 10% 981,75
+Table Top Inlay Sofa Table with
+Geometrical Design
+4. 12” White Marble Coffee Table 1,00 each 295,73 295,73 10% 325,30
+Top Lapis Turquoise Floral Inlay
+Home Decors W538
+—__ 7} SUMMARY
+VAT [%] Net worth VAT Gross worth
+10% 28 481,11 2 848,11 31 329,22
+Total $ 28 481,11 $2 848,11 $ 31 329,22

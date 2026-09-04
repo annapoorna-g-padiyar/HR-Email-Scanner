@@ -1,0 +1,24 @@
+Invoice no: 58975752
+Date of issue: 12/13/2019
+—____) Seller: Client:
+Jacobs-Delgado Watson PLC
+767 Johnson Road Apt. 951 2712 Ayala Dale Suite 800
+Pattersonmouth, AR 20463 Larashire, OH 28924
+Tax Id: 915-99-4443 Tax Id: 909-77-5291
+IBAN: GB96MZFU35050013424248
+7) ITEMS
+No. Description Qty UM Net price Net worth VAT [%] Gross
+worth
+1. Endurance : Shackleton's 2,00 each 4,09 8,18 10% 9,00
+Incredible Voyage by Alfred
+Lansing
+2. Sonic Wind The Story of John 1,00 each 4,49 4,49 10% 4,94
+Paul Stapp and How a Renegade
+Doctor Be
+3. Titans of the Rising Sun - 4,00 each 7,53 30,12 10% 33,13
+Yamato Class Battleships of
+World War Il Book
+_____] SUMMARY
+VAT [%] Net worth VAT Gross worth
+10% 115,27 11,53 126,80
+Total $ 115,27 $ 11,53 $ 126,80

@@ -1,0 +1,24 @@
+Invoice no: 77536206
+Date of issue: 12/14/2011
+—}) Seller: Client:
+Nguyen, Johnson and Ellis White, Hart and Mcgee
+9504 Sarah Centers Suite 780 0915 Jacqueline Wells
+Kleintown, DE 16711 Robertsonberg, KS 45576
+Tax Id: 946-88-1207 Tax Id: 905-72-3268
+IBAN: GB79TBUS74109842542479
+7) ITEMS
+No. Description Qty UM Net price Net worth VAT [%] Gross
+worth
+1, Youth Kids Boys New Balance 1,00 each 26,99 26,99 10% 29,69
+Arishi v2 Grey/Red Athletic
+Running Shoes Size 6.5 M
+2. Hot Toys COSB748 Mandalorian 2,00 each 32,89 65,78 10% 72,36
+& The Child COSBABY Mini
+Figure Model Collection
+4, Diadora Youth Boys Avanti MD 3,00 each 19,99 59,97 10% 65,97
+JR Soccer Cleats Size 2.5 Yellow
+Black NEW
+____] SUMMARY
+VAT [%] Net worth VAT Gross worth
+10% 154,99 15,50 170,49
+Total $ 154,99 $ 15,50 $ 170,49

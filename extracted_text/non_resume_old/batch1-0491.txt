@@ -1,0 +1,24 @@
+Invoice no: 10372826
+Date of issue: 05/15/2019
+—}) Seller: Client:
+Graham, Briggs and Anderson Moore Group
+2056 Martin Extensions 89000 Christopher Brook
+Port Christopherton, VA 87978 Port Richardmouth, CA 87376
+Tax Id: 975-98-4861 Tax Id: 978-80-2701
+IBAN: GB56SDLA43798626107179
+7) ITEMS
+No. Description Qty UM Net price Net worth VAT [%] Gross
+worth
+1, NEW TOMMY HILFIGER RED 5,00 each 34,50 172,50 10% 189,75
+WHITE BLUE #5 COLOR BLOCK
+BEACH SANDALS BOYS KIDS 8/9
+2. 10" Cuphead Game Soft Plush 1,00 each 26,99 26,99 10% 29,69
+Doll Cuphead Mugman Mecup
+Brocup kids Gift US Stock
+3. 2 Pair-Wonder Nation Childrens 4,00 each 12,99 §1,96 10% 57,16
+Tucker Boots NEW Size 10 Black
+Easy on/off
+—______} SUMMARY
+VAT [%] Net worth VAT Gross worth
+10% 251,45 25,15 276,60
+Total $ 251,45 $ 25,15 $ 276,60

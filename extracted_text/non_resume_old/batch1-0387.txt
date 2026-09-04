@@ -1,0 +1,28 @@
+Invoice no: 11640046
+Date of issue: 11/06/2014
+—____) Seller: Client:
+Atkinson-Woods Turner Ltd
+730 Matthew Union 197 Donald Flat
+Blankenshipside, DE 36985 Baileychester, MA 48782
+Tax Id: 973-70-0388 Tax Id: 921-95-1514
+IBAN: GB87GZYG77483939908425
+7) ITEMS
+No. Description Qty UM Net price Net worth VAT [%] Gross
+worth
+1, Dell Desktop Computer Intel 1,00 each 240,24 240,24 10% 264,26
+Core i5 Windows 10 pro 64
+250gb 3.1ghz 4gb Ram
+2. Custom Gaming Desktop PC 4,00 each 359,99 1 439,96 10% 1 583,96
+Computer - Core i5 4690, RX
+470, 8GB RAM
+3. Fast i7 RGB Gaming Desktop PC 3,00 each 790,00 2 370,00 10% 2 607,00
+Computer VR-Ready WiFi AAA
+Fortnite GTAV PUBG IG3
+4. custom gaming computer 3,00 each 450,00 1 350,00 10% 1 485,00
+5. Desktop Computer Gaming PC 4,00 each 579,00 2 316,00 10% 2 547,60
+Build Your Own Ryzen 3000G
+3200G 3.5Ghz+ Vega or GTX
+_______] SUMMARY
+VAT [%] Net worth VAT Gross worth
+10% 7 716,20 771,62 8 487,82
+Total $7 716,20 $ 771,62 $ 8 487,82

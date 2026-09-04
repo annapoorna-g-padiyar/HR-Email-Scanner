@@ -1,0 +1,16 @@
+Invoice no: 50846623
+Date of issue: 01/30/2016
+—____) Seller: Client:
+Hood, Andrade and Kim Browning Ltd
+718 Scott Garden Suite 242 0907 Lewis Centers Apt. 160
+Jeffreyfort, WV 11633 Lake Jessica, NV 38156
+Tax Id: 942-96-6092 Tax Id: 982-92-5280
+IBAN: GB72QPXT15450103985559
+______) ITEMS
+No. Description Qty UM Net price Net worth VAT [%] Gross
+worth
+Charcoal Black Console (Used)
+—______] SUMMARY
+VAT [%] Net worth VAT Gross worth
+10% 109,99 11,00 120,99
+Total $ 109,99 $ 11,00 $ 120,99

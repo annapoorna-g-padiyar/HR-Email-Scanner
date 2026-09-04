@@ -1,0 +1,30 @@
+NIDHI JAIN 
+Email: nidhi.jain@example.com | Phone: +91-9765432180 
+Portfolio: behance.net/nidhijain | LinkedIn: linkedin.com/in/nidhijain 
+CAREER OBJECTIVE 
+Creative and tech-savvy BCA student with a passion for UI/UX design and front-end 
+development. Looking for internships in web or mobile interface design to apply design thinking and development skills. 
+EDUCATION 
+Bachelor of Computer Applications 
+Mount Carmel College, Bangalore | 2021 – 2024 
+CGPA: 8.9/10 
+SKILLS 
+- Web: HTML5, CSS3, JavaScript, Bootstrap 
+- Design: Figma, Adobe XD, Canva 
+- Frameworks: React (basic) 
+- Tools: GitHub, Trello 
+PROJECTS 
+1. **Event Registration Website** 
+- 
+Designed a mobile-responsive registration site with custom animations 
+- Implemented using Bootstrap and JavaScript 
+2. **Portfolio Website (Personal)** 
+- Designed and hosted a creative portfolio using GitHub Pages 
+ACHIEVEMENTS 
+- Winner, UI Design Hackathon at College Fest 
+- Created posters and digital content for cultural events 
+CERTIFICATIONS 
+- UX Design Fundamentals - Coursera 
+- Web Design Masterclass - Udemy 
+LANGUAGES 
+English, Hindi

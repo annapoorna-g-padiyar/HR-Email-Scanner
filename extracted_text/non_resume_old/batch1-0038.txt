@@ -1,0 +1,35 @@
+Invoice no: 37060863
+Date of issue: 01/30/2021
+—}) Seller: Client:
+Floyd-Figueroa Torres and Sons
+8060 Bass Walks 2696 Trevino Ridges
+Coleshire, OK 97999 South Sara, MT 86708
+Tax Id: 964-80-9962 Tax Id: 953-87-7430
+IBAN: GB79IBVF13930075179399
+7) ITEMS
+No. Description Qty UM Net price Net worth VAT [%] Gross
+worth
+1. VTech Game Console Bundle- 2,00 each 219,99 439,98 10% 483,98
+Console, Art Studio, Games, 2
+Controllers- TESTED!
+2. NEW Microsoft Xbox 360 Slim 2,00 each 275,00 550,00 10% 605,00
+4GB Black Console W/2 Games
+And Kinect Bundle +EXTRA
+3. Retro Arcade Game Console All 1,00 each 149,99 149,99 10% 164,99
+In One 128G Raspberry PI 4
+Model B 4GB Plug Play
+4. B451 Nintendo DSi console Pink 4,00 each 9,99 39,96 10% 43,96
+Japan NDS x
+5. Nintendo Gameboy Pocket 5,00 each 85,00 425,00 10% 467,50
+Console Clear Purple with Box
+MGB-001 Japan Tested 53
+6. sega cdx console with original 1,00 each 194,00 194,00 10% 213,40
+power supply (laser info-read
+description)
+7. Nintendo Wii U WUP-101(02) 1,00 each 40,00 40,00 10% 44,00
+32GB Console - Black - US
+Model
+—_____] SUMMARY
+VAT [%] Net worth VAT Gross worth
+10% 1 838,93 183,89 2 022,82
+Total $ 1 838,93 $ 183,89 $ 2 022,82

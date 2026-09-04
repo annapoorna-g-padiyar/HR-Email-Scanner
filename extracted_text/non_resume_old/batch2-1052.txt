@@ -1,0 +1,27 @@
+Invoice no: 75648074
+Date of issue: 06/18/2017
+—____) Seller: Client:
+Townsend Group Powell, Marquez and Jones
+72809 Ashley Estates Suite 278 23338 Parsons Circle
+Padillastad, HI 32044 West Christianville, ND 56041
+Tax Id: 917-87-0203 Tax Id: 947-81-2608
+IBAN: GB15ELRH11861070667191
+7) ITEMS
+No. Description Qty UM Net price Net worth VAT [%] Gross
+worth
+1, CLIFFORD & WILLS BLACK 5,00 each 5,99 29,95 10% 32,95
+NET/MESH OVER TAUPE LONG
+DRESS SIZE 4
+2. Leopard Print Large Dress With 5,00 each 39,00 195,00 10% 214,50
+Pockets & Floral Sleeves
+HoneyMe Size L NWT
+3. Old Navy Womens Sleeveless 3,00 each 12,00 36,00 10% 39,60
+Rayon Dress Hawaiian Floral
+Print Size XS
+4. Women's Almatrichi Madrid 1,00 each 54,86 54,86 10% 60,35
+Dress Chevron Boho Ethnic
+Exotic Tribal Size 42 L
+—__ 7} SUMMARY
+VAT [%] Net worth VAT Gross worth
+10% 315,81 31,58 347,39
+Total $ 315,81 $ 31,58 $ 347,39

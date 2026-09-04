@@ -1,0 +1,23 @@
+Invoice no: 54954003
+Date of issue: 09/04/2016
+—}) Seller: Client:
+Stevens Ltd Ward LLC
+63413 Clark Plains 7506 Tina Club
+Tiffanyhaven, ME 50002 North Paula, NC 62826
+Tax Id: 970-90-6644 Tax Id: 971-75-7032
+IBAN: GBS6NVYG94037834264534
+7) ITEMS
+No. Description Qty UM Net price Net worth VAT [%] Gross
+worth
+1, Blue Shiny Stone Floral Art 3,00 each 3 960,00 11 880,00 10% 13 068,00
+Dinning Table Top Marble
+Kitchen Table Top 48 Inches
+2. 6'x3' Black Marble Dining Table 3,00 each 7 847,32 23 541,96 10% 25 896,16
+Pietradura Inlay Scagaliola
+Stone Decorate H3096
+3. Clear Acrylic Table, Breakfast 2,00 each 271,72 543,44 10% 597,78
+Table, Tradeshow Desk
+—_____] SUMMARY
+VAT [%] Net worth VAT Gross worth
+10% 35 965,40 3 596,54 39 561,94
+Total $ 35 965,40 $3 596,54 $ 39 561,94

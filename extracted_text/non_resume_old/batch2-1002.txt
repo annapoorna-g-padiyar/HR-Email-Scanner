@@ -1,0 +1,29 @@
+Invoice no: 56759346
+Date of issue: 02/08/2016
+—}) Seller: Client:
+Bishop, English and Sullivan Flores-Yoder
+9720 Michael Bridge Suite 863 718 Hernandez Ridges
+West Scott, OH 27945 Lake Shane, OR 91154
+Tax Id: 945-81-7628 Tax Id: 979-87-2009
+IBAN: GBO2UXWZ44036141480052
+7) ITEMS
+No. Description Qty UM Net price Net worth VAT [%] Gross
+worth
+1, 48 Inch Marble Dinning Table 3,00 each 3 400,00 10 200,00 10% 11 220,00
+Lapis Lazuli Stone Hall Table
+with Geometrical Art
+2. October Mist - Deer Metal Side 1,00 each 89,95 89,95 10% 98,95
+Table by Rosemary Millette
+3. 6'x3' Marvelous Marble Dining 4,00 each 5 588,90 22 355,60 10% 24 591,16
+Outdoor Table Top Inlay
+Marquetry Design Art E842B
+4 12" White Marble Coffee Table 5,00 each 295,73 1 478,65 10% 1 626,52
+Top Malachite Precious Inlay
+Decor Furniture W534
+5. 7'x4' Blue Random Marble 3,00 each 8 194,09 24 582,27 10% 27 040,50
+Dining Hallway Table Top Lapis
+Lazuli Inlay Decor E947A
+7} SUMMARY
+VAT [%] Net worth VAT Gross worth
+10% 58 706,47 5 870,65 64 577,12
+Total $ 58 706,47 $ 5 870,65 $ 64 577,12

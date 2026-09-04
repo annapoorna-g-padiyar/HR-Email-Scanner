@@ -1,0 +1,29 @@
+Invoice no: 92919413
+Date of issue: 10/04/2020
+—____) Seller: Client:
+Jones and Sons Hamilton-Simmons
+39014 Moss Court Suite 503 716 Susan Lock Suite 104
+Chandlerstad, DC 13414 North Tyler, CT 21530
+Tax Id: 952-76-3987 Tax Id: 992-84-7640
+IBAN: GB29EKKH07986180431910
+7) ITEMS
+No. Description Qty UM Net price Net worth VAT [%] Gross
+worth
+1, Dell Desktop Computer PC Intel 1,00 each 92,95 92,95 10% 102,24
+Windows 10 Pro WIFI DVD Dual
+LCD Monitor 17"/19"
+2. Pre Built Gaming Computer 4 4,00 each 577,49 2 309,96 10% 2 540,96
+GHZ AMD Ryzen 8GB RAM
+Desktop 240 GB SSD DVD WIFI
+3. HP XW9400 AMD Dual Core 4,00 each 225,00 900,00 10% 990,00
+2216 2.6GHz /8GB/250GB/ PC
+Computer / Desktop
+4. Dell Gaming PC 17, NVIDIA GTX 5,00 each 509,95 2 549,75 10% 2 804,73
+1650, SSD + 1TB, 16GB RAM,
+WIN10, Desktop Computer
+5. HP 2220 Desktop Computer 2,00 each 70,00 140,00 10% 154,00
+Barebone system
+7} SUMMARY
+VAT [%] Net worth VAT Gross worth
+10% 5 992,66 599,27 6 591,93
+Total $ 5 992,66 $ 599,27 $6 591,93

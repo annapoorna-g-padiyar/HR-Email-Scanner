@@ -1,0 +1,26 @@
+Invoice no: 66403297
+Date of issue: 06/30/2015
+—____) Seller: Client:
+Adams Ltd Rocha-Mitchell
+3622 Mark Bridge 4358 Wheeler Expressway
+Keyfort, AR 95341 Vickiestad, TX 84064
+Tax Id: 947-97-6883 Tax Id: 999-99-6343
+IBAN: GB22XCAE47665058258787
+7) ITEMS
+No. Description Qty UM Net price Net worth VAT [%] Gross
+worth
+1, Vintage 90s Sostanza Plus Size 1,00 each 49,96 49,96 10% 54,96
+Dress 22W Floral Cottagecore
+2. Christmas Dress Grace Karin 2,00 each 9,99 19,98 10% 21,98
+Sleeveless Christmas dress Red
+Black size Large
+3. Lularoe Nicole Dress Size Small 5,00 each 3,75 18,75 10% 20,63
+Light Solid Grey/ White Ringer
+Tee Trim
+4, Xhilaration Womens L Burgandy 5,00 each 14,95 74,75 10% 82,23
+Boho Embroidered Festival Mini
+Dress NEW
+7} SUMMARY
+VAT [%] Net worth VAT Gross worth
+10% 163,44 16,34 179,78
+Total $ 163,44 $ 16,34 $ 179,78

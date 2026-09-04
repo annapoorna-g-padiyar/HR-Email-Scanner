@@ -1,0 +1,24 @@
+Invoice no: 14845988
+Date of issue: 10/25/2017
+—____) Seller: Client:
+Taylor, Chen and Hooper Porter-Martinez
+618 Carter Crossing Apt. 664 9045 Robin Roads Apt. 802
+Lake Katherine, R! 69561 Mirandatown, VA 26452
+Tax Id: 911-99-2953 Tax Id: 962-99-2449
+IBAN: GB69IYPG46840865461250
+7) ITEMS
+No. Description Qty UM Net price Net worth VAT [%] Gross
+worth
+1, Intel Compute Stick PC (32GB, 5,00 each 29,99 149,95 10% 164,94
+1.33GHz, 2GB) -
+BOXSTCKIA32WFC + Wireless
+Keyboard
+2. HP Computer 8300 Elite USDT, 2,00 each 63,00 126,00 10% 138,60
+i3-3220@3.3GHz, 8GB RAM, NO
+HDD, Windows 7/10 COA
+4, Desktop Computer AMD 3,00 each 9,99 29,97 10% 32,97
+Sempron LE1250 No HDD No OS
+____] SUMMARY
+VAT [%] Net worth VAT Gross worth
+10% 1 505,88 150,59 1 656,47
+Total $1505,88 $ 150,59 $1 656,47

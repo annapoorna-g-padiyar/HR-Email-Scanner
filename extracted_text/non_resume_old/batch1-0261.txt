@@ -1,0 +1,24 @@
+Invoice no: 29075921
+Date of issue: 05/24/2021
+—}) Seller: Client:
+Rosales-Krause May LLC
+3464 Roberson Shore 58406 John Villages
+Russellmouth, NE 61165 Courtneyport, UT 18877
+Tax Id: 906-76-2066 Tax Id: 994-98-7804
+IBAN: GB9S5NPAE10217901893022
+7) ITEMS
+No. Description Qty UM Net price Net worth VAT [%] Gross
+worth
+1. YILONG 4'x6' Yellow Handmade 5,00 each 3 600,00 18 000,00 10% 19 800,00
+Carpet Living Room Hand
+Knotted Silk Rugs 077B
+2. New Golden Brown Oriental Rug 3,00 each 232,65 697,95 10% 767,75
+4X6 Oushak Chobi Floral
+Hand-Knotted Foyer Carpet
+3. Handmade Tribal Geometric 3,00 each 272,60 817,80 10% 899,58
+Design 4X6 Indo-Gabbeh
+Oriental Rug Kids Room Carpet
+—___] SUMMARY
+VAT [%] Net worth VAT Gross worth
+10% 19 515,75 1951,58 21 467,33
+Total $19 515,75 $1951,58 $ 21 467,33

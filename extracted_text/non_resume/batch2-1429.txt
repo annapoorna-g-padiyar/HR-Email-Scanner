@@ -1,0 +1,17 @@
+INVOICE
+INVOICE NO.
+105
+DATE:
+February 24, 2022
+DUE DATE:
+March 14, 2022
+Bill from Bill To
+GOODRICH CORPORATION GOODRICH LANDING GEAR - OE
+FSS - LG fss.remitlgdom@collins.com 6225 Patricia Phillips/Miami Service Center
+Oak Tree Blvd. INDEPENDENCE, 3201 N.W. 167th Street
+Ohio, United States 44131-250 MIAMI GARDENS, Florida, United States
+10 | DESCRIPTION QUANTITY PRICE, $ TOTAL, $
+01M DP460 EG Epoxy Adhesive - 50m1 2:1 12 kits/case
+Lead-time is a mere estimate. Actual delivery may differ ee ee ee
+without notice.
+3M 205 Painters Tape 48mm x 55m GREEN 24 rolls/case

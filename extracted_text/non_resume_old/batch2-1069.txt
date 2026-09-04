@@ -1,0 +1,17 @@
+Invoice no: 41409502
+Date of issue: 01/02/2019
+—____) Seller: Client:
+Mitchell, Bryant and Campbell Krueger-Ayala
+53219 Chelsea Skyway Apt. 412 985 Myers Forges
+Lake Michelle, MA 69561 Kennethside, DC 73597
+Tax Id: 996-90-0576 Tax Id: 985-91-1276
+IBAN: GB68ANGW81763296264014
+7) ITEMS
+No. Description Qty UM Net price Net worth VAT [%] Gross
+1, Sony PlayStation 5 Disc Edition 1,00 each 1 200,00 1 200,00 10% 1 320,00
+Console Preorder + Spiderman:
+MM Day One Confirm
+7] SUMMARY
+VAT [%] Net worth VAT Gross worth
+10% 1 200,00 120,00 1 320,00
+Total $ 1 200,00 $ 120,00 $1320,00

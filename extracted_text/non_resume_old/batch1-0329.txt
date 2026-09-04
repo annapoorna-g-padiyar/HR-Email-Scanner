@@ -1,0 +1,17 @@
+Invoice no: 69117260
+Date of issue: 08/12/2019
+—____) Seller: Client:
+Robinson, Solis and Smith James and Sons
+3816 Dustin Garden 159 Moran Green
+Rebeccashire, NY 31282 West Kylestad, TN 52607
+Tax Id: 916-86-1652 Tax Id: 982-70-3830
+IBAN: GB74BPCL37759195370817
+7) ITEMS
+No. Description Qty UM Net price Net worth VAT [%] Gross
+1. Atari Flashback 4 Classic Game 5,00 each 8,50 42,50 10% 46,75
+Console 75 built in games
+Space Invaders Asteroid
+7] SUMMARY
+VAT [%] Net worth VAT Gross worth
+10% 42,50 4,25 46,75
+Total $ 42,50 $ 4,25 $ 46,75

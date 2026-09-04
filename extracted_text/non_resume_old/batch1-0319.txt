@@ -1,0 +1,26 @@
+Invoice no: 50840230
+Date of issue: 04/27/2017
+—}) Seller: Client:
+Reyes Ltd Parker, Hood and Harvey
+11661 Conner Valley Suite 968 377 Andrew Avenue
+Port Veronica, OK 65788 Port Coreyton, !A 39732
+Tax Id: 927-94-2144 Tax Id: 941-94-2912
+IBAN: GB86IMIE79896201895578
+7) ITEMS
+No. Description Qty UM Net price Net worth VAT [%] Gross
+worth
+1. B311 Nintendo 3DS console 1,00 each 11,99 11,99 10% 13,19
+Cosmo Black Japan x
+2. Sony PlayStation 2 Black Home 4,00 each 75,00 300,00 10% 330,00
+Console
+3. Nintendo BLUE Wii System 1,00 each 99,98 99,98 10% 109,98
+Game Console Complete with 2
+Motion Remotes Tested Work
+4. Microsoft Xbox 360 Console 49 1,00 each 25,00 25,00 10% 27,50
+Game Bundle 250GB Black
+5. Sega Saturn HST-3220 white 1,00 each 102,30 102,30 10% 112,53
+Console from japan
+_____] SUMMARY
+VAT [%] Net worth VAT Gross worth
+10% 539,27 53,93 593,20
+Total $ 539,27 $ 53,93 $ 593,20

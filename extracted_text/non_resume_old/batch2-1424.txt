@@ -1,0 +1,27 @@
+Invoice no: 48228359
+Date of issue: 07/06/2014
+—____) Seller: Client:
+Coleman-Franklin Ali-Williams
+USNV York 4095 Houston Bridge
+FPO AP 95159 Reneemouth, AZ 73501
+Tax Id: 927-85-4981 Tax Id: 920-70-2838
+IBAN: GB460L0B08331842001029
+7) ITEMS
+No. Description Qty UM Net price Net worth VAT [%] Gross
+worth
+1, Libbey Snowflake Wine Dessert 1,00 each 16,00 16,00 10% 17,60
+Glass/Tumbler Set of 8.
+2. Hardwood Wine Rack 12 Bottles 2,00 each 20,00 40,00 10% 44,00
+Very Nice Eonophiles Delight
+3. European Style Wine Rack 3,00 each 7,67 23,01 10% 25,31
+Plastic Water Bottle Display Mat
+Wine Holder Organizer
+4, Wall Mounted Upside Down 5,00 each 14,98 74,90 10% 82,39
+Wine Bottle Rack Goblet Glass
+Holder Storage Organizer
+5. Wine Bottle Holder From Costa 2,00 each 5,00 10,00 10% 11,00
+Rica Has A Parrot Painted On It
+7} SUMMARY
+VAT [%] Net worth VAT Gross worth
+10% 163,91 16,39 180,30
+Total $ 163,91 $ 16,39 $ 180,30

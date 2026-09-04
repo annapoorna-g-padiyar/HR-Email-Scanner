@@ -1,0 +1,20 @@
+Invoice no: 82069247
+Date of issue: 09/06/2014
+—}) Seller: Client:
+Mcdonald LLC Cooper-Russell
+04676 Hill Plaza Suite 165 Unit 7333 Box 7503
+Port Jasmine, ID 61362 DPO AE 15998
+Tax Id: 987-86-7034 Tax Id: 968-85-4428
+IBAN: GB30GLOI74933058299533
+7) ITEMS
+No. Description Qty UM Net price Net worth VAT [%] Gross
+worth
+2. Harry Potter Hogwarts Adult 4,00 each 17,48 69,92 10% 76,91
+Child Robe Cloak Halloween
+COS Costumes Party Xmas.
+3. Nike Oncore High Jr 6.0 (Kids) 1,00 each 25,00 25,00 10% 27,50
+Size 4Y Black, Red, White
+1} SUMMARY
+VAT [%] Net worth VAT Gross worth
+10% 112,32 11,23 123,55
+Total $ 112,32 $ 11,23 $ 123,55

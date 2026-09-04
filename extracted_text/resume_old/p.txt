@@ -1,0 +1,23 @@
+SHRUTI DAS 
+Email: shruti.das@example.com | Phone: +91-9876547890 LinkedIn: linkedin.com/in/shruti-das 
+CAREER OBJECTIVE 
+Dedicated BCA graduate with a passion for teaching and mentoring. Seeking opportunities as a computer instructor or academic assistant to share knowledge in programming and computing fundamentals. 
+EDUCATION 
+Bachelor of Computer Applications University of Calcutta | 2020-2023 CGPA: 8.9/10 
+SKILLS 
+- Programming: C, Java, Python 
+- Web: HTML, CSS, JavaScript (basic) 
+- Tools: MS Office, Google Classroom 
+- Soft Skills: Communication, Presentation 
+ACADEMIC PROJECT 
+— 
+**Library Management System** (Java, MySQL) 
+- User management, book inventory, issue/return records 
+INTERNSHIP EXPERIENCE 
+- Volunteer Computer Tutor 
+- Taught basic computing to underprivileged students at local NGO 
+EXTRA-CURRICULAR 
+- Member, College Women in Tech Society 
+- Organized workshops on "Intro to Coding" for school students 
+LANGUAGES 
+English, Bengali, Hindi

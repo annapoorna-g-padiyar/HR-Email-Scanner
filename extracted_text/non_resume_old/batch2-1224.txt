@@ -1,0 +1,26 @@
+Invoice no: 66230707
+Date of issue: 09/15/2012
+—____) Seller: Client:
+Ramirez PLC Hoover, Gilbert and Yoder
+86052 Henson Port 638 Pierce Courts Apt. 027
+Port Andrew, SD 36010 East Bryanton, IN 78493
+Tax Id: 962-85-7071 Tax Id: 992-79-5235
+IBAN: GB42WXWQ22249325752666
+7) ITEMS
+No. Description Qty UM Net price Net worth VAT [%] Gross
+worth
+1. [NEW] A Divine Revelation Of 1,00 each 15,35 15,35 10% 16,89
+Hell by Mary K. Baxter
+2. Midnight Sun(Twilight) by 1,00 each 24,99 24,99 10% 27,49
+Stephenie Meyer | Hardback UK
+Edition
+3. Florida's List of Protected Plants 5,00 each 5,50 27,50 10% 30,25
+in Words and Pictures
+4. The Complete Idiots Guide to 4,00 each 4,49 17,96 10% 19,76
+Trouble-Free Home Re
+5. Herbal Tarot Deck 1,00 each 17,98 17,98 10% 19,78
+6. Q&A a Day: 5-Year Journal 5,00 each 4,49 22,45 10% 24,70
+_______] SUMMARY
+VAT [%] Net worth VAT Gross worth
+10% 126,23 12,62 138,85
+Total $ 126,23 $ 12,62 $ 138,85

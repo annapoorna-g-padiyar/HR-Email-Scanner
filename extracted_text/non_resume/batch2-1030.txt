@@ -1,0 +1,24 @@
+Invoice no: 80619792
+Date of issue: 10/16/2017
+—}) Seller: Client:
+Thompson PLC Lee, Mueller and Lawrence
+66830 Aaron Village 6765 Aaron Passage Apt. 633
+Clarkville, NE 42277 Gloriafurt, MS 70643
+Tax Id: 971-77-0229 Tax Id: 989-90-0875
+IBAN: GB36YEJV16192882255119
+7) ITEMS
+No. Description Qty UM Net price Net worth VAT [%] Gross
+worth
+1, Round Rug Carpets for Living 5,00 each 4,38 21,90 10% 24,09
+Room Decor Kids Room Long
+Plush Rugs Bedroom Mats*
+2. Garden Flower Carpet Quilted 1,00 each 45,50 45,50 10% 50,05
+Bedroom Floor Princess Tapis
+Lace Rug Carpets
+3. YILONG 5'x7.5' Handknotted 1,00 each 2 800,00 2 800,00 10% 3 080,00
+Silk Carpet Whirlwind Home
+Decor Classic Rug 0807
+—______} SUMMARY
+VAT [%] Net worth VAT Gross worth
+10% 2 867,40 286,74 3154,14
+Total $ 2 867,40 $ 286,74 $3 154,14

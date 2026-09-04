@@ -1,0 +1,16 @@
+Invoice no: 77668740
+Date of issue: 01/02/2016
+—____) Seller: Client:
+Ryan, Garcia and Gregory Hopkins, Gonzales and Mccarthy
+297 Allen Mills 3206 Adam Cliffs Apt. 677
+Port John, AK 02752 South Monicaborough, MD 87314
+Tax Id: 994-98-2347 Tax Id: 965-96-0570
+IBAN: GB61PCVV90649839145503
+______) ITEMS
+No. Description Qty UM Net price Net worth VAT [%] Gross
+worth
+1, LuLaRoe Nicole Dress Size 1,00 each 1,99 1,99 10% 2,19
+—______] SUMMARY
+VAT [%] Net worth VAT Gross worth
+10% 1,99 0,20 2,19
+Total $ 1,99 $ 0,20 $ 2,19

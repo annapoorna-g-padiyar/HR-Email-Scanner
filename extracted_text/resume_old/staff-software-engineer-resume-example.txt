@@ -1,0 +1,52 @@
+LUCIAN ASHFORD
+Staff Software Engineer
+l.ashford@email.com (123) 456-7890 Alpharetta, GA
+LinkedIn
+WORK EXPERIENCE EDUCATION
+Staff Software Engineer Bachelor of Science
+Computer Science
+McKesson Corporation
+Georgia Institute of Technology
+2022 - current Alpharetta, GA
+Overhauled MySQL schema indexation, enabling quicker data 2013 - 2017
+access and saving six hours of query time per month Atlanta, GA
+Formulated a cost-saving strategy by adopting Kubernetes,
+cutting cloud resource expenditure by $46,974 for the fiscal
+year SKILLS
+Managed successful optimization of JavaScript routines in
+eight high-traffic applications, which saved maintenance Eclipse
+costs
+Mercurial
+Authored comprehensive documentation on C++-coded
+JavaScript
+features, simplifying troubleshooting time for technical teams
+C++
+by 21%
+Angular
+MySQL
+Associate Software Developer
+Kubernetes
+InComm
+Oracle Cloud
+2019 - 2022 Atlanta, GA Pytest
+Developed cutting-edge JavaScript features for a fin-tech Jira
+application, increasing transaction volume by 4,849
+transactions per month
+Processed over 346 defects through Pytest in six months,
+enhancing product stability for over 54,650+ users
+Built Angular interfaces that decreased page load times by 1.7
+seconds, improving customer transaction completion rate by
+8%
+Leveraged Oracle Cloud functionalities to automate backups,
+preventing potential annual losses of $8,873 in data recovery
+Technical Support Analyst
+Cox Communications
+2017 - 2019 Atlanta, GA
+Negotiated with software providers to utilize Pytest, saving
+the company a projected $8,664 in tool licensing in two years
+Drafted more than 152 technical guides for Kubernetes,
+reducing the orientation period for new hires by 26%
+Analyzed and processed customer data with MySQL queries,
+improving response times by eight minutes per inquiry
+Implemented a new system for bug logging with Mercurial
+that reduced discrepancies in error logs by 28%

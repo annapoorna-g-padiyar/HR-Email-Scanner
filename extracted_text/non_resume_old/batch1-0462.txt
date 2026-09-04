@@ -1,0 +1,24 @@
+Invoice no: 85432283
+Date of issue: 12/13/2014
+—}) Seller: Client:
+Stanton-Williams Thompson-Perry
+4331 Johnson Plains Apt. 242 6801 Wiggins Prairie Suite 455
+West Williamville, NC 13866 Lewistown, VA 46911
+Tax Id: 950-92-7100 Tax Id: 993-99-7022
+IBAN: GB25XTZN61207419513391
+7) ITEMS
+No. Description Qty UM Net price Net worth VAT [%] Gross
+worth
+1, Winnie the Pooh by A. A. Milne 5,00 each 19,73 98,65 10% 108,52
+Illustrated by Shepard
+Collector's New Hardcover
+2. Endurance : Shackleton's 3,00 each 4,09 12,27 10% 13,50
+Incredible Voyage by Alfred
+Lansing
+3. Christmas Cupcake Murder: A 1,00 each 2,99 2,99 10% 3,29
+Festive & Deticious Ch... by
+Joanne Fluke (P.D.F)
+—______} SUMMARY
+VAT [%] Net worth VAT Gross worth
+10% 113,91 11,39 125,30
+Total $ 113,91 $ 11,39 $ 125,30

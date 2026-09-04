@@ -1,0 +1,4522 @@
+{
+    "job_details": {
+        "job_role": "Web Developer",
+        "job_description": "Candidtaes required should know html,css and java script and mysql and should have problem solving skills",
+        "required_experience": 0.0,
+        "required_education": "B.Tech",
+        "required_skills": [
+            "css",
+            "html",
+            "java",
+            "mysql",
+            "problem solving"
+        ]
+    },
+    "total_candidates_analyzed": 74,
+    "candidates": [
+        {
+            "resume_file": "resume_764277fcc3b4.pdf",
+            "candidate": {
+                "name": "Yellenki Ritheesh Baradwaj",
+                "email": "ritheeshbaradwaj@gmail.com",
+                "phone": "+917095195154",
+                "skills": [
+                    "algorithms",
+                    "artificial intelligence",
+                    "aws",
+                    "c++",
+                    "ci/cd",
+                    "communication",
+                    "continuous integration",
+                    "css",
+                    "data science",
+                    "data structures",
+                    "debugging",
+                    "django",
+                    "flask",
+                    "gcp",
+                    "git",
+                    "github",
+                    "html",
+                    "java",
+                    "jenkins",
+                    "linux",
+                    "machine learning",
+                    "mysql",
+                    "problem solving",
+                    "python",
+                    "react",
+                    "software development",
+                    "sql",
+                    "testing"
+                ],
+                "education": "B.Tech, Electronics and Communication",
+                "experience_years": 2.0,
+                "projects": [
+                    "DocMan - Snoring Analysis github.com/RitheeshBaradwaj/DocMan-SnoringAnalysis",
+                    "Software Developer Feb 2019 - Jan 2020",
+                    " Technologies used: Python, Signal Processing, Machine Learning, React JS.",
+                    " Conducted a survey which showed that people who snore are unaware of its consequences if left undiagnosed and untreated.",
+                    " Developed an application called DocMan that enables the user to determine the stage of Obstructive Sleep Apnea by analyzing",
+                    "the recorded snoring signal using Signal Processing, Machine Learning.",
+                    "Meme - Generator github.com/developers-cosmos/Meme-Generator",
+                    "Python Developer Apr 2020 - May 2020",
+                    " Technologies used: Python, HTML, CSS, Flask, Cloud Engine, Chef.",
+                    " Developed an interactive web framework to recognize the facial expression, generate a random meme on the given image, and"
+                ]
+            },
+            "overall_score": 62.35,
+            "semantic_similarity": 5.88,
+            "skill_match": 100.0,
+            "experience_match": 100.0,
+            "education_match": 100.0,
+            "matched_skills": [
+                "css",
+                "html",
+                "java",
+                "mysql",
+                "problem solving"
+            ],
+            "missing_skills": [],
+            "reasons": [
+                "Low semantic similarity with the job description",
+                "Matches 5 of 5 required skills",
+                "No specific experience requirement was provided",
+                "Meets the required education"
+            ],
+            "recommendation": "GOOD SUITABILITY",
+            "extraction_method": "pdf_text",
+            "text_characters": 6098,
+            "text_words": 867,
+            "rank": 1
+        },
+        {
+            "resume_file": "resume_9fdf6d56e5ef.pdf",
+            "candidate": {
+                "name": "Nachiketa Nalin",
+                "email": "nachiketanalin.is19@rvce.edu.in",
+                "phone": "8579908300",
+                "skills": [
+                    "algorithms",
+                    "bootstrap",
+                    "c++",
+                    "css",
+                    "data structures",
+                    "github",
+                    "html",
+                    "java",
+                    "javascript",
+                    "mysql",
+                    "problem solving",
+                    "python"
+                ],
+                "education": "B.E",
+                "experience_years": 7.0,
+                "projects": [
+                    "B.E. Information Science and Engineering,",
+                    "R.V. College of Engineering,Bangalore",
+                    "WEBSITE FOR CONTACT MANAGEMENT",
+                    "AUGUST 2019 - JULY 2023 CGPA – 8.64",
+                    "● Developed a website to manage contacts on web",
+                    "Intermediate/ +2 (CBSE)",
+                    "● DynamicwebsitebuiltonHTML,CSS,JavaScriptand Delhi Public School, Patna",
+                    "ReactJS 04/2017 - 04/2019 Percent- 92.8%",
+                    "● AllowsCRUDoperations",
+                    "● https://github.com/nachiketanalin/contact-manage"
+                ]
+            },
+            "overall_score": 62.0,
+            "semantic_similarity": 5.0,
+            "skill_match": 100.0,
+            "experience_match": 100.0,
+            "education_match": 100.0,
+            "matched_skills": [
+                "css",
+                "html",
+                "java",
+                "mysql",
+                "problem solving"
+            ],
+            "missing_skills": [],
+            "reasons": [
+                "Low semantic similarity with the job description",
+                "Matches 5 of 5 required skills",
+                "No specific experience requirement was provided",
+                "Meets the required education"
+            ],
+            "recommendation": "GOOD SUITABILITY",
+            "extraction_method": "pdf_text",
+            "text_characters": 2191,
+            "text_words": 226,
+            "rank": 2
+        },
+        {
+            "resume_file": "resume_d3c6d639c36d.pdf",
+            "candidate": {
+                "name": "Ritwik Ghosh",
+                "email": "ritwik.ghosh1010@gmail.com",
+                "phone": "+91 8479970522",
+                "skills": [
+                    "algorithms",
+                    "c++",
+                    "communication",
+                    "css",
+                    "data analysis",
+                    "data science",
+                    "data structures",
+                    "excel",
+                    "github",
+                    "html",
+                    "java",
+                    "leadership",
+                    "linux",
+                    "machine learning",
+                    "mysql",
+                    "networking",
+                    "problem solving",
+                    "python",
+                    "software development",
+                    "tableau",
+                    "windows"
+                ],
+                "education": "B.Tech, Computer Science",
+                "experience_years": 22.0,
+                "projects": [
+                    "• Covid-19 Live Tracker Dashboard: A web python app that shows data analysis of the",
+                    "spread and extent of the covid-19 virus with the use of heat maps, charts and various",
+                    "statistical analysis. Website: https://covid19-world-live.herokuapp.com",
+                    "• Exploratory Data Analysis on data generated by PUBG using python. Kaggle kernel:",
+                    "https://www.kaggle.com/ghosh153/ritwik-pubg-eda",
+                    "• secureBMI App: A flutter app that lets users log in, log out, sign in and calculate and",
+                    "save BMI data that is specific to the user. It is synced with the Firebase cloud and users",
+                    "may use it from any device by logging in. GitHub: https://github.com/ritwik-ghosh153/",
+                    "secure-BMI-app",
+                    "• Note keeper App: A flutter app that lets users add, edit and delete notes. It is synced over"
+                ]
+            },
+            "overall_score": 61.98,
+            "semantic_similarity": 4.95,
+            "skill_match": 100.0,
+            "experience_match": 100.0,
+            "education_match": 100.0,
+            "matched_skills": [
+                "css",
+                "html",
+                "java",
+                "mysql",
+                "problem solving"
+            ],
+            "missing_skills": [],
+            "reasons": [
+                "Low semantic similarity with the job description",
+                "Matches 5 of 5 required skills",
+                "No specific experience requirement was provided",
+                "Meets the required education"
+            ],
+            "recommendation": "GOOD SUITABILITY",
+            "extraction_method": "pdf_text",
+            "text_characters": 5038,
+            "text_words": 709,
+            "rank": 3
+        },
+        {
+            "resume_file": "resume_d2e21bf49333.pdf",
+            "candidate": {
+                "name": "Namburi Pavan Kumar",
+                "email": "neinamb3459@gmail.com",
+                "phone": "+916281138821",
+                "skills": [
+                    "algorithms",
+                    "communication",
+                    "css",
+                    "data science",
+                    "data structures",
+                    "docker",
+                    "github",
+                    "html",
+                    "java",
+                    "javascript",
+                    "kubernetes",
+                    "machine learning",
+                    "problem solving",
+                    "python",
+                    "sql",
+                    "time management"
+                ],
+                "education": "B.Tech, Electronics and Communication",
+                "experience_years": 6.0,
+                "projects": [
+                    "Smart Street Light",
+                    "I've created intelligent streetlights utilizing Object Detection, ESP8266, sensors, and IoT, optimizing energy usage with real-",
+                    "time adjustments and enabling remote monitoring via cloud integration. A sustainable solution for modern urban",
+                    "infrastructure",
+                    "Quiz application",
+                    "I've developed a dynamic quiz application using JavaScript that engages users with interactive questions, immediate feedback,",
+                    "and a scoring system. This app not only enhances user engagement but also tests their knowledge and provides a fun learning",
+                    "experience.",
+                    "Myntra Clone",
+                    "This web app resembles Myntra and has been created using HTML, CSS, and JavaScript. It has been deployed on GitHub for"
+                ]
+            },
+            "overall_score": 58.82,
+            "semantic_similarity": 12.05,
+            "skill_match": 80.0,
+            "experience_match": 100.0,
+            "education_match": 100.0,
+            "matched_skills": [
+                "css",
+                "html",
+                "java",
+                "problem solving"
+            ],
+            "missing_skills": [
+                "mysql"
+            ],
+            "reasons": [
+                "Low semantic similarity with the job description",
+                "Matches 4 of 5 required skills",
+                "No specific experience requirement was provided",
+                "Meets the required education"
+            ],
+            "recommendation": "GOOD SUITABILITY",
+            "extraction_method": "pdf_text",
+            "text_characters": 2823,
+            "text_words": 396,
+            "rank": 4
+        },
+        {
+            "resume_file": "resume_e421c8210358.pdf",
+            "candidate": {
+                "name": "Soumyadeep Das",
+                "email": "somuchamp2003@gmail.com",
+                "phone": "6909764006",
+                "skills": [
+                    "communication",
+                    "css",
+                    "data science",
+                    "git",
+                    "github",
+                    "html",
+                    "java",
+                    "javascript",
+                    "leadership",
+                    "problem solving",
+                    "python",
+                    "teamwork"
+                ],
+                "education": "B.Tech, Computer Science",
+                "experience_years": 2.0,
+                "projects": [
+                    "Events & Outreach Manager",
+                    "Event Planning and Management.",
+                    "UEM Aeromodelling Club",
+                    "2024 – present",
+                    "Organised a Fest, 2 hands on workshops with a huge",
+                    "number of participation. Past Paper Website",
+                    "Developed a past paper website using HTML, CSS, and",
+                    "Summer Intern JavaScript, emphasizing responsive design for various",
+                    "Prasunet Company | CodeAlpha devices. Implemented dynamic filtering and search",
+                    "Jun 2024 – Jul 2024 features to facilitate easy access to papers. Designed"
+                ]
+            },
+            "overall_score": 58.06,
+            "semantic_similarity": 10.15,
+            "skill_match": 80.0,
+            "experience_match": 100.0,
+            "education_match": 100.0,
+            "matched_skills": [
+                "css",
+                "html",
+                "java",
+                "problem solving"
+            ],
+            "missing_skills": [
+                "mysql"
+            ],
+            "reasons": [
+                "Low semantic similarity with the job description",
+                "Matches 4 of 5 required skills",
+                "No specific experience requirement was provided",
+                "Meets the required education"
+            ],
+            "recommendation": "GOOD SUITABILITY",
+            "extraction_method": "pdf_text",
+            "text_characters": 2186,
+            "text_words": 292,
+            "rank": 5
+        },
+        {
+            "resume_file": "resume_8091a6a3c0c1.pdf",
+            "candidate": {
+                "name": "Sahil Kumar",
+                "email": "sahilkumar9045745602@gmail.com",
+                "phone": "9045745602",
+                "skills": [
+                    "bootstrap",
+                    "css",
+                    "express",
+                    "git",
+                    "github",
+                    "java",
+                    "javascript",
+                    "leadership",
+                    "mongodb",
+                    "mysql",
+                    "node",
+                    "postman",
+                    "problem solving",
+                    "react",
+                    "rest api",
+                    "software development",
+                    "teamwork",
+                    "vs code"
+                ],
+                "education": "B.Tech, Computer Science",
+                "experience_years": 7.0,
+                "projects": [
+                    "• QuickBlog Platform | link | MERN + Gemini AI API Aug – Sep 2025",
+                    "Developed an AI-assisted blogging platform that generates intelligent blog drafts using Gemini AI. Integrated Context",
+                    "APIforglobalstatemanagement,builtreusableReactcomponents,andstyledtheinterfacewithTailwindCSS.Deployed",
+                    "the application successfully on Vercel.",
+                    "• Restaurant Management System | link | MERN + Tailwind CSS Nov – Dec 2024",
+                    "Created a role-based restaurant web application for managing menus, orders, and reservations. Implemented secure",
+                    "authentication using JWT, designed an admin dashboard for data control, and built a responsive interface with React",
+                    "and Tailwind CSS.",
+                    "• AI Image Enhancer | link | React + Tailwind + PicWish API Mar – Apr 2024",
+                    "Builtareal-timeimageenhancementwebappintegratedwiththePicWishAPI.Implementedimageuploadandpreview"
+                ]
+            },
+            "overall_score": 56.85,
+            "semantic_similarity": 7.12,
+            "skill_match": 80.0,
+            "experience_match": 100.0,
+            "education_match": 100.0,
+            "matched_skills": [
+                "css",
+                "java",
+                "mysql",
+                "problem solving"
+            ],
+            "missing_skills": [
+                "html"
+            ],
+            "reasons": [
+                "Low semantic similarity with the job description",
+                "Matches 4 of 5 required skills",
+                "No specific experience requirement was provided",
+                "Meets the required education"
+            ],
+            "recommendation": "GOOD SUITABILITY",
+            "extraction_method": "pdf_text",
+            "text_characters": 3084,
+            "text_words": 403,
+            "rank": 6
+        },
+        {
+            "resume_file": "resume_808fadf93053.pdf",
+            "candidate": {
+                "name": "Sanya Singh",
+                "email": "sanyasingh638@gmail.com",
+                "phone": "213-332-7446",
+                "skills": [
+                    "algorithms",
+                    "artificial intelligence",
+                    "aws",
+                    "bootstrap",
+                    "c++",
+                    "css",
+                    "debugging",
+                    "express",
+                    "flask",
+                    "github",
+                    "html",
+                    "java",
+                    "javascript",
+                    "mongodb",
+                    "mysql",
+                    "numpy",
+                    "pandas",
+                    "python",
+                    "react",
+                    "software development",
+                    "software engineering",
+                    "sql",
+                    "tensorflow",
+                    "testing",
+                    "typescript"
+                ],
+                "education": "B.Tech, B.E, Computer Science",
+                "experience_years": 3.0,
+                "projects": [
+                    "• Helix Chatbot [https://github.com/dear-s/Helix-Chatbot] | [https://github.com/dear-s/Expo-Snack-X-Helix-Chatbot]",
+                    "o Designed and developed an intelligent chatbot that records a patient’s headache and medication taken for it with an Expo app.",
+                    "o Chatbot phone number (via Twilio services): 213 320 6669 (Send “hey” for registration process and to start the chatbot)",
+                    "o Technologies: Flask, Python, MySQL, HTML, CSS, React Native, matplotlib, Twilio services, Expo, Dialogflow API",
+                    "• Foot-Fall [https://github.com/dear-s/Foot-Fall]",
+                    "o Collaborated and developed an effective tool for determining how to optimize store layout for better sales, results in 80% of profit.",
+                    "o Technologies: R-Script, Shiny Dashboard, HTML, CSS, Bootstrap",
+                    "• Some website projects [https://github.com/dear-s/RGB-Color-Guessing-Game]",
+                    "o Color Guessing Game: A simple RGB color guessing game with two modes - Easy and Hard",
+                    "o Patatap-Clone: Practice project developed by using Paper.js and Howler.js libraries. [https://github.com/dear-s/Patatap-Clone]"
+                ]
+            },
+            "overall_score": 56.8,
+            "semantic_similarity": 6.99,
+            "skill_match": 80.0,
+            "experience_match": 100.0,
+            "education_match": 100.0,
+            "matched_skills": [
+                "css",
+                "html",
+                "java",
+                "mysql"
+            ],
+            "missing_skills": [
+                "problem solving"
+            ],
+            "reasons": [
+                "Low semantic similarity with the job description",
+                "Matches 4 of 5 required skills",
+                "No specific experience requirement was provided",
+                "Meets the required education"
+            ],
+            "recommendation": "GOOD SUITABILITY",
+            "extraction_method": "pdf_text",
+            "text_characters": 4250,
+            "text_words": 572,
+            "rank": 7
+        },
+        {
+            "resume_file": "resume_c01ce554ff38.pdf",
+            "candidate": {
+                "name": "SAIRAM S",
+                "email": "sairam.shan98@gmail.com",
+                "phone": "+91 90039 51807",
+                "skills": [
+                    "azure",
+                    "bootstrap",
+                    "css",
+                    "html",
+                    "java",
+                    "kotlin",
+                    "mysql",
+                    "object oriented programming",
+                    "oracle",
+                    "php",
+                    "python",
+                    "visual studio"
+                ],
+                "education": "B.Tech, B.E, Information Technology",
+                "experience_years": 21.0,
+                "projects": [
+                    "1.Uddeshah’17 (HTML,CSS,JS,Bootstrap,php)",
+                    "Web 2.SGS 17-18 (HTML,CSS,JS,Bootstrap)",
+                    "3.MCET TouchIT (HTML,CSS,JS,Bootstrap,php)",
+                    "4.Varnam’18 (HTML,CSS,JS,Bootstrap,php)",
+                    "5.DSC-MCET (HTML,CSS,JS,Bootstrap)",
+                    "1.SGS v1.0",
+                    "2.Fresh Flesh",
+                    "Android 4.UDDESHAH’17",
+                    "5.Medical Search Engine",
+                    "6.IEEE MCET Student Chapter"
+                ]
+            },
+            "overall_score": 56.63,
+            "semantic_similarity": 6.57,
+            "skill_match": 80.0,
+            "experience_match": 100.0,
+            "education_match": 100.0,
+            "matched_skills": [
+                "css",
+                "html",
+                "java",
+                "mysql"
+            ],
+            "missing_skills": [
+                "problem solving"
+            ],
+            "reasons": [
+                "Low semantic similarity with the job description",
+                "Matches 4 of 5 required skills",
+                "No specific experience requirement was provided",
+                "Meets the required education"
+            ],
+            "recommendation": "GOOD SUITABILITY",
+            "extraction_method": "pdf_text",
+            "text_characters": 3834,
+            "text_words": 527,
+            "rank": 8
+        },
+        {
+            "resume_file": "resume_eb4cba6bed7a.pdf",
+            "candidate": {
+                "name": "Rishabh Dwivedi",
+                "email": "rishabhdwivedi062@gmail.com",
+                "phone": "+916261817439",
+                "skills": [
+                    "artificial intelligence",
+                    "c++",
+                    "css",
+                    "flask",
+                    "gcp",
+                    "git",
+                    "github",
+                    "html",
+                    "java",
+                    "javascript",
+                    "machine learning",
+                    "postman",
+                    "problem solving",
+                    "python",
+                    "react",
+                    "typescript"
+                ],
+                "education": "B.Tech, Computer Science",
+                "experience_years": 3.0,
+                "projects": [
+                    "Multiple Disease Prediction System. (12/2021 - 01/2022) ACHIEVEMENTS",
+                    "Machine learning based webapp which can predict multiple organ disease in a",
+                    "real time. Open source contributor.",
+                    "Build using Python, Javascript, HTML, CSS and Flask. Done more than 600 Open-Source contributions including the",
+                    "projects of FOSSASIA, tech start-ups, and personal projects.",
+                    "Codechef ranking",
+                    "A website built with a motto to connect various developers with students for",
+                    "guiding them with project building purposes. Achieved global rank of (cid:1)(cid:2)(cid:3)(cid:2) at codechef april 2021 long",
+                    "challenge .",
+                    "35+ developer registered in projectron from different domain for building"
+                ]
+            },
+            "overall_score": 56.62,
+            "semantic_similarity": 6.56,
+            "skill_match": 80.0,
+            "experience_match": 100.0,
+            "education_match": 100.0,
+            "matched_skills": [
+                "css",
+                "html",
+                "java",
+                "problem solving"
+            ],
+            "missing_skills": [
+                "mysql"
+            ],
+            "reasons": [
+                "Low semantic similarity with the job description",
+                "Matches 4 of 5 required skills",
+                "No specific experience requirement was provided",
+                "Meets the required education"
+            ],
+            "recommendation": "GOOD SUITABILITY",
+            "extraction_method": "pdf_text",
+            "text_characters": 2653,
+            "text_words": 357,
+            "rank": 9
+        },
+        {
+            "resume_file": "resume_296860d4b713.pdf",
+            "candidate": {
+                "name": "Darshan Karia",
+                "email": "darshan.karia@live.com",
+                "phone": "886) 166-2623",
+                "skills": [
+                    "communication",
+                    "css",
+                    "html",
+                    "java",
+                    "javascript",
+                    "mysql",
+                    "oracle",
+                    "php",
+                    "sql",
+                    "sqlite",
+                    "unix",
+                    "windows"
+                ],
+                "education": "B.E, Computer Science",
+                "experience_years": 10.0,
+                "projects": [
+                    "Place: Tata Consultancy Services, Gandhinagar, Gujarat, India",
+                    "Duration: 01/2008 - 05/2008",
+                    " Medical Bill Reimbursement System & Leave Application – These modules were part of",
+                    "IWDMS (Integrated Workflow & Documents Management System) for Gujarat (India)",
+                    "Parliament. This system manages respective entities, Medical Bill Reimbursement and",
+                    "Leave Application of parliament employees, and also has hierarchical approval process of",
+                    "same. It uses various J2EE technologies like JSP, Servlet, EJB; web technologies like HTML,",
+                    "JavaScript; and Oracle 10g as database.",
+                    "San Jose State University",
+                    " FullText Indexing for Heritrix – This is my master’s project where I am working on indexing"
+                ]
+            },
+            "overall_score": 56.43,
+            "semantic_similarity": 6.07,
+            "skill_match": 80.0,
+            "experience_match": 100.0,
+            "education_match": 100.0,
+            "matched_skills": [
+                "css",
+                "html",
+                "java",
+                "mysql"
+            ],
+            "missing_skills": [
+                "problem solving"
+            ],
+            "reasons": [
+                "Low semantic similarity with the job description",
+                "Matches 4 of 5 required skills",
+                "No specific experience requirement was provided",
+                "Meets the required education"
+            ],
+            "recommendation": "GOOD SUITABILITY",
+            "extraction_method": "pdf_text",
+            "text_characters": 5328,
+            "text_words": 812,
+            "rank": 10
+        },
+        {
+            "resume_file": "resume_f29b4b7d2da0.pdf",
+            "candidate": {
+                "name": "Devendra Dhakad",
+                "email": "dhakad.cse14@nituk.ac.in",
+                "phone": "7877383873\n72",
+                "skills": [
+                    "angular",
+                    "bootstrap",
+                    "c++",
+                    "css",
+                    "express",
+                    "github",
+                    "html",
+                    "java",
+                    "javascript",
+                    "linux",
+                    "mongodb",
+                    "mysql",
+                    "node",
+                    "php",
+                    "python",
+                    "rest api",
+                    "software development",
+                    "swift",
+                    "typescript"
+                ],
+                "education": "B.Tech",
+                "experience_years": 9.0,
+                "projects": [
+                    "Ducat India Pvt Ltd. Noida",
+                    "06/2017 – 07/2017 Noida, India Instagram like Web application (07/2017 – 08/2017)",
+                    "Completed 6 weeks MEAN Stack development Training An web application similar to instagram",
+                    "Achievements/Tasks",
+                    "News Portal (05/2017 – 07/2017)",
+                    "Developed Instagram like web application",
+                    "A news app using the latest and fast technology which includes",
+                    "Contact: Sumit Joshi– 858602113 MongoDB, Express js, Node js and Angular js",
+                    "Meal Application (03/2017 – 05/2017)"
+                ]
+            },
+            "overall_score": 56.37,
+            "semantic_similarity": 5.92,
+            "skill_match": 80.0,
+            "experience_match": 100.0,
+            "education_match": 100.0,
+            "matched_skills": [
+                "css",
+                "html",
+                "java",
+                "mysql"
+            ],
+            "missing_skills": [
+                "problem solving"
+            ],
+            "reasons": [
+                "Low semantic similarity with the job description",
+                "Matches 4 of 5 required skills",
+                "No specific experience requirement was provided",
+                "Meets the required education"
+            ],
+            "recommendation": "GOOD SUITABILITY",
+            "extraction_method": "pdf_text",
+            "text_characters": 2441,
+            "text_words": 322,
+            "rank": 11
+        },
+        {
+            "resume_file": "resume_fea99493e071.pdf",
+            "candidate": {
+                "name": "Academic Credentials",
+                "email": "kiodeba11@gmail.com",
+                "phone": "+91 9873824499",
+                "skills": [
+                    "c++",
+                    "css",
+                    "git",
+                    "github",
+                    "html",
+                    "java",
+                    "javascript",
+                    "linux",
+                    "mongodb",
+                    "mysql",
+                    "node",
+                    "php",
+                    "python",
+                    "windows"
+                ],
+                "education": "B.Tech, B.E, Computer Science",
+                "experience_years": 4.0,
+                "projects": [
+                    "• Website for SRISHTI Ongoing",
+                    "Working on both front-end and back-end of the website for SRISHTI the Art & Craft club of",
+                    "ITER - SOA (Deemed to be University).",
+                    "• Website for CODEX April 2018",
+                    "Developing the MySQL database and the PHP scripts for the website for the programming club",
+                    "of ITER - SOA (Deemed to be University). Website deployed at http://bit.do/codex-iter.",
+                    "Technical Skills",
+                    "• Programming Languages: C, C++, Python, Java, MIPS*.",
+                    "• Web Technologies : HTML & CSS, JavaScript, Jquery, PHP, Node.JS*.",
+                    "• Database Management: MySQL, MongoDB."
+                ]
+            },
+            "overall_score": 56.31,
+            "semantic_similarity": 5.77,
+            "skill_match": 80.0,
+            "experience_match": 100.0,
+            "education_match": 100.0,
+            "matched_skills": [
+                "css",
+                "html",
+                "java",
+                "mysql"
+            ],
+            "missing_skills": [
+                "problem solving"
+            ],
+            "reasons": [
+                "Low semantic similarity with the job description",
+                "Matches 4 of 5 required skills",
+                "No specific experience requirement was provided",
+                "Meets the required education"
+            ],
+            "recommendation": "GOOD SUITABILITY",
+            "extraction_method": "pdf_text",
+            "text_characters": 2030,
+            "text_words": 315,
+            "rank": 12
+        },
+        {
+            "resume_file": "resume_d65739a8d2f2.pdf",
+            "candidate": {
+                "name": "Kuljeet Singh",
+                "email": "kuljeetsingh951@gmail.com",
+                "phone": "Not detected",
+                "skills": [
+                    "bootstrap",
+                    "c++",
+                    "css",
+                    "express",
+                    "git",
+                    "github",
+                    "html",
+                    "java",
+                    "javascript",
+                    "linux",
+                    "mongodb",
+                    "mysql",
+                    "node",
+                    "php",
+                    "postman",
+                    "python",
+                    "react",
+                    "software engineering",
+                    "windows"
+                ],
+                "education": "B.Tech, B.E, Information Technology",
+                "experience_years": 6.0,
+                "projects": [
+                    "https://github.com/Kuljeet-123/Social-App-Using-React-And-Fire",
+                    "base-Client",
+                    "Social App is a web application that was built with the React and",
+                    "Firebase for my web development class.I made this web application",
+                    "for my side project . I learned React and Firebase, so I was looking",
+                    "for some sort of project where I could practice and gain experience",
+                    "with them. After going through a ton of ideas, I decided to build a",
+                    "web application.The app uses React and Redux to manage the",
+                    "front-end and Firebase to manage the backend.",
+                    "Web Portfolio"
+                ]
+            },
+            "overall_score": 56.21,
+            "semantic_similarity": 5.53,
+            "skill_match": 80.0,
+            "experience_match": 100.0,
+            "education_match": 100.0,
+            "matched_skills": [
+                "css",
+                "html",
+                "java",
+                "mysql"
+            ],
+            "missing_skills": [
+                "problem solving"
+            ],
+            "reasons": [
+                "Low semantic similarity with the job description",
+                "Matches 4 of 5 required skills",
+                "No specific experience requirement was provided",
+                "Meets the required education"
+            ],
+            "recommendation": "GOOD SUITABILITY",
+            "extraction_method": "pdf_text",
+            "text_characters": 3895,
+            "text_words": 560,
+            "rank": 13
+        },
+        {
+            "resume_file": "resume_9a8ebf7d3eb2.pdf",
+            "candidate": {
+                "name": "Software Developer pj-iitk",
+                "email": "pancharpj@gmail.com",
+                "phone": "+91 9956118091",
+                "skills": [
+                    "angular",
+                    "bootstrap",
+                    "c++",
+                    "css",
+                    "django",
+                    "github",
+                    "gitlab",
+                    "html",
+                    "java",
+                    "jenkins",
+                    "kubernetes",
+                    "mysql",
+                    "python",
+                    "spring",
+                    "sql",
+                    "testing",
+                    "typescript",
+                    "vs code"
+                ],
+                "education": "B.Tech",
+                "experience_years": 16.0,
+                "projects": [
+                    "Concurrency Supreme, GenAI",
+                    "Developed a plugin and web based application for converting sync imperative COMPETITIVE CODING",
+                    "code into async reactive code for improving developer experience.",
+                    "Built it over LLama 34B model and integration VSCode and Intellij plugins.",
+                    "200+ Leetcode (75% Medium)",
+                    "1st prize in the PAYU GenAI Hackathon in a team of four.",
+                    "Codechef Rating : 1626 .",
+                    "SQuAD Question Answering Rank: 1196 Week of Code 36 Hackerrank,",
+                    "Rank: 999 in SnackDown 2017 Online Elimination .",
+                    "Developed a rrn model on SQuAD dataset."
+                ]
+            },
+            "overall_score": 55.79,
+            "semantic_similarity": 4.47,
+            "skill_match": 80.0,
+            "experience_match": 100.0,
+            "education_match": 100.0,
+            "matched_skills": [
+                "css",
+                "html",
+                "java",
+                "mysql"
+            ],
+            "missing_skills": [
+                "problem solving"
+            ],
+            "reasons": [
+                "Low semantic similarity with the job description",
+                "Matches 4 of 5 required skills",
+                "No specific experience requirement was provided",
+                "Meets the required education"
+            ],
+            "recommendation": "GOOD SUITABILITY",
+            "extraction_method": "pdf_text",
+            "text_characters": 3225,
+            "text_words": 515,
+            "rank": 14
+        },
+        {
+            "resume_file": "resume_e110bff42daa.pdf",
+            "candidate": {
+                "name": "Pranay Patil",
+                "email": "pranay.patil.dev@gmail.com",
+                "phone": "9987163302",
+                "skills": [
+                    "c++",
+                    "css",
+                    "git",
+                    "github",
+                    "html",
+                    "java",
+                    "javascript",
+                    "mysql",
+                    "php",
+                    "python",
+                    "sqlite",
+                    "windows"
+                ],
+                "education": "B.Tech",
+                "experience_years": 3.0,
+                "projects": [
+                    "Art Store Management System Jan2016-Mar2016",
+                    " A software that automates and optimizes the transactions of an art store",
+                    " Developed using Qt-C++, php and mysql for database",
+                    "Nptel Moodle Courses Downloader Dec2015-Jan2016",
+                    " A GUI platform that enables to download the lectures of all enrolled courses",
+                    " Developed using python using libraries-mechanize, selenium, pyqt",
+                    "Expense Tracker Sep2015",
+                    " An android application that helps user in managing his/her income and expenses",
+                    " Developed using java for android platform",
+                    "Grading System Feb2016-Mar2016"
+                ]
+            },
+            "overall_score": 55.68,
+            "semantic_similarity": 4.19,
+            "skill_match": 80.0,
+            "experience_match": 100.0,
+            "education_match": 100.0,
+            "matched_skills": [
+                "css",
+                "html",
+                "java",
+                "mysql"
+            ],
+            "missing_skills": [
+                "problem solving"
+            ],
+            "reasons": [
+                "Low semantic similarity with the job description",
+                "Matches 4 of 5 required skills",
+                "No specific experience requirement was provided",
+                "Meets the required education"
+            ],
+            "recommendation": "GOOD SUITABILITY",
+            "extraction_method": "pdf_text",
+            "text_characters": 1772,
+            "text_words": 252,
+            "rank": 15
+        },
+        {
+            "resume_file": "resume_f157006eff3e.pdf",
+            "candidate": {
+                "name": "HARI PRASAD SURESHKUMAR",
+                "email": "hariprasad.sureshkumar@gmail.com",
+                "phone": "408-663-7809",
+                "skills": [
+                    "aws",
+                    "bootstrap",
+                    "communication",
+                    "css",
+                    "express",
+                    "github",
+                    "html",
+                    "java",
+                    "javascript",
+                    "mysql",
+                    "node",
+                    "react",
+                    "rest api",
+                    "software engineering",
+                    "spring",
+                    "spring boot",
+                    "testing"
+                ],
+                "education": "B.Tech, B.E",
+                "experience_years": 4.0,
+                "projects": [
+                    "● Built a next generation localization framework, to automate localization of Tibco Software products which reduced",
+                    "the average localization turnaround time from 3-4 weeks to 5 days.",
+                    "● Built the webapp using React.js, ES6 JavaScript, Alt.js, HTML5, Bootstrap 3, SASS, Webpack from the scratch.",
+                    "● Developed responsive dashboards, online web editor, role-based UI, pagination, gamification, TTS, encoding tools.",
+                    "● Implemented Gmail and LDAP login integration using Node.js, Passport.js and React.js",
+                    "● Implemented i18n(Internationalization) to support 6 languages using react-intl, cldr.js & moment.js libraries.",
+                    "Server-Side -",
+                    "● Developed the Neural Machine Translation module using Google’s NMT Translation API and Amazon translation API",
+                    "which helped reduce the translation cost by 60%.",
+                    "● Developed the REST API services using Node.js, Express.js, Java Spring Boot, MySQL."
+                ]
+            },
+            "overall_score": 55.45,
+            "semantic_similarity": 3.64,
+            "skill_match": 80.0,
+            "experience_match": 100.0,
+            "education_match": 100.0,
+            "matched_skills": [
+                "css",
+                "html",
+                "java",
+                "mysql"
+            ],
+            "missing_skills": [
+                "problem solving"
+            ],
+            "reasons": [
+                "Low semantic similarity with the job description",
+                "Matches 4 of 5 required skills",
+                "No specific experience requirement was provided",
+                "Meets the required education"
+            ],
+            "recommendation": "GOOD SUITABILITY",
+            "extraction_method": "pdf_text",
+            "text_characters": 3645,
+            "text_words": 505,
+            "rank": 16
+        },
+        {
+            "resume_file": "resume_6455f8af25cc.pdf",
+            "candidate": {
+                "name": "Sanya Jain",
+                "email": "jainsanya.a@gmail.com",
+                "phone": "8989405425",
+                "skills": [
+                    "angular",
+                    "bootstrap",
+                    "c#",
+                    "c++",
+                    "css",
+                    "git",
+                    "github",
+                    "html",
+                    "java",
+                    "javascript",
+                    "python",
+                    "sql"
+                ],
+                "education": "B.Tech, M.Tech, Information Technology",
+                "experience_years": 17.0,
+                "projects": [
+                    "LANGUAGES Portfolio Building (05/2020)",
+                    "Learned and practiced building portfolio using HTML, CSS and Bootstrap.",
+                    "Modern JavaScript Learning (05/2020)",
+                    "Full Professional Proficiency",
+                    "Web Development Masterclass (05/2020)",
+                    "Full Professional Proficiency",
+                    "Learned various languages and web development techniques and also build a live project as a Web Developer.",
+                    "Professional Working Proficiency",
+                    "Build various websites using HTML, CSS, JS and Bootstrap.",
+                    "Sports Reading Snake game Buildup"
+                ]
+            },
+            "overall_score": 52.95,
+            "semantic_similarity": 12.38,
+            "skill_match": 60.0,
+            "experience_match": 100.0,
+            "education_match": 100.0,
+            "matched_skills": [
+                "css",
+                "html",
+                "java"
+            ],
+            "missing_skills": [
+                "mysql",
+                "problem solving"
+            ],
+            "reasons": [
+                "Low semantic similarity with the job description",
+                "Matches 3 of 5 required skills",
+                "No specific experience requirement was provided",
+                "Meets the required education"
+            ],
+            "recommendation": "MODERATE SUITABILITY",
+            "extraction_method": "pdf_text",
+            "text_characters": 2655,
+            "text_words": 394,
+            "rank": 17
+        },
+        {
+            "resume_file": "resume_78739b4a564f.pdf",
+            "candidate": {
+                "name": "AMAN DEEP SHARMA",
+                "email": "Amandeepsharma8944@gmail.com",
+                "phone": "+91-9906535192",
+                "skills": [
+                    "css",
+                    "express",
+                    "java",
+                    "javascript",
+                    "mongodb",
+                    "problem solving",
+                    "python",
+                    "sql"
+                ],
+                "education": "B.Tech, Computer Science",
+                "experience_years": 4.0,
+                "projects": []
+            },
+            "overall_score": 51.62,
+            "semantic_similarity": 9.06,
+            "skill_match": 60.0,
+            "experience_match": 100.0,
+            "education_match": 100.0,
+            "matched_skills": [
+                "css",
+                "java",
+                "problem solving"
+            ],
+            "missing_skills": [
+                "html",
+                "mysql"
+            ],
+            "reasons": [
+                "Low semantic similarity with the job description",
+                "Matches 3 of 5 required skills",
+                "No specific experience requirement was provided",
+                "Meets the required education"
+            ],
+            "recommendation": "MODERATE SUITABILITY",
+            "extraction_method": "pdf_text",
+            "text_characters": 1417,
+            "text_words": 224,
+            "rank": 18
+        },
+        {
+            "resume_file": "resume_38d00ab95a0c.pdf",
+            "candidate": {
+                "name": "SURYA PRATAP SINGH",
+                "email": "suryapratap2542@gmail.com",
+                "phone": "7887070588",
+                "skills": [
+                    "algorithms",
+                    "bootstrap",
+                    "communication",
+                    "css",
+                    "data structures",
+                    "django",
+                    "dsa",
+                    "github",
+                    "html",
+                    "java",
+                    "javascript",
+                    "python",
+                    "sql"
+                ],
+                "education": "B.Tech",
+                "experience_years": 8.0,
+                "projects": [
+                    "2015-2020I have more than 3 years teaching Experience in coaching. It was",
+                    "◦ HTML very helpful. I have more than 3 years teaching Experience in coaching. It was",
+                    "very helpful to improving my communication skills and Presentation Skills. I",
+                    "used to study students from class 9 to 10 that time.to improving my",
+                    "communication skills and Presentation Skills. I used to study students from",
+                    "class 9 to 10 at that time.",
+                    "◦ BOOTSTRAP",
+                    "• 500+ Problem Solved on LeetCode leetcode.com/suryapratap2542",
+                    "•Hackathon(Hack-X NIET 2023) - Disease Prediction Website: Collaborated on",
+                    "EDUCATION a team to develop an ML-based disease prediction website using Django."
+                ]
+            },
+            "overall_score": 51.25,
+            "semantic_similarity": 8.12,
+            "skill_match": 60.0,
+            "experience_match": 100.0,
+            "education_match": 100.0,
+            "matched_skills": [
+                "css",
+                "html",
+                "java"
+            ],
+            "missing_skills": [
+                "mysql",
+                "problem solving"
+            ],
+            "reasons": [
+                "Low semantic similarity with the job description",
+                "Matches 3 of 5 required skills",
+                "No specific experience requirement was provided",
+                "Meets the required education"
+            ],
+            "recommendation": "MODERATE SUITABILITY",
+            "extraction_method": "pdf_text",
+            "text_characters": 2679,
+            "text_words": 388,
+            "rank": 19
+        },
+        {
+            "resume_file": "resume_4a1d9bc816d1.pdf",
+            "candidate": {
+                "name": "SANYA VERMA",
+                "email": "sanyaverma99789@gmail.com",
+                "phone": "9693721522",
+                "skills": [
+                    "algorithms",
+                    "bootstrap",
+                    "c++",
+                    "css",
+                    "data structures",
+                    "django",
+                    "git",
+                    "github",
+                    "html",
+                    "javascript",
+                    "linux",
+                    "oracle",
+                    "problem solving",
+                    "python",
+                    "sql"
+                ],
+                "education": "B.Tech, Computer Science",
+                "experience_years": 6.0,
+                "projects": [
+                    "2022 Tech -A-Thon By Sharda University",
+                    "Martian intern at",
+                    "Persistent Systems",
+                    "Secured 10th rank among 100 teams.",
+                    "Got technical training on CS",
+                    "2021 Smart India Hackathon -Finalist",
+                    "fundamentals and hands on command",
+                    "on PYTHON,LINUX and problem solving",
+                    "A web application designed for farmers to sell their",
+                    "skills product directly to customers excluding middlemen"
+                ]
+            },
+            "overall_score": 50.9,
+            "semantic_similarity": 7.25,
+            "skill_match": 60.0,
+            "experience_match": 100.0,
+            "education_match": 100.0,
+            "matched_skills": [
+                "css",
+                "html",
+                "problem solving"
+            ],
+            "missing_skills": [
+                "java",
+                "mysql"
+            ],
+            "reasons": [
+                "Low semantic similarity with the job description",
+                "Matches 3 of 5 required skills",
+                "No specific experience requirement was provided",
+                "Meets the required education"
+            ],
+            "recommendation": "MODERATE SUITABILITY",
+            "extraction_method": "pdf_text",
+            "text_characters": 2107,
+            "text_words": 272,
+            "rank": 20
+        },
+        {
+            "resume_file": "resume_a836b4272eb8.pdf",
+            "candidate": {
+                "name": "EXPERIENCE SKILLS",
+                "email": "shahansalam8@gmail.com",
+                "phone": "+91-7835888409",
+                "skills": [
+                    "algorithms",
+                    "c++",
+                    "css",
+                    "github",
+                    "html",
+                    "javascript",
+                    "mysql",
+                    "python",
+                    "vs code"
+                ],
+                "education": "B.Tech, B.E, Computer Science",
+                "experience_years": 4.0,
+                "projects": [
+                    " Database Management",
+                    " Operating Systems",
+                    " Web Development",
+                    "Project link: https://github.com/123shahan/face-detection-using-opencv",
+                    " Computer Network",
+                    " Data Mining",
+                    "Project link: https://github.com/123shahan/to-do-list  Accenture Virtual Program",
+                    "Certificate",
+                    "Project link: https://64b62faf703bd4307ed46dde--teal-longma-9393ee.netlify.app/",
+                    " GDSC Core Team"
+                ]
+            },
+            "overall_score": 50.61,
+            "semantic_similarity": 6.54,
+            "skill_match": 60.0,
+            "experience_match": 100.0,
+            "education_match": 100.0,
+            "matched_skills": [
+                "css",
+                "html",
+                "mysql"
+            ],
+            "missing_skills": [
+                "java",
+                "problem solving"
+            ],
+            "reasons": [
+                "Low semantic similarity with the job description",
+                "Matches 3 of 5 required skills",
+                "No specific experience requirement was provided",
+                "Meets the required education"
+            ],
+            "recommendation": "MODERATE SUITABILITY",
+            "extraction_method": "pdf_text",
+            "text_characters": 1485,
+            "text_words": 178,
+            "rank": 21
+        },
+        {
+            "resume_file": "resume_7dd9a4c974b6.pdf",
+            "candidate": {
+                "name": "Lakshita Verma",
+                "email": "lakshitaverma94@gmail.com",
+                "phone": "8800372718",
+                "skills": [
+                    "bootstrap",
+                    "css",
+                    "git",
+                    "github",
+                    "html",
+                    "javascript",
+                    "leadership",
+                    "mysql",
+                    "php",
+                    "react",
+                    "software development"
+                ],
+                "education": "B.Tech, Computer Science",
+                "experience_years": 4.0,
+                "projects": [
+                    "- Worked on technologies - HTML, CSS, Javascript, ReactJs, Redux",
+                    "Web Developer Intern",
+                    "Jun 2015 - Jul 2015 (2 months)",
+                    "Summer Internship -",
+                    "I worked on company's live admin panel and added functionalities to it , made in CodeIgnitor."
+                ]
+            },
+            "overall_score": 50.58,
+            "semantic_similarity": 6.46,
+            "skill_match": 60.0,
+            "experience_match": 100.0,
+            "education_match": 100.0,
+            "matched_skills": [
+                "css",
+                "html",
+                "mysql"
+            ],
+            "missing_skills": [
+                "java",
+                "problem solving"
+            ],
+            "reasons": [
+                "Low semantic similarity with the job description",
+                "Matches 3 of 5 required skills",
+                "No specific experience requirement was provided",
+                "Meets the required education"
+            ],
+            "recommendation": "MODERATE SUITABILITY",
+            "extraction_method": "pdf_text",
+            "text_characters": 3434,
+            "text_words": 535,
+            "rank": 22
+        },
+        {
+            "resume_file": "resume_f92653b14b81.pdf",
+            "candidate": {
+                "name": "CUTTACK, INDIA",
+                "email": "hrudesh.lenka@gmail.com",
+                "phone": "+91 70084 54580",
+                "skills": [
+                    "css",
+                    "docker",
+                    "express",
+                    "github",
+                    "html",
+                    "java",
+                    "javascript",
+                    "linux",
+                    "mongodb",
+                    "react",
+                    "spring",
+                    "spring boot",
+                    "sql",
+                    "unix"
+                ],
+                "education": "B.Tech, Computer Science",
+                "experience_years": 2.0,
+                "projects": [
+                    "ServiceNow Certified System",
+                    "Administrator",
+                    "Exercise Tracker —",
+                    "Website that helps keeps track of exercise duration of users .",
+                    "ServiceNow CIS - IT Service",
+                    "Tools used: Express.js, MongoDB Atlas, Mongoose Management",
+                    "Hoisted Link",
+                    "APIs and Microservices",
+                    "Certification from",
+                    "Random Quote Generator —"
+                ]
+            },
+            "overall_score": 50.28,
+            "semantic_similarity": 5.71,
+            "skill_match": 60.0,
+            "experience_match": 100.0,
+            "education_match": 100.0,
+            "matched_skills": [
+                "css",
+                "html",
+                "java"
+            ],
+            "missing_skills": [
+                "mysql",
+                "problem solving"
+            ],
+            "reasons": [
+                "Low semantic similarity with the job description",
+                "Matches 3 of 5 required skills",
+                "No specific experience requirement was provided",
+                "Meets the required education"
+            ],
+            "recommendation": "MODERATE SUITABILITY",
+            "extraction_method": "pdf_text",
+            "text_characters": 1590,
+            "text_words": 211,
+            "rank": 23
+        },
+        {
+            "resume_file": "resume_4329189bb182.pdf",
+            "candidate": {
+                "name": "CONTACT Creative Head",
+                "email": "shagun.dcb@gmail.com",
+                "phone": "9327681913",
+                "skills": [
+                    "bootstrap",
+                    "css",
+                    "django",
+                    "github",
+                    "html",
+                    "java",
+                    "javascript",
+                    "visual studio",
+                    "visual studio code"
+                ],
+                "education": "B.E",
+                "experience_years": 4.0,
+                "projects": [
+                    "HTML JOB OVERFLOW : Platform for Part-time Jobs",
+                    "JavaScript",
+                    "Used HTML/CSS/Bootstrap for Front-end",
+                    "Back-end : Django Framework",
+                    "DOG - PILE",
+                    "Made to learn the concepts of Asynchronous JavaScript and XML Used",
+                    "Async/await syntax with fetch() to simplify the work with promises Created",
+                    "smooth slideshow effect using CSS.",
+                    "Search a dog breed and get a slideshow of the available pictures."
+                ]
+            },
+            "overall_score": 49.9,
+            "semantic_similarity": 4.74,
+            "skill_match": 60.0,
+            "experience_match": 100.0,
+            "education_match": 100.0,
+            "matched_skills": [
+                "css",
+                "html",
+                "java"
+            ],
+            "missing_skills": [
+                "mysql",
+                "problem solving"
+            ],
+            "reasons": [
+                "Low semantic similarity with the job description",
+                "Matches 3 of 5 required skills",
+                "No specific experience requirement was provided",
+                "Meets the required education"
+            ],
+            "recommendation": "MODERATE SUITABILITY",
+            "extraction_method": "pdf_text",
+            "text_characters": 1495,
+            "text_words": 219,
+            "rank": 24
+        },
+        {
+            "resume_file": "resume_9ee1298c2eec.pdf",
+            "candidate": {
+                "name": "KAMAL Career Objective",
+                "email": "kamalkhumar22@gmail.com",
+                "phone": "+91 8946056166",
+                "skills": [
+                    "communication",
+                    "css",
+                    "data analysis",
+                    "data science",
+                    "excel",
+                    "flask",
+                    "github",
+                    "html",
+                    "javascript",
+                    "jupyter",
+                    "machine learning",
+                    "natural language processing",
+                    "nlp",
+                    "php",
+                    "power bi",
+                    "problem solving",
+                    "python",
+                    "sql",
+                    "tableau"
+                ],
+                "education": "B.E, Computer Science",
+                "experience_years": 6.0,
+                "projects": [
+                    "Skill Highlights",
+                    "➢ Text Classification with BERT model",
+                    "➢ Technical Skills:",
+                    "Data Analytics, Data",
+                    "employees to classify a document or a text snippet that can",
+                    "Science, Vizualization, belong to multiple classes. Here, Wikipedia comments are",
+                    "Tableau, Power BI, Machine classified into one or more categories based on their so-",
+                    "Learning, Python, C, Data called toxic content with BERT model.",
+                    "Link: github.com/kamal2230/Text-classification-with-",
+                    "Structures, Jupyter,"
+                ]
+            },
+            "overall_score": 49.83,
+            "semantic_similarity": 4.59,
+            "skill_match": 60.0,
+            "experience_match": 100.0,
+            "education_match": 100.0,
+            "matched_skills": [
+                "css",
+                "html",
+                "problem solving"
+            ],
+            "missing_skills": [
+                "java",
+                "mysql"
+            ],
+            "reasons": [
+                "Low semantic similarity with the job description",
+                "Matches 3 of 5 required skills",
+                "No specific experience requirement was provided",
+                "Meets the required education"
+            ],
+            "recommendation": "MODERATE SUITABILITY",
+            "extraction_method": "pdf_text",
+            "text_characters": 5313,
+            "text_words": 771,
+            "rank": 25
+        },
+        {
+            "resume_file": "resume_dd05b8902c1d.pdf",
+            "candidate": {
+                "name": "Frontend Developer amaresh-s-m.firebaseapp.com",
+                "email": "amareshsm13@gmail.com",
+                "phone": "Not detected",
+                "skills": [
+                    "c++",
+                    "css",
+                    "github",
+                    "html",
+                    "javascript",
+                    "mysql",
+                    "node",
+                    "php",
+                    "react",
+                    "rest api",
+                    "testing"
+                ],
+                "education": "B.E, Computer Science",
+                "experience_years": 7.0,
+                "projects": [
+                    "✓ React js CSS loaders",
+                    "Built a CSS loaders npm package which supports CJS, ESM and UMD module format. It is built using the React js along with the help of",
+                    "rollup js and babel.",
+                    "Project link - https://www.npmjs.com/package/react-js-css-loaders",
+                    "✓ Github profile component",
+                    "Built a npm package that shows the GitHub profile by fetching data from GitHub API. It supports CJS, ESM and UMD module format. It",
+                    "is built using react js along with the help of rollup js and babel.",
+                    "Project link - https://github.com/amareshsm/github-profile-component",
+                    "✓ Food Recipe Web Application",
+                    "Built a food recipe application where one will be able to find various varieties of foods and it's recipe. It is built using the React js along"
+                ]
+            },
+            "overall_score": 49.7,
+            "semantic_similarity": 4.26,
+            "skill_match": 60.0,
+            "experience_match": 100.0,
+            "education_match": 100.0,
+            "matched_skills": [
+                "css",
+                "html",
+                "mysql"
+            ],
+            "missing_skills": [
+                "java",
+                "problem solving"
+            ],
+            "reasons": [
+                "Low semantic similarity with the job description",
+                "Matches 3 of 5 required skills",
+                "No specific experience requirement was provided",
+                "Meets the required education"
+            ],
+            "recommendation": "MODERATE SUITABILITY",
+            "extraction_method": "pdf_text",
+            "text_characters": 2967,
+            "text_words": 435,
+            "rank": 26
+        },
+        {
+            "resume_file": "resume_ec3050266f0e.pdf",
+            "candidate": {
+                "name": "NANDA KISHORE EDUCATION",
+                "email": "nkk263@nyu.edu",
+                "phone": "+1 (718) 679-7382",
+                "skills": [
+                    "algorithms",
+                    "artificial intelligence",
+                    "aws",
+                    "css",
+                    "docker",
+                    "github",
+                    "graphql",
+                    "html",
+                    "java",
+                    "javascript",
+                    "jenkins",
+                    "mongodb",
+                    "node",
+                    "postgresql",
+                    "python",
+                    "react",
+                    "ruby"
+                ],
+                "education": "B.E, Computer Science",
+                "experience_years": 8.0,
+                "projects": [
+                    "+ Artificial Intelligence",
+                    "+ Cloud Computing",
+                    "What’s New Search Phrase Highlighter",
+                    "+ Computer Graphics",
+                    "Distributed system to present Chrome extension to highlight",
+                    "+ Distributed Systems",
+                    "relevant info from various sources multiple keywords in a webpage",
+                    "+ Programming for Big Data",
+                    "+ Neural Networks",
+                    "Raphael Snake Algorithms"
+                ]
+            },
+            "overall_score": 49.55,
+            "semantic_similarity": 3.88,
+            "skill_match": 60.0,
+            "experience_match": 100.0,
+            "education_match": 100.0,
+            "matched_skills": [
+                "css",
+                "html",
+                "java"
+            ],
+            "missing_skills": [
+                "mysql",
+                "problem solving"
+            ],
+            "reasons": [
+                "Low semantic similarity with the job description",
+                "Matches 3 of 5 required skills",
+                "No specific experience requirement was provided",
+                "Meets the required education"
+            ],
+            "recommendation": "MODERATE SUITABILITY",
+            "extraction_method": "pdf_text",
+            "text_characters": 2870,
+            "text_words": 436,
+            "rank": 27
+        },
+        {
+            "resume_file": "resume_3eea7bdcc53d.pdf",
+            "candidate": {
+                "name": "ABHIJEET GUPTA",
+                "email": "abhijeet010304@gmail.com",
+                "phone": "+91)8726284021",
+                "skills": [
+                    "bootstrap",
+                    "c++",
+                    "css",
+                    "git",
+                    "github",
+                    "html",
+                    "java",
+                    "javascript",
+                    "linux",
+                    "mongodb"
+                ],
+                "education": "B.Tech, Computer Science",
+                "experience_years": 14.0,
+                "projects": [
+                    "• FormerHEADatDotSlashCodingClub",
+                    "FROSTBITS* • Among5DistrictToppersin12th&10th.",
+                    "NodeJs,MongoDB,ExpressJs",
+                    "COURSEWORK",
+                    "• Anin-progressNodeframeworkbasedLibrary-cum-Blogwebapp",
+                    "thathelpsuserofanybranch/yeartoretrievenotes,booksand",
+                    "samplepapersofallsubjects. • OperatingSystem",
+                    "• AdvanceDataStructures",
+                    "COMPETITIVEPROGRAMMINGBOT-DISCORD • ObjectOrientedProgramming",
+                    "Python3,Discord,Heroku • ComputerNetworks"
+                ]
+            },
+            "overall_score": 49.0,
+            "semantic_similarity": 2.51,
+            "skill_match": 60.0,
+            "experience_match": 100.0,
+            "education_match": 100.0,
+            "matched_skills": [
+                "css",
+                "html",
+                "java"
+            ],
+            "missing_skills": [
+                "mysql",
+                "problem solving"
+            ],
+            "reasons": [
+                "Low semantic similarity with the job description",
+                "Matches 3 of 5 required skills",
+                "No specific experience requirement was provided",
+                "Meets the required education"
+            ],
+            "recommendation": "MODERATE SUITABILITY",
+            "extraction_method": "pdf_text",
+            "text_characters": 2837,
+            "text_words": 128,
+            "rank": 28
+        },
+        {
+            "resume_file": "resume_f54e93fa381b.pdf",
+            "candidate": {
+                "name": "Siddharth Gusain",
+                "email": "siddharthgusain26011999@gmail.com",
+                "phone": "+91)9711381395",
+                "skills": [
+                    "aws",
+                    "c++",
+                    "css",
+                    "express",
+                    "git",
+                    "github",
+                    "html",
+                    "javascript",
+                    "mongodb",
+                    "mysql",
+                    "node",
+                    "react",
+                    "typescript",
+                    "windows"
+                ],
+                "education": "B.Tech",
+                "experience_years": 6.0,
+                "projects": [
+                    "DataStructuresandAlgorithms",
+                    "ObjectOrientedProgramming LETSCONNECT |SOCIALNETWORKINGWEBSITE",
+                    "OperatingSystem [Sourcecode]| [LIVE]",
+                    "ComputerNetworks",
+                    "• DesignedanddevelopedawebApphavingfrontendwithReactjs,",
+                    "DatabaseManagementSystem",
+                    "backendwithnodejs,Expressjs,MongoDB.",
+                    "• Usercanfollow/unfollow,share/viewnewpost,login/logoutand"
+                ]
+            },
+            "overall_score": 48.99,
+            "semantic_similarity": 2.48,
+            "skill_match": 60.0,
+            "experience_match": 100.0,
+            "education_match": 100.0,
+            "matched_skills": [
+                "css",
+                "html",
+                "mysql"
+            ],
+            "missing_skills": [
+                "java",
+                "problem solving"
+            ],
+            "reasons": [
+                "Low semantic similarity with the job description",
+                "Matches 3 of 5 required skills",
+                "No specific experience requirement was provided",
+                "Meets the required education"
+            ],
+            "recommendation": "MODERATE SUITABILITY",
+            "extraction_method": "pdf_text",
+            "text_characters": 2863,
+            "text_words": 108,
+            "rank": 29
+        },
+        {
+            "resume_file": "resume_b434c0b558df.pdf",
+            "candidate": {
+                "name": "Pradyumn Kumar Pandey",
+                "email": "pradyumn.pandey.kumar@gmail.com",
+                "phone": "6388547114",
+                "skills": [
+                    "c++",
+                    "data science",
+                    "github",
+                    "html",
+                    "java",
+                    "linux",
+                    "machine learning",
+                    "networking",
+                    "problem solving",
+                    "python",
+                    "sql"
+                ],
+                "education": "B.Tech",
+                "experience_years": 7.0,
+                "projects": [
+                    "Multiple Disease Prediction System using ML (2021-22)",
+                    "Quiz Game in C (08/2019 - 10/2019)"
+                ]
+            },
+            "overall_score": 48.83,
+            "semantic_similarity": 2.07,
+            "skill_match": 60.0,
+            "experience_match": 100.0,
+            "education_match": 100.0,
+            "matched_skills": [
+                "html",
+                "java",
+                "problem solving"
+            ],
+            "missing_skills": [
+                "css",
+                "mysql"
+            ],
+            "reasons": [
+                "Low semantic similarity with the job description",
+                "Matches 3 of 5 required skills",
+                "No specific experience requirement was provided",
+                "Meets the required education"
+            ],
+            "recommendation": "MODERATE SUITABILITY",
+            "extraction_method": "pdf_text",
+            "text_characters": 3414,
+            "text_words": 446,
+            "rank": 30
+        },
+        {
+            "resume_file": "resume_7c2f9eaf80ff.pdf",
+            "candidate": {
+                "name": "Ashutosh Tiwari",
+                "email": "ashutoshtiwari1399@gmail.com",
+                "phone": "+91 7007784995",
+                "skills": [
+                    "bootstrap",
+                    "css",
+                    "git",
+                    "github",
+                    "html",
+                    "java",
+                    "javascript",
+                    "mysql",
+                    "problem solving",
+                    "python",
+                    "react",
+                    "spring"
+                ],
+                "education": "MCA",
+                "experience_years": 2.0,
+                "projects": [
+                    "Personal Portfolio Website Live Demo",
+                    "● Designed and developed dynamic web applications utilizing technologies such as Html, CSS, JavaScript.",
+                    "● Ensured optimal mobile responsiveness and good user experience.",
+                    "Weather App Live Demo",
+                    "● Implemented Efficient Tailwind CSS and JavaScript, implemented a Weather Api by using Axios method.",
+                    "● Used Tailwind CSS file to style page and ReactJs.",
+                    "● For deployment used Vercel for frontend.",
+                    "Text-Analyzer Live Demo",
+                    "● Developed a Text Analyzer web application by using React.js and Tailwind CSS that allows users to analyze and",
+                    "manipulate text inputs."
+                ]
+            },
+            "overall_score": 48.27,
+            "semantic_similarity": 8.19,
+            "skill_match": 100.0,
+            "experience_match": 100.0,
+            "education_match": 0.0,
+            "matched_skills": [
+                "css",
+                "html",
+                "java",
+                "mysql",
+                "problem solving"
+            ],
+            "missing_skills": [],
+            "reasons": [
+                "Low semantic similarity with the job description",
+                "Matches 5 of 5 required skills",
+                "No specific experience requirement was provided",
+                "Required education was not detected"
+            ],
+            "recommendation": "MODERATE SUITABILITY",
+            "extraction_method": "pdf_text",
+            "text_characters": 2370,
+            "text_words": 331,
+            "rank": 31
+        },
+        {
+            "resume_file": "resume_b7871932c3b9.pdf",
+            "candidate": {
+                "name": "Puneet Srivastava",
+                "email": "srivastavap7144@gmail.com",
+                "phone": "+91-7007500804",
+                "skills": [
+                    "bootstrap",
+                    "communication",
+                    "css",
+                    "git",
+                    "github",
+                    "html",
+                    "javascript",
+                    "mongodb",
+                    "react",
+                    "teamwork",
+                    "time management",
+                    "typescript"
+                ],
+                "education": "B.Tech",
+                "experience_years": 8.0,
+                "projects": [
+                    "B.Tech (ECE)",
+                    "G.L Bajaj Institute Of Technology & Management,",
+                    "SHOP Q MART",
+                    "Greater Noida, U.P",
+                    "Aug 2017 - July 2021 An e-commerce website that connects sellers and buyers online and",
+                    "offers a trusted and safe online environment for shopping. It's a",
+                    "Higher Secondary Education",
+                    "collaborative Fullstack Project built by team 4 developers within 8 days.",
+                    "Janta Inter College, Jaunpur, U.P",
+                    "Tech Stack : ReactJS | Redux | ChakraUI | NodeJS | MongoDB | ExpressJs."
+                ]
+            },
+            "overall_score": 45.29,
+            "semantic_similarity": 8.22,
+            "skill_match": 40.0,
+            "experience_match": 100.0,
+            "education_match": 100.0,
+            "matched_skills": [
+                "css",
+                "html"
+            ],
+            "missing_skills": [
+                "java",
+                "mysql",
+                "problem solving"
+            ],
+            "reasons": [
+                "Low semantic similarity with the job description",
+                "Matches 2 of 5 required skills",
+                "No specific experience requirement was provided",
+                "Meets the required education"
+            ],
+            "recommendation": "MODERATE SUITABILITY",
+            "extraction_method": "pdf_text",
+            "text_characters": 2572,
+            "text_words": 368,
+            "rank": 32
+        },
+        {
+            "resume_file": "resume_5f6a8ad5d50a.pdf",
+            "candidate": {
+                "name": "Ruthala Kiran",
+                "email": "kiranruthalakiran@gmail.com",
+                "phone": "+91 7893532622",
+                "skills": [
+                    "bootstrap",
+                    "css",
+                    "data structures",
+                    "express",
+                    "git",
+                    "github",
+                    "html",
+                    "javascript",
+                    "mongodb",
+                    "node",
+                    "postman",
+                    "python",
+                    "react"
+                ],
+                "education": "B.Tech, Computer Science",
+                "experience_years": 20.0,
+                "projects": [
+                    "• GIT • VSCode",
+                    "• Postman Navieo Web Development | MERN Intern | June 2024 - Sept 2024",
+                    "Uploaded and managed pre-written blog content on Navieo's e-commerce",
+                    "website, ensuring proper formatting and user engagement."
+                ]
+            },
+            "overall_score": 45.17,
+            "semantic_similarity": 7.93,
+            "skill_match": 40.0,
+            "experience_match": 100.0,
+            "education_match": 100.0,
+            "matched_skills": [
+                "css",
+                "html"
+            ],
+            "missing_skills": [
+                "java",
+                "mysql",
+                "problem solving"
+            ],
+            "reasons": [
+                "Low semantic similarity with the job description",
+                "Matches 2 of 5 required skills",
+                "No specific experience requirement was provided",
+                "Meets the required education"
+            ],
+            "recommendation": "MODERATE SUITABILITY",
+            "extraction_method": "pdf_text",
+            "text_characters": 2494,
+            "text_words": 356,
+            "rank": 33
+        },
+        {
+            "resume_file": "resume_c3eebf835347.pdf",
+            "candidate": {
+                "name": "VISHWAS GAJAWADA",
+                "email": "panduvishwas@gmail.com",
+                "phone": "129) 6302643684",
+                "skills": [
+                    "c++",
+                    "css",
+                    "django",
+                    "git",
+                    "html",
+                    "javascript",
+                    "python",
+                    "react",
+                    "sql"
+                ],
+                "education": "B.Tech, Computer Science",
+                "experience_years": 6.0,
+                "projects": [
+                    "• Topperofthe2ndLanguageinICSE10th",
+                    "ColorNotes",
+                    "• AMulti-UserNotesapplication.",
+                    "• Notescanbeprioritizedbyaddingauniquecolor.",
+                    "• DJANGO,Python,HTML,CSS,JavaScript.",
+                    "• DataStructuresandAlgorithms",
+                    "• ObjectOrientedProgramming",
+                    "Quizzo • DatabaseManagementSystem",
+                    "• AsimpleQuizApplication.",
+                    "• Teacherscanaddquizzestotheirsubjectsandgradethesubmit- POSITION OF"
+                ]
+            },
+            "overall_score": 44.35,
+            "semantic_similarity": 5.89,
+            "skill_match": 40.0,
+            "experience_match": 100.0,
+            "education_match": 100.0,
+            "matched_skills": [
+                "css",
+                "html"
+            ],
+            "missing_skills": [
+                "java",
+                "mysql",
+                "problem solving"
+            ],
+            "reasons": [
+                "Low semantic similarity with the job description",
+                "Matches 2 of 5 required skills",
+                "No specific experience requirement was provided",
+                "Meets the required education"
+            ],
+            "recommendation": "MODERATE SUITABILITY",
+            "extraction_method": "pdf_text",
+            "text_characters": 1714,
+            "text_words": 100,
+            "rank": 34
+        },
+        {
+            "resume_file": "resume_2ea494639412.pdf",
+            "candidate": {
+                "name": "Experience Summary",
+                "email": "Not detected",
+                "phone": "Not detected",
+                "skills": [
+                    "communication",
+                    "java",
+                    "mysql",
+                    "oracle",
+                    "postgresql",
+                    "spring",
+                    "sql",
+                    "testing"
+                ],
+                "education": "B.Tech, Electronics and Communication",
+                "experience_years": 5.0,
+                "projects": [
+                    "● Handling of client calls and verification of the code changes as per business requirement.",
+                    "● Code development in Core and Advanced Java.",
+                    "● Root cause analysis for production bugs raised by end user.",
+                    "● Analyzing the requirement with Business/other team members and then preparing the high",
+                    "level design.",
+                    "● Prepare Knowledge Transition package for inducting trainees in the project.",
+                    "● Checking the coding standards.",
+                    "● Technical documentation and Handbook preparation.",
+                    "● Proficient to work on Eclipse.",
+                    "● Worked in waterfall model and agile model."
+                ]
+            },
+            "overall_score": 44.35,
+            "semantic_similarity": 5.87,
+            "skill_match": 40.0,
+            "experience_match": 100.0,
+            "education_match": 100.0,
+            "matched_skills": [
+                "java",
+                "mysql"
+            ],
+            "missing_skills": [
+                "css",
+                "html",
+                "problem solving"
+            ],
+            "reasons": [
+                "Low semantic similarity with the job description",
+                "Matches 2 of 5 required skills",
+                "No specific experience requirement was provided",
+                "Meets the required education"
+            ],
+            "recommendation": "MODERATE SUITABILITY",
+            "extraction_method": "pdf_text",
+            "text_characters": 3417,
+            "text_words": 469,
+            "rank": 35
+        },
+        {
+            "resume_file": "resume_a8a31b826421.pdf",
+            "candidate": {
+                "name": "UDDHAV GHODAKE",
+                "email": "uddhavghodake45@gmail.com",
+                "phone": "+91) 9168499674",
+                "skills": [
+                    "bootstrap",
+                    "c++",
+                    "java",
+                    "javascript",
+                    "mysql",
+                    "php",
+                    "visual studio"
+                ],
+                "education": "B.E, Computer Science",
+                "experience_years": 22.0,
+                "projects": [
+                    "D2D Smart Billing System Android Studio 3,Microsoft",
+                    "Powerpoint,Visual Studio,",
+                    "Involves: HTML5,CSS3,PHP,JavaScript,JQuery,WAMP,MySQL",
+                    "CodeBlocks.",
+                    "IONIC 3 Framework,Google Firebase",
+                    "Team Size: 5 HIGHLIGHTS",
+                    "Duration: 180 days ❏ Completed one day",
+                    "My Role: Web Designer,Web Programmer. Workshop on",
+                    "“Beginning With IOT",
+                    "For Industry 4.0”"
+                ]
+            },
+            "overall_score": 43.93,
+            "semantic_similarity": 4.83,
+            "skill_match": 40.0,
+            "experience_match": 100.0,
+            "education_match": 100.0,
+            "matched_skills": [
+                "java",
+                "mysql"
+            ],
+            "missing_skills": [
+                "css",
+                "html",
+                "problem solving"
+            ],
+            "reasons": [
+                "Low semantic similarity with the job description",
+                "Matches 2 of 5 required skills",
+                "No specific experience requirement was provided",
+                "Meets the required education"
+            ],
+            "recommendation": "MODERATE SUITABILITY",
+            "extraction_method": "pdf_text",
+            "text_characters": 2380,
+            "text_words": 339,
+            "rank": 36
+        },
+        {
+            "resume_file": "resume_270b3bedcab7.pdf",
+            "candidate": {
+                "name": "Divyansh Jitpure",
+                "email": "divyanshjitpure@gmail.com",
+                "phone": "+91-9893879047",
+                "skills": [
+                    "c++",
+                    "communication",
+                    "css",
+                    "docker",
+                    "express",
+                    "git",
+                    "github",
+                    "html",
+                    "javascript",
+                    "mongodb",
+                    "node",
+                    "postgresql",
+                    "postman",
+                    "python",
+                    "react",
+                    "rest api",
+                    "typescript",
+                    "vs code"
+                ],
+                "education": "B.Tech",
+                "experience_years": 6.0,
+                "projects": [
+                    "PassWired - Password Manager  | React JS, Express Js, MongoDB, Tailwind CSS, Redux July 2025",
+                    "• Built a secure, mobile-first Progressive Web App for password management using React.js, Node.js,",
+                    "Express, MongoDB.",
+                    "• Implemented AES-256 encryption and JWT-based authentication to ensure security.",
+                    "• Designed a responsive UI using React and Tailwind CSS. Has toast notifications, Modals, sleek design and",
+                    "seamless UX flow.",
+                    "• Live Link GitHub Link",
+                    "ResuFusion - Resume Builder  | React JS, Express Js, MongoDB, Tailwind CSS April 2025",
+                    "• Built a full-stack web application using MERN Stack, enabling users to create and download dynamic",
+                    "resumes in PDF format."
+                ]
+            },
+            "overall_score": 43.89,
+            "semantic_similarity": 4.73,
+            "skill_match": 40.0,
+            "experience_match": 100.0,
+            "education_match": 100.0,
+            "matched_skills": [
+                "css",
+                "html"
+            ],
+            "missing_skills": [
+                "java",
+                "mysql",
+                "problem solving"
+            ],
+            "reasons": [
+                "Low semantic similarity with the job description",
+                "Matches 2 of 5 required skills",
+                "No specific experience requirement was provided",
+                "Meets the required education"
+            ],
+            "recommendation": "MODERATE SUITABILITY",
+            "extraction_method": "pdf_text",
+            "text_characters": 3431,
+            "text_words": 459,
+            "rank": 37
+        },
+        {
+            "resume_file": "resume_80f6eeae7719.pdf",
+            "candidate": {
+                "name": "Jayesh Choudhary",
+                "email": "Not detected",
+                "phone": "8329812727",
+                "skills": [
+                    "bootstrap",
+                    "css",
+                    "express",
+                    "github",
+                    "html",
+                    "javascript",
+                    "mongodb",
+                    "node",
+                    "react",
+                    "typescript",
+                    "windows"
+                ],
+                "education": "B.E, Information Technology",
+                "experience_years": 9.0,
+                "projects": [
+                    "Healthcare & Life Sciences AI Platform : Contributing to the development of Dragon Copilot,",
+                    "an AI-powered solution designed to support nurses by reducing burnout, improving",
+                    "Burhanpur, India",
+                    "documentation quality, and enhancing the overall patient experience.",
+                    "Software Engineer",
+                    "google-portfolio.vercel.app/",
+                    "LTIMindtree",
+                    "03/2021 - 04/2023, Pune, India",
+                    "linkedin.com/in/jayesh-",
+                    "choudhary-72444518b"
+                ]
+            },
+            "overall_score": 43.87,
+            "semantic_similarity": 4.68,
+            "skill_match": 40.0,
+            "experience_match": 100.0,
+            "education_match": 100.0,
+            "matched_skills": [
+                "css",
+                "html"
+            ],
+            "missing_skills": [
+                "java",
+                "mysql",
+                "problem solving"
+            ],
+            "reasons": [
+                "Low semantic similarity with the job description",
+                "Matches 2 of 5 required skills",
+                "No specific experience requirement was provided",
+                "Meets the required education"
+            ],
+            "recommendation": "MODERATE SUITABILITY",
+            "extraction_method": "pdf_text",
+            "text_characters": 3469,
+            "text_words": 525,
+            "rank": 38
+        },
+        {
+            "resume_file": "resume_cf7cd4134369.pdf",
+            "candidate": {
+                "name": "Samyak Jain",
+                "email": "xxxx@xxxxxxxxx.in",
+                "phone": "Not detected",
+                "skills": [
+                    "bootstrap",
+                    "css",
+                    "django",
+                    "docker",
+                    "git",
+                    "github",
+                    "html",
+                    "javascript",
+                    "linux",
+                    "oracle",
+                    "postgresql",
+                    "python",
+                    "react",
+                    "typescript"
+                ],
+                "education": "B.E, MCA, BCA",
+                "experience_years": 4.0,
+                "projects": [
+                    "Label Check (Part of Gemini API Developer Competition) | React.js, Firebase, Gemini API and ShadCN",
+                    "• Developed a web app that scans food and cosmetic labels and provides a safety score (1-10) by analysing ingredients.",
+                    "• Utilized the Gemini API to process scanned product labels, providing a score based on product ingredients.",
+                    "• Engineered a user-friendly interface to display safety scores and detailed ingredient breakdowns for informed user decisions.",
+                    "Dropbox Clone | Next.js, Firebase, Stripe, Clerk, Tailwind CSS",
+                    "• Developed a responsive cloud storage website with upload, rename, and drag-and-drop features, ensuring a seamless user experience.",
+                    "• Implemented secure payment handling using Stripe and integrated a visually pleasing Dark Mode for enhanced user customization.",
+                    "• Utilized a robust tech stack, including Next.js, Firebase, Clerk, and Stripe, with hosting on Netlify."
+                ]
+            },
+            "overall_score": 43.62,
+            "semantic_similarity": 4.04,
+            "skill_match": 40.0,
+            "experience_match": 100.0,
+            "education_match": 100.0,
+            "matched_skills": [
+                "css",
+                "html"
+            ],
+            "missing_skills": [
+                "java",
+                "mysql",
+                "problem solving"
+            ],
+            "reasons": [
+                "Low semantic similarity with the job description",
+                "Matches 2 of 5 required skills",
+                "No specific experience requirement was provided",
+                "Meets the required education"
+            ],
+            "recommendation": "MODERATE SUITABILITY",
+            "extraction_method": "pdf_text",
+            "text_characters": 3126,
+            "text_words": 429,
+            "rank": 39
+        },
+        {
+            "resume_file": "resume_b571f04173a1.pdf",
+            "candidate": {
+                "name": "SUMIT DHAKAD",
+                "email": "sumitdhakad2232@gmail.com",
+                "phone": "+917999004229",
+                "skills": [
+                    "bootstrap",
+                    "c++",
+                    "communication",
+                    "css",
+                    "django",
+                    "git",
+                    "github",
+                    "html",
+                    "javascript",
+                    "python",
+                    "react"
+                ],
+                "education": "B.Tech",
+                "experience_years": 0.0,
+                "projects": [
+                    "Python ○○○○○",
+                    "HTML,CSS,JavaScript,Bootstrap ○○○○○ NPR-NewProductReviewer(NPR)people",
+                    "Git ○○○○○ cangivetheirreviewsonnewLaunched",
+                    "C++ ○○○○○ product.DevelopedusingReact.jsand",
+                    "Djangowithauthenticationsystem",
+                    "Django ○○○○○ sourcecode",
+                    "React.js ○○○○○",
+                    "DSandAlgo ○○○○○",
+                    "SHOPMART-Ane-commercewebsite",
+                    "WebDevelopment ○○○○○"
+                ]
+            },
+            "overall_score": 43.58,
+            "semantic_similarity": 3.96,
+            "skill_match": 40.0,
+            "experience_match": 100.0,
+            "education_match": 100.0,
+            "matched_skills": [
+                "css",
+                "html"
+            ],
+            "missing_skills": [
+                "java",
+                "mysql",
+                "problem solving"
+            ],
+            "reasons": [
+                "Low semantic similarity with the job description",
+                "Matches 2 of 5 required skills",
+                "No specific experience requirement was provided",
+                "Meets the required education"
+            ],
+            "recommendation": "MODERATE SUITABILITY",
+            "extraction_method": "pdf_text",
+            "text_characters": 1498,
+            "text_words": 100,
+            "rank": 40
+        },
+        {
+            "resume_file": "resume_fedf65dbe1ac.pdf",
+            "candidate": {
+                "name": "AMRIT SRIVASTAVA Jaipur, Rajasthan",
+                "email": "srivastava.amrit1999@gmail.com",
+                "phone": "9667978868",
+                "skills": [
+                    "bootstrap",
+                    "c++",
+                    "css",
+                    "express",
+                    "git",
+                    "github",
+                    "html",
+                    "javascript",
+                    "mongodb",
+                    "node",
+                    "react"
+                ],
+                "education": "B.Tech, Computer Science",
+                "experience_years": 6.0,
+                "projects": [
+                    "JECRCModelUnitedNations (Feb’18–Present) Achieved 2ndposition in Maverick.io",
+                    "Workedaswebdeveloperforwebsitehttps://jecrcmun.in. React bounding box challenge.",
+                    "DevelopedthisusingReactandGatsby. Full-Stack Web Development with",
+                    "React specialization certification from",
+                    "FileTrackingSystem(Server/UI) (Jan’20)",
+                    "Applicationtotrackmovementoffileinadepartment.",
+                    "Server-side Development with",
+                    "IntegratedQRCodefortrackingfilesmovements.",
+                    "NodeJS, Express and MongoDB",
+                    "Providedautomatedemailnotificationalertservice."
+                ]
+            },
+            "overall_score": 43.37,
+            "semantic_similarity": 3.42,
+            "skill_match": 40.0,
+            "experience_match": 100.0,
+            "education_match": 100.0,
+            "matched_skills": [
+                "css",
+                "html"
+            ],
+            "missing_skills": [
+                "java",
+                "mysql",
+                "problem solving"
+            ],
+            "reasons": [
+                "Low semantic similarity with the job description",
+                "Matches 2 of 5 required skills",
+                "No specific experience requirement was provided",
+                "Meets the required education"
+            ],
+            "recommendation": "MODERATE SUITABILITY",
+            "extraction_method": "pdf_text",
+            "text_characters": 2953,
+            "text_words": 245,
+            "rank": 41
+        },
+        {
+            "resume_file": "resume_6f6f17886b97.pdf",
+            "candidate": {
+                "name": "Sudhanshu Poonia",
+                "email": "sudhnsh16@gmail.com",
+                "phone": "+918449284199",
+                "skills": [
+                    "aws",
+                    "azure",
+                    "git",
+                    "github",
+                    "java",
+                    "javascript",
+                    "kotlin",
+                    "postgresql",
+                    "problem solving",
+                    "python",
+                    "react",
+                    "sql",
+                    "typescript"
+                ],
+                "education": "B.E",
+                "experience_years": 2.0,
+                "projects": [
+                    "BetterExtensions Dec. 2024–Present",
+                    "SuiteofChromeExtensionsEnhancingBrowsingProductivity (React,JavaScript,ChromeAPI,TailwindCSS)",
+                    "• BuiltthreeChromeextensions(Essentio,SearchWith,BetterSkipAds)reaching510+WAUswith4.83averageuser",
+                    "SubscriptionPriceIndex June2025–Sept2025",
+                    "WebAppComparingStreamingPricesAcrossCountries(Next.js,TypeScript,TailwindCSS)",
+                    "• Developedaclient-sidepricecomparisontoolwithmodularReactcomponentsandresponsiveTailwindCSSlayouts,",
+                    "featuringfiltersandcountry-wisebreakdownswithplannedSSRintegration."
+                ]
+            },
+            "overall_score": 43.29,
+            "semantic_similarity": 3.21,
+            "skill_match": 40.0,
+            "experience_match": 100.0,
+            "education_match": 100.0,
+            "matched_skills": [
+                "java",
+                "problem solving"
+            ],
+            "missing_skills": [
+                "css",
+                "html",
+                "mysql"
+            ],
+            "reasons": [
+                "Low semantic similarity with the job description",
+                "Matches 2 of 5 required skills",
+                "No specific experience requirement was provided",
+                "Meets the required education"
+            ],
+            "recommendation": "MODERATE SUITABILITY",
+            "extraction_method": "pdf_text",
+            "text_characters": 2965,
+            "text_words": 112,
+            "rank": 42
+        },
+        {
+            "resume_file": "resume_bba50343b678.pdf",
+            "candidate": {
+                "name": "Pranjal Pathak",
+                "email": "pranjalpathak.fedev@gmail.com",
+                "phone": "+91-8130703086",
+                "skills": [
+                    "algorithms",
+                    "ci/cd",
+                    "css",
+                    "data structures",
+                    "docker",
+                    "git",
+                    "github",
+                    "graphql",
+                    "html",
+                    "javascript",
+                    "node",
+                    "postgresql",
+                    "react",
+                    "rest api",
+                    "typescript"
+                ],
+                "education": "B.Tech",
+                "experience_years": 4.0,
+                "projects": [
+                    "NimbleEdge website (freelance web development for seed-funded AI startup) | Hosted Project | (cid:135) Github Oct’24",
+                    "• Overview: Developed interactive, responsive website for NimbleEdge using React, Tailwind CSS and Framer Motion;",
+                    "built modular and reusable components including carousels, interactive flow diagrams and feature cards",
+                    "• Email integration:LeveragedEmailJSservicetocreateacontact form,withresponsessenttodesignatede-mailaddress",
+                    "• Deployment and Hosting: Deployed the website prototype on Vercel, ensuring rapid loading times and reliable hosting",
+                    "Biopharma Research Trends Analyzer Web Application | Hosted Project | (cid:135) Github Oct’23",
+                    "• Developed web app to analyze and visualize trends in biopharma research based on a rich, mock dataset",
+                    "• Implemented data tables with advanced filtering & sorting, and interactive pie, line and bar charts for visualization",
+                    "• Tech Stack: HTML, CSS, VanillaJS, Chart.JS"
+                ]
+            },
+            "overall_score": 43.23,
+            "semantic_similarity": 3.08,
+            "skill_match": 40.0,
+            "experience_match": 100.0,
+            "education_match": 100.0,
+            "matched_skills": [
+                "css",
+                "html"
+            ],
+            "missing_skills": [
+                "java",
+                "mysql",
+                "problem solving"
+            ],
+            "reasons": [
+                "Low semantic similarity with the job description",
+                "Matches 2 of 5 required skills",
+                "No specific experience requirement was provided",
+                "Meets the required education"
+            ],
+            "recommendation": "MODERATE SUITABILITY",
+            "extraction_method": "pdf_text",
+            "text_characters": 4209,
+            "text_words": 505,
+            "rank": 43
+        },
+        {
+            "resume_file": "resume_0dd1ffd6458c.pdf",
+            "candidate": {
+                "name": "Rachit Khurana",
+                "email": "notnotrachit@gmail.com",
+                "phone": "Not detected",
+                "skills": [
+                    "aws",
+                    "azure",
+                    "css",
+                    "django",
+                    "docker",
+                    "flask",
+                    "git",
+                    "github",
+                    "javascript",
+                    "leadership",
+                    "linux",
+                    "mongodb",
+                    "mysql",
+                    "node",
+                    "postgresql",
+                    "python",
+                    "react",
+                    "redis",
+                    "windows"
+                ],
+                "education": "B.Tech, Computer Science",
+                "experience_years": 4.0,
+                "projects": [
+                    "Ryla | AI, Python, NextJS, Convex | Live",
+                    "– Built an intelligent assistant that bridges Slack and Basecamp, enabling users to ask questions, create tasks, cards, and",
+                    "Sharepal | React Native, Golang, MongoDB | Backend  , Mobile",
+                    "– Built a mobile-first expense sharing platform supporting settlements, notifications, and multi-group tracking",
+                    "– Designed scalable backend APIs in Golang and optimized mobile workflows for low-latency expense updates",
+                    "Re-Dcrypt | Python, Django, Tailwind, JavaScript | GitHub",
+                    "– Built a full-stack platform for hosting cryptic hunts with real-time Discord bot synchronization",
+                    "– Implemented honeypots and detailed activity logging to detect and prevent cheating",
+                    "DevCompete | Django, Redis, WebSockets, Docker | GitHub",
+                    "– Developed a real-time 1v1 coding contest platform with Docker-isolated code execution environments"
+                ]
+            },
+            "overall_score": 43.14,
+            "semantic_similarity": 2.86,
+            "skill_match": 40.0,
+            "experience_match": 100.0,
+            "education_match": 100.0,
+            "matched_skills": [
+                "css",
+                "mysql"
+            ],
+            "missing_skills": [
+                "html",
+                "java",
+                "problem solving"
+            ],
+            "reasons": [
+                "Low semantic similarity with the job description",
+                "Matches 2 of 5 required skills",
+                "No specific experience requirement was provided",
+                "Meets the required education"
+            ],
+            "recommendation": "MODERATE SUITABILITY",
+            "extraction_method": "pdf_text",
+            "text_characters": 3177,
+            "text_words": 440,
+            "rank": 44
+        },
+        {
+            "resume_file": "resume_8a7c9f1643f8.pdf",
+            "candidate": {
+                "name": "BOYI NAGA VENKATA SAI",
+                "email": "boyinaga07@gmail.com",
+                "phone": "+91 86881 55363",
+                "skills": [
+                    "analytical thinking",
+                    "communication",
+                    "data analysis",
+                    "data science",
+                    "excel",
+                    "git",
+                    "github",
+                    "jupyter",
+                    "machine learning",
+                    "mysql",
+                    "nlp",
+                    "numpy",
+                    "pandas",
+                    "power bi",
+                    "problem solving",
+                    "python",
+                    "scikit-learn",
+                    "sql",
+                    "tableau",
+                    "testing",
+                    "time management"
+                ],
+                "education": "B.Tech, Computer Science",
+                "experience_years": 4.0,
+                "projects": [
+                    "Analyzed 10,000+ sales records to identify regional performance, profit margins, and top-",
+                    "performing products.",
+                    "Built an interactive Power BI dashboard with KPIs using SQL-extracted and Excel-cleaned",
+                    "data to support strategic decisions.",
+                    "Student Depression Data Analysis SQL, Tableau",
+                    "Analyzed student mental health survey data using SQL to identify correlations between",
+                    "academic stress and depression.",
+                    "Created Tableau dashboards to visualize trends and highlight potential intervention areas.",
+                    "Trader Sentiment Analysis using Python Python",
+                    "Processed and analyzed trader sentiment data using Python to uncover insights on market"
+                ]
+            },
+            "overall_score": 42.65,
+            "semantic_similarity": 1.63,
+            "skill_match": 40.0,
+            "experience_match": 100.0,
+            "education_match": 100.0,
+            "matched_skills": [
+                "mysql",
+                "problem solving"
+            ],
+            "missing_skills": [
+                "css",
+                "html",
+                "java"
+            ],
+            "reasons": [
+                "Low semantic similarity with the job description",
+                "Matches 2 of 5 required skills",
+                "No specific experience requirement was provided",
+                "Meets the required education"
+            ],
+            "recommendation": "MODERATE SUITABILITY",
+            "extraction_method": "pdf_text",
+            "text_characters": 2767,
+            "text_words": 358,
+            "rank": 45
+        },
+        {
+            "resume_file": "resume_a95fa19b91a6.pdf",
+            "candidate": {
+                "name": "ANUSHA RAVI PATIL",
+                "email": "arp624@nyu.edu",
+                "phone": "Not detected",
+                "skills": [
+                    "algorithms",
+                    "c++",
+                    "communication",
+                    "data science",
+                    "data structures",
+                    "git",
+                    "java",
+                    "machine learning",
+                    "mysql",
+                    "python",
+                    "pytorch",
+                    "scikit-learn",
+                    "sql",
+                    "tensorflow"
+                ],
+                "education": "B.E",
+                "experience_years": 5.0,
+                "projects": [
+                    "Flight Delays Prediction",
+                    "· Developed a framework to predict flight delays based on historical delays and past weather data",
+                    "· Performed feature transformations on input and target variables to improve model performance",
+                    "Spam Classification using Perceptron",
+                    "· Developed a model from scratch using perceptron and averaged perceptron algorithms",
+                    "· Used hyperparameter tuning to find the best model which produced a test error of only 2.1%",
+                    "Fine-tuning RoBERTa for Content Moderation on Reddit (cid:135)",
+                    "· Wroteapaper onimplementingan automaticcomment-flaggingsystembasedonthe rulesofa specificsubreddit",
+                    "using BiLSTM and RoBERTa models",
+                    "· The RoBERTa model fine-tuned on a labeled dataset of flagged comments from the r/nba subreddit achieved an"
+                ]
+            },
+            "overall_score": 42.58,
+            "semantic_similarity": 1.46,
+            "skill_match": 40.0,
+            "experience_match": 100.0,
+            "education_match": 100.0,
+            "matched_skills": [
+                "java",
+                "mysql"
+            ],
+            "missing_skills": [
+                "css",
+                "html",
+                "problem solving"
+            ],
+            "reasons": [
+                "Low semantic similarity with the job description",
+                "Matches 2 of 5 required skills",
+                "No specific experience requirement was provided",
+                "Meets the required education"
+            ],
+            "recommendation": "MODERATE SUITABILITY",
+            "extraction_method": "pdf_text",
+            "text_characters": 2426,
+            "text_words": 335,
+            "rank": 46
+        },
+        {
+            "resume_file": "resume_da8fd34ece58.pdf",
+            "candidate": {
+                "name": "Anumeha Agrawal",
+                "email": "anumehaagrawal29@gmail.com",
+                "phone": "+919986485880",
+                "skills": [
+                    "c++",
+                    "django",
+                    "git",
+                    "github",
+                    "java",
+                    "javascript",
+                    "mysql",
+                    "python"
+                ],
+                "education": "B.E",
+                "experience_years": 0.0,
+                "projects": [
+                    "● Developed a Django application for connecting university aspirants to university students to provide",
+                    "counsellingatminimalrates. AlsodevelopedarecommendationsystembasedonMicrosoftTextAPIand",
+                    "BingSearchAPI.Theplatformrecommendsthebestcollegesforastudentbasedonseveralparameters.",
+                    "■ ChatBotwithWebscraping",
+                    "● DevelopedachatbotinJavawithoutusinganyframeworkorNLP,whichanswersbasicquestionsbasedon",
+                    "aknowledgebase,performswebscrapingtogetinformationoffwikipedia,tellswordmeaningsandreviews",
+                    "andratingsofmovies.",
+                    "■ AndroidApplications",
+                    "● Developed an android app for classroom studies, where notes can be exchanged among students, college",
+                    "calendarcanbelinkedtoGooglecalendarandSMSfromcollegecourierservicescanbereceivedontheapp"
+                ]
+            },
+            "overall_score": 42.54,
+            "semantic_similarity": 1.36,
+            "skill_match": 40.0,
+            "experience_match": 100.0,
+            "education_match": 100.0,
+            "matched_skills": [
+                "java",
+                "mysql"
+            ],
+            "missing_skills": [
+                "css",
+                "html",
+                "problem solving"
+            ],
+            "reasons": [
+                "Low semantic similarity with the job description",
+                "Matches 2 of 5 required skills",
+                "No specific experience requirement was provided",
+                "Meets the required education"
+            ],
+            "recommendation": "MODERATE SUITABILITY",
+            "extraction_method": "pdf_text",
+            "text_characters": 4017,
+            "text_words": 229,
+            "rank": 47
+        },
+        {
+            "resume_file": "resume_09a50ae02498.pdf",
+            "candidate": {
+                "name": "AYAN NARESH GADPAL",
+                "email": "ayan.gadpal@monsoonfintech.com",
+                "phone": "+91 79720 22860",
+                "skills": [
+                    "c++",
+                    "deep learning",
+                    "django",
+                    "docker",
+                    "git",
+                    "github",
+                    "java",
+                    "machine learning",
+                    "mysql",
+                    "numpy",
+                    "pandas",
+                    "python",
+                    "pytorch",
+                    "sql",
+                    "sqlite",
+                    "tensorflow"
+                ],
+                "education": "B.E, Information Technology",
+                "experience_years": 8.0,
+                "projects": [
+                    "Artificial Human Companion, B.E. final year project, PICT, 2021 [link]",
+                    "A virtual assistant with an automatic face animation for customer service. Integrated NVIDIA’s Flowtron (text2speech),",
+                    "Joint BERT (Intent classification and slot filling), and Speech Recognition (speech2text) together with an SQL database.",
+                    "Real time Human Authentication using Videos, Smart India Hackathon 2020, DRDO, 2020 [link]",
+                    "Camera-based authentication system with state-of-the-art Face Detection, Face Landmarking, Face Recognition, Face",
+                    "Anti-Spoofing, Gait recognition, Pose Estimation. Web-Application-based deployment using Django, SQLite, and AJAX.",
+                    "Automatic 3D Objects Inspection System, Consultancy project, VEM, 2020",
+                    "Automatic system for camera-based high precision dimension extraction of 3D objects for quality inspection.",
+                    "Online Inspection of Packed Tobacco Cases, Smart India Hackathon 2019, ITC LTD, 2019 [link]",
+                    "Machine Learning-based Tobacco Grade image classification based on colour and texture with a PyQT UI application"
+                ]
+            },
+            "overall_score": 42.5,
+            "semantic_similarity": 1.25,
+            "skill_match": 40.0,
+            "experience_match": 100.0,
+            "education_match": 100.0,
+            "matched_skills": [
+                "java",
+                "mysql"
+            ],
+            "missing_skills": [
+                "css",
+                "html",
+                "problem solving"
+            ],
+            "reasons": [
+                "Low semantic similarity with the job description",
+                "Matches 2 of 5 required skills",
+                "No specific experience requirement was provided",
+                "Meets the required education"
+            ],
+            "recommendation": "MODERATE SUITABILITY",
+            "extraction_method": "pdf_text",
+            "text_characters": 4397,
+            "text_words": 614,
+            "rank": 48
+        },
+        {
+            "resume_file": "resume_483e069b50c2.pdf",
+            "candidate": {
+                "name": "Atharva Rai",
+                "email": "atharvarai78@gmail.com",
+                "phone": "+91-9511442596",
+                "skills": [
+                    "bootstrap",
+                    "c++",
+                    "css",
+                    "express",
+                    "git",
+                    "github",
+                    "html",
+                    "java",
+                    "javascript",
+                    "linux",
+                    "mongodb",
+                    "mysql",
+                    "node",
+                    "postman",
+                    "python",
+                    "react"
+                ],
+                "education": "Not detected",
+                "experience_years": 0.0,
+                "projects": [
+                    "PerformedassignedrolesontheTechnicalandOperationalcommitteeofKrypthonHackathon",
+                    "Guidedjuniorsontheirwebdevelopmentjourney",
+                    "FlipkartClone MERN,Material-UI,Redux,PaymentGateway:Paytm SourceCode",
+                    "DesignedanddevelopedacleanandworkingcloneofonlineshoppingplatformFlipkart",
+                    "Productsearchdisplayingproductinformationandaddorremoveitemsfromthecart",
+                    "PaymentgatewayusingPaytm",
+                    "BlogKeeperandTo-DoList Node.js,Express.js,MongoDBandEJStemplating SourceCode",
+                    "AdailyJournaltoblogyourthoughtsandideasandstorethemonthedatabase",
+                    "AToDo-Listtokeeptrackofyourday-to-daytasksandstorethemonthedatabase",
+                    "Agriculture-AgriX React.js,TailwindCSS SourceCode"
+                ]
+            },
+            "overall_score": 40.72,
+            "semantic_similarity": 4.31,
+            "skill_match": 80.0,
+            "experience_match": 100.0,
+            "education_match": 0.0,
+            "matched_skills": [
+                "css",
+                "html",
+                "java",
+                "mysql"
+            ],
+            "missing_skills": [
+                "problem solving"
+            ],
+            "reasons": [
+                "Low semantic similarity with the job description",
+                "Matches 4 of 5 required skills",
+                "No specific experience requirement was provided",
+                "Required education was not detected"
+            ],
+            "recommendation": "MODERATE SUITABILITY",
+            "extraction_method": "pdf_text",
+            "text_characters": 1926,
+            "text_words": 65,
+            "rank": 49
+        },
+        {
+            "resume_file": "resume_68ea5d093beb.pdf",
+            "candidate": {
+                "name": "Tanishk Chaudhary",
+                "email": "tanishktewetia@gmail.com",
+                "phone": "+91 9258439886",
+                "skills": [
+                    "artificial intelligence",
+                    "azure",
+                    "c#",
+                    "c++",
+                    "github",
+                    "javascript",
+                    "machine learning",
+                    "mysql",
+                    "php",
+                    "windows"
+                ],
+                "education": "B.Tech, B.E, Computer Science",
+                "experience_years": 4.0,
+                "projects": [
+                    "polls, for public access."
+                ]
+            },
+            "overall_score": 37.61,
+            "semantic_similarity": 4.01,
+            "skill_match": 20.0,
+            "experience_match": 100.0,
+            "education_match": 100.0,
+            "matched_skills": [
+                "mysql"
+            ],
+            "missing_skills": [
+                "css",
+                "html",
+                "java",
+                "problem solving"
+            ],
+            "reasons": [
+                "Low semantic similarity with the job description",
+                "Matches 1 of 5 required skills",
+                "No specific experience requirement was provided",
+                "Meets the required education"
+            ],
+            "recommendation": "MODERATE SUITABILITY",
+            "extraction_method": "pdf_text",
+            "text_characters": 4083,
+            "text_words": 537,
+            "rank": 50
+        },
+        {
+            "resume_file": "resume_69b23474a820.pdf",
+            "candidate": {
+                "name": "Rahul Chaudhary",
+                "email": "rahulchaudhary301@gmail.com",
+                "phone": "+91 9852675983",
+                "skills": [
+                    "algorithms",
+                    "aws",
+                    "communication",
+                    "data structures",
+                    "express",
+                    "github",
+                    "javascript",
+                    "mongodb",
+                    "mysql",
+                    "node",
+                    "react",
+                    "rest api"
+                ],
+                "education": "B.Tech",
+                "experience_years": 9.0,
+                "projects": [
+                    "[March 2023]",
+                    "efficient troubleshooting and  Developed a blogging platform with full-stack capabilities, that implement user",
+                    "performance optimization registration, CRUD (Create data, Read data, Update data, Delete) operations",
+                    "• Efficiently coordinate responsibilities  Implemented robust security features such as Authentication, Authorization, JWT",
+                    "optimizing software performance (JSON Web Tokens), and AWS storage to ensure data integrity and user privacy.",
+                    "HOBBIES CERTIFICATES",
+                    "• Learning new languages and new 2020 : Full stack Development",
+                    "industry trends technologies 2023 : React.js"
+                ]
+            },
+            "overall_score": 37.46,
+            "semantic_similarity": 3.65,
+            "skill_match": 20.0,
+            "experience_match": 100.0,
+            "education_match": 100.0,
+            "matched_skills": [
+                "mysql"
+            ],
+            "missing_skills": [
+                "css",
+                "html",
+                "java",
+                "problem solving"
+            ],
+            "reasons": [
+                "Low semantic similarity with the job description",
+                "Matches 1 of 5 required skills",
+                "No specific experience requirement was provided",
+                "Meets the required education"
+            ],
+            "recommendation": "MODERATE SUITABILITY",
+            "extraction_method": "pdf_text",
+            "text_characters": 4390,
+            "text_words": 616,
+            "rank": 51
+        },
+        {
+            "resume_file": "resume_5ec126eef06d.pdf",
+            "candidate": {
+                "name": "SYAM SUNDAR KONAKALLA",
+                "email": "syamsundar4690@gmail.com",
+                "phone": "+91 94942 36797",
+                "skills": [
+                    "algorithms",
+                    "data structures",
+                    "dsa",
+                    "github",
+                    "java",
+                    "rest api",
+                    "spring",
+                    "spring boot",
+                    "sql"
+                ],
+                "education": "B.Tech, Computer Science",
+                "experience_years": 6.0,
+                "projects": [
+                    "• Spring boot",
+                    "• Hibernate",
+                    "Github link: https://github.com/syamsundar123/Hangman",
+                    "• Data Structures And Algorithms",
+                    "Video link:https://www.youtube.com/watch?v=dVY2fKk639w",
+                    "SOCIAL NETWORKS",
+                    "https://www.linkedin.com/in/syam-sundar- CERTIFICATIONS",
+                    "https://github.com/syamsundar123 1) One Year Internship at Highradius Technologies as Software",
+                    "Engineer Intern (August 2021-July 2022)",
+                    "Hackerrank:"
+                ]
+            },
+            "overall_score": 37.26,
+            "semantic_similarity": 3.16,
+            "skill_match": 20.0,
+            "experience_match": 100.0,
+            "education_match": 100.0,
+            "matched_skills": [
+                "java"
+            ],
+            "missing_skills": [
+                "css",
+                "html",
+                "mysql",
+                "problem solving"
+            ],
+            "reasons": [
+                "Low semantic similarity with the job description",
+                "Matches 1 of 5 required skills",
+                "No specific experience requirement was provided",
+                "Meets the required education"
+            ],
+            "recommendation": "MODERATE SUITABILITY",
+            "extraction_method": "pdf_text",
+            "text_characters": 1365,
+            "text_words": 160,
+            "rank": 52
+        },
+        {
+            "resume_file": "resume_93a354045691.pdf",
+            "candidate": {
+                "name": "ARPESH GADEKAR",
+                "email": "contactme@arpesh.in",
+                "phone": "+91 8552056578",
+                "skills": [
+                    "aws",
+                    "bootstrap",
+                    "ci/cd",
+                    "communication",
+                    "css",
+                    "debugging",
+                    "docker",
+                    "dsa",
+                    "excel",
+                    "express",
+                    "github",
+                    "graphql",
+                    "javascript",
+                    "mongodb",
+                    "node",
+                    "postgresql",
+                    "postman",
+                    "react",
+                    "rest api",
+                    "software development",
+                    "testing",
+                    "typescript"
+                ],
+                "education": "B.E, Computer Science",
+                "experience_years": 26.0,
+                "projects": [
+                    " Worked with customers or departments on technical issues including software system design and maintenance.",
+                    " Analyzed information to recommend and plan the installation of new systems or modifications of existing systems.",
+                    " Consulted with engineering staff to evaluate software hardware interfaces and develop specifications and performance requirements.",
+                    " Designed & developed software systems using scientific analysis & mathematical models to predict and measure outcomes & design consequences.",
+                    " Prepared reports on programming project specifications, activities, or status, and conferred with project managers to gather information on",
+                    "limitations or capabilities.",
+                    "Full Stack Developer | SparkPlus Technologies | Goa| Jan’21 – Sep’21",
+                    "Tools used: React, React Native, vanilla JavaScript, HTML5, and CSS3",
+                    "Key Result Areas:",
+                    " Developed and delivered over 4 cross-platform mobile applications using React Native, emphasizing sleek design and animations."
+                ]
+            },
+            "overall_score": 37.2,
+            "semantic_similarity": 3.01,
+            "skill_match": 20.0,
+            "experience_match": 100.0,
+            "education_match": 100.0,
+            "matched_skills": [
+                "css"
+            ],
+            "missing_skills": [
+                "html",
+                "java",
+                "mysql",
+                "problem solving"
+            ],
+            "reasons": [
+                "Low semantic similarity with the job description",
+                "Matches 1 of 5 required skills",
+                "No specific experience requirement was provided",
+                "Meets the required education"
+            ],
+            "recommendation": "MODERATE SUITABILITY",
+            "extraction_method": "pdf_text",
+            "text_characters": 6017,
+            "text_words": 816,
+            "rank": 53
+        },
+        {
+            "resume_file": "resume_a385fd5dd18d.pdf",
+            "candidate": {
+                "name": "Naman Singh",
+                "email": "namannsingh1314@gmail.com",
+                "phone": "+91 7460851024",
+                "skills": [
+                    "aws",
+                    "azure",
+                    "c++",
+                    "ci/cd",
+                    "computer networks",
+                    "docker",
+                    "express",
+                    "github",
+                    "go",
+                    "javascript",
+                    "jenkins",
+                    "kubernetes",
+                    "mongodb",
+                    "mysql",
+                    "node",
+                    "object oriented programming",
+                    "oop",
+                    "php",
+                    "postgresql",
+                    "python",
+                    "react",
+                    "rest api",
+                    "testing"
+                ],
+                "education": "B.Tech",
+                "experience_years": 4.0,
+                "projects": [
+                    "Nushreads | React, Streamlit, Vercel | (Live Link)",
+                    "• Developed a comprehensive book library application featuring a search engine and book recommendation system.",
+                    "• Implemented a user-friendly frontend using React, ensuring seamless navigation and interaction.",
+                    "• Deployed the application in the cloud using Vercel with CI/CD for efficient updates and management.",
+                    "Rideverse.in – Cab Sharing Platform | Node.js, React Native, MongoDB, AWS, GitHub Actions | (Live Link)",
+                    "• Built and deployed a cab-sharing platform aimed at solving last-mile connectivity, with 16,000+ drivers onboarded.",
+                    "• Led a team of 15 interns across frontend, backend, and operations to accelerate MVP development and launch.",
+                    "• Developed backend APIs using Node.js and Express, managed stateful ride data with MongoDB."
+                ]
+            },
+            "overall_score": 37.19,
+            "semantic_similarity": 2.96,
+            "skill_match": 20.0,
+            "experience_match": 100.0,
+            "education_match": 100.0,
+            "matched_skills": [
+                "mysql"
+            ],
+            "missing_skills": [
+                "css",
+                "html",
+                "java",
+                "problem solving"
+            ],
+            "reasons": [
+                "Low semantic similarity with the job description",
+                "Matches 1 of 5 required skills",
+                "No specific experience requirement was provided",
+                "Meets the required education"
+            ],
+            "recommendation": "MODERATE SUITABILITY",
+            "extraction_method": "pdf_text",
+            "text_characters": 3460,
+            "text_words": 460,
+            "rank": 54
+        },
+        {
+            "resume_file": "resume_574503c39063.pdf",
+            "candidate": {
+                "name": "Aninda Kundu",
+                "email": "anindakundu1994@gmail.com",
+                "phone": "+91 9831846782",
+                "skills": [
+                    "algorithms",
+                    "communication",
+                    "data science",
+                    "deep learning",
+                    "flask",
+                    "git",
+                    "github",
+                    "jupyter",
+                    "linux",
+                    "machine learning",
+                    "natural language processing",
+                    "nlp",
+                    "node",
+                    "numpy",
+                    "pandas",
+                    "postgresql",
+                    "postman",
+                    "problem solving",
+                    "python",
+                    "scikit-learn",
+                    "software development",
+                    "sql",
+                    "tensorflow",
+                    "testing",
+                    "windows"
+                ],
+                "education": "B.Tech, B.E, M.Tech, Computer Science",
+                "experience_years": 1.8,
+                "projects": [
+                    "A K-means based approach to detect copy number variation in a genome.",
+                    "AIM : To build a clustering model that can detect the duplication or insertion of unwanted",
+                    "DNA sequence in a genome.",
+                    " Technologies Used – Machine learning algorithms includes K-means",
+                    "clustering algorithm, Bio informatics alignment algorithm (Smith-waterman",
+                    "algorithm), Python, sklearn, Pycharm IDE.",
+                    " Copy number variation (CNV) is a form of structural variation caused by",
+                    "duplications or deletions of a large DNA segment, which may have a vital",
+                    "impact on human health, causing many neurological diseases as well as",
+                    "cancer. The task is to detect copy number variation in genomic regions."
+                ]
+            },
+            "overall_score": 37.12,
+            "semantic_similarity": 2.8,
+            "skill_match": 20.0,
+            "experience_match": 100.0,
+            "education_match": 100.0,
+            "matched_skills": [
+                "problem solving"
+            ],
+            "missing_skills": [
+                "css",
+                "html",
+                "java",
+                "mysql"
+            ],
+            "reasons": [
+                "Low semantic similarity with the job description",
+                "Matches 1 of 5 required skills",
+                "No specific experience requirement was provided",
+                "Meets the required education"
+            ],
+            "recommendation": "MODERATE SUITABILITY",
+            "extraction_method": "pdf_text",
+            "text_characters": 7310,
+            "text_words": 1106,
+            "rank": 55
+        },
+        {
+            "resume_file": "resume_44016c608ffa.pdf",
+            "candidate": {
+                "name": "Development. akkupy.com",
+                "email": "akkupy@pm.me",
+                "phone": "6282170323",
+                "skills": [
+                    "debugging",
+                    "django",
+                    "docker",
+                    "flask",
+                    "github",
+                    "linux",
+                    "mysql",
+                    "networking",
+                    "python",
+                    "redis"
+                ],
+                "education": "B.Tech, Computer Science",
+                "experience_years": 6.0,
+                "projects": [
+                    "06/2018 - 03/2020, 95.4%",
+                    "ChainVault : Blockchain Powered Cloud Storage and File",
+                    "Sharing (09/2023 - 05/2024)",
+                    "VOLUNTEERING EXPERIENCE",
+                    "SliceIt - A URL Shortener (08/2023 - Present)",
+                    "Student Mentor Made with Django Rest Framework, available at scit.me",
+                    "Bootcamp.py organized by IEEE CS SB CEC Z-Vote , Blockchain Voting System (02/2023 - 08/2023)",
+                    "Made with Django Framework and Docker",
+                    "HomeLab On Raspberry Pi 4 (10/2022 - Present)",
+                    "Web Developer"
+                ]
+            },
+            "overall_score": 37.1,
+            "semantic_similarity": 2.76,
+            "skill_match": 20.0,
+            "experience_match": 100.0,
+            "education_match": 100.0,
+            "matched_skills": [
+                "mysql"
+            ],
+            "missing_skills": [
+                "css",
+                "html",
+                "java",
+                "problem solving"
+            ],
+            "reasons": [
+                "Low semantic similarity with the job description",
+                "Matches 1 of 5 required skills",
+                "No specific experience requirement was provided",
+                "Meets the required education"
+            ],
+            "recommendation": "MODERATE SUITABILITY",
+            "extraction_method": "pdf_text",
+            "text_characters": 1883,
+            "text_words": 265,
+            "rank": 56
+        },
+        {
+            "resume_file": "resume_07020908df61.pdf",
+            "candidate": {
+                "name": "KAVISH PANDIT",
+                "email": "kavish.pandit178@gmail.com",
+                "phone": "07011241957",
+                "skills": [
+                    "algorithms",
+                    "angular",
+                    "computer networks",
+                    "data structures",
+                    "express",
+                    "git",
+                    "github",
+                    "java",
+                    "javascript",
+                    "leadership",
+                    "machine learning",
+                    "mongodb",
+                    "node",
+                    "php",
+                    "react",
+                    "sql"
+                ],
+                "education": "B.Tech, Information Technology",
+                "experience_years": 8.0,
+                "projects": [
+                    "Accolite Gurugram",
+                    "Contact Keeper using MERN Stack. (02/2020 – 05/2020) VITEE merit Scholarship for Rank Holder (04/2017 – Present)",
+                    "Fully Authenticated Mern web app which manages contacts through express Js Rank 7048",
+                    "server. Deployed on Heroku",
+                    "Production Database - MongoDB Atlas. Used Mongoose Framework and",
+                    "MongoDB database. NON TECHNICAL SKILLS",
+                    "GitHub Finder using React and Express Js (04/2020 – 05/2020) Team Management and Decision Making (07/2017 – 07/2019)",
+                    "Designed a react js web app which facilitates users to search profile by their Worked in VIT Mozilla Firefox Club , Team Rivera and Team Gravitas",
+                    "github id.Fully Functional app which uses Hooks",
+                    "Team Leadership"
+                ]
+            },
+            "overall_score": 37.1,
+            "semantic_similarity": 2.74,
+            "skill_match": 20.0,
+            "experience_match": 100.0,
+            "education_match": 100.0,
+            "matched_skills": [
+                "java"
+            ],
+            "missing_skills": [
+                "css",
+                "html",
+                "mysql",
+                "problem solving"
+            ],
+            "reasons": [
+                "Low semantic similarity with the job description",
+                "Matches 1 of 5 required skills",
+                "No specific experience requirement was provided",
+                "Meets the required education"
+            ],
+            "recommendation": "MODERATE SUITABILITY",
+            "extraction_method": "pdf_text",
+            "text_characters": 3188,
+            "text_words": 432,
+            "rank": 57
+        },
+        {
+            "resume_file": "resume_4a305525f7e5.pdf",
+            "candidate": {
+                "name": "KUMAR SATWIK",
+                "email": "satwikworks2000@gmail.com",
+                "phone": "+91 62006 03906",
+                "skills": [
+                    "c++",
+                    "github",
+                    "java",
+                    "javascript",
+                    "kotlin",
+                    "mongodb",
+                    "node",
+                    "numpy",
+                    "pandas",
+                    "python"
+                ],
+                "education": "B.Tech, B.E",
+                "experience_years": 4.0,
+                "projects": [
+                    "• Advanced Blog website: A blog website with signup feature that sends notification to subscribers every time",
+                    "a blog is posted",
+                    "• Vibeofy : A music player app with basic functionalities and an audio visualizer",
+                    "• Environment-Friend : A website that aims to spread environmental awareness with chatbot",
+                    "integration.",
+                    "• Javascript Compilation: A compilation of javascript Projects."
+                ]
+            },
+            "overall_score": 37.01,
+            "semantic_similarity": 2.53,
+            "skill_match": 20.0,
+            "experience_match": 100.0,
+            "education_match": 100.0,
+            "matched_skills": [
+                "java"
+            ],
+            "missing_skills": [
+                "css",
+                "html",
+                "mysql",
+                "problem solving"
+            ],
+            "reasons": [
+                "Low semantic similarity with the job description",
+                "Matches 1 of 5 required skills",
+                "No specific experience requirement was provided",
+                "Meets the required education"
+            ],
+            "recommendation": "MODERATE SUITABILITY",
+            "extraction_method": "pdf_text",
+            "text_characters": 1450,
+            "text_words": 184,
+            "rank": 58
+        },
+        {
+            "resume_file": "resume_b79c2b9d23d1.pdf",
+            "candidate": {
+                "name": "Jiyadh K Salim",
+                "email": "jiyadh23@gmail.com",
+                "phone": "8111877158",
+                "skills": [
+                    "analytical thinking",
+                    "communication",
+                    "data analysis",
+                    "excel",
+                    "machine learning",
+                    "numpy",
+                    "pandas",
+                    "power bi",
+                    "problem solving",
+                    "python",
+                    "sql"
+                ],
+                "education": "B.Tech, Computer Science",
+                "experience_years": 7.0,
+                "projects": [
+                    "Developed a prototype Dashboard using Power BI and MS",
+                    "Excel for analyzing Outpatient time and Operation theatre",
+                    "utilization. Skillfully identified and addressed data entry This Power BI Dashboard project presents an interactive visual",
+                    "errors, elevating data accuracy and operational efficiency. narrative aimed at assisting CodeX (a dummy company) in",
+                    "addressing the challenges it faces.",
+                    "Using tools such as Python, Power BI, SQL, MS EXCEL, and",
+                    "Task Performed – Data modelling, data cleaning and merging",
+                    "Microsoft Fabric for various Analysis.",
+                    "operations, created measures for data visualization.",
+                    "Automation Engineer"
+                ]
+            },
+            "overall_score": 36.9,
+            "semantic_similarity": 2.25,
+            "skill_match": 20.0,
+            "experience_match": 100.0,
+            "education_match": 100.0,
+            "matched_skills": [
+                "problem solving"
+            ],
+            "missing_skills": [
+                "css",
+                "html",
+                "java",
+                "mysql"
+            ],
+            "reasons": [
+                "Low semantic similarity with the job description",
+                "Matches 1 of 5 required skills",
+                "No specific experience requirement was provided",
+                "Meets the required education"
+            ],
+            "recommendation": "MODERATE SUITABILITY",
+            "extraction_method": "pdf_text",
+            "text_characters": 3130,
+            "text_words": 425,
+            "rank": 59
+        },
+        {
+            "resume_file": "resume_a9319f43dbe0.pdf",
+            "candidate": {
+                "name": "Institution Percentage Year",
+                "email": "Ziyamohd123@gmail.com",
+                "phone": "+919008118633",
+                "skills": [
+                    "bootstrap",
+                    "c++",
+                    "django",
+                    "github",
+                    "java",
+                    "javascript",
+                    "machine learning",
+                    "php",
+                    "python",
+                    "spring",
+                    "spring boot",
+                    "sql"
+                ],
+                "education": "B.E",
+                "experience_years": 6.0,
+                "projects": [
+                    " iCool:A web application developed for iCool shop using Django framework.This app helps",
+                    "workers to save the daily basis business information and also keep updating the information till the",
+                    "end of the day.Running live here https://www.icool.com",
+                    " ISE Netbook:A web application developed for students in submitting the assignments online.",
+                    "Running live here https://www.isenetbook.com",
+                    " ISE File-manager:A web application written in Django which helps students to get all the files",
+                    "related to their semester subjects.Running live here https://www.isefilemanager.com",
+                    " Department Website:A website written using AngularJS as front end and PHP as back end.",
+                    "Running live here https://www.nmamitise.com .",
+                    " SpringBootAcademicAPI: An API developed for storing and retrieving Academics information."
+                ]
+            },
+            "overall_score": 36.84,
+            "semantic_similarity": 2.1,
+            "skill_match": 20.0,
+            "experience_match": 100.0,
+            "education_match": 100.0,
+            "matched_skills": [
+                "java"
+            ],
+            "missing_skills": [
+                "css",
+                "html",
+                "mysql",
+                "problem solving"
+            ],
+            "reasons": [
+                "Low semantic similarity with the job description",
+                "Matches 1 of 5 required skills",
+                "No specific experience requirement was provided",
+                "Meets the required education"
+            ],
+            "recommendation": "MODERATE SUITABILITY",
+            "extraction_method": "pdf_text",
+            "text_characters": 2419,
+            "text_words": 330,
+            "rank": 60
+        },
+        {
+            "resume_file": "resume_81e306b05dd3.pdf",
+            "candidate": {
+                "name": "P. Sabarish",
+                "email": "sabarish862@gmail.com",
+                "phone": "+91-8985485098",
+                "skills": [
+                    "mysql",
+                    "unix",
+                    "windows"
+                ],
+                "education": "B.Tech, M.Tech",
+                "experience_years": 26.0,
+                "projects": [
+                    " Currently working on “Peizo Electric Energy Harvesting System” under the guidance of Dr.",
+                    "Amit Acharyya, Assistant Professor, IIT Hyderabad.",
+                    " Did a project on “Neural Networks based Digital Image Processing” under the guidance of",
+                    "Mr. B. Jagadeesh, Associate Professor, GVP College of Engineering",
+                    " Did an Industrial study project on the “Switching System and Call Processing” in Bharat",
+                    "Sanchar Nigam Limited under the guidance of Ms. P. Vidya Sree, Assistant Professor, GVP",
+                    "College of Engineering",
+                    "Academic Papers:",
+                    "Presented paper on: Face Recognition",
+                    "Occasion: SANSARG 2K10 – a National Level Technical fest"
+                ]
+            },
+            "overall_score": 36.55,
+            "semantic_similarity": 1.38,
+            "skill_match": 20.0,
+            "experience_match": 100.0,
+            "education_match": 100.0,
+            "matched_skills": [
+                "mysql"
+            ],
+            "missing_skills": [
+                "css",
+                "html",
+                "java",
+                "problem solving"
+            ],
+            "reasons": [
+                "Low semantic similarity with the job description",
+                "Matches 1 of 5 required skills",
+                "No specific experience requirement was provided",
+                "Meets the required education"
+            ],
+            "recommendation": "MODERATE SUITABILITY",
+            "extraction_method": "pdf_text",
+            "text_characters": 2784,
+            "text_words": 427,
+            "rank": 61
+        },
+        {
+            "resume_file": "resume_6ee1365df2ba.pdf",
+            "candidate": {
+                "name": "Veeshal D. Bodosa",
+                "email": "Not detected",
+                "phone": "Not detected",
+                "skills": [
+                    "css",
+                    "git",
+                    "github",
+                    "html",
+                    "javascript",
+                    "mysql",
+                    "php",
+                    "postgresql"
+                ],
+                "education": "Not detected",
+                "experience_years": 9.0,
+                "projects": [
+                    "redesign..!",
+                    "SwrzeeEnterprise 2025–Present TriptoDarjeeling 2025",
+                    "EnterpriseWebPlatform HTML,CSS,JS,PHP",
+                    "OpenMicRGU 2025",
+                    "KokrajharGovt. College 2021–Present EventEditing Premiere,Resolve",
+                    "kgc-app.in",
+                    "Web&AppDevelopment Expo,PHP,MySQL",
+                    "MyTea—BrandingDesign 2024",
+                    "GraphicDesign Krita,Canva",
+                    "Anglo-BodoDictionary 2020–Present"
+                ]
+            },
+            "overall_score": 36.01,
+            "semantic_similarity": 7.54,
+            "skill_match": 60.0,
+            "experience_match": 100.0,
+            "education_match": 0.0,
+            "matched_skills": [
+                "css",
+                "html",
+                "mysql"
+            ],
+            "missing_skills": [
+                "java",
+                "problem solving"
+            ],
+            "reasons": [
+                "Low semantic similarity with the job description",
+                "Matches 3 of 5 required skills",
+                "No specific experience requirement was provided",
+                "Required education was not detected"
+            ],
+            "recommendation": "MODERATE SUITABILITY",
+            "extraction_method": "pdf_text",
+            "text_characters": 1477,
+            "text_words": 87,
+            "rank": 62
+        },
+        {
+            "resume_file": "resume_f34b221f3b27.pdf",
+            "candidate": {
+                "name": "Surbhi Gupta -",
+                "email": "surabhi.gupta.sai@gmail.com",
+                "phone": "551) 227 - 8884",
+                "skills": [
+                    "angular",
+                    "bootstrap",
+                    "communication",
+                    "css",
+                    "git",
+                    "github",
+                    "html",
+                    "javascript",
+                    "mongodb",
+                    "mysql",
+                    "node",
+                    "php",
+                    "react",
+                    "rest api",
+                    "sql",
+                    "testing"
+                ],
+                "education": "MCA",
+                "experience_years": 5.0,
+                "projects": []
+            },
+            "overall_score": 35.71,
+            "semantic_similarity": 6.77,
+            "skill_match": 60.0,
+            "experience_match": 100.0,
+            "education_match": 0.0,
+            "matched_skills": [
+                "css",
+                "html",
+                "mysql"
+            ],
+            "missing_skills": [
+                "java",
+                "problem solving"
+            ],
+            "reasons": [
+                "Low semantic similarity with the job description",
+                "Matches 3 of 5 required skills",
+                "No specific experience requirement was provided",
+                "Required education was not detected"
+            ],
+            "recommendation": "MODERATE SUITABILITY",
+            "extraction_method": "pdf_text",
+            "text_characters": 4484,
+            "text_words": 648,
+            "rank": 63
+        },
+        {
+            "resume_file": "resume_1abcc6c00be5.pdf",
+            "candidate": {
+                "name": "Pawan Rajput",
+                "email": "pawanrajput852710@gmail.com",
+                "phone": "8527108850",
+                "skills": [
+                    "aws",
+                    "communication",
+                    "css",
+                    "express",
+                    "git",
+                    "github",
+                    "html",
+                    "javascript",
+                    "mongodb",
+                    "node",
+                    "problem solving",
+                    "react",
+                    "redis",
+                    "rest api",
+                    "vs code"
+                ],
+                "education": "MCA, BCA",
+                "experience_years": 6.0,
+                "projects": [
+                    "• Integration of Third-Party Services: : Successfully integrated external services for email notifications, and",
+                    "user authentication, ensuring seamless functionality and a positive user experience.",
+                    "Backend Developer Trainee And Teaching Assistant June 2022 – June. 2023",
+                    "FunctionUp Remote",
+                    "• During my time as a Backend Developer Trainee at Function Up, I took on the additional responsibility of serving",
+                    "as a Teaching Assistant. In this role, I provided mentorship and support to junior developers, assisting them in",
+                    "resolving technical issues, guiding them through complex concepts, and helping them to enhance their skills and",
+                    "knowledge in backend development.",
+                    "E-Commerce website | Node.js, Express.js, MongoDB, Bcrypt, Multer, JWT, S3 sep. 2022 – sep.2022",
+                    "• Backend for a shopping cart system inspired by Amazon, Flipkart, and Myntra."
+                ]
+            },
+            "overall_score": 34.92,
+            "semantic_similarity": 4.8,
+            "skill_match": 60.0,
+            "experience_match": 100.0,
+            "education_match": 0.0,
+            "matched_skills": [
+                "css",
+                "html",
+                "problem solving"
+            ],
+            "missing_skills": [
+                "java",
+                "mysql"
+            ],
+            "reasons": [
+                "Low semantic similarity with the job description",
+                "Matches 3 of 5 required skills",
+                "No specific experience requirement was provided",
+                "Required education was not detected"
+            ],
+            "recommendation": "LOW SUITABILITY",
+            "extraction_method": "pdf_text",
+            "text_characters": 3454,
+            "text_words": 489,
+            "rank": 64
+        },
+        {
+            "resume_file": "resume_885902f186e7.pdf",
+            "candidate": {
+                "name": "Raj Pawan Shukla",
+                "email": "rajshukla140@gmail.com",
+                "phone": "Not detected",
+                "skills": [
+                    "aws",
+                    "communication",
+                    "css",
+                    "git",
+                    "github",
+                    "html",
+                    "javascript",
+                    "mysql",
+                    "php",
+                    "react"
+                ],
+                "education": "MCA, B.Sc, Computer Science",
+                "experience_years": 1.5,
+                "projects": [
+                    "YouTube Clone (React) 2024",
+                    "– Description: Built a functional YouTube clone using React and YouTube public API.",
+                    "– Link: https://raj-youtube.vercel.app/",
+                    "Portfolio Website 2024",
+                    "Personal Branding",
+                    "– Link: https://rajshukla-portfolio.vercel.app/"
+                ]
+            },
+            "overall_score": 34.42,
+            "semantic_similarity": 3.54,
+            "skill_match": 60.0,
+            "experience_match": 100.0,
+            "education_match": 0.0,
+            "matched_skills": [
+                "css",
+                "html",
+                "mysql"
+            ],
+            "missing_skills": [
+                "java",
+                "problem solving"
+            ],
+            "reasons": [
+                "Low semantic similarity with the job description",
+                "Matches 3 of 5 required skills",
+                "No specific experience requirement was provided",
+                "Required education was not detected"
+            ],
+            "recommendation": "LOW SUITABILITY",
+            "extraction_method": "pdf_text",
+            "text_characters": 1835,
+            "text_words": 227,
+            "rank": 65
+        },
+        {
+            "resume_file": "resume_fb30c8378cc9.pdf",
+            "candidate": {
+                "name": "Ashish Deshpande",
+                "email": "ashishd751@gmail.com",
+                "phone": "+91-7276463883",
+                "skills": [
+                    "angular",
+                    "bootstrap",
+                    "docker",
+                    "excel",
+                    "express",
+                    "git",
+                    "github",
+                    "javascript",
+                    "node",
+                    "react",
+                    "typescript"
+                ],
+                "education": "B.E, Computer Science",
+                "experience_years": 4.5,
+                "projects": []
+            },
+            "overall_score": 31.78,
+            "semantic_similarity": 4.44,
+            "skill_match": 0.0,
+            "experience_match": 100.0,
+            "education_match": 100.0,
+            "matched_skills": [],
+            "missing_skills": [
+                "css",
+                "html",
+                "java",
+                "mysql",
+                "problem solving"
+            ],
+            "reasons": [
+                "Low semantic similarity with the job description",
+                "Matches 0 of 5 required skills",
+                "No specific experience requirement was provided",
+                "Meets the required education"
+            ],
+            "recommendation": "LOW SUITABILITY",
+            "extraction_method": "pdf_text",
+            "text_characters": 3231,
+            "text_words": 469,
+            "rank": 66
+        },
+        {
+            "resume_file": "resume_dffe3c86da87.pdf",
+            "candidate": {
+                "name": "Sahil Patel",
+                "email": "ssahillppatell@gmail.com",
+                "phone": "+91-9670412356",
+                "skills": [
+                    "azure",
+                    "docker",
+                    "excel",
+                    "express",
+                    "git",
+                    "github",
+                    "go",
+                    "graphql",
+                    "kubernetes",
+                    "mongodb",
+                    "node",
+                    "postgresql",
+                    "python",
+                    "react",
+                    "software development",
+                    "sqlite",
+                    "typescript",
+                    "vue"
+                ],
+                "education": "B.Tech, B.E, Computer Science",
+                "experience_years": 4.0,
+                "projects": [
+                    "• Created UI Designs in Figma for all the new features while including feedback from the stakeholders",
+                    "• Tech: Nitro, Express, Typescript, Drizzle ORM, Postgresql, React, Tailwind, Shadcn-UI, Apache Echarts, Vite,",
+                    "Bun, Zod, Tanstack Query, Redux, Biomejs, Docker, Vitest, Figma",
+                    "Control Tower",
+                    "• Worked exclusively on the frontend of the application building reusable components in a team of 4 developers",
+                    "• Implemented the data filtering functionality in frontend while ensuring 90% Test Coverage criteria",
+                    "• Tech: React, NextJS, Typescript, MUI, Jest",
+                    "Technical Cofounder Aug 2020 – June 2022",
+                    "Mathrithms Remote",
+                    "• During the tenure, worked on multiple real-world projects in a wide variety of fields"
+                ]
+            },
+            "overall_score": 30.87,
+            "semantic_similarity": 2.18,
+            "skill_match": 0.0,
+            "experience_match": 100.0,
+            "education_match": 100.0,
+            "matched_skills": [],
+            "missing_skills": [
+                "css",
+                "html",
+                "java",
+                "mysql",
+                "problem solving"
+            ],
+            "reasons": [
+                "Low semantic similarity with the job description",
+                "Matches 0 of 5 required skills",
+                "No specific experience requirement was provided",
+                "Meets the required education"
+            ],
+            "recommendation": "LOW SUITABILITY",
+            "extraction_method": "pdf_text",
+            "text_characters": 3449,
+            "text_words": 516,
+            "rank": 67
+        },
+        {
+            "resume_file": "resume_0cda6ed2b63c.pdf",
+            "candidate": {
+                "name": "Hitesh Ramani",
+                "email": "ramanihiteshc@gmail.com",
+                "phone": "+91) 8320563229",
+                "skills": [
+                    "github",
+                    "leadership",
+                    "react",
+                    "software development",
+                    "swift"
+                ],
+                "education": "B.E, MCA, B.Sc, Information Technology",
+                "experience_years": 4.0,
+                "projects": [
+                    "Darkswift Infotech [ 15/06/2020 – Current ]",
+                    "City: Surat",
+                    "Country: India",
+                    "◦ Maintained effective staff and resource utilization rates to balance financial and operational obligations.",
+                    "◦ Developed key operational initiatives to drive and maintain substantial business growth.",
+                    "◦ Met dynamic needs by keeping internal systems scalable and highly responsive.",
+                    "◦ Prepared organization for forecasted demand levels through effective operational planning.",
+                    "LANGUAGE SKILLS",
+                    "Mother tongue(s): Gujarati",
+                    "Other language(s):"
+                ]
+            },
+            "overall_score": 30.74,
+            "semantic_similarity": 1.86,
+            "skill_match": 0.0,
+            "experience_match": 100.0,
+            "education_match": 100.0,
+            "matched_skills": [],
+            "missing_skills": [
+                "css",
+                "html",
+                "java",
+                "mysql",
+                "problem solving"
+            ],
+            "reasons": [
+                "Low semantic similarity with the job description",
+                "Matches 0 of 5 required skills",
+                "No specific experience requirement was provided",
+                "Meets the required education"
+            ],
+            "recommendation": "LOW SUITABILITY",
+            "extraction_method": "pdf_text",
+            "text_characters": 4103,
+            "text_words": 559,
+            "rank": 68
+        },
+        {
+            "resume_file": "resume_b3a7f15cb147.pdf",
+            "candidate": {
+                "name": "Samhan Salahuddin",
+                "email": "samhan.knr@gmail.com",
+                "phone": "9916557732",
+                "skills": [
+                    "debugging",
+                    "git",
+                    "javascript",
+                    "networking",
+                    "rest api"
+                ],
+                "education": "B.Tech, Computer Science",
+                "experience_years": 2.5,
+                "projects": []
+            },
+            "overall_score": 30.46,
+            "semantic_similarity": 1.15,
+            "skill_match": 0.0,
+            "experience_match": 100.0,
+            "education_match": 100.0,
+            "matched_skills": [],
+            "missing_skills": [
+                "css",
+                "html",
+                "java",
+                "mysql",
+                "problem solving"
+            ],
+            "reasons": [
+                "Low semantic similarity with the job description",
+                "Matches 0 of 5 required skills",
+                "No specific experience requirement was provided",
+                "Meets the required education"
+            ],
+            "recommendation": "LOW SUITABILITY",
+            "extraction_method": "pdf_text",
+            "text_characters": 2965,
+            "text_words": 451,
+            "rank": 69
+        },
+        {
+            "resume_file": "resume_d13ea7c86d74.pdf",
+            "candidate": {
+                "name": "Mayank Kurveti",
+                "email": "ee12b1016@iith.ac.in",
+                "phone": "+91-8790729717",
+                "skills": [
+                    "c++"
+                ],
+                "education": "B.Tech",
+                "experience_years": 6.0,
+                "projects": [
+                    "● *Fabrication of Magnetic Quanta Cellular Automata based 3D IC TSV Design.",
+                    "● *µ­Total Analysis System that scans the speed, flow, pattern of the pulse waves for diagnosing",
+                    "the casualties.",
+                    "● Avionics Full Duplex Ethernet Crossbar logic for 2x2 ports.",
+                    "● FPGA Prototyping for Custom Ethernet IP Controller.",
+                    "● Low noise and low power Neural Recording System using NMOS as pseudo-resistance for Low",
+                    "Noise Amplifiers and optimum sizing of input pair of amplifier.",
+                    "● An Ultrasonic SONAR using a Nexys 3 FPGA kit and basic ultrasonic range finder.",
+                    "Organizational Experience:",
+                    "Intern, DRDO Intern, Web Designer, Kaddy"
+                ]
+            },
+            "overall_score": 30.34,
+            "semantic_similarity": 0.84,
+            "skill_match": 0.0,
+            "experience_match": 100.0,
+            "education_match": 100.0,
+            "matched_skills": [],
+            "missing_skills": [
+                "css",
+                "html",
+                "java",
+                "mysql",
+                "problem solving"
+            ],
+            "reasons": [
+                "Low semantic similarity with the job description",
+                "Matches 0 of 5 required skills",
+                "No specific experience requirement was provided",
+                "Meets the required education"
+            ],
+            "recommendation": "LOW SUITABILITY",
+            "extraction_method": "pdf_text",
+            "text_characters": 1787,
+            "text_words": 283,
+            "rank": 70
+        },
+        {
+            "resume_file": "resume_2a0b0b9000a3.pdf",
+            "candidate": {
+                "name": "VAKACHARLA NAGENDRA KUMAR",
+                "email": "vnagnedra24@gmail.com",
+                "phone": "+91 967 666 5612",
+                "skills": [
+                    "communication",
+                    "windows"
+                ],
+                "education": "B.Tech, M.Tech, Electronics and Telecommunication",
+                "experience_years": 25.0,
+                "projects": [
+                    " Currently working on “Designing a sensing mechanism for structural health monitoring”.",
+                    " Did “Enhancement of a Noisy Image using spatial and frequency domains” using",
+                    "MATLAB under the guidance of Ch. Rajashekar, Assistant Professor, GITAM",
+                    "Co-curricular Activities:",
+                    " Participated in event of JAHAZZ of Technozian-2011 in NIT Warangal.",
+                    " Presented a Paper on NANOROBO in Spikes-2012 conducted by Andhra University.",
+                    " Participated in SOUND OPERATING SWITCH of Kshetragn-2010, by GITAM",
+                    "University.",
+                    " Presented a Paper on WEALTH FROM WASTE in one day workshop on",
+                    "ENVIRONMENTAL FRIENDLY TECHONOLOGIES BY ENGINEERING"
+                ]
+            },
+            "overall_score": 30.32,
+            "semantic_similarity": 0.8,
+            "skill_match": 0.0,
+            "experience_match": 100.0,
+            "education_match": 100.0,
+            "matched_skills": [],
+            "missing_skills": [
+                "css",
+                "html",
+                "java",
+                "mysql",
+                "problem solving"
+            ],
+            "reasons": [
+                "Low semantic similarity with the job description",
+                "Matches 0 of 5 required skills",
+                "No specific experience requirement was provided",
+                "Meets the required education"
+            ],
+            "recommendation": "LOW SUITABILITY",
+            "extraction_method": "pdf_text",
+            "text_characters": 2588,
+            "text_words": 366,
+            "rank": 71
+        },
+        {
+            "resume_file": "resume_d0aff2566b01.pdf",
+            "candidate": {
+                "name": "“An ambitious software developer with",
+                "email": "nirakarnanda1@gmail.com",
+                "phone": "Not detected",
+                "skills": [
+                    "css",
+                    "git",
+                    "github",
+                    "java",
+                    "mongodb",
+                    "python",
+                    "react",
+                    "sql"
+                ],
+                "education": "MCA, Computer Science",
+                "experience_years": 8.0,
+                "projects": [
+                    "linkedin.com/in/nirakar-nanda- working collaboratively, seeking",
+                    "meaningful experience in the process.”",
+                    "TECHNICAL SKILLS",
+                    "WEB DEVELOPMENT LIBRARY AND FRAMEWORK AND LANGUAGES",
+                    "Java Script React js",
+                    "HTML5 Next js",
+                    "CSS C programming DATABASE",
+                    "Tailwind CSS Java",
+                    "UI/UX figma Python (basics) SQL",
+                    "PLANT E-COMMERCE (REACT-JS)"
+                ]
+            },
+            "overall_score": 29.27,
+            "semantic_similarity": 5.67,
+            "skill_match": 40.0,
+            "experience_match": 100.0,
+            "education_match": 0.0,
+            "matched_skills": [
+                "css",
+                "java"
+            ],
+            "missing_skills": [
+                "html",
+                "mysql",
+                "problem solving"
+            ],
+            "reasons": [
+                "Low semantic similarity with the job description",
+                "Matches 2 of 5 required skills",
+                "No specific experience requirement was provided",
+                "Required education was not detected"
+            ],
+            "recommendation": "LOW SUITABILITY",
+            "extraction_method": "pdf_text",
+            "text_characters": 3472,
+            "text_words": 398,
+            "rank": 72
+        },
+        {
+            "resume_file": "resume_c5057f4726de.pdf",
+            "candidate": {
+                "name": "Nitish Kumar Singh",
+                "email": "nitishsingh9993@gmail.com",
+                "phone": "+91)74-8812-8138",
+                "skills": [
+                    "azure",
+                    "c++",
+                    "css",
+                    "django",
+                    "html",
+                    "javascript",
+                    "linux",
+                    "nlp",
+                    "numpy",
+                    "pandas",
+                    "php",
+                    "python",
+                    "scikit-learn",
+                    "tensorflow"
+                ],
+                "education": "Not detected",
+                "experience_years": 8.0,
+                "projects": [
+                    "LeafVeinStructureextractionandclassification IIITKalyani",
+                    "IMAGEPROCESSING,MACHINELEARNINGANDDEEPLEARNING July2019",
+                    "• UsedOpenCVforimageprocessinginpython.",
+                    "• AppliedvariousImageProcessingandDeepLearningmethodsandmodelstoextractandclassifytheleaves.",
+                    "MedicalrelationextractionfromClinicalTexts IITKharagpur",
+                    "MACHINELEARNING,DEEPLEARNINGANDNLP May2019",
+                    "• WorkedwithvarioustoolssuchasSemrep,UMLS,Metamap,MeSHtoextractrelationshipfrommedicaltexts.",
+                    "• AppliedvariousNLPandDeepLearningmethodsandmodelstoimprovethetoolsperformanceforourpurpose.",
+                    "FEBRUARY8,2020 NITISHKUMARSINGH · RÉSUMÉ 1",
+                    "Keywordbasedexplorationoflibraryresources SmartIndiaHackathon"
+                ]
+            },
+            "overall_score": 27.81,
+            "semantic_similarity": 2.02,
+            "skill_match": 40.0,
+            "experience_match": 100.0,
+            "education_match": 0.0,
+            "matched_skills": [
+                "css",
+                "html"
+            ],
+            "missing_skills": [
+                "java",
+                "mysql",
+                "problem solving"
+            ],
+            "reasons": [
+                "Low semantic similarity with the job description",
+                "Matches 2 of 5 required skills",
+                "No specific experience requirement was provided",
+                "Required education was not detected"
+            ],
+            "recommendation": "LOW SUITABILITY",
+            "extraction_method": "pdf_text",
+            "text_characters": 4295,
+            "text_words": 148,
+            "rank": 73
+        },
+        {
+            "resume_file": "resume_4033351cc2df.pdf",
+            "candidate": {
+                "name": "Adit Negi",
+                "email": "aditnegi1@gmail.com",
+                "phone": "+1(650)609-6076",
+                "skills": [
+                    "aws",
+                    "c++",
+                    "css",
+                    "django",
+                    "docker",
+                    "express",
+                    "github",
+                    "javascript",
+                    "kubernetes",
+                    "mongodb",
+                    "mysql",
+                    "postgresql",
+                    "python",
+                    "vue"
+                ],
+                "education": "Not detected",
+                "experience_years": 5.0,
+                "projects": [
+                    "PROGRAMMING HYPECORP-FULLSTACKSNEAKERSELL/BUY| PERSONAL",
+                    "•JavaScript•Python•Django•Golang May2020–May2020|NewDelhi,IN",
+                    "•NodeJs•C•C++•CSS•Express • Aproject/startuptobuildanonlinesneakercommunity.",
+                    "• BuiltthefullstackapplicationusingDjango,JS,Docker,AWS,MySQL",
+                    "• Over200DAUsonaverageforacoupleofmonths.",
+                    "•AWS•Kubernetes•MySQL•Docker",
+                    "•Postgresql•MongoDB•Cassandra",
+                    "May2020–May2020|NewDelhi,IN",
+                    "EXTRACURRICULAR",
+                    "• Cowinbottakesyouremailandpincodesentoutalertsviaemailwhenvaccine"
+                ]
+            },
+            "overall_score": 27.71,
+            "semantic_similarity": 1.79,
+            "skill_match": 40.0,
+            "experience_match": 100.0,
+            "education_match": 0.0,
+            "matched_skills": [
+                "css",
+                "mysql"
+            ],
+            "missing_skills": [
+                "html",
+                "java",
+                "problem solving"
+            ],
+            "reasons": [
+                "Low semantic similarity with the job description",
+                "Matches 2 of 5 required skills",
+                "No specific experience requirement was provided",
+                "Required education was not detected"
+            ],
+            "recommendation": "LOW SUITABILITY",
+            "extraction_method": "pdf_text",
+            "text_characters": 2704,
+            "text_words": 110,
+            "rank": 74
+        }
+    ]
+}

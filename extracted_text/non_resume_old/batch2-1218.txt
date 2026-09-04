@@ -1,0 +1,28 @@
+Invoice no: 67102267
+Date of issue: 02/11/2019
+—}) Seller: Client:
+Acevedo PLC Murray and Sons
+Unit 4971 Box 4253 Unit 6063 Box 7048
+DPO AA 96502 DPO AP 46361
+Tax Id: 937-80-6922 Tax Id: 948-88-3534
+IBAN: GB24ZRKD30298594115782
+7) ITEMS
+No. Description Qty UM Net price Net worth VAT [%] Gross
+worth
+1, Custom Build Dell Desktop 3,00 each 99,00 297,00 10% 326,70
+Computer i5 | 16GB | 2TB | SSD
+Windows 10 PC WiFi DVD
+2. Gaming PC Desktop Computer 5,00 each 168,88 844,40 10% 928,84
+iS 8GB 120GB SSD+1T8 Win10
+WIFI +Keyboard
+3. Dell OptiPlex 7060 SFF 5,00 each 202,50 1 012,50 10% 1113,75
+Computer, 8th Gen Core i5, 8GB
+DORA, New 240GB SSD, DVD
+4. ViewSonic VOT 133 Nettop Mini 1,00 each 39,99 39,99 10% 43,99
+PC Computer VS14165 E-350 @
+1.6GHz 2GB 320GB NO OS
+5. $5.00 Desktop Computers!!! 2,00 each 5,00 10,00 10% 11,00
+_______] SUMMARY
+VAT [%] Net worth VAT Gross worth
+10% 2 203,89 220,39 2 424,28
+Total $ 2 203,89 $ 220,39 $ 2 424,28

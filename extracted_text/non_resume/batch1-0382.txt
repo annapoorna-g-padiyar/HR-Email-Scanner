@@ -1,0 +1,21 @@
+Invoice no: 38680884
+Date of issue: 12/22/2015
+—}) Seller: Client:
+Barnes, Roberts and Hayes Taylor, Padilla and Carson
+85366 Shaffer Pine 3794 Mark Wells
+Donaldburgh, VA 49998 Cummingsport, PA 01428
+Tax Id: 947-71-5317 Tax Id: 987-84-5701
+IBAN: GB68ZQPE16473995044513
+7) ITEMS
+No. Description Qty UM Net price Net worth VAT [%] Gross
+worth
+1, Nike Air Jordan 1 Mid Obsidian 2,00 each 24,99 49,98 10% 54,98
+640735-174 Toddler Kids
+Children Size 8C Blue
+2. All Mattel Disney Pixar Model 4,00 each 12,99 51,96 10% 57,16
+Cars McQueen 1:55 Diecast Lot
+Choose Loose Kid Toy
+7} SUMMARY
+VAT [%] Net worth VAT Gross worth
+10% 101,94 10,19 112,13
+Total $ 101,94 $ 10,19 $ 112,13

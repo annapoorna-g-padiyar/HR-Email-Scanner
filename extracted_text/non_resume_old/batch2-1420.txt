@@ -1,0 +1,26 @@
+Invoice no: 59906252
+Date of issue: 01/07/2014
+—}) Seller: Client:
+Crawford, Aguirre and Trevino Brock, Hall and Harrison
+PSC 4290, Box 3682 5499 Berg Valleys
+APO AE 99491 Lake Lisamouth, MS 48062
+Tax Id: 904-97-6214 Tax Id: 935-78-5223
+IBAN: GB25JARF06948751599397
+7) ITEMS
+No. Description Qty UM Net price Net worth VAT [%] Gross
+worth
+1. Lolita Hand Painted Christmas 2,00 each 189,99 379,98 10% 417,98
+Wine Glass - Gingerbread
+Wonderland Rare
+2. Wine Glass Holder Shelf 5,00 each 15,19 75,95 10% 83,55
+Japanese Style Bar tron Under
+Cabinet Stemware Rack
+3. Wagner Vineyards uncork new 4,00 each 3,99 15,96 10% 17,56
+york Wine Glass
+4 Resin Wine Rack Bottle Holder 3,00 each 54,49 163,47 10% 179,82
+Lady Figurines Statue Bar
+Wedding Home Decor Gift
+7} SUMMARY
+VAT [%] Net worth VAT Gross worth
+10% 635,36 63,54 698,90
+Total $ 635,36 $ 63,54 $ 698,90

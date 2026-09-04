@@ -1,0 +1,36 @@
+Invoice no: 21168841
+Date of issue: 01/05/2017
+—}) Seller: Client:
+Guerra-Walters Arnold Group
+25279 Rhonda Common Suite 433 160 Kennedy Lodge
+Phillipport, MN 70442 Lewisview, IN 71750
+Tax Id: 920-92-1671 Tax Id: 967-90-6279
+IBAN: GB89MKTI36165626932452
+7) ITEMS
+No. Description Qty UM Net price Net worth VAT [%] Gross
+worth
+1, 6'x3' Marble Restaurant Dining 2,00 each 5 138,07 10 276,14 10% 11 303,75
+Table Top Marquetry Inlay
+Occasional Decor H5017B
+2. 12" White Marble Coffee Table 4,00 each 295,73 1 182,92 10% 1 301,21
+Top Lapis Turquoise Floral Inlay
+Home Decors W538
+3. 15"x15" White Marble Coffee 1,00 each 685,00 685,00 10% 753,50
+Custom Table Pauashell
+Pietradura Inlay Floral Décor
+4. 15"x15" White Marble Chess 5,00 each 600,00 3 000,00 10% 3 300,00
+Top Table Carnelian Inlay Art
+Black Friday Gift Deco
+5. 12" White Marble Corner Table 1,00 each 295,73 295,73 10% 325,30
+Top Paua Shell Mosaic Floral
+Inlay Home Decor W532
+6. 7'x4' Blue Random Marble 2,00 each 8 194,09 16 388,18 10% 18 027,00
+Dining Hallway Table Top Lapis
+Lazuli Inlay Decor E947A
+7. 36” Round Marble Dining Table 5,00 each 1 490,00 7 450,00 10% 8 195,00
+Lapis Mosaic Floral Inlay
+Furniture Decorates B397
+1) SUMMARY
+VAT [%] Net worth VAT Gross worth
+10% 39 277,97 3 927,80 43 205,77
+Total $ 39 277,97 $ 3 927,80 $ 43 205,77

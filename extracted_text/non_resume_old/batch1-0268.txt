@@ -1,0 +1,35 @@
+Invoice no: 83299043
+Date of issue: 06/24/2019
+—}) Seller: Client:
+Clayton Inc Joseph and Sons
+60870 Kathy Vista 74098 Moon Junctions
+East Nancy, OK 12888 Robinsonshire, NV 36200
+Tax Id: 935-86-2933 Tax Id: 952-73-7734
+IBAN: GB62KIZF24205841215862
+7) ITEMS
+No. Description Qty UM Net price Net worth VAT [%] Gross
+worth
+1, Nintendo Wii Console Complete 2,00 each 104,99 209,98 10% 230,98
+Bundle w/extras tested
+2. SONY Playstation2 Slim Console 3,00 each 90,00 270,00 10% 297,00
+set " SCPH-90000 / White "/
+TESTED Working 11192
+3. PS4 PlayStation 4 500 GB 3,00 each 349,99 1 049,97 10% 1 154,97
+Console CUH-1115A Bundle, 1
+Controller, 8 Games
+4, Microsoft Xbox Original Black 5,00 each 130,00 650,00 10% 715,00
+Gaming Console Bundle With
+Controller, Many Games
+5. B306 Nintendo 3DS console 1,00 each 14,99 14,99 10% 16,49
+Misty Pink Japan x
+6. New Nintendo 3DS XL Red 1,00 each 149,99 149,99 10% 164,99
+System Console Working W/ AC
+Adapter Bundle
+7. Nintendo Wii Black Console 5,00 each 100,00 500,00 10% 550,00
+RVL-001 Bundle 10 games
+Complete Gamecube
+Compatible
+—_____] SUMMARY
+VAT [%] Net worth VAT Gross worth
+10% 2 844,93 284,49 3 129,42
+Total $ 2 844,93 $ 284,49 $3 129,42

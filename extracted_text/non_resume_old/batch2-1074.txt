@@ -1,0 +1,11 @@
+10 | DESCRIPTION QUANTITY PRICE, $ TOTAL, $
+M MPG12 Masking Paper 12"x60yds General Purpose - 12/case
+02 5 66.00 66.00
+Araldite 2012 GP Epoxy 50ml 6 cartridges/box | 120 cartridges/case
+03 7 141.00 141.00
+3M Super 77 CLASSIC Spray 240z 12 cans/case
+04 721.00 721.00
+Subtotal 1125
+Sales Tax 8% 95.30
+Total Due 1340.00
+THANK YOU..

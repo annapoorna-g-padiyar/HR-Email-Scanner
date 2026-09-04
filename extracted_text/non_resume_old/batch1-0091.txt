@@ -1,0 +1,36 @@
+Invoice no: 54212825
+Date of issue: 05/01/2015
+—}) Seller: Client:
+Hutchinson PLC Chapman-Long
+7046 Barrett Mount 245 Eric Rest Suite 622
+Floresberg, AZ 86083 Port Jimmyview, CO 68684
+Tax Id: 959-74-2014 Tax Id: 953-85-0282
+IBAN: GB39WGXJ06397307045703
+7) ITEMS
+No. Description Qty UM Net price Net worth VAT [%] Gross
+worth
+1. Alcoholmeter Alcohol Meter 3,00 each 14,08 42,24 10% 46,46
+Wine 0-100%+Thermometer
+Set Bar Tools Vintage Tester
+2. Vintage Wine Basket Holder - 3 2,00 each 32,99 65,98 10% 72,58
+Bottles
+3. Wagner Vineyards uncork new 2,00 each 3,99 7,98 10% 8,78
+york Wine Glass
+4, Press Wine 15L Fruit Cider 1,00 each 279,00 279,00 10% 306,90
+Apple Crusher Juice Grape
+Stainless Maker Grapes New
+5. 100pes Heat Shrink Capsules 4,00 each 5,75 23,00 10% 25,30
+PVC Wine Bottle Caps
+Shrinkable Seal Film Covers
+3cm
+6. Cuisinart Stainless Steel Electric 4,00 each 19,90 79,60 10% 87,56
+Wine Opener - CWO-25 - Brand
+New in the Box
+7. Stainless Steel Reusable 3,00 each 1,20 3,60 10% 3,96
+Vacuum Seated Champagne
+Red Wine Bottle Stopper Cap
+New
+1) SUMMARY
+VAT [%] Net worth VAT Gross worth
+10% 501,40 50,14 551,54
+Total $ 501,40 $ 50,14 $ 551,54

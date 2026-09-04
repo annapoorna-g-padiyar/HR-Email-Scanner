@@ -1,0 +1,25 @@
+Invoice no: 78634288
+Date of issue: 02/03/2019
+—____) Seller: Client:
+Stevens and Sons Wagner, Cox and Houston
+USCGC Rose 0778 Nathaniel Mountain
+FPO AE 88695 South Caroline, IN 28460
+Tax Id: 923-96-0457 Tax Id: 967-88-4048
+IBAN: GB30YTEL7 7287076641724
+7) ITEMS
+No. Description Qty UM Net price Net worth VAT [%] Gross
+worth
+1. Dead Time A Hank Fallon 5,00 each 4,49 22,45 10% 24,70
+Western
+2. Ex-KOP 3,00 each 4,49 13,47 10% 14,82
+3. Sonic Wind The Story of John 1,00 each 4,49 4,49 10% 4,94
+Paul Stapp and How a Renegade
+Doctor Be
+4. Enough By Helen Roseveare 3,00 each 8,86 26,58 10% 29,24
+5. Aesop's Fables Aesop Illustrated 3,00 each 34,65 103,95 10% 114,34
+By A. Rackham Sealed Leather
+Bound Collectible
+—______} SUMMARY
+VAT [%] Net worth VAT Gross worth
+10% 170,94 17,09 188,03
+Total $ 170,94 $ 17,09 $ 188,03

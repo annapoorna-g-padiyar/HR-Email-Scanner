@@ -1,0 +1,24 @@
+Invoice no: 78796145
+Date of issue: 03/28/2017
+—____) Seller: Client:
+Jones Ltd Coleman, Cowan and Mejia
+7221 Brown Glen 848 Heather Brooks Suite 713
+West Hannahville, NC 22541 Torresview, NE 01681
+Tax Id: 926-82-7336 Tax Id: 939-79-0082
+IBAN: GB201SZD02077927293024
+7) ITEMS
+No. Description Qty UM Net price Net worth VAT [%] Gross
+worth
+1. 30 Inches Marble Patio Table 2,00 each 1 023,75 2 047,50 10% 2 252,25
+Top Malachite Stone Inlaid
+Coffee Table Home Decor
+2. 5'x2' Marble White Center Table 1,00 each 3 888,89 3 888,89 10% 4 277,78
+Top With 18" Tall Stand
+Pauashell Inlay Art Deco
+3. 54 Inches Marble Dinning Table 3,00 each 4 600,00 13 800,00 10% 15 180,00
+Top Inlay Restaurant Table with
+Peacock Design
+—______} SUMMARY
+VAT [%] Net worth VAT Gross worth
+10% 19 736,39 1 973,64 21 710,03
+Total $ 19 736,39 $1973,64 $ 21 710,03

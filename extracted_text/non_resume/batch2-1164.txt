@@ -1,0 +1,27 @@
+Invoice no: 79409870
+Date of issue: 03/07/2012
+—}) Seller: Client:
+Cervantes, Davis and Wong White, Turner and Lambert
+8418 Justin Trail 7157 Donald Fort Suite 682
+Olsenmouth, OH 44644 East Christopher, UT 34211
+Tax Id: 936-75-8281 Tax Id: 960-96-7672
+IBAN: GB66EGQP19672830990489
+7) ITEMS
+No. Description Qty UM Net price Net worth VAT [%] Gross
+worth
+1, Air Pressure Pump Wine Opener 4,00 each 17,28 69,12 10% 76,03
+Set Bottle Cork Remover
+Accessory Tool For Bar.
+2. Whiskey Glass Mountain 2,00 each 19,48 38,96 10% 42,86
+Wooden Bottom Wine
+Transparent
+3. HOME ESSENTIALS GRADIENT 3,00 each 12,99 38,97 10% 42,87
+STEMLESS WINE GLASSES SET
+OF 4 20 FL OZ (591 mi) NEW
+4. Frosted Satin Wine Goblet 3,00 each 32,00 96,00 10% 105,60
+Glasses Crooked Stem Set Of 3
+5. Hoodie Wine Bottle Holder 2,00 each 11,69 23,38 10% 25,72
+7} SUMMARY
+VAT [%] Net worth VAT Gross worth
+10% 266,43 26,64 293,07
+Total $ 266,43 $ 26,64 $ 293,07

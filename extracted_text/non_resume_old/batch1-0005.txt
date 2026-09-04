@@ -1,0 +1,29 @@
+Invoice no: 89969473
+Date of issue: 10/29/2016
+—}) Seller: Client:
+Johnson-Martin Deleon, Davila and Allen
+3836 Moore Ports 355 King Lake Suite 071
+North Michael, MO 01844 South Haleyshire, KY 55765
+Tax Id: 972-82-0713 Tax Id: 944-77-3882
+IBAN: GB71GBDG68039919194335
+7) ITEMS
+No. Description Qty UM Net price Net worth VAT [%] Gross
+worth
+1. Wild West Wine 2,00 each 27,00 54,00 10% 59,40
+2. Press Wine 15L Fruit Cider 2,00 each 279,00 558,00 10% 613,80
+Apple Crusher Juice Grape
+Stainless Maker Grapes New
+3. Wine Rack Holder Iron Art 3,00 each 18,75 56,25 10% 61,87
+Hanging Racks Glass Cup
+Stemware Shelf Mounted 2
+Color
+4 Rust Proof Three Rows Too! 2,00 each 11,56 23,12 10% 25,43
+Wine Glass Holder Simple Iron
+Wire Home Hanging Rack
+5. VTG 1970s MCM Brown Steel 1,00 each 34,00 34,00 10% 37,40
+Tube Wall or Desk Mounted
+12-Wine Rack Bottle Holder
+7} SUMMARY
+VAT [%] Net worth VAT Gross worth
+10% 725,37 72,54 797,91
+Total $ 725,37 $ 72,54 $ 797,91

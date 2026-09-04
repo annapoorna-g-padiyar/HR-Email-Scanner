@@ -1,0 +1,18 @@
+Invoice no: 12207661
+Date of issue: 07/01/2011
+—____) Seller: Client:
+Perez, Dixon and Summers Beck PLC
+29810 Bryant Lake USS Cox
+Nicolefort, AZ 52776 FPO AA 13532
+Tax Id: 948-95-1196 Tax Id: 904-87-9230
+IBAN: GB57QENY58654078048037
+7) ITEMS
+No. Description Qty UM Net price Net worth VAT [%] Gross
+worth
+1, Yilong 5'x8' Handknotted Silk 4,00 each 8 000,00 32 000,00 10% 35 200,00
+Area Rug Living Room Black
+Classic Carpet L38B
+7] SUMMARY
+VAT [%] Net worth VAT Gross worth
+10% 32 000,00 3 200,00 35 200,00
+Total $ 32 000,00 $ 3 200,00 $ 35 200,00

@@ -1,0 +1,28 @@
+Invoice no: 92103545
+Date of issue: 08/03/2017
+—}) Seller: Client:
+Frazier Group Scott Inc
+002 Pittman Drives 5641 Orr Shore Apt. 941
+West Stephen, NE 81014 New Shelleytown, MA 14634
+Tax Id: 936-90-3271 Tax Id: 990-90-9879
+IBAN: GB41RGGQ29058695041571
+7) ITEMS
+No. Description Qty UM Net price Net worth VAT [%] Gross
+worth
+1, Metal Storage Shelf Wine Glass 5,00 each 22,42 112,10 10% 123,31
+Rack Wine Glasses for The
+Cabinet
+2. USB Charging Bar Home Pumps 4,00 each 35,27 141,08 10% 155,19
+Wine Opener Bottles Electric
+Automatic Kitchen Tool
+3. Nba Dallas Mavericks Opal Wine 3,00 each 6,00 18,00 10% 19,80
+Tumbler New
+4, Vintage wine 2 bottles holder 1,00 each 55,00 55,00 10% 60,50
+lron & rattan rack
+5. VINTAGE ANTIQUE BRASS 1,00 each 60,00 60,00 10% 66,00
+TABLE TOP WINE BOTTLE
+OPENER /WOOD HANDLE
+_______] SUMMARY
+VAT [%] Net worth VAT Gross worth
+10% 386,18 38,62 424,80
+Total $ 386,18 $ 38,62 $ 424,80

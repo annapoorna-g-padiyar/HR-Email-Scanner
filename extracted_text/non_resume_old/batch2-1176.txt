@@ -1,0 +1,20 @@
+Invoice no: 43087223
+Date of issue: 04/01/2015
+—}) Seller: Client:
+Wright, Rowland and Martinez Nelson Ltd
+76124 Williams Inlet Apt. 383 537 John Forges Suite 108
+Andrewfort, DE 06428 Evanschester, NJ 59706
+Tax Id: 982-98-5444 Tax Id: 959-80-7837
+IBAN: GB22HTKF22016438821009
+7) ITEMS
+No. Description Qty UM Net price Net worth VAT [%] Gross
+worth
+1, Fatawa Islamiyah (Islamic 4,00 each 99,90 399,60 10% 439,56
+Verdicts) (8 Volume Set)
+2. National Geographic Bird 3,00 each 4,89 14,67 10% 16,14
+Watcher s Bible - A Complete
+Treasury
+7] SUMMARY
+VAT [%] Net worth VAT Gross worth
+10% 551,95 55,20 607,15
+Total $ 551,95 $ 55,20 $ 607,15

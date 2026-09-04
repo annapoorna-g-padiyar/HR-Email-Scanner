@@ -1,0 +1,27 @@
+Invoice no: 67557085
+Date of issue: 11/03/2016
+—}) Seller: Client:
+Chapman-Lee Davis LLC
+22539 Morgan Courts 34471 Bennett River Apt. 050
+North Amanda, TN 43190 South Andrewton, VT 09686
+Tax Id: 939-97-5503 Tax Id: 990-84-5127
+IBAN: GB32KSA025087807698220
+7) ITEMS
+No. Description Qty UM Net price Net worth VAT [%] Gross
+worth
+1, 12"x12" Wild Agate Stone Side 5,00 each 259,77 1 298,85 10% 1 428,73
+Coffee Table Top Handicrafted
+Kitchen Decors A042
+2. New Design|Glass 2,00 each 1 600,00 3 200,00 10% 3 520,00
+Sidetable|Handcrafted
+Glasscone
+3. 24 Inches Marble Sofa Table Top 1,00 each 615,00 615,00 10% 676,50
+Inlay Coffee Table with
+Malachite Stone Work
+4. 18" Marble Coffee Table Top 3,00 each 355,68 1 067,04 10% 1173,74
+Lapis Collectible Floral Inlay
+Kitchen Decors W335
+—__] SUMMARY
+VAT [%] Net worth VAT Gross worth
+10% 6 180,89 618,09 6 798,98
+Total $6 180,89 $ 618,09 $ 6 798,98

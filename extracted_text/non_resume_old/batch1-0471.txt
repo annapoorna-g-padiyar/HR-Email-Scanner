@@ -1,0 +1,16 @@
+Invoice no: 99173131
+Date of issue: 08/30/2011
+—____) Seller: Client:
+Williams Group Willis and Sons
+20488 Madeline Row 397 Cody Plain Suite 364
+Thompsonton, ME 85462 South Jonfurt, TX 19023
+Tax Id: 979-83-5788 Tax Id: 967-95-3242
+IBAN: GB12JVSB37709032390713
+______) ITEMS
+No. Description Qty UM Net price Net worth VAT [%] Gross
+2. One Year through the Bible by 1,00 each 4,49 4,49 10% 4,94
+David R. Veerman
+—_______] SUMMARY
+VAT [%] Net worth VAT Gross worth
+10% 36,64 3,66 40,30
+Total $ 36,64 $ 3,66 $ 40,30

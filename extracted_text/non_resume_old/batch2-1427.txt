@@ -1,0 +1,27 @@
+Invoice no: 24863622
+Date of issue: 06/03/2011
+—____) Seller: Client:
+Wilcox, Anderson and Watkins Kirk and Sons
+5742 Robert Ramp Suite 935 11426 Curtis Flats
+New Erinside, SC 60468 Keithberg, IL 45073
+Tax Id: 958-74-9783 Tax Id: 978-87-2646
+IBAN: GB9S3MWYG24590626114777
+7) ITEMS
+No. Description Qty UM Net price Net worth VAT [%] Gross
+worth
+1. HP Pro 3500 Microtower 5,00 each 74,99 374,95 10% 412,44
+Desktop Computer 3.4GHz i3
+4GB 500GB Windows 10 Pro
+2. Dell Desktop Computer{Intel 1,00 each 69,95 69,95 10% 76,95
+Core 2 Duo 8GB 1TB HD
+QDWindows 10 PC 22" LCD Wifi
+3. Dell Optiplex All in One 5,00 each 129,99 649,95 10% 714,95
+Windows 10 Desktop Computer
+780 3.0GHz 4GB 250GB 19 LCD
+4. Dell Desktop Computer 3020 3,00 each 134,95 404,85 10% 445,33
+Micro Tiny PC Intel i3 4GB
+120GB SSD Windows 10 WiFi
+—__ 7} SUMMARY
+VAT [%] Net worth VAT Gross worth
+10% 1 499,70 149,97 1 649,67
+Total $1499,70 $ 149,97 $ 1 649,67

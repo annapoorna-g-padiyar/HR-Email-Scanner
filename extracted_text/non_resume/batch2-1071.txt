@@ -1,0 +1,24 @@
+Invoice no: 61681510
+Date of issue: 08/15/2016
+—}) Seller: Client:
+Moore Ltd Riddle, Olson and Garcia
+84171 Carlos Turnpike 4126 Sandoval Plains
+South Susan, NJ 05316 East Thomasshire, OH 60558
+Tax Id: 900-77-6999 Tax Id: 966-99-1214
+IBAN: GB45RSKR08191148823256
+7) ITEMS
+No. Description Qty UM Net price Net worth VAT [%] Gross
+worth
+1, 40 Inches Marble Utility Table 4,00 each 1 713,75 6 855,00 10% 7 540,50
+Top Inlay with Royal Pattern
+Stone Dinning Table
+2. 7'x4' Collectible Marble Green 2,00 each 13 536,06 27 072,12 10% 29 779,33
+Dining Table Top Floral Inlay
+Design Decor E997
+3. Ultralight Compact Mini 4,00 each 30,12 120,48 10% 132,53
+Camping Table Folding Beach
+Picnic Outdoor Read Table
+—___] SUMMARY
+VAT [%] Net worth VAT Gross worth
+10% 34 047,60 3 404,76 37 452,36
+Total $ 34 047,60 $3 404,76 $ 37 452,36

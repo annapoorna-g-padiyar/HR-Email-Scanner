@@ -1,0 +1,15 @@
+INVOICE
+INVOICE NO.
+102
+DATE:
+February 21, 2022
+DUE DATE:
+March 11, 2022
+Bill from Bill To
+BLUE STREAK ELECTRONICS GOODRICH CORPORATION FSS - LG
+30 Moyal Court fss.remitlgdom@collins.com
+Invoices SSarker@bsecorp.com 6225 Oak Tree Blvd.
+CONCORD, Ontario, Canada L4K 4R INDEPENDENCE, Ohio, United States
+44131-2509
+10 | DESCRIPTION QUANTITY PRICE, $ TOTAL, $
+spec DRY ICE SHIPMEN

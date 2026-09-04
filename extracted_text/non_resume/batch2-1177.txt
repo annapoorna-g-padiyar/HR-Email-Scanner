@@ -1,0 +1,23 @@
+Invoice no: 38888755
+Date of issue: 12/07/2018
+—}) Seller: Client:
+Petersen-Gill Davis Ltd
+81412 Ryan Flat 4610 Peters Common
+New Dustin, SD 83424 North Chris, MA 88419
+Tax Id: 993-99-9723 Tax Id: 941-77-4322
+IBAN: GB51BEBE51386832604494
+7) ITEMS
+No. Description Qty UM Net price Net worth VAT [%] Gross
+worth
+1, Talbots Petite 8 Navy & White 4,00 each 14,99 59,96 10% 65,96
+Dandelion Puffs Sleeveless
+Dress
+2. db Yellow Link Print Fit and Flare 3,00 each 14,99 44,97 10% 49,47
+Sleeveless Dress $z M/L
+3. Newborn Toddler Baby Girls 3,00 each 9,15 27,45 10% 30,20
+Floral Print Romper Dress
+Bodysuits Ouftits Clothes
+—_____] SUMMARY
+VAT [%] Net worth VAT Gross worth
+10% 132,38 13,24 145,62
+Total $ 132,38 $ 13,24 $ 145,62

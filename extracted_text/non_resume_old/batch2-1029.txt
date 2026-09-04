@@ -1,0 +1,20 @@
+Invoice no: 61032301
+Date of issue: 11/14/2018
+—____) Seller: Client:
+Thompson-Baker Stephens LLC
+829 Thomas Path Apt. 703 7037 Young Shores
+Francisborough, CT 95268 Lake Margaret, LA 67630
+Tax Id: 996-97-7048 Tax Id: 959-90-4347
+IBAN: GB16ILPO068283334368721
+______) ITEMS
+No. Description Qty UM Net price Net worth VAT [%] Gross
+worth
+1, Caston Blue White Sleeveless 4,00 each 4,99 19,96 10% 21,96
+Belted Ruffle Rayon Dress Sz L
+3. CLIFFORD & WILLS BLACK 2,00 each 5,99 11,98 10% 13,18
+NET/MESH OVER TAUPE LONG
+DRESS SIZE 4
+1} SUMMARY
+VAT [%] Net worth VAT Gross worth
+10% 111,94 11,19 123,13
+Tota! $ 111,94 $ 11,19 $ 123,13

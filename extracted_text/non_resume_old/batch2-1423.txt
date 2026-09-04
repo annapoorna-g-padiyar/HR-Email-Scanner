@@ -1,0 +1,18 @@
+Invoice no: 46598236
+Date of issue: 10/14/2011
+—____) Seller: Client:
+Jennings-Miller Turner, Nicholson and Pope
+582 Melody Trace Apt. 209 4471 Michael Oval
+Port Kimberlyland, MO 12463 Margaretfurt, FL 96263
+Tax Id: 901-78-3225 Tax Id: 978-98-6258
+IBAN: GB720JJZ23367876136468
+______) ITEMS
+No. Description Qty UM Net price Net worth VAT [%] Gross
+worth
+1, The Complete Life's Little 5,00 each 4,09 20,45 10% 22,49
+Instruction Book by Brown, H.
+Jackson, Jr.
+1] SUMMARY
+VAT [%] Net worth VAT Gross worth
+10% 50,58 5,06 55,64
+Total $ 50,58 $ 5,06 $ 55,64

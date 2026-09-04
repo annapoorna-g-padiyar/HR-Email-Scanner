@@ -1,0 +1,21 @@
+Invoice no: 69652053
+Date of issue: 11/19/2014
+—____) Seller: Client:
+Sanders, Reed and Olson Avila Group
+006 Julie Union 21986 David Lane
+Robertsonchester, DC 44356 Jimenezmouth, NJ 58158
+Tax Id: 935-70-5137 Tax Id: 916-96-7231
+IBAN: GB56AUZA53021548063132
+7) ITEMS
+No. Description Qty UM Net price Net worth VAT [%] Gross
+worth
+1, 16"x16" White Coffee Top Table 3,00 each 736,75 2 210,25 10% 2 431,28
+Mop Inlay Filigree Pietradura
+Floral Art Décor
+2. 6'x3' Black Marble Dining 2,00 each 5 756,72 11 513,44 10% 12 664,78
+Center Table Top Marquetry
+Inlay Outdoor Decor H3420A
+7} SUMMARY
+VAT [%] Net worth VAT Gross worth
+10% 13 723,69 1 372,37 15 096,06
+Total $ 13 723,69 $ 1372,37 $ 15 096,06

@@ -1,0 +1,23 @@
+Invoice no: 18531177
+Date of issue: 04/30/2015
+—}) Seller: Client:
+Adkins, Campbell and Butler Bird, Bates and Johnston
+PSC 8125, Box 9401 970 Rowe Street
+APO AA 65326 Kristieton, CO 20645
+Tax Id: 948-87-7876 Tax Id: 910-92-9312
+IBAN: GB66GZAK57253283036257
+7) ITEMS
+No. Description Qty UM Net price Net worth VAT [%] Gross
+worth
+2. Skechers Kids’ Snap Sprints 4,00 each 29,99 119,96 10% 131,96
+Sneaker Size 4 Blue/Black
+975461
+3. Skechers Blue Athletic Shoes 3,00 each 11,99 35,97 10% 39,57
+Kids Size 2 EUC
+4. Joma Youth Boy Supercopa 201 2,00 each 19,99 39,98 10% 43,98
+Soccer Cleats 4.5 Negro Verde
+Multitaco Black Green
+7} SUMMARY
+VAT [%] Net worth VAT Gross worth
+10% 222,91 22,29 245,20
+Total $ 222,91 $ 22,29 $ 245,20

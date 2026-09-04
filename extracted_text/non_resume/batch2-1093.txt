@@ -1,0 +1,16 @@
+Invoice no: 65079471
+Date of issue: 02/25/2012
+—_—_ Seller: Client:
+Stevens LLC Schwartz, Duran and Miller
+4048 Keith Circles Apt. 704 5653 Solis Pines Suite 037
+Lake Yvonnestad, CO 72021 West Chadview, TX 63260
+Tax Id: 952-87-2570 Tax Id: 982-94-5763
+IBAN: GB30ZNKM83734288525866
+______) ITEMS
+No. Description Qty UM Net price Net worth VAT [%] Gross
+worth
+Barebone system
+—______] SUMMARY
+VAT [%] Net worth VAT Gross worth
+10% 70,00 7,00 77,00
+Total $ 70,00 $ 7,00 $ 77,00

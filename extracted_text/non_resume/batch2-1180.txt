@@ -1,0 +1,25 @@
+Invoice no: 88461742
+Date of issue: 05/21/2013
+—____) Seller: Client:
+Glover and Sons Ruiz-Duncan
+51865 Novak Shoal 7853 Nicole Shores
+Deniseshire, NV 45062 Thomasville, WA 61208
+Tax Id: 968-87-8297 Tax Id: 908-96-5167
+IBAN: GB39AAIY75519853667681
+7) ITEMS
+No. Description Qty UM Net price Net worth VAT [%] Gross
+worth
+1, Nintendo Switch Lite Turquoise 4,00 each 130,00 520,00 10% 572,00
+Blue CONSOLE ONLY - No
+Charger (B4-1}
+2. Nintendo 2DS Super Mario 5,00 each 129,99 649,95 10% 714,95
+Maker Edition Console Complete
+EXCELLENT CONDITION
+3. Nintendo Wii 5,00 each 89,99 449,95 10% 494,95
+console+controller+Sensor
++Cords Gamecube Compatible
+White RVL-001
+_______] SUMMARY
+VAT [%] Net worth VAT Gross worth
+10% 1 619,90 161,99 1 781,89
+Total $ 1 619,90 $ 161,99 $1781,89

@@ -1,0 +1,23 @@
+Invoice no: 10988318
+Date of issue: 01/26/2021
+—}) Seller: Client:
+Reynolds-Lopez Lewis, Christian and Parker
+9690 Norris Camp Suite 350 38916 Lori Turnpike Suite 637
+West Mark, NE 45599 West Seanview, AL 13292
+Tax Id: 903-97-4777 Tax Id: 90-83-9225
+IBAN: GBOSIFFL11845863936557
+7) ITEMS
+No. Description Qty UM Net price Net worth VAT [%] Gross
+worth
+1, Super Nintendo SNES System 2,00 each 149,99 299,98 10% 329,98
+Console SNS-001 with 2
+Controllers Cleaned And Tested
+2. Nintendo Switch Lite Console 5,00 each 229,00 1 145,00 10% 1 259,50
+32gb Coral/Pink
+3. Sony PlayStation 5 Digital 1,00 each 550,00 550,00 10% 605,00
+Edition 825GB Video Game
+Console - White
+1] SUMMARY
+VAT [%] Net worth VAT Gross worth
+10% 1 994,98 199,50 2 194,48
+Total $1994,98 $ 199,50 $2 194,48

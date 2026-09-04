@@ -1,0 +1,28 @@
+Invoice no: 18705719
+Date of issue: 02/27/2017
+—____) Seller: Client:
+Lambert, Sanchez and Brown Roberts-Benton
+2550 Jacqueline Fords Apt. 865 1928 Laura Camp
+Port Paul, MT 40958 South Rickytown, IL 28976
+Tax Id: 974-82-5407 Tax Id: 967-79-7493
+IBAN: GB20VBYZ42471470722726
+7) ITEMS
+No. Description Qty UM Net price Net worth VAT [%] Gross
+worth
+1, Morphy Chess Masterpieces By 1,00 each 4,99 4,99 10% 5,49
+Reinfeld H8 Chess Book
+2. The Cheater (Fear Street, No. 5,00 each 4,09 20,45 10% 22,49
+18) by R. L. Stine
+3. The Wire in the Blood (Tony Hill 5,00 each 15,12 75,60 10% 83,16
+and Carol Jordan, Book 2) by
+McDermid New+-
+4. Sexual Secrets: Twentieth 4,00 each 30,84 123,36 10% 135,70
+Anniversary Edition: The
+Alchemy of Ecstasy (Paperback
+5. Motorcycle Journeys Through 4,00 each 6,00 24,00 10% 26,40
+North America : A Guide for
+Choosing and Planning...
+_______] SUMMARY
+VAT [%] Net worth VAT Gross worth
+10% 248,40 24,84 273,24
+Total $ 248,40 $ 24,84 $ 273,24

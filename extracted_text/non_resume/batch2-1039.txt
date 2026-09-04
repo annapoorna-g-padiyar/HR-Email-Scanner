@@ -1,0 +1,24 @@
+Invoice no: 35190532
+Date of issue: 01/05/2016
+—}) Seller: Client:
+Thompson, Morgan and Branch Rojas, Ochoa and James
+28967 Hill Flats Apt. 914 293 Kelly Crossroad
+Port Kevin, NE 66917 Lake Benjamin, TN 90076
+Tax Id: 910-78-8198 Tax Id: 944-75-2340
+IBAN: GB72DXAE51344950555478
+7) ITEMS
+No. Description Qty UM Net price Net worth VAT [%] Gross
+worth
+1, Black Pug wine holder 1,00 each 12,95 12,95 10% 14,24
+2. NEW Wall Mounted Metal Relax 1,00 each 35,99 35,99 10% 39,59
+Glass and Bottle Holder Wine
+Cork Storage 4 Rack
+3. S50L/70L Moonshine Still Home 4,00 each 324,33 1 297,32 10% 1 427,05
+Alcohol Oil Distiller Wine Making
+Water Brew Kit
+4. Yeti Rambler 30 oz and 100z 2,00 each 59,99 119,98 10% 131,98
+wine tumbler Sea Foam
+—__] SUMMARY
+VAT [%] Net worth VAT Gross worth
+10% 1 493,24 149,32 1 642,56
+Total $ 1 493,24 $ 149,32 $ 1 642,56

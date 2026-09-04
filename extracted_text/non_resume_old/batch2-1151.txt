@@ -1,0 +1,23 @@
+Invoice no: 77618292
+Date of issue: 05/18/2015
+—}) Seller: Client:
+Phelps-Hopkins Grant-Reynolds
+471 Tyler Manors Apt. 602 603 Frank Orchard
+Lake Ashleyshire, MN 57289 West Dillonstad, DE 08440
+Tax Id: 973-75-0045 Tax Id: 980-84-4151
+IBAN: GB41LMYG73166457329630
+7) ITEMS
+No. Description Qty UM Net price Net worth VAT [%] Gross
+worth
+1, HP Z220 Desktop Computer 1,00 each 70,00 70,00 10% 77,00
+Barebone system
+2. HP ProDesk 400 GS Mini 2,00 each 270,00 540,00 10% 594,00
+Desktop Computer i5-9500T
+8GB 256GB SSD W10P
+3. Dell T1700 Precision 1,00 each 689,99 689,99 10% 758,99
+Workstation Computer | Quad
+Xeon 32GB 1TB SSD Win 10 Pro
+—_____] SUMMARY
+VAT [%] Net worth VAT Gross worth
+10% 1 299,99 130,00 1 429,99
+Total $ 1 299,99 $ 130,00 $1 429,99

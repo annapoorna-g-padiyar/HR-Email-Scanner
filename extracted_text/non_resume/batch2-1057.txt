@@ -1,0 +1,24 @@
+Invoice no: 12155291
+Date of issue: 11/28/2016
+—}) Seller: Client:
+Mendez and Sons Ryan, Kidd and Keller
+2988 Ruth Route Suite 390 742 Martinez Island
+East Jessica, MA 51780 New Timothy, MT 54326
+Tax Id: 971-94-1053 Tax Id: 946-92-2819
+IBAN: GB170DJQ99999006463270
+7) ITEMS
+No. Description Qty UM Net price Net worth VAT [%] Gross
+worth
+1. Signed ~THE HOT ZONE A 3,00 each 150,00 450,00 10% 495,00
+Terrifying True Story Richard
+Preston HCD] First Edition!
+2. A Million Little Bricks The 4,00 each 4,49 17,96 10% 19,76
+Unofficial Illustrated History of
+the LE
+3. Game of Thrones: The Poster 3,00 each 20,87 62,61 10% 68,87
+Collection (Paperback or
+Softback)
+—______} SUMMARY
+VAT [%] Net worth VAT Gross worth
+10% 530,57 53,06 583,63
+Total $ 530,57 $ 53,06 $ 583,63

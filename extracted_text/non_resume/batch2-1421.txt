@@ -1,0 +1,34 @@
+Invoice no: 70487586
+Date of issue: 01/25/2016
+—}) Seller: Client:
+Kennedy-Howard Vaughn, Martinez and Carroll
+76242 Reyes Points 707 Brittany Plains
+Victoriastad, UT 15670 Lovemouth, HI 85664
+Tax Id: 923-98-0851 Tax Id: 955-82-1012
+IBAN: GB90SKUB51396251794340
+7) ITEMS
+No. Description Qty UM Net price Net worth VAT [%] Gross
+worth
+1, HP Desktop Computer 400 G1 3,00 each 139,95 419,85 10% 461,83
+Core i3 3.4GHz 8GB 256GB SSD
+19" LCD Windows 10 PC
+2. Ryzen Gaming Computer 4,00 each 752,00 3 008,00 10% 3 308,80
+3. 12-Core Gaming Computer 2,00 each 464,89 929,78 10% 1 022,76
+Desktop PC Tower Affordable
+GAMING PC 8GB AMD Vega RGB
+4. Dell Desktop Computer Tower 2,00 each 169,95 339,90 10% 373,89
+Optiplex Core i5 8GB 1TB HD
+DVD Wifi Windows 10 Pro
+5. Dell Optiplex 390 i5 3.10Ghz 1,00 each 84,99 84,99 10% 93,49
+Quad Core Computer w/4Gb
+RAM DVDRW noHD Free Ship
+6. Sentry Gaming Computer | 4,00 each 594,99 2 379,96 10% 2 617,96
+Ryzen 3 3200G | 16 GB Ram |
+Build-to-Order
+7. Dell Desktop Computer 3020 3,00 each 134,95 404,85 10% 445,33
+Micro Tiny PC Intel i3 4GB
+120GB SSD Windows 10 WiFi
+7) SUMMARY
+VAT [%] Net worth VAT Gross worth
+10% 7 567,33 756,73 8 324,06
+Total $ 7 567,33 $ 756,73 $ 8 324,06

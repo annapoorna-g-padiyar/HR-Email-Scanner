@@ -1,0 +1,34 @@
+Invoice no: 50615558
+Date of issue: 10/13/2019
+—}) Seller: Client:
+Shaw PLC Moody, Higgins and Nguyen
+0345 Taylor Run 10113 Garcia Curve Apt. 373
+Gabrielhaven, NY 89732 Marieport, MD 64696
+Tax Id: 928-97-5881 Tax Id: 979-98-3947
+IBAN: GB49NQBO091877526478619
+7) ITEMS
+No. Description Qty UM Net price Net worth VAT [%] Gross
+worth
+1, 6'x3' Marble Counter Height 4,00 each 5 469,38 21 877,52 10% 24 065,27
+Dining Table Top Multi Inlay
+Furniture Decor E955A
+2. 18"x18" Marble White Top 2,00 each 1 200,00 2 400,00 10% 2 640,00
+Counter Table Lapis Inlay Floral
+Art Halloween Gift Art
+3. Bestier Computer Desk with 3,00 each 139,99 419,97 10% 461,97
+Shelves,Writing Desk with
+Storage
+4. SOFA SET 4,00 each 250,00 1 000,00 10% 1 100,00
+5. 18" Black Marble Coffee Table 4,00 each 377,65 1 510,60 10% 1 661,66
+Top Mother of Pearl Inlay
+Furniture Decors H1883B
+6. 7'x4' Pietra Dura Marble Dining 2,00 each 19 506,53 39 013,06 10% 42 914,37
+Hallway Table Top Intay Design
+Patio Decor E977A
+7. Blue Shiny Stone Floral Art 5,00 each 3 960,00 19 800,00 10% 21 780,00
+Dinning Table Top Marble
+Kitchen Table Top 48 Inches
+7] SUMMARY
+VAT [%] Net worth VAT Gross worth
+10% 86 021,15 8 602,11 94 623,26
+Total $ 86 021,15 $ 8 602,11 $ 94 623,26

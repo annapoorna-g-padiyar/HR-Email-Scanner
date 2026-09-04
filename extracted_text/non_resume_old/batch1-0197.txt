@@ -1,0 +1,18 @@
+Invoice no: 74467550
+Date of issue: 04/04/2017
+—_—_ Seller: Client:
+Jordan-Morse Johnson, Brown and Chapman
+451 Carter Harbor 6320 Michelle Falls
+Gravesfurt, MS 49255 New Shaunstad, VT 35611
+Tax Id: 912-97-6722 Tax Id: 983-88-5934
+IBAN: GB37CWRV54972614293662
+______) ITEMS
+No. Description Qty UM Net price Net worth VAT [%] Gross
+worth
+1, A history of Christianity Vol. 1: 2,00 each 4,09 8,18 10% 3,00
+Beginnings to 1500 by Kenneth
+S. Latourette
+_______} SUMMARY
+VAT [%] Net worth VAT Gross worth
+10% 8,18 0,82 9,00
+Tota! $ 8,18 $ 0,82 $ 9,00

@@ -1,0 +1,25 @@
+Invoice no: 69945416
+Date of issue: 09/04/2020
+—____) Seller: Client:
+Davis-Zimmerman Moran-Huang
+USCGC Miller 46434 Larry Islands Suite 268
+FPO AE 72830 East Mariaside, WV 19030
+Tax Id: 939-91-5763 Tax Id: 950-84-0729
+IBAN: GB65JEAA87902706160899
+7) ITEMS
+No. Description Qty UM Net price Net worth VAT [%] Gross
+worth
+1. Diabetic Dream Desserts 5,00 each 4,49 22,45 10% 24,70
+2. Dutch Cooking (The Netherlands 2,00 each 12,63 25,26 10% 27,79
+Cookbook) by Heleen A. M.
+Halverhout Book The
+3. Playing Blackjack As a Business 4,00 each 4,89 19,56 10% 21,52
+4, How to Win Friends & Influence 1,00 each 6,62 6,62 10% 7,28
+People
+6. Ex-KOP 1,00 each 4,49 4,49 10% 4,94
+7. Spectacular Ireland Coffee 5,00 each 10,00 50,00 10% 55,00
+Table Book - very large
+7) SUMMARY
+VAT [%] Net worth VAT Gross worth
+10% 146,34 14,63 160,97
+Total $ 146,34 $ 14,63 $ 160,97

@@ -1,0 +1,28 @@
+VIKAS NAIK 
+Email: vikas.naik@example.com | Phone: +91-9012345678 
+LinkedIn: linkedin.com/in/vikas-naik | GitHub: github.com/vikasnaik 
+PROFILE 
+Enthusiastic and self-motivated Computer Science Engineering student with a keen interest in ethical hacking and cybersecurity. Strong foundation in networking protocols, Linux systems, and vulnerability scanning. 
+EDUCATION 
+B.E. in Computer Science Engineering 
+NIT Suratkal | 2021-2025 
+CGPA: 8.3/10 
+SKILLS 
+- Programming: Python, Bash 
+- Tools: Wireshark, Nmap, Burp Suite, Kali Linux 
+- Concepts: OWASP Top 10, SQL Injection, XSS 
+- OS: Windows, Ubuntu, Kali 
+PROJECTS 
+1. **Vulnerability Scanner Tool** 
+- 
+Built a Python-based tool to scan open ports and detect outdated services 
+- Implemented multi-threading to improve performance 
+2. **Secure File Transfer App** 
+- Created a GUI app in Python for secure file transmission using AES encryption 
+CERTIFICATIONS 
+- Certified Ethical Hacker (CEH) - EC-Council 
+- Cybersecurity Essentials - Cisco NetAcad 
+WORKSHOPS 
+- Attended "Hack the Box" workshop at DEFCON India - Hosted a webinar on "Basics of Penetration Testing" 
+LANGUAGES 
+English, Kannada, Hindi

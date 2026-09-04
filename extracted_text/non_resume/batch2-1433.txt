@@ -1,0 +1,21 @@
+Invoice no: 88261785
+Date of issue: 01/27/2013
+—}) Seller: Client:
+Lucas Group Price LLC
+256 Savage Land PSC 3293, Box 2602
+Finleyton, TX 89946 APO AP 38687
+Tax Id: 973-75-0880 Tax Id: 996-90-7242
+IBAN: GB150P0Z87239174524677
+7) ITEMS
+No. Description Qty UM Net price Net worth VAT [%] Gross
+worth
+1, GAMING PC Desktop Computer 1,00 each 549,99 549,99 10% 604,99
+RGB BUNDLE Intel CORE i7
+16GB RAM Nvidia GTX 1650 1TB
+2. Fast HP Desktop Computer Intel 2,00 each 99,95 199,90 10% 219,89
+Processor 4GB 160GB 17" LCD
+DVD Wifi Windows 10
+7} SUMMARY
+VAT [%] Net worth VAT Gross worth
+10% 749,89 74,99 824,88
+Total $ 749,89 $ 74,99 $ 824,88

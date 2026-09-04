@@ -1,0 +1,33 @@
+Invoice no: 77996405
+Date of issue: 12/18/2018
+—____) Seller: Client:
+Vasquez Inc Burke Group
+580 Ross Knolls 1535 Burns Skyway
+Mitchellhaven, NH 75112 Timothytown, NJ 82220
+Tax Id: 912-86-5222 Tax Id: 943-71-1035
+IBAN: GB83PHZA60839311794441
+7) ITEMS
+No. Description Qty UM Net price Net worth VAT [%] Gross
+worth
+1, Soft Sheepskin Mat Faux Fur 1,00 each 8,40 8,40 10% 9,24
+Rug Small Shaggy Non Slip
+Floor Carpet Yellow
+2. Wow Floral Medallion Rectangle 4,00 each 314,99 1 259,96 10% 1 385,96
+Area Rug Hand Knotted Wool
+Silk Carpet (5 x 3)'
+3. S XL Fluffy Rugs Anti-Slip 4,00 each 16,81 67,24 10% 73,96
+SHAGGY RUG Soft Carpet Mat
+Living Room Floor Bedroom
+4. 40x120CM Christmas Door Mat 4,00 each 18,99 75,96 10% 83,56
+Kitchen Floor Area Rug
+Bedroom Living Room Carpet
+5. Garden Flower Carpet Quilted 1,00 each 45,50 45,50 10% 50,05
+Bedroom Floor Princess Tapis
+Lace Rug Carpets
+6. Cotton Handmade Area Rug 4,00 each 44,40 177,60 10% 195,36
+Home Decorative Rustic Carpet
+Woven Dhurrie 3X5 Runner
+1) SUMMARY
+VAT [%] Net worth VAT Gross worth
+10% 1 634,66 163,47 1 798,13
+Total $ 1 634,66 $ 163,47 $1798,13

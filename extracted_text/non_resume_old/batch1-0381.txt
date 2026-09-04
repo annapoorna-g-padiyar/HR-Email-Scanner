@@ -1,0 +1,24 @@
+Invoice no: 76272465
+Date of issue: 01/06/2017
+—____) Seller: Client:
+Williams PLC Mcdonald-Green
+54517 Preston Falls 0014 Franklin Inlet
+Robynside, PA 66900 West Angela, IL 37850
+Tax Id: 995-95-4739 Tax Id: 930-74-1829
+IBAN: GB81LHYMN60082229755269
+7) ITEMS
+No. Description Qty UM Net price Net worth VAT [%] Gross
+worth
+1. DESIGNER MICHAEL KORS 4,00 each 20,00 80,00 10% 88,00
+DRESS SIZES
+2. Forever 21 Blue A-Line Dress 1,00 each 14,99 14,99 10% 16,49
+SIZE MEDIUM
+3. J crew mercantile Knitted Tweed 5,00 each 26,00 130,00 10% 143,00
+Dress Size 4 Black And White
+4. Burent Orange Long Dress With 4,00 each 75,00 300,00 10% 330,00
+Beads SUE WONG SIZE 2
+5. miley cyrus Bubble Dress 5,00 each 16,00 80,00 10% 88,00
+7} SUMMARY
+VAT [%] Net worth VAT Gross worth
+10% 604,99 60,50 665,49
+Total $ 604,99 $ 60,50 $ 665,49

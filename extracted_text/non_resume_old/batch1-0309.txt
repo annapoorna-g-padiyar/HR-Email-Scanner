@@ -1,0 +1,33 @@
+Invoice no: 38710038
+Date of issue: 07/27/2013
+—____) Seller: Client:
+Ruiz-Foster Miller, Baldwin and Nichols
+7339 Nicole Creek 11689 Debra Corner
+Lake Olivia, NH 07932 Carlmouth, AL 23480
+Tax Id: 901-98-6433 Tax Id: 948-80-2132
+IBAN: GB79HKEA13368293342592
+7) ITEMS
+No. Description Qty UM Net price Net worth VAT [%] Gross
+worth
+1, Alarco Gaming PC Desktop 3,00 each 500,00 1 500,00 10% 1 650,00
+Computer Intel iSv 8Gv 1Tbv
+WIN 104 NVIDIA GTX 650 1GB
+2. Alarco Gaming PC Desktop 5,00 each 500,00 2 500,00 10% 2 750,00
+Computer Intel iS
+,8G6,1TB,Win10,WIFILNVIDIA GTX
+650 1GB
+3. Dell OptiPlex 390 SFF Computer 3,00 each 59,95 179,85 10% 197,84
+Windows 7 Pro i3 3.10GHz 4GB
+RAM 232GB HDD
+4, Dell Optiplex All in One 2,00 each 129,99 259,98 10% 285,98
+Windows 10 Desktop Computer
+780 3.0GHz 4GB 250GB 19 LCD
+5. Dell Optiplex 790 Computer i7 5,00 each 159,99 799,95 10% 879,95
+@ 3.40 Ghz Quad Core 250GB
+4GB Working
+6. hp all in one desktop computer 1,00 each 205,00 205,00 10% 225,50
+touch screen
+1) SUMMARY
+VAT [%] Net worth VAT Gross worth
+10% 5 444,78 544,48 5 989,26
+Total $5 444,78 $ 544,48 $5 989,26

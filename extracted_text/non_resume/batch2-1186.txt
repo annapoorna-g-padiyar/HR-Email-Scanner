@@ -1,0 +1,32 @@
+Invoice no: 45186761
+Date of issue: 07/12/2019
+—____) Seller: Client:
+Woodward-Escobar Schwartz-Torres
+657 Amanda Island Suite 601 8716 Brianna Island
+Port Alexandraland, NY 65980 Port Judithton, GA 90981
+Tax Id: 999-82-0533 Tax Id: 933-94-8980
+IBAN: GB70XUPZ17238634204498
+7) ITEMS
+No. Description Qty UM Net price Net worth VAT [%] Gross
+worth
+1, HP All-in-One Computer 22” 4,00 each 449,99 1 799,96 10% 1 979,96
+Full-HD Display Intel 2.90GHz
+4GB 1TB HD Win10 - TEAL
+2. 6 Gigabit Lan Firewall Desktop 1,00 each 237,00 237,00 10% 260,70
+Computer onboard CPU Intel
+core 13 15 17 Router
+3. Dell Desktop Computer 3020 2,00 each 134,95 269,90 10% 296,89
+Micro Tiny PC Intel i3 46GB
+120GB SSD Windows 10 WiFi
+4. Custom Build Gaming RGB Mini 4,00 each 520,00 2 080,00 10% 2 288,00
+ITX Computer PC
+5. Nexlink DG41RQ Desktop 1,00 each 11,95 11,95 10% 13,15
+Computer Windows 10
+w/OVD/CD Rom Drive
+6. Gaming PC Desktop Computer 1,00 each 779,99 779,99 10% 857,99
+Intel i7 RGB GTX 1660, 16GB
+RAM, 2TB HDD, 240GB SSD
+—_____} SUMMARY
+VAT [%] Net worth VAT Gross worth
+10% 5 178,80 517,88 5 696,68
+Total $5 178,80 $ 517,88 $ 5 696,68

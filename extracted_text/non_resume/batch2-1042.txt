@@ -1,0 +1,32 @@
+Invoice no: 39905043
+Date of issue: 07/15/2019
+—____) Seller: Client:
+Frederick-Bowen Lee, Hodges and Houston
+50984 Erin Creek Suite 276 652 Maurice Branch Suite 114
+Dustinmouth, IL 61861 Catherineshire, DE 98889
+Tax Id: 956-97-8923 Tax Id: 959-96-5821
+IBAN: GB17CMYG63433574636754
+7) ITEMS
+No. Description Qty UM Net price Net worth VAT [%] Gross
+worth
+1, Gaming PC Desktop Computer 5,00 each 999,50 4 997,50 10% 5 497,25
+HDMI RGB Intel i7 RTX 2060,
+HDD+SSD, Windows 10, Wifi
+2. Dell Desktop Computer Optiplex 2,00 each 99,95 199,90 10% 219,89
+790 USFF Core i3 4GB 250GB
+HD Windows 10 Pro PC
+3. Coinmine One Intel or AMD with 2,00 each 599,99 1 199,98 10% 1 319,98
+RX 500 8GB 1TB Series Crypto
+Mining Rig Computer
+4. HP Desktop Computer PC J] 5,00 each 139,95 699,75 10% 769,73
+Core iS 16GB 2TB HD 256GB
+SSD 22" LCD 9 Windows 10
+5. Computer Desktop Gaming i5 1,00 each 315,00 315,00 10% 346,50
+Ram 16G
+6. HP Desktop Computer 400 G1 4,00 each 139,95 559,80 10% 615,78
+Core i3 3.4GHz 8GB 256GB SSD
+19" LCD Windows 10 PC
+—_____} SUMMARY
+VAT [%] Net worth VAT Gross worth
+10% 7 971,93 797,19 8 769,12
+Total $ 7 971,93 $ 797,19 $ 8 769,12

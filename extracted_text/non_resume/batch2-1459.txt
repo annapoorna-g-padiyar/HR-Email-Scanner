@@ -1,0 +1,26 @@
+Invoice no: 69230065
+Date of issue: 09/11/2017
+—____) Seller: Client:
+Randall, Stewart and Rowe Gonzalez, Harper and Matthews
+711 Pham Grove 5575 Greene Plains Suite 594
+Mariefurt, NV 04151 New William, NY 66109
+Tax Id: 933-82-1216 Tax Id: 970-99-0520
+IBAN: GB42WNNI47881423142789
+7) ITEMS
+No. Description Qty UM Net price Net worth VAT [%] Gross
+worth
+1, Super Nintendo Entertainment 4,00 each 80,00 320,00 10% 352,00
+System SNES Console w/Power
+Video FAST FREE SHIP->
+2. Vg PlayStation PS Vita console 2,00 each 114,98 229,96 10% 252,96
+PCH-1100AB01 PCH-1100
+Crystal Black 4GB 271214
+3. Nintendo Wii Console Mario Kart 1,00 each 199,97 199,97 10% 219,97
+Controller Wii Fit 2 Board
+Remotes Game BUNDLE
+4. Microsoft Xbox 360 Console 49 5,00 each 25,00 125,00 10% 137,50
+Game Bundle 250GB Black
+7} SUMMARY
+VAT [%] Net worth VAT Gross worth
+10% 874,93 87,49 962,42
+Total $ 874,93 $ 87,49 $ 962,42

@@ -1,0 +1,25 @@
+Invoice no: 93986925
+Date of issue: 05/10/2014
+—}) Seller: Client:
+Miller-Spears Smith, Kelly and Beltran
+61692 Buckley Bridge Apt. 735 300 Collins Valleys
+Port Williamberg, IL 92983 Blackwellfurt, NM 72431
+Tax Id: 951-81-5681 Tax Id: 944-83-2015
+IBAN: GB65LEBD28159396135422
+7) ITEMS
+No. Description Qty UM Net price Net worth VAT [%] Gross
+worth
+1, Vintage 90s Sostanza Plus Size 5,00 each 49,96 249,80 10% 274,78
+Dress 22W Floral Cottagecore
+2. Calvin Klein dress 8 women 1,00 each 10,00 10,00 10% 11,00
+blue/white
+3. KAREN SCOTT 3X DRESS 4,00 each 5,99 23,96 10% 26,36
+4, Leopard Print Large Dress With 4,00 each 39,00 156,00 10% 171,60
+Pockets & Floral Sleeves
+HoneyMe Size L NWT
+5. Lumiere Large Multicolored 2,00 each 4,99 9,98 10% 10,98
+Orange Short Dress NWT
+—__] SUMMARY
+VAT [%] Net worth VAT Gross worth
+10% 449,74 44,97 494,71
+Total $ 449,74 $ 44,97 $ 494,71

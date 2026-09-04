@@ -1,0 +1,30 @@
+Invoice no: 27509428
+Date of issue: 04/08/2015
+—____) Seller: Client:
+Phillips LLC Owens PLC
+USNV Garcia 479 Butler Trace Suite 485
+FPO AP 33937 West Nancyville, MN 25720
+Tax Id: 998-88-0585 Tax Id: 993-91-1678
+IBAN: GBO2WWPX85192243243835
+7) ITEMS
+No. Description Qty UM Net price Net worth VAT [%] Gross
+worth
+1. Hand Knottted Bohemian 1,00 each 215,00 215,00 10% 236,50
+Bedroom Striped Design Silk
+2.6'x4' Rugs Oriental Carpet
+2. Colorful Undersea Swimming 1,00 each 22,99 22,99 10% 25,29
+Fish Round Mat Bedroom Carpet
+Living Room Area Rugs
+3. Turkish Kayseri Small Kilim Rug, 5,00 each 55,00 275,00 10% 302,50
+Doormat, Bathmat, Decor Area
+Rug Carpet 41"x74*
+4, Round Carpets Bedroom Decor 1,00 each 45,46 45,46 10% 50,01
+Rugs Double Layer Sponge Rugs
+Modern Style Carpets
+5. Yilong 5'x7' Handknotted Silk 2,00 each 8 400,00 16 800,00 10% 18 480,00
+Carpet Home Interior Classic
+Luxury Area Rug 1047
+7} SUMMARY
+VAT [%] Net worth VAT Gross worth
+10% 17 358,45 1 735,85 19 094,30
+Total $17 358,45 $1 735,85 $ 19 094,30

@@ -1,0 +1,33 @@
+Invoice no: 54557938
+Date of issue: 08/03/2016
+—}) Seller: Client:
+Kim, Lloyd and White Clark, Russell and Johns
+057 Walsh Ranch 67220 Knox Divide
+Lake Natasha, GA 64172 Hawkinsbury, ME 17281
+Tax Id: 908-90-9491 Tax Id: 920-88-3036
+IBAN: GB610HLG05005223844074
+7) ITEMS
+No. Description Qty UM Net price Net worth VAT [%] Gross
+worth
+1, Custom Build HP Desktop 1,00 each 329,00 329,00 10% 361,90
+Computer 16GB | 2TB | SSD |
+Windows 10 Windows 7 PC WiFi
+2. Custom Build Gaming RGB Mini 4,00 each 520,00 2 080,00 10% 2 288,00
+ITX Computer PC
+3. Dell Desktop Computer Intel 2,00 each 240,24 480,48 10% 528,53
+Core i5 Windows 10 pro 64
+250gb 3.1ghz 4gb Ram
+4, 10-Core Gaming Computer 4,00 each 348,88 1 395,52 10% 1535,07
+Desktop PC Tower HDMI 8GB
+DDR4 R7 Graphic CUSTOM
+BUILT
+5. HP 6200 Pro Core i7 3.4GHz 3,00 each 256,68 770,04 10% 847,04
+Quad Core 16GB 500GB
+Computer
+6. Dell Optiplex SFF Desktop 3,00 each 89,99 269,97 10% 296,97
+Computer Windows 10 4GB
+160GB
+1) SUMMARY
+VAT [%] Net worth VAT Gross worth
+10% 5 325,01 532,50 5 857,51
+Total $5 325,01 $ 532,50 $5 857,51

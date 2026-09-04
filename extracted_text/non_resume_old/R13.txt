@@ -1,0 +1,233 @@
+7102
+voN
+22
+]RI.sc[
+1v12580.1171:viXra
+EMFET: E-mail Features Extraction Tool
+Wadi’ Hijawi1,2, Hossam Faris1 Ja’far Alqatawna1,2, Ibrahim Aljarah1,
+Ala’ M. Al-Zoubi1,2, and Maria Habib1
+1 King Abdullah II School for Information Technology
+The Universityof Jordan, Amman, Jordan
+2 Jordan Information Security and Digital Forensics
+Research Group (JISDF) Amman, Jordan
+w.hijjawi@jisdf.org,{hossam.faris, j.alqatawna, i.aljarah}@ju.edu.jo,
+alaah14@gmail.com,maryahabeeb@yahoo.com,
+Abstract. EMFET is an open source and flexible tool that can be used to extract a large number
+of features from any email corpus with emails saved in EML format. The extracted features can be
+categorized intothreemaingroups:headerfeatures, payload(body)features, andattachmentfeatures.
+The purpose of the tool is to help practitioners and researchers to build datasets that can be used
+for training machine learning models for spam detection. So far, 140 features can be extracted using
+EMFET. EMFET is extensible and easy to use. The source code of EMFET is publicly available at
+GitHub
+(https://github.com/WadeaHijjawi/EmailFeaturesExtraction)
+Keywords: SpamDetection,FeatureExtractionTool,SpamFeatures,DataMining,Machinelearning.
+1 Interface
+TheinterfaceofEMFETisdesignedasagroupoftabpages.Eachtabpagerepresentsafeaturecategoryand
+containscheckboxes with unique tags for selecting the desiredfeatures to extract.Additionally, the interface
+provides the user a folder browser to select the corpus folder from which the features will be extracted as
+shown in Fig 1. A user-friendly progress bar is used to view the current status of the extraction process.
+2 Functionality
+3
+In EMFET, the user can load an email corpus with emails saved in EML format (e.g. SpamAssassin ,
+CSDMC20104 and Ling-Spam5). EML file extension for an email message saved to a file in the Internet
+Message Format protocol for electronic mail messages. EML is one of the most common file extensions used
+byemailapplicationssuchasOutlook,ThunderbirdandGmail.Severalpublic emailcorporainEMLformat
+are available on the web and can be used with EMFET.
+The tool splits the emails’ into their main parts which are: From, To, CC, BCC, Subject, Text Body, and
+HTML Body and save each of them to an output file. Then the tool extracts the selected features from the
+corresponding email part and save them in another file in CSV format. If any error occurred during the
+extraction process, an error file will be generated.
+3 Implementation
+The source code for features extraction process is organized in one main class with a controller to call each
+selectedfeature’sprocedure,whichwilluse eachemailobject’sattributesandmethods toextractthe desired
+3 SpamAssassin corpus. Available at:http://spamassassin.apache.org/downloads.cgi?update=201504291720
+4 CSDMC2010 corpus. Available at:http://csmining.org/index.php/spam-email-datasets-.html
+5 Ling-Spam corpus. Available at:http://www.csmining.org/index.php/ling-spam-datasets.html
+Email Fea
+G:\Em
+Extra
+All Fe
+Header
+Em
+Fig.1. Features Extraction Tool interface.
+features. The variables, packages and emails objects are initialized in separated classes. Figure 2 describes
+the implementation structure.
+Differentexternallibrariesareutilizedinthe implementationwhichinclude:MicrosoftCDOforWindows
+2000 COM Library to deal with each email file as an object and save the emails’ parts into an output file.
+For features extraction development, we used the following libraries:
+– HTML Agility Pack6.
+– IKVM.NET7.
+– Stanford.NLP.CoreNLP8.
+– RegularExpressions9.
+– LINQ (.NET Language-IntegratedQuery)10.
+The simplified design and implementation structure of the tool makes it easy to use and enhances the
+ability to add more features to the tool later. More features can be added by creating a checkbox with a
+unique tag for the new feature, adding the extraction procedure in the main class and linking between this
+procedure’s name and checkbox’s tag in the controller. Additionally, passing parameters for each email as
+6 Externalpackage to parse HTML. Available at:https://htmlagilitypack.codeplex.com/
+7 Externalpackage to enable Java and .NET interoperability. Available at:https://www.ikvm.net/
+8 External package to provides a set of natural language analysis tools. Available
+at:https://www.nuget.org/packages/Stanford.NLP.CoreNLP/
+9 Internalpackage to work with text such as search a pattern within text.
+10 Internalpackage to queryand access data in objects such as XML documents, databases.
+Fig.2. The implementation structureof EMFET.
+an object with a unique tag for each feature into the extraction procedures, this allows dealing with this
+procedures as independent problems. Moreover,using the internal and external packages reduces the source
+code lines and make the implementation easier to extend and modify.
+4 List of E-mail features
+Basedon the related studies in the literature, the spam features can be classified into three main categories:
+header features, payload (body) features, and attachment features [1]. Figure 3 shows the hierarchy of the
+featurescategories.Sofarthereare140featuresimplementedinEMFET(i.e49headerfeatures,2attachment
+features, and 89 Payloadfeatures). Each feature category is described as follows.
+Fig.3. Hierarchy of features groups.
+4.1 Header features
+The email header is an essential element of any email message, which consists of a set of important features
+that helps in email delivery. These features are grouped into two classes, namely; email’s metadata and
+subject. Table 1 lists the header features included in TEMFET with brief descriptions.
+Table 1. THE HEADERFEATURES
+IDFeatureDetails Type Ref. IDFeatureDetails Type Ref.
+1 Year Metadata[2] 26 ReplaytoMIL? Metadata[2]
+2 Month Metadata[2] 27 ReplaytoYahoo? Metadata[2]
+3 Day Metadata[3,2]28 ReplaytoAOL? Metadata[2]
+4 Hour Metadata[3,2]29 ReplaytoGov? Metadata[2]
+5 Minute Metadata[3,2]30 X-Mailman-Version Metadata[2]
+6 Second Metadata[3,2]31 ExistText/Plain? Metadata[2]
+7 FromGoogle? Metadata[2] 32 ExistMultipart/Mixed? Metadata[2]
+8 FromAOL? Metadata[2] 33 ExistMultipart/Alternative? Metadata[2]
+9 FromGov? Metadata[2] 34 No.ofcharacters. Subject [3]
+10 FromHTML? Metadata[2] 35 No.ofcapitalisedwords. Subject [3]
+11 FromMIL? Metadata[2] 36 No.ofwordsinalluppercase. Subject [3]
+12 FromYahoo? Metadata[2] 37 No.ofwordsthataredigits. Subject [3]
+13 FromExample? Metadata[2] 38 No.ofwordscontainingonlyletters. Subject [3]
+14 ToHotmail? Metadata[2] 39 No.ofwordscontaininglettersandnumbers. Subject [3]
+15 ToYahoo? Metadata[2] 40 No.ofwordsthataresingleletters. Subject [3]
+16 ToExample? Metadata[2] 41 No.ofwordsthataresingledigits. Subject [3]
+17 ToMSN? Metadata[2] 42 No.ofwordsthataresinglecharacters. Subject [3]
+18 ToLocalhost? Metadata[2] 43 Maxratioofuppercasetolowercaselettersofeachword Subject [3]
+19 ToGoogle? Metadata[2] 44 Mincharacterdiversityofeachword. Subject [3]
+20 ToAOL? Metadata[2] 45 Maxratioofuppercaseletterstoallcharactersofeachword. Subject [3]
+21 ToGov? Metadata[2] 46 Maxratioofdigitcharacterstoallcharactersofeachword. Subject [3]
+22 ToMIL? Metadata[2] 47 Maxratioofnon-alphanumericstoallcharactersofeachwordSubject [3]
+23 Countof“To”EmailMetadata[3] 48 Maxofthelongestrepeatedcharacter. Subject [3]
+24 ReplaytoGoogle? Metadata[2] 49 Maxofthecharacterlengthsofwords. Subject [3]
+25 ReplaytoHotmail? Metadata[2] - - - -
+4.2 Payload features
+These features are categorized into three sub categories: Email body features, Readability features, and
+Lexical diversity features.
+Email body features The e-mail body contains unstructured data such as images, HTML tags, text, and
+other objects. This features set contains 59 features, which are described in Table 2.
+Readability features Readability features representthe difficulty properties of reading a word,a sentence
+or a paragraphin the given email’s body [4],[5]. Readability features are extracted based on the syllables —
+sequence of speech sounds —, which are used to distinguish between the simple and complex words. This
+set of features contains 23 features that measure the difficulty of reading the email’s body. The readability
+features are discussed as follows:
+– Number of simple words features (with and without stopwords), such as each word has at most two
+syllables.
+– Number of complex words features (with and without stopwords), such as each word contains three or
+more syllables
+– Wordlength features(with andwithoutstopwords)basedonthe number ofsyllables,andthe number of
+the words in the text.
+Table 2. EMAIL BODY FEATURES
+IDFeatureDetails Ref. IDFeatureDetails Studies
+1 CountofSpamWords [4,2,5] 31 Numberofquestionmarks [2,5]
+2 CountofFunctionWords [4,5] 32 No.ofmultiplequestionmarks [2]
+3 CountofHTMLAnchor [3,4,2,5]33 No.ofexclamationmarks [2,5]
+4 CountofUniqueHTMLAnchor [3,2] 34 No.ofmultipleexclamationmarks [2]
+5 CountofHTMLNotAnchor [4] 35 No.ofcolons [2,5]
+6 CountofHTMLImage [5] 36 No.ofellipsis [2,5]
+7 CountofHTMLAllTags [4,5] 37 TotalNo.ofsentences [4,2,5]
+8 CountofAlpha-numericWords [3,4,5] 38 TotalNo.ofparagraphs [2]
+9 TF-ISF [4] 39 AverageNo.ofsentencesperparagraph [2]
+10 TF•ISFwithoutstopwords [4] 40 Averagenumberofwordspreparagraph [2]
+11 Countofduplicatewords. [5] 41 AverageNo.ofcharacterperparagraph [2]
+12 Minimumwordlength [5] 42 AverageNo.ofwordpersentences [2]
+13 Countoflowercaseletters [5] 43 No.ofsentencebeginwithuppercase [2]
+14 Longestsequenceofadjacentcapitalletters[2,5] 44 No.ofsentencebeginwithlowercase [2]
+15 Countoflines [2,5] 45 Characterfrequency“$” [2,5]
+16 TotalNo.ofdigitcharacter [2] 46 No.ofcapitalizedwords. [3]
+17 TotalNo.ofwhitespace [2] 47 No.ofwordsinalluppercase. [3]
+18 TotalNo.ofuppercasecharacter [2,5] 48 Numberofwordsthataredigits. [3]
+19 TotalNo.ofcharacters [3,2] 49 No.ofwordscontainingonlyletters. [3]
+20 TotalNo.oftabs [2] 50 No.ofwordsthataresingleletters. [3]
+21 TotalNo.ofspecialcharacters [2] 51 No.ofwordsthataresingledigits. [3]
+22 Totalnumberofalphacharacters [2] 52 Numberofwordsthataresinglecharacters. [3]
+23 TotalNo.ofwords [2,5] 53 Maxratioofuppercaseletterstolowercaselettersofeachword.[3]
+24 Averagewordlength [2,5] 54 Minofcharacterdiversityofeachword. [3]
+25 Wordslongerthan6characters [2] 55 Maxratioofuppercaseletterstoallcharactersofeachword. [3]
+26 TotalNo.ofwords(1-3Characters) [2] 56 Maxratioofdigitcharacterstoallcharactersofeachword. [3]
+27 No.ofsinglequotes [2,5] 57 Maxratioofnon-alphanumericstoallcharactersofeachword. [3]
+28 No.ofcommas [2,5] 58 Maxofthelongestrepeatingcharacter. [3]
+29 No.ofperiods [2,5] 59 Maxofthecharacterlengthsofwords. [3,5]
+30 No.ofsemi-colons [2,5] - - -
+– Fog Index (FI) features (with and without stopwords), which are the most popular readability measure
+that used estimate the years of education experience to understand the text at glance.
+– Flesch Reading Ease Score (FRES) features (with and without stopwords), which are used to asses the
+textual difficulty.
+– SMOGindex features(with and withoutstopwords),whichare usedto measure the difficulty ofthe text
+writing.
+– FORCAST index features (with andwithout stopwords),whichare used to measurethe readingskills of
+the text that contains high percentage of simple words.
+– Flesch-Kincaid Readability Index (FKRI) features (with and without stopwords), which are similar to
+the previous features, but with different weighting factors.
+– Simple Word FI features (with and without stopwords),which are similar to the Fog Index but with the
+simple words.
+– Inverse FI features (with and without stopwords).
+– SMOG-I feature, which is used to measure the difficulty of the text writing.
+– Automated Readability Index (ARI), which are used to measure the understandability of a given text.
+– Coleman-LiauIndex(CLI),whichissimilarARI,butwithofsyllablesfactorinsteadofcharactersfactor.
+Lexical diversity features Lexical Diversity Features are extracted based on the vocabulary size in the
+text, where the word occurrences are counted using different constraints [3],[6], [7]. This set of features
+contains seven features as follows:
+– Vocabulary Richness, which represents the number of distinct words in a text.
+– HapaxlegomenaorV(1,N):representsthenumberofwordsoccurringonetimeinthetextwithNwords.
+– Hapax dislegomena or V(2,N): represents the number of words occurring two times in the text with N
+words.
+– Entropy measure, which asses the average amount of information in the text.
+– YuleK, which is a text characteristic measure that is independent of text length.
+– SichelS, which is the ratio of dislegomena to the number of distinct words.
+– Honore, which is the ratio of hapax legomena (V (1,N)) to the vocabulary size N.
+4.3 Attachment Features
+Weusetwofeaturesrelatedtoattachments:NumberofallattachmentfilesinanemailandNumberofunique
+content types of attachment files in an email.
+5 How to install and use
+In this section we list instructions for downloading, installing, and using EMFET version 1.0.0, as follows:
+1. This tool runs over Windows operating system, either 32 bit or 64bit, and under .Net Framework 4.0 or
+above.
+2. Make sure you have Internet connection and an Internet browser (such as Google chrome or Firefox).
+3. Type in the search bar the address of the tool on Github as follows:
+(https://github.com/WadeaHijjawi/EmailFeaturesExtraction)
+4. In the middle of the page click ”Clone or download” button, after that a popup menu will appear, then
+click on ”Download ZIP” button.
+5. Decompress the downloadedZIP folder using archivingmanager software such as WinRAR on windows.
+6. Opentheextractedfolderanddoubleclickon”EmailFeaturesExtraction”folder,thenopenthebinfolder
+and then the Debug folder. Lastly, double click the executable file ”EmailFeaturesExtraction.exe”.
+7. A new window will appear, browse your corpus (make sure that it contains EML file extension). There
+arethree tabs to choose the features among them, Header Features,Payload/EmailBody Features,and
+Attachment Features.
+8. By clicking the ”Extract” button, a new folder inside your corpus folder will be generated and contains
+a comma separated values (CSV) file of the extracted features.
+6 Citing EMFET
+Hijawi, W., Faris, H., Alqatawna, J., Aljarah, I., Ala’M, A. Z., and M. Habib (2017). E-mail Features Ex-
+traction Tool. Available at: (https://github.com/WadeaHijjawi/EmailFeaturesExtraction).
+W. Hijawi, H. Faris, J. Alqatawna, Ala’M, A. Z., and I. Aljarah, Improving email spam detection using
+content based feature engineering approach, in Applied Electrical Engineering and Computing Technologies
+(AEECT), IEEE, 2017.
+7 Acknowledgment
+This work has been supported in part by funded project by The University of Jordan.
+References
+1. W. Hijawi, H. Faris, J. Alqatawna, A. Z. Ala’M, and I. Aljarah, “Improving email spam detection using content
+based feature engineering approach,” in Applied Electrical Engineering and Computing Technologies (AEECT),
+IEEE, 2017.
+2. J. Alqatawna, H. Faris, K. Jaradat, M. Al-Zewairi, and A. Omar, “Improving knowledge based spam detection
+methods: The effect of malicious related features in imbalance data distribution,” International Journal of Com-
+munications, Network and System Sciences, vol. 8, no. 5, pp. 118–129, 2015.
+3. K.-N. Tran, M. Alazab, and R. Broadhurst, “Towards a feature rich model for predicting spam emails containing
+maliciousattachmentsandurls,”inEleventhAustralasianDataMiningConferenceCanberra, ACT,vol.146,2013.
+4. R. Shams and R. E. Mercer, “Supervised classification of spam emails with natural language stylometry,” Neural
+Computing and Applications, vol. 27, no. 8, pp.2315–2331, 2016.
+5. B. A. Al-Shboul, H. Hakh, H. Faris, I. Aljarah, and H. Alsawalqah, “Voting-based classification for e-mail spam
+detection,” Journal of ICT Research and Applications, vol. 10, no. 1, pp.29–42, 2016.
+6. F. J. Tweedie and R. H. Baayen, “How variable may a constant be? measures of lexical richness in perspective,”
+Computers and the Humanities, vol. 32, no. 5, pp.323–352, 1998.
+7. W.H.Choi,“Findingappropriatelexicaldiversitymeasurementsforsmall-sizecorpus,”inAppliedMechanics and
+Materials, vol. 121, pp.1244–1248, Trans Tech Publ, 2012.

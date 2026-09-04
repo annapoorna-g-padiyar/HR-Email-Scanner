@@ -1,0 +1,144 @@
+International Journal of Science and Research (IJSR)
+ISSN: 2319-7064
+Impact Factor (2018): 7.426
+Intelligent Email Extraction and Classification with
+NLP & Deep Learning
+Madhu Sudhan H V
+M.B.A. - Finance, Christ University, Bangalore, India
+Abstract: The information extraction of data from unstructured sources has opened new opportunities for querying, organizing and
+analyzing data with the help of Artificial Intelligence and Deep Learning techniques. The field of information extraction has its root to
+natural language processing by using widely used techniques like named entity recognition, parts of speech tagging etc. Recent reports
+confirm that email is still number one online activity. Corporate users send and receive an average of 110 messages per day, out of
+which about one third are messages sent. IT Helpdesk normally receives queries through emails, it is required for a human to
+understand the customer problem and extract certain information from the mail and then create a ticket to take further steps. Manual
+Intervention can be avoided with the help of Natural Language Processing and Deep Learning.
+Keywords: Artificial Intelligence, Natural Language Processing, Deep Learning, Python
+1. Introduction
+2.2 Ticket Data Cleanse
+Intelligent Email Extraction (IEE) is a combination of IT
+Systems, tools and methodologies that enables machines to This module is used to cleanse the raw data dump received,
+interact naturally with their environment, people and data. subject and body will be extracted from the module, stop
+These systems create more intuitive interactions and extend words as well signature will be removed from the raw data.
+the capabilities of what either human or machine can do on Data preprocessing will be performed using NLP for
+their own. IEE is developed using NLP & Deep learning stemming, lemmatization etc. To extract relevant information
+algorithms. It is integrated with other advanced automation from the subject and body of the mail, named entity
+components like Email ingestion, Document integration, etc. recognition and POS tagging are used. Regex is also
+to provide a seamless end to end ‗Email management implemented to extract data with certain patterns.
+solution‘. This solution has been programmed to suit 60+
+business rules with an ability to detect 55 languages for 2.3 Language Detection
+appropriate processing, making it completely customized for
+the client‘s processing. This module is used to detect the language of the email by
+using the Body and Subject content from the mail. It
+supports up to 55 languages. Python module ―langdetect‖ is
+2. Process & Architecture
+used to achieve the task.
+Below figure depicts the process flow for the AI engine, it
+2.4 Model Preparation
+has been broken into various modules. Individual modules
+are as below.
+This module is run during the model refresh, Module is
+capable of handling missing values, duplicate tickets
+removal from raw email dump and combine some of the
+categories to improve the model accuracy.
+2.5 Vectorization
+Features extraction is performed with word frequency and
+TFIDF from the Subject and Body of the mail.
+CountVectorizer module from Scikit Learn is used for
+feature extraction. Ngrams are used while feature extraction
+Figure 1: Architecture Design
+to boost the accuracy.
+2.1 Data Dump
+2.6 Ensemble Methods
+Historical ticket‘s data are received periodically from data
+Ensemble of algorithms were tried to achieve the best
+source team. This data can be residing in a ticketing tool like
+accuracy with the voting classifier. We have used CNN,
+Service Now, SalesNow etc. This data is further used to train
+Logistic Regression, Naïve Bayes, Random Forest and
+the model at a stipulated time interval. The data is received
+Gradient Boosting.
+as flat files, or it will be dumped in a certain location on
+SFTP to pick it up.
+Volume 8 Issue 3, March 2019
+www.ijsr.net
+Licensed Under Creative Commons Attribution CC BY
+Paper ID: ART20196371 10.21275/ART20196371 1347
+International Journal of Science and Research (IJSR)
+ISSN: 2319-7064
+Impact Factor (2018): 7.426
+2.7 Business Rules
+IEE has various modules for Business Rules implementation,
+below is the list of business rules implemented for IEE
+ Self Service Mails
+ Priority, Impact and Urgency of Tickets
+ Ticket Assignment Process
+ Auto Resolution
+ HR Tickets
+ External Resources Requests
+ Follow-up Tickets
+ Spam Filtering
+2.8 CSAT Prediction
+Customer Satisfaction Scores are predicted whether he
+would be satisfied even before solving the ticket so that
+agents can address the tickets with more care to improve the
+customer satisfaction. Model was trained based on historical
+Figure 3: Web Service Response Json
+customer satisfaction survey.
+4. Other recommendations
+3. Implementation
+The text classification model accuracy can be improved by
+3.1 POST Request Details
+using artificial neural networks. Distance measures like
+cosine similarity for information extraction around a
+Raw email will be received through a web service API. The
+keyword from the body of the mail can be implemented for
+fields that we receive through the API would be from, to,
+improved data extraction.
+subject, body, date and other details. Below is sample for
+request.json that will be fed to Intelligent Email Extraction
+References
+service.
+[1] Madden, M.—Jones, S.: Networked Workers.
+PewInternet report, Pew Research Center; September
+24, 2008.
+[2] HP, The Radicati Group, Inc.: Taming the Growth of
+Email – An ROI Analysis (White Paper), 2005.
+[3] Jones, J.: Gallup: Almost All E-Mail Users Say Internet,
+E-Mail Have Made Lives Better. 2001.
+[4] META Group Inc.: 80 % of Users Prefer E-Mail as
+Figure 2: POST request.json details
+Business Communication Tool. 2003.
+[5] Whittaker, S.—Sidner, C.: Email Overload: Exploring
+3.2 AI Engine Personal Information Management of Email. In
+Proceedings of ACM CHI96, pp. 276–283, 1996.
+AI Engine is deployed on a Python Django Framework
+[6] Fisher, D.—Brush, A. J.—Gleave, E.—Smith, M. A.:
+where it will receive the POST request.json for further
+Revisiting Whittaker & Sidner‘s ―Email Overload‖ Ten
+processing. Email subject and body will be combined and
+Years Later. In CSCW2006, New York ACM Press
+fed through data preprocessing with NLP modules and
+2006.
+Information Extraction modules. Later email classification
+[7] Laclav´ık, M.—Maynard, D.: Motivating Intelligent
+ensemble model will identify the category based on the
+Email in Business: An Investigation into Current Trends
+subject and body content. Various business rules are applied
+for Email Processing and Communication Research.
+for assigning the queue, language identification and for the
+priority of the tickets. Finally the response.json is generated
+that will communicate with RPA to create tickets on
+ticketing tool.
+Author Profile
+Madhu Sudhan H V received the MBA Degree in
+3.3 Generate Response Json
+Finance from Christ University, Bangalore. He has
+done Btech in Electronics and Communication from
+Once request.json goes through the AI engine, it generates VTU, Belgaum. Currently he is working as an
+the response.json that will be consumed by the RPA to Artificial Intelligence Associate Principal at Accenture
+communicate with ticketing tool. Below is sample and delivering values to clients in Artificial Intelligence, NLG,
+response.json with classified and extracted content. NLP and Big data.
+Volume 8 Issue 3, March 2019
+www.ijsr.net
+Licensed Under Creative Commons Attribution CC BY
+Paper ID: ART20196371 10.21275/ART20196371 1348

@@ -1,0 +1,22 @@
+Invoice no: 77915702
+Date of issue: 06/24/2017
+—____) Seller: Client:
+Sanchez LLC Davis LLC
+PSC 5892, Box 6248 96514 Ferguson Ports
+APO AE 29357 Port Brooke, AL 29363
+Tax Id: 905-79-2063 Tax Id: 911-92-8645
+IBAN: GB82QGWY56005013303087
+7) ITEMS
+No. Description Qty UM Net price Net worth VAT [%] Gross
+worth
+1, Jones Wear Dress Women White 1,00 each 20,00 20,00 10% 22,00
+Pink Floral Sleeveless Formal
+Tea Dress Size 12
+2. Vintage 80s All That Jazz Blue 4,00 each 10,00 40,00 10% 44,00
+Velvet Dress Small/Medium
+3. NWT Boohoo Sabra Emerald 4,00 each 4,99 19,96 10% 21,96
+Green Floral Ruffle Dress Sz 12
+—_____] SUMMARY
+VAT [%] Net worth VAT Gross worth
+10% 79,96 8,00 87,96
+Total $ 79,96 $ 8,00 $ 87,96

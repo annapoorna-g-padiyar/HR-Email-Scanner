@@ -1,0 +1,21 @@
+Invoice no: 69532689
+Date of issue: 10/15/2014
+—____) Seller: Client:
+Marks-West Thomas Ltd
+9315 Wilson Ville 876 Brendan Points
+North Dorothy, NM 66660 Ronaldfurt, IN 76472
+Tax Id: 910-82-3949 Tax Id: 946-82-8589
+IBAN: GB39VAJB22036574171953
+7) ITEMS
+No. Description Qty UM Net price Net worth VAT [%] Gross
+worth
+1, LL Bean Boys Lot Size 1 Athletic 5,00 each 6,99 34,95 10% 38,45
+Sneakers 2 Black Blue Canvas
+Belts SM
+2. Steve Madden Bserge Boys 3,00 each 39,95 119,85 10% 131,84
+Black Dress Leather Loafer
+Shoes US 4 NIB
+7} SUMMARY
+VAT [%] Net worth VAT Gross worth
+10% 154,80 15,48 170,28
+Total $ 154,80 $ 15,48 $ 170,28

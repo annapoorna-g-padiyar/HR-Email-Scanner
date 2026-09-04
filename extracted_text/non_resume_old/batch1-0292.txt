@@ -1,0 +1,25 @@
+Invoice no: 63279232
+Date of issue: 04/24/2017
+—}) Seller: Client:
+Allen, Gibbs and Holmes Jones-Black
+96463 Campbell Points 839 Samantha Rue Apt. 955
+Nicholastown, VT 46652 North Emilyborough, DE 55806
+Tax Id: 910-71-3192 Tax Id: 911-98-1694
+IBAN: GB35ADGI36952318202785
+7) ITEMS
+No. Description Qty UM Net price Net worth VAT [%] Gross
+worth
+1, Roper Boys' American Patriot 1,00 each 49,00 49,00 10% 53,90
+Boot Square Toe Sz 4 Big Kids
+Flag Red White Blue
+2. New KID CUDI "WZRD" Rap Hip 4,00 each 22,49 89,96 10% 98,96
+Hop Soul Music Men's Black
+T-Shirt Size S to 3XL
+3. Kid's Boys Hiking Garden 5,00 each 31,88 159,40 10% 175,34
+Sandals Leisure Closed Toe
+Fisherman Beach Shoes
+Summer
+1) SUMMARY
+VAT [%] Net worth VAT Gross worth
+10% 298,36 29,84 328,20
+Total $ 298,36 $ 29,84 $ 328,20

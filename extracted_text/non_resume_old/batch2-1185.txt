@@ -1,0 +1,12 @@
+10 | DESCRIPTION QUANTITY PRICE, $ TOTAL, $
+4179 Prot.Tp. 6"x1000' CLEAR MOQ 12 rolls
+01 2 278.00 278.00
+0 101740 4179 Prot.Tp. 12"x1000' CLEAR MOQ 6 rolls
+02 5 73.00 73.00
+Activator CREAM 5-gal 5 gallons/pailt
+03 7 148.00 148.00
+-og femevons 105 Cyanoacrylate 1-0z 10 bottles/case fan Pa
+04 728.00 728.00
+Subtotal 1153
+Total Due 1369.78
+THANK YOU..

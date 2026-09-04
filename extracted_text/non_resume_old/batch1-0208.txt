@@ -1,0 +1,32 @@
+Invoice no: 22883270
+Date of issue: 06/20/2018
+—____) Seller: Client:
+Cox, Garcia and Briggs Jordan LLC
+30937 Lane Neck 153 Ana Coves Suite 124
+Sharonview, WV 40201 Williamfurt, NY 35374
+Tax Id: 983-72-0232 Tax Id: 934-85-3682
+IBAN: GB57PPPX42673286855622
+7) ITEMS
+No. Description Qty UM Net price Net worth VAT [%] Gross
+worth
+1. B362 Nintendo 2DS console 2,00 each 29,99 59,98 10% 65,98
+Lavender Japan x
+2. Nintendo Switch Animal 4,00 each 399,00 1 596,00 10% 1 755,60
+Crossing: New Horizon Special
+Edition Console BRAND NEW
+3. NEC PC Engine INTERFACE UNIT 3,00 each 159,99 479,97 10% 527,97
+IFU-30 CD ROM Console
+PI-TGOO1 Tested Japan
+4, Nintendo Switch Lite Turquoise 3,00 each 135,00 405,00 10% 445,50
+Blue CONSOLE ONLY - No
+Charger [B1-3]
+5. Original Nintendo Gaming 5,00 each 475,00 2 375,00 10% 2 612,50
+Console with Robot, 9 games &
+extras
+6. PocketGo Bittboy v2 White 2,00 each 39,00 78,00 10% 85,80
+Retro Video Game Portable
+Console - 3.5 IPS display
+—_____} SUMMARY
+VAT [%] Net worth VAT Gross worth
+10% 4993,95 499,39 5 493,34
+Total $ 4993,95 $ 499,39 $ 5 493,34

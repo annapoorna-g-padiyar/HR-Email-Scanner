@@ -1,0 +1,31 @@
+Invoice no: 27405523
+Date of issue: 03/24/2018
+—____) Seller: Client:
+Case, Mccarthy and Dean Peterson-Crane
+7396 Shaw Rapids Suite 134 717 Clark Light
+Port Andrewtown, MI 74752 Lake Susanview, KY 74161
+Tax Id: 907-70-9786 Tax Id: 927-98-3793
+IBAN: GB59JWHU25830307756814
+7) ITEMS
+No. Description Qty UM Net price Net worth VAT [%] Gross
+worth
+1, Women Spaghetti Strap 1,00 each 4,47 4,47 10% 4,92
+Bodycon Mini Dress Sexy Party
+Club Wear Summer Short Dress
+2. WD NY BLACK & OFF WHITE 2,00 each 10,00 20,00 10% 22,00
+DRESS SIZE 8 Button Front
+3. db Yellow Link Print Fit and Flare 2,00 each 14,99 29,98 10% 32,98
+Sleeveless Dress Sz M/L
+4. Banana Republic Maroon 2,00 each 5,00 10,00 10% 11,00
+Abstract ruffled wrap Dress
+With slip xs 0
+5. Fashion Sexy Backless 4,00 each 8,80 35,20 10% 38,72
+Tight-fitting Halter Dress
+Cocktail Party Weeding Elegant
+6. Unbranded Dress Sleeveless 1,00 each 10,00 10,00 10% 11,00
+Cowl Neck Gold Silver Purple
+Metallic Size 6S
+—_) SUMMARY
+VAT [%] Net worth VAT Gross worth
+10% 109,65 10,97 120,62
+Total $ 109,65 $ 10,97 $ 120,62

@@ -1,0 +1,349 @@
+© FEB 2026 | IRE Journals | Volume 9 Issue 8 | ISSN: 2456-8880
+DOI: https://doi.org/10.64388/IREV9I8-1714127
+AlI-Powered Resume Analyzer
+SHRUSHTI WASHIMKAR!, KASHISH GOUR?, KANAK GOUR?, HUSHALI BOKADE*,
+SHRIKANT UTANE*, DR. P. S. PRASAD
+'2.345UG Student, Priyadarshini College of Engineering Nagpur
+®Guide, Department of Information Technology, Priyadarshini College of Engineering Nagpur
+Abstract—The rapid growth of digital recruitment Language Processing (NLP) and Machine Learning
+platforms has increased the need for efficient, accurate, (ML) techniques to automate the process of resume
+and unbiased resume screening mechanisms. This evaluation and candidate-job matching. The system
+research presents an AlI- powered Resume Analyzer is designed to read resumes in various formats,
+designed to automate the evaluation of resumes using extract. relevant information such as skills
+advanced Natural Language Processing (NLP) and . . . . °
+Machine Learning techniques. The system extracts, experience, education, and certifications, and
+prepracesses, and analyyes resume content to identify key compare them against predefined job descriptions to
+attributes such as skills, education, experience, and generate a compatibility score. By employing text
+certifications, and matches them against job mining methods like tokenization, named entity
+requirements. By leveraging techniques including text recognition (NER), and keyword matching, along
+classification, keyword extraction, semantic analysis, and with similarity measurement algorithms such as
+similarity scoring, the proposed model enhances TFIDF and cosine similarity, the system delivers a
+candidate—job alignment while significantly reducing structured analysis of each candidate's fit for the
+manual effort and screening time, Additionally, the role. The tool also provides recruiters with an
+system supports structured analytics and reporting to . . .
+provide actionable insights for recruiters, Experimental interactive interface to upload resumes and view
+results demonstrate improved accuracy, consistency, and detailed results, thereby enhancing the efficiency,
+scalability compared to traditional manual screening accuracy, and fairness of the selection process.
+approaches, The proposed solution aims to assist
+recruiters in making data-driven hiring decisions while This paper outlines the system architecture,
+promoting efficiency and fairness in the recruitment implementation details, evaluation metrics, and the
+process. practical implications of integrating AI in
+. . _. , recruitment workflows. The proposed systcm aims to
+Keywords— Resume Parsing, Flask, Gemini API, Skill : os : : .
+Gap Analysis, Job Matching, NLP, Resume Scoring assist hiring _managers in making data-driven
+decisions while reducing screening time and
+LINTRODUCTION improving candidate selection quality.
+In today’s fast-paced digital era, organizations often applications received by organizations. Early resume
+receive thousands of resumes for a single job Sercening systems relied on keyword-based
+matching techniques, where resumes were filtered
+IL. LITERATURE REVIEW based on predefined skill keywords and job-specific
+terms. While such systems reduced manual
+A. Automated Resume Screening Systems workload, they often failed to capture contextual
+Automated resume screening has gained significant relevance and | semantic | meaning, resulting in
+attention duc to the increasing volume of job inaccurate candidate shortlisting,
+opening, making manual screening both time-
+consuming and inefficient. Traditional recruitment Kumar et al. [1] proposed a rule-based resume
+processes are prone to human error, unconscious parsing system that extracted candidate details such
+bias, and inconsistency, often leading to the as education, skills, and experience using pattern
+overlooking of qualified candidates. As industries matching. Although the sy stem imp! roved processing
+increasingly adopt artificial intelligence (AI) speed, it lacked adaptability to diverse resume
+solutions, there is a growing need for intelligent formats.
+systems that can assist in automating and optimizing . . .
+human resource functions. This research proposes an Singh and Verma [2] developed a machine-Icarning-
+Al-powered Resume Analyzer that utilizes Natural based resume classifier using Naive Bayes and SVM
+IRE 1714127 ICONIC RESEARCH AND ENGINEERING JOURNALS 322
+© FEB 2026 | IRE Journals | Volume 9 Issue 8 | ISSN: 2456-8880
+DOI: https://doi.org/10.64388/IREV9I8-1714127
+algorithms. Their approach improved classification Mikolov et al. [7] demonstrated that word
+accuracy but required extensive labeled datasets and embeddings significantly improve semantic
+struggled with unstructured resume layouts. similarity tasks, influencing their adoption in
+recruitment systems.
+Chen et al. [3] introduced an automated recruitment
+system that ranked resumes based on skill relevance, Devlin et al. [8] introduced BERT, a transformer-
+but the system depended heavily on keyword based model capable of understanding contextual
+frequency, limiting its effectiveness for semantic job word relationships, which has been successfully
+matching. applied to resume ranking and job matching tasks.
+However, such models require higher computational
+B. Natural Language Processing in Resume Analysis resources and careful fine-tuning.
+Natural Language Processing (NLP) plays a crucial
+role in extracting meaningful information from Zhang et al. [9] proposed a deep learning-based
+unstructured resume text. Techniques such as resume ranking framework that outperformed
+tokenization, stemming, named entity recognition traditional] ML models, but lacked explainability and
+(NER), and part-of-specch tagging have been widely transparency in decision-making.
+used for resume parsing and skill extraction.
+D. Al-Based Feedback, Fairness, and User- Centric
+Liu et al. [4] applied NER models to identify entities Recruitment Systems
+such as skills, organizations, and job titles from Modern Al-driven recruitment tools focus not only
+resumes, achieving improved extraction accuracy. on candidate ranking but also on providing
+However, the model’s performance degraded when actionable feedback and ensuring fairness. Large
+handling resumes with unconventional formatting. Language Models (LLMs) have enabled systems to
+generate resume improvement suggestions,
+Rao and Kulkarni [5] utilized TF-IDF and cosine interview preparation feedback, and skill gap
+similarity to match resumes with job descriptions, analysis.
+enabling automated relevance scoring, While
+computationally efficient, the approach lacked deep Brown et al. [10] highlighted the potential of large
+semantic understanding. language models in generating human-like textual
+feedback, making them suitable for resume
+Sharma et al. [6] implemented an NLP-based ATS evaluation systems.
+scoring model to assess resume compatibility, but the
+system did not provide feedback or recommendations Bogen and Ricke [11] emphasized the importance of
+to candidates. bias detection in AI hiring systems, noting that
+poorly designed models may reinforce historical
+C. Machine Learning and Deep Learning hiring biases.
+Approaches
+Recent research emphasizes the use of machine Patel et al. [12] proposed a user-centric AI resume
+learning and deep leaming models to enhance evaluation system that provided skill gap analysis
+resume-job matching accuracy. Word embedding and improvement recommendations, though real-
+techniques such as Word2Vec and GloVe have been time analytics and ATS compliance checks were
+used to capture semantic relationships between skills limited.
+and job requirements.
+Table no 2.1: Comparative Analysis of Resume Analysis and Recruitment Systems
+Ref Publication Details Algorithm ystem ramework / [Key
+jo. [Paper Title / ‘ype ools Featu
+echniques res Addressed
+sed
+Automated Keyword
+Resume JCSIT, 2021 matching, rule- (Traditional |[Python, Regex [Resume
+Screening Using based filtering {ATS filtering, basic
+IRE 1714127 ICONIC RESEARCH AND ENGINEERING JOURNALS 323
+© FEB 2026 | IRE Journals | Volume 9 Issue 8 | ISSN: 2456-8880
+DOI: https://doi.org/10.64388/IREV9I8-1714127
+[Rewer Marching [i
+Resume
+2 Resume Classification [EEE ICML, 2022 |Naive Bayes, ML-based |Python, Scikit-(classification,
+sing Machine VM system learn skill
+earning ategorization
+B lob Matching Springer LNCS, F-IDF, Cosine|NLP-based [NLP pipeline, lob-resume
+System Using [2022 imilarity Python matching
+INLP Techniques
+4 Resume Ranking Isevier, 2023 ord2Vec, Deep ensorFlow, emantic
+Using Deep Learning NN, LSTM earning |Keras imilarity,
+Models ranking
+ntelligent ransformer PyTorch, ‘ontextual
+Recruitment [IEEE Access, BERT) Al-based |BERT nderstanding,
+System Using BERT 2023 ranking
+ATS-Based IJRASET, 2024 LP ATS- Python, NLP [ATS
+Resume parsing joriented ibraries ompatibility
+Evaluation System | scoring rules hecking
+Al-Driven ACM Digital arge Language|Al-based PT Resume
+Resume Library, 2024 Models (LLMs) model |feedback,
+Feedback Generator ls, NLP suggestions
+INLP, Semantic|Al-Powered NLP + ML + !ATS score,
+8 Proposed System eb-Based Matching, ATS [Resume LM + Web job matching,
+This Project) Application coring, LLMJAnalyzer |Framework resume
+Feedback insights,
+analytics
+3.0
+25
+g
+z 2.0
+z
+$15
+é
+g 1.0
+6
+05
+0.0
+Keyword-Based ML-Based DL-Based ATS SystemsProposed System
+Resume Analysis Systems
+Fig: Graph For Comparative Analysis:
+II. PROPOSED MYTHOLOGY reduce manual resume screening effort, improve
+job-candidate alignment, and enhance resume
+The proposed Al-Powered Resume Analyzer is a quality through data-driven insights.
+web-based intelligent system designed to A. System Architecture Overview
+automatically evaluate resumes, match them with job The proposed system follows a modular architecture
+descriptions, and provide actionable feedback using consisting of four major components:
+Artificial Intelligence and Natural Language 1. Resume Upload and Parsing Module
+Processing (NLP) techniques. The system aims to 2. Text Preprocessing and Feature Extraction
+IRE 1714127 ICONIC RESEARCH AND ENGINEERING JOURNALS 324
+© FEB 2026 | IRE Journals | Volume 9 Issue 8 | ISSN: 2456-8880
+DOI: https://doi.org/10.64388/IREV9I8-1714127
+Module recommendations
+3. Al-Based Resume Analysis and Job Matching ¢ Formatting and structure enhancements
+Module e Job-specific resume optimization tips
+4. Analytics and Feedback Generation Module This feedback enables users to iteratively improve
+The architecture is designed to handle unstructured their resumes based on Al-driven insights.
+resume data efficiently while ensuring scalability
+and usability. F. Analytics and Visualization Module
+To enhance interpretability, the system presents
+B. Resume Upload and Parsing analysis results through graphs, charts, and
+The system accepts resumes in commonly used dashboards. Users can visualize ATS scores, skill
+formats such as PDF and DOCX, Once uploaded, the match percentages, and comparative performance
+resume text is extracted using document parsing metrics. This module supports data-driven decision-
+libraries. The extracted text is then converted into a making for both job seckers and recruiters.
+machine-readable format for further processing.
+Key information such as skills, education, work G. Workflow of the Proposed System
+expcricnce, certifications, and projects is identified 1, User uploads resume
+from the resume content. This step enables structured 2. Resume text is extracted and preprocessed
+representation of unstructured resume data. 3. Features arc generated using NLP techniques
+4. Resume is matched with job description
+C. TextPreprocessing and Feature Extraction 5. ATS score and relevance score are
+To improve analysis accuracy, the extracted resume computed
+text undergoes NLP preprocessing steps including: 6. Al-generated feedback and analytics are
+e Tokcnization displayed.
+e =Stop-word removal
+e Lowercasing and normalization Vv. RESULT AND DISCUSSION
+e¢ ~=Lemmatization
+Feature extraction techniques such as TF-IDF The Al-Powered Resume Analyzer was successfully
+vectors and semantic embeddings are applied to designed and implemented as a web-based
+represent resume content and job descriptions application using Natural Language Processing
+numerically. These features form the basis for (NLP) and Artificial Intelligence techniques. The
+similarity computation and classification. system was evaluated using a dataset of resumes
+submitted in PDF and DOCX formats along with
+D. Job Description Matching and ATS Scoring multiple job descriptions from different domains
+The processed resume data is compared with job such as software development, data analysis, and
+descriptions using scmantic similarity techniques. cloud computing.
+Cosine similarity and embedding-based matching are
+used to calculate the relevance score between the A. System Performance Evaluation
+resume and the job role. During testing, the resume parsing module
+efficiently extracted textual content from uploaded
+An Applicant Tracking System (ATS) score is resumes with high accuracy. The NLP preprocessing
+generated based on factors such as keyword pipeline successfully identified key entities such as
+relevance, formatting quality, section completeness, skills, education, experience, and certifications even
+and skill alignment. This score helps candidates from resumes with varied formats. The job-resume
+understand how well their resume performs in matching module generated relevance scores by
+automated recruitment systems. computing semantic similarity between resume
+content and job descriptions.
+E. AJI-Based Feedback and Recommendation
+Engine The ATS compatibility score effectively reflected
+The system integrates Al models to generate the alignment of resumes with job requirements.
+personalized resume feedback, including: Resumes containing structured sections, relevant
+e Missing or weak skill suggestions keywords, and appropriate formatting achieved
+e Resume content improvement higher ATS scores, while poorly structured resumes
+IRE 1714127 ICONIC RESEARCH AND ENGINEERING JOURNALS 325
+© FEB 2026 | IRE Journals | Volume 9 Issue 8 | ISSN: 2456-8880
+DOI: https://doi.org/10.64388/IREV9I8-1714127
+received lower scores. This demonstrated the
+effectiveness of the ATS evaluation mechanism in
+simulating real-world recruitment systems. Summary
+Overall, the experimental results validate the
+B. Resume Matching and Feedback Analysis effectiveness of the Al-Powered Resume Analyzer in
+The system provided detailed Al-generated feedback automating resume evaluation, enhancing job
+highlighting skill gaps, missing sections, and matching accuracy, and providing meaningful
+improvement suggestions. Users received actionable feedback. The system demonstrates improved
+recommendations such as adding relevant technical efficiency, scalability, and user satisfaction
+skills, improving project descriptions, and compared to existing resume screening solutions.
+optimizing resume formatting for better ATS
+performance. Compared to traditional resume oe eee” ee!
+screening tools, the proposed system offered o=—eern es
+enhanced interpretability by explaining why a Al-Powered ——— :
+resume received a particular score. Analyers =
+Experimental observations showed that resumes el ==-—-—-
+revised based on system feedback achieved an = -— [ enone ae |
+average improvement of 20-30% in ATS scores, wee TO
+validating the effectiveness of the feedback engine. lem mcw beng oeon atone aE
+Cc. Analytics and Visualization Results The an ——
+analytics module presented evaluation results rAl-Powered —
+using bar graphs and performance charts. Users could =.
+visually compare their resume performance with eae) —
+existing resume analysis approaches. The = sap
+comparative analysis bar graph demonstrated that the a = or
+proposed system outperformed keyword-bused, —
+machine learning-based, and traditional ATS
+systems across parameters such as semantic © nonie Aawter meres may tees men
+matching accuracy, feedback quality, and user- Everything you nee 4 to optimize your resume
+centric design, retreats per ett
+These visual insights improved uscr understanding
+and supported informed decision-making for resume a . 6
+optimization, ——— UO eee en
+D. Discussion * + °
+The results indicate that integrating NLP, semantic waste ete
+analysis, and Al-driven feedback significantly —_ ~ —
+improves resume evaluation accuracy and usability. Resa Anatyter tee ine satay nonin Hy G
+Unlike traditional systems that rely solely on 8
+keyword matching, the proposed system captures Resume Analyzer
+contextual relevance between skills and job Te yecesieeercper creed
+requirements. Additionally, the inclusion of ATS su nes es
+scoring and analytics bridges the gap between wae :
+automated screening and candidate guidance. aarsas enorme eoa tam Saeenaieenieene ee
+: . co
+While the system performs effectively for standard ees
+resume formats, challenges remain in handling ean
+highly creative or graphical resumes. Future a |
+enhancements can address this limitation by
+incorporating advanced document layout analysis
+and multilingual resume support.
+IRE 1714127 ICONIC RESEARCH AND ENGINEERING JOURNALS 326
+© FEB 2026 | IRE Journals | Volume 9 Issue 8 | ISSN: 2456-8880
+DOI: https://doi.org/10.64388/IREV9I8-1714127
+© Resume Aranyeor vee nememesae cmmeng min om INo personalized |Provides Al-generated
+enero = resume improvement|personalized feedback and
+vert tach Seore ‘ Suggestions recommendations
+60%
+ee Focused mainly on |Designed to be user-centric
+“ 7 _—" , ecruiter requirements |for job seekers and
+oor emer ‘sen menue ecruiters
+Ooo O Limited handling of [Efficiently handles
+aried resume formats Imultiple resume formats
+te seme houyne we oat me PDF, DOCX)
+resume analyze lo analyticsor [Includes dashboards,
+eet nme nn tates en Visualization support |graphs, and analytical
+Ansty Rents onc insights
+- a Bias reduction not [Improves fairness through
+om ware addressed Al-based evaluation
+IO © Manual or Fully automated resume
+ae semi- evaluation process
+a nae vette cargtepretneiea-ea utvutyn see automated screening
+Se ower accuracy in job [Higher accuracy in
+ag Resume ananger seco nareweps suany snows wamt 6 matching esume-job matching
+vw Pertamance a REFRENCES
+5/100 A cstretna petemeent Yate wat prepares fo tm at,
+we ee eens ee [1] T. Mikolov, K. Chen, G. Corrado, and J. Dean,
+TO “Efficient Estimation of Word Representations
+“a _—— in Vector Space,” Proce. International
+‘| SL \ Conference on Learning Representations
+il | | 1 _ \y _ (ICLR), 2013.
+lhe Dao Baal Bel entra (2] J. Devlin, M. Chang, K. Lec, and K. Toutanova,
+“BERT: Pre-training of Deep Bidirectional
+Transformers for Language Understanding,”
+V. COMPARISON WITH EXISTING RESUME Proc, NAACL-HLT, pp. 4171-4186, 2019.
+ANALYSIS AND RECRUITMENT SYSTEMS [3] C. D. Manning, P. Raghavan, and H. Schiitze,
+Introduction to — Information — Retrieval,
+Existing Resume Proposed Al- Cambridge University Press, 2008.
+[4] S. Bird, E. Klein, and E. Loper, Natural
+Language Processing with Python, O’Reilly
+Relies mainly on/Uses NLP and semantic Media, 2009.
+keyword-based oranalysis for ~—_accurate [5] K. Sarkar and S. Verma, “Automated Resume
+rule-based filtering resume understanding Screening Using Machine Leaming
+Limited or no (Captures semantic Techniques,” Jnternational Journal of
+nderstanding of _[relevanee between resumes Computer Applications, vol. 182, no. 15, pp. 7—
+ontextual meaning [and job descriptions 12, 2021.
+[6] R. Rao and P. Kulkarni, “Job Recommendation
+[Does not provide ATS |Generates detailed System Using NLP and Cosine Similarity,”
+compatibility score ATS compatibility Springer Lecture Notes in Computer Science,
+score vol. 13121, pp. 245-254, 2022.
+[7] A. Sharma, N. Gupta, and S. Mehta, “ATS-Based
+Resume Evaluation Using NLP,” /nternational
+IRE 1714127 ICONIC RESEARCH AND ENGINEERING JOURNALS 327
+© FEB 2026 | IRE Journals | Volume 9 Issue 8 | ISSN: 2456-8880
+DOI: https://doi.org/10.64388/IREV9I18-1714127
+Journal of Engineering Research & Technology
+(1JERT), vol. 11, no. 6, pp. 102-108, 2022.
+[8] T. Brown etal., “Language Models are Few-Shot
+Learners,” Advances in Neural Information
+Pracessing Systems (NeurIPS), vol. 33, pp.
+1877- 1901, 2020.
+[9] S. Bogen and A. Rieke, “Help Wanted: An
+Examination of Hiring Algorithms, Equity, and
+Bias,” Upturn Report, 2018.
+[10]Z. Zhang, Y. Wang, and L. Chen, “Deep
+Learning-Based Resume Matching System,”
+Elsevier Procedia Computer Science, vol. 189,
+pp. 12-20, 2021.
+[11] P. Singh and A. Verma, “Resume Classification
+Using Support Vector Machines,” /EEE
+International Conference on Intelligent Systems,
+pp. 156-161, 2020.
+[12]M. Patel, R. Shah, and K. Joshi, “AlI-Driven
+Resume Feedback System for Job Matching,”
+ACM Digital Library, pp. 98-104, 2023.
+[13] D. Jurafsky and J. H. Martin, Speech and
+Language Processing, 3rd ed., Pearson, 2023.
+[14] N. Kumar and S. Kaur, “Information Extraction
+from Unstructured Resumes Using NLP,”
+International Journal of Advanced Research in
+Computer Science, vol. 12, no. 3, pp. 45-51,
+2021.
+[15] OpenAl, “GPT Models and Applications in Text
+Analysis,” Technical Report, 2023.
+IRE 1714127 ICONIC RESEARCH AND ENGINEERING JOURNALS 328

@@ -1,0 +1,17 @@
+Invoice no: 82850775
+Date of issue: 10/25/2013
+—____) Seller: Client:
+Moore, Robinson and Dominguez White-Gonzalez
+617 Laura Avenue Suite 952 8274 Mason Estates Apt. 284
+Snowtown, NE 90839 Jordanbury, MO 35803
+Tax Id: 982-77-8335 Tax Id: 961-87-2539
+IBAN: GB34KRZG78238222532110
+______) ITEMS
+No. Description Qty UM Net price Net worth VAT [%] Gross
+1, 36 Inches Marble Dinning Table 5,00 each 1 451,25 7 256,25 10% 7 981,87
+Top Hand Inlaid Office Table
+with Multi Gemstones
+1] SUMMARY
+VAT [%] Net worth VAT Gross worth
+10% 7 256,25 725,62 7 981,87
+Tota! $7 256,25 $ 725,62 $7 981,87

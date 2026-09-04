@@ -1,0 +1,37 @@
+Invoice no: 85163803
+Date of issue: 04/23/2014
+—}) Seller: Client:
+Rangel-Edwards Collins, Moody and Green
+9707 Cynthia Spur Suite 991 277 Angela Mountains Suite 288
+Douglasfort, LA 70738 Port Daniel, UT 44288
+Tax Id: 990-83-3144 Tax Id: 911-86-9777
+IBAN: GB78NBGI14747189130052
+7) ITEMS
+No. Description Qty UM Net price Net worth VAT [%] Gross
+worth
+1, HP ProDesk G1 Desktop 3,00 each 119,95 359,85 10% 395,84
+Computer Core i3 3.4GHz 8GB
+500GB HD 19" LCD Windows 10
+PC
+2. Sentry Gaming Computer | 1,00 each 594,99 594,99 10% 654,49
+Ryzen 3 3200G | 16 GB Ram |
+Build-to-Order
+3. 10 Core Gaming Computer 1,00 each 369,99 369,99 10% 406,99
+Desktop PC Tower 1T 16GB R7
+CUSTOM BUILT RED/BLACK
+4, Desktop Computer Gaming PC 5,00 each 579,00 2 895,00 10% 3 184,50
+Build Your Own Ryzen 3000G
+3200G 3.5Ghz+ Vega or GTX
+5. Coinmine One Intel or AMD with 5,00 each 599,99 2 999,95 10% 3 299,95
+RX 500 8GB 1TB Series Crypto
+Mining Rig Computer
+6. Gaming PC Desktop Computer 5,00 each 809,99 4 049,95 10% 4 454,95
+Intel i7 RGB, GTX 1660, 16GB
+RAM, 2TB HDD, 480GB SSD
+7. Dell Desktop Computers 9) 5,00 each 129,95 649,75 10% 714,73
+Core iS 16GB 2TB HD 512GB
+SSD Q Windows 10 PC 22" LCD
+—___] SUMMARY
+VAT [%] Net worth VAT Gross worth
+10% 11 919,48 1191,95 13 111,43
+Total $11919,48 $1191,95 $13 111,43

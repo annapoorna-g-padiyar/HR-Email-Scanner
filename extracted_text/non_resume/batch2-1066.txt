@@ -1,0 +1,18 @@
+Invoice no: 95087830
+Date of issue: 04/07/2015
+—}) Seller: Client:
+Bell Ltd Jones Group
+6963 Farmer Plaza Apt. 123 1846 Webster Fall
+East Stephanie, OH 89995 New Brandy, CT 04137
+Tax Id: 981-95-2599 Tax Id: 957-96-9970
+IBAN: GB9OVFVS45939897348756
+7) ITEMS
+No. Description Qty UM Net price Net worth VAT [%] Gross
+worth
+1. Vince Camuto Sweater Dress 5,00 each 32,00 160,00 10% 176,00
+Size Medium Striped Long
+Sleeve
+7] SUMMARY
+VAT [%] Net worth VAT Gross worth
+10% 160,00 16,00 176,00
+Total $ 160,00 $ 16,00 $ 176,00

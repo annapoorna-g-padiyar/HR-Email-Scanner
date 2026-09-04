@@ -1,0 +1,21 @@
+Invoice no: 61113263
+Date of issue: 02/04/2014
+—}) Seller: Client:
+Thomas-Andrade Macdonald, Bentley and Nguyen
+28324 Bonnie Street 68699 Cynthia Turnpike
+East Kyleberg, FL 66119 Mendozamouth, KY 86371
+Tax Id: 972-90-5571 Tax Id: 988-84-2670
+IBAN: GB58XCML78885587995840
+7) ITEMS
+No. Description Qty UM Net price Net worth VAT [%] Gross
+worth
+1, 6'x3' White Marble Living Room 4,00 each 5 590,21 22 360,84 10% 24 596,92
+Dining Table Top Marquetry
+Inlay Furniture H4743A
+2. 18" Handmade White Top Chess 3,00 each 525,00 1 575,00 10% 1 732,50
+Table Inlaid Mosaic Gemstone
+Art Halloween Gift Art
+7} SUMMARY
+VAT [%] Net worth VAT Gross worth
+10% 23 935,84 2 393,58 26 329,42
+Total $ 23 935,84 $ 2 393,58 $ 26 329,42

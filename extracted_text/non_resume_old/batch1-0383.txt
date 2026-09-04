@@ -1,0 +1,20 @@
+Invoice no: 23908850
+Date of issue: 04/08/2016
+—____) Seller: Client:
+Galloway, Silva and Nelson Meza, Long and Rivera
+4883 Jacqueline Grove Suite 424 981 Wade Villages
+Kingburgh, IL 87504 Pattersonfurt, VA 18515
+Tax Id: 904-95-9465 Tax Id: 996-91-5459
+IBAN: GB56AMOT20381791595194
+______) ITEMS
+No. Description Qty UM Net price Net worth VAT [%] Gross
+worth
+3. Joma Youth Boys Gol 205 Piso 1,00 each 19,99 19,99 10% 21,99
+Multitaco Soccer Cleats 2.5
+White Blue Yellow NEW
+10c
+6Y
+_______] SUMMARY
+VAT [%] Net worth VAT Gross worth
+10% 277,20 27,72 304,92
+Tota! $ 277,20 $ 27,72 $ 304,92

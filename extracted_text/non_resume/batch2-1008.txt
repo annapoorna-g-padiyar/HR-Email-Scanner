@@ -1,0 +1,28 @@
+Invoice no: 93779204
+Date of issue: 05/04/2020
+—}) Seller: Client:
+Baker Group Velasquez-Richards
+USCGC Gallagher Unit 1529 Box 5055
+FPO AE 46464 DPO AP 51707
+Tax Id: 970-82-0724 Tax Id: 958-85-3671
+IBAN: GB58AMTI61978338669413
+7) ITEMS
+No. Description Qty UM Net price Net worth VAT [%] Gross
+worth
+1, hp or Dell Desktop PC Computer 2,00 each 179,99 359,98 10% 395,98
+Dual Core 4GB RAM DUAL 19"
+LCDs WiFi Windows 10
+2. Gaming PC Desktop Computer 5,00 each 809,99 4 049,95 10% 4 454,95
+Intel i7 RGB, GTX 1660, 16GB
+RAM, 2TB HDD, 480GB SSD
+3. 10-Core Gaming Computer 2,00 each 439,98 879,96 10% 967,96
+Desktop PC Tower SSD Quad
+16GB R7 Graphic CUSTOM
+BUILT
+4, HP ProDesk 7th Gen. | 16GB | 2,00 each 279,00 558,00 10% 613,80
+2TB | SSD Windows 10 Pro
+Desktop Computer PC WiFi
+—_____] SUMMARY
+VAT [%] Net worth VAT Gross worth
+10% 5 847,89 584,79 6 432,68
+Total $5 847,89 $ 584,79 $ 6 432,68

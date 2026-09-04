@@ -1,0 +1,946 @@
+HHS Public Access
+Author manuscript
+J Biomed Inform. Author manuscript; available in PMC 2017 June 01.
+Published in final edited form as:
+J Biomed Inform. 2016 June ; 61: 141–148. doi:10.1016/j.jbi.2016.03.026.
+PDF text classification to leverage information extraction from
+publication reports
+Duy Duc An Bui, BS, PhD1,2, Guilherme Del Fiol, MD, PhD1, and Siddhartha Jonnalagadda,
+PhD2
+1Department of Biomedical Informatics, University of Utah, Salt Lake City, UT, USA
+2Department of Preventive Medicine-Health and Biomedical Informatics, Northwestern University,
+Chicago, IL, USA
+Abstract
+Objectives—Data extraction from original study reports is a time-consuming, error-prone
+process in systematic review development. Information extraction (IE) systems have the potential
+to assist humans in the extraction task, however majority of IE systems were not designed to work
+on Portable Document Format (PDF) document, an important and common extraction source for
+systematic review. In a PDF document, narrative content is often mixed with publication metadata
+or semi-structured text, which add challenges to the underlining natural language processing
+algorithm. Our goal is to categorize PDF texts for strategic use by IE systems.
+Methods—We used an open-source tool to extract raw texts from a PDF document and
+developed a text classification algorithm that follows a multi-pass sieve framework to
+automatically classify PDF text snippets (for brevity, texts) into TITLE, ABSTRACT,
+BODYTEXT, SEMISTRUCTURE, and METADATA categories. To validate the algorithm, we
+developed a gold standard of PDF reports that were included in the development of previous
+systematic reviews by the Cochrane Collaboration. In a two-step procedure, we evaluated (1)
+classification performance, and compared it with machine learning classifier, and (2) the effects of
+the algorithm on an IE system that extracts clinical outcome mentions.
+Results—The multi-pass sieve algorithm achieved an accuracy of 92.6%, which was 9.7%
+(p<0.001) higher than the best performing machine learning classifier that used a logistic
+regression algorithm. F-measure improvements were observed in the classification of TITLE
+(+15.6%), ABSTRACT (+54.2%), BODYTEXT (+3.7%), SEMISTRUCTURE (+34%), and
+MEDADATA (+14.2%). In addition, use of the algorithm to filter semi-structured texts and
+publication metadata improved performance of the outcome extraction system (F-measure +4.1%,
+p=0.002). It also reduced of number of sentences to be processed by 44.9% (p<0.001), which
+corresponds to a processing time reduction of 50% (p=0.005).
+Corresponding Author: Duy Duc An Bui, PhD, University of Utah, Biomedical Informatics, 421 Wakara Way, Ste 140, Salt Lake City,
+UT 84108-3514, Phone: (801) 581-4080 / Fax: (801) 581-4297 (Fax), ; Email: duy.bui@utah.edu or ; Email: bdaduy@gmail.com
+Publisher's Disclaimer: This is a PDF file of an unedited manuscript that has been accepted for publication. As a service to our
+customers we are providing this early version of the manuscript. The manuscript will undergo copyediting, typesetting, and review of
+the resulting proof before it is published in its final citable form. Please note that during the production process errors may be
+discovered which could affect the content, and all legal disclaimers that apply to the journal pertain.
+Conflicts of interest. The authors have no conflicts of interest to declare.
+Author
+Manuscript
+Author
+Manuscript
+Author
+Manuscript
+Author
+Manuscript
+An Bui et al. Page 2
+Conclusions—The rule-based multi-pass sieve framework can be used effectively in
+categorizing texts extracted from PDF documents. Text classification is an important prerequisite
+step to leverage information extraction from PDF documents.
+Graphical Abstract
+Keywords
+Text Classification; Natural Language Processing; Document Analysis; Machine Learning
+1. Introduction
+Systematic reviews (SRs) are important expert-synthesized information sources to enable
+1
+evidence-based medicine practice ( ). However, the production and updating of SRs are
+often costly, slow, and unable to keep pace with the rapid growth of the biomedical literature
+2 3
+( , ). The total expenditure of the Cochrane Collaboration, a prominent SR development
+4
+organization, in fiscal year 2011 was $2.4 million ( ), and that number increased to $3.9
+million in 2013 ( 5 ). Citations indexed in PubMed® have grown from 4 million (pre-1975) to
+3
+22 million today ( ). It takes 2.5 to 6.5 years for a primary study publication to be included
+6
+and published in a new SR ( ). About 23% of SRs have not been updated with new evidence
+6 within 2 years after the first publication ( ), and many clinical questions are not addressed in
+7
+existing SRs ( ). As a result, SRs quickly become outdated and suboptimal for patient care.
+This is partially because the SR process involves many labor-intensive manual steps, which
+face human limitations such as limited time and resources, and human inconsistency and
+errors. This situation highlights the need for investigating computer techniques to aid
+humans in SR development.
+8
+The SR process involves a series of scientifically rigorous steps( ), such as citation
+9
+searching( ), abstract screening, full-text screening, data extraction, and article appraisal.
+Data extraction to generate evidence summaries is one of the most important and time-
+8
+consuming steps in SR development ( ). Natural language processing (NLP) research in the
+past decade has investigated techniques to extract study characteristics from biomedical
+10 19
+publications ( - ). Those techniques have the potential to optimize the manual data
+extraction process; however, there are research gaps that have not been filled. One of the
+gaps that we choose to address in the present study concerns the heterogeneity of the digital
+document format. Present information extraction (IE) studies select sources of extraction
+from MEDLINE® abstracts, PubMed Central® (PMC) archives, and journal websites ( 12 ,
+J Biomed Inform. Author manuscript; available in PMC 2017 June 01.
+Author
+Manuscript
+Author
+Manuscript
+Author
+Manuscript
+Author
+Manuscript
+An Bui et al. Page 3
+17 19
+, ) available in HyperText Markup Language (HTML) format. However, the data
+extraction practice requires that the source of extraction be the original full-text study reports
+8
+( ), and the most common format for full-text reports is the Portable Document Format
+(PDF).
+NLP research on PDF documents faces several challenges. In a PDF document, narrative
+content is often mixed with publication metadata (header, footer, author information, journal
+information, etc) and semi-structured text (tables or figures). Publication metadata are often
+not relevant to the extraction goal and can add noise to the NLP system. Semi-structured text
+can contain relevant information, but it does not adhere to grammatical rules and requires
+different extraction strategies than narrative text. Therefore, categorizing the text snippets
+(texts) in a PDF document is a necessary first step to design an optimal extraction strategy.
+There have been studies on document structure recognition that sought to recover the logical
+20 23
+structure from PDF documents. Commonly used approaches were machine learning ( - )
+24 29
+and rule-based or heuristics ( - ). A rich number of PDF features have been used,
+including text pattern, format, spatial coordinates, and page boundary. Those methods used
+different approaches to recognize the PDF structure, and their performances also varied.
+None of the previous studies have been evaluated with practical real-world applications;
+therefore, the usefulness of PDF structure recognition for IE or text mining has not been
+validated.
+In the present research, we present an alternative approach to recognizing PDF structure. We
+30
+used the PDFBox tool ( ) to extract raw texts and metadata from PDF files and applied a
+novel automated classification technique to categorize text into high-level document
+structures. PDFBox is a free open-source tool commonly used in NLP solutions for PDF
+31 33 documents ( - ). In our preliminary study, PDFBox outperformed other open-access
+PDF-to-text conversion tools in extracting unlossy texts and maintaining the correct text
+order. The proposed algorithm employed the rule-based multi-pass sieve framework to
+perform the classification. For evaluation, we used the PDF reports used in the development
+of Cochrane systematic reviews. First, the classification algorithm performance was
+measured and compared against machine learning approaches. Then, the algorithm was
+applied to and evaluated in an IE use case.
+2. Materials and Methods
+Our study has three main parts: (a) development of a gold standard for PDF text
+classification and outcome extraction task, (b) development of a multi-pass sieve algorithm
+for PDF text classification, and (c.1) evaluation of the performance of the multi-pass sieve
+algorithm and comparison with a machine learning approach and (c.2) evaluation of the
+impact of PDF text classification on IE performance. The system architecture and the study
+design are summarized in Figure 1.
+2.1. Gold Standard
+For being close to actual systematic review data extraction, we developed a gold standard
+from the published Cochrane systematic reviews. More specifically, Cochrane reviews on
+J Biomed Inform. Author manuscript; available in PMC 2017 June 01.
+Author
+Manuscript
+Author
+Manuscript
+Author
+Manuscript
+Author
+Manuscript
+An Bui et al. Page 4
+the subject “heart and circulation” that were published after October 2014 were retrieved
+from the Cochrane Library web interface. In each review, we located the included primary
+studies and searched for the PDF reports. To narrow the research focus to clinical trials and
+facilitate the IE task, we excluded nonrandomized control trials and studies that had been
+reported in multiple publications.
+To build the text classification corpus, we used the PDFBox tool to extract raw texts from
+34
+the PDF reports. Then, we used the GATE annotation tool ( ) to annotate text snippets into
+five categories: TITLE, ABSTRACT, BODYTEXT, SEMISTRUCTURE, and METADATA.
+The METADATA labels were assigned to text snippets related to citation information, such
+as authorship, journal name, header/footer, and references. The SEMISTRUCTURE labels
+were assigned to text snippets that consisted of tables or figures. The TITLE and
+ABSTRACT labels were assigned to snippets that were the title and abstract of the
+document, respectively. The remainder of the text snippets were assigned the BODYTEXT
+label.
+In the next stage, we developed the gold standard for IE of study outcomes. Study outcomes
+are the extracted data elements commonly reported in the evidence summary of Cochrane
+reviews. They are the measurements used to assess a study hypothesis. We started with the
+outcome values reported in the Cochrane extraction template and extended by reviewing
+full-text manuscripts to validate and supplement the gold standard. The extraction template
+produced by systematic reviewers were not designed as an NLP gold standard, and might
+35
+contain human extraction errors ( ). Therefore, a second validation with the original report
+is necessary to enhance the reliability of the system evaluation. We looked for all exact
+mentions of outcome concepts in the document. An outcome concept can be reported in
+multiple slightly different ways. We grouped all mentions co-referred to the same concept to
+a single unique entry to evaluate recall at the concept level.
+2.2 Text Snippet Classification
+Raw texts extracted from a PDF document using PDFBox have similar characteristics as
+manually copying and pasting texts from a PDF reader. Visual structures are lost, and texts
+are broken down into multiple lines of text snippet (Figure 2). However, the essential text
+order is well maintained for NLP research. This work attempts to automatically assign
+document-level contexts to those text snippets, which is valuable information for designing
+NLP solutions for full-texts.
+We investigated the rule-based multi-pass sieve approach and a set of machine learning
+approaches for automated text classification. To enhance the system accuracy, we utilized
+some external NLP and knowledge resources. First, we used standard features of PDFBox to
+extract raw texts, font type, font size, page number, and paragraph number. Second, we used
+36
+the Stanford's Named Entity Recognition (NER) module( ) to detect PERSON,
+ORGANIZATION, and LOCATION entities in text. This feature was used in recognizing
+publication metadata such as authorship, affiliation, and bibliography. Lastly, MEDLINE®
+resources such as abstract, title, and author metadata were also used. Comparing
+MEDLINE® resources with full texts was a useful way to determine which text portions
+J Biomed Inform. Author manuscript; available in PMC 2017 June 01.
+Author
+Manuscript
+Author
+Manuscript
+Author
+Manuscript
+Author
+Manuscript
+An Bui et al. Page 5
+belong to the title, abstract, or author metadata. Those resources are shared and reused in
+both the multi-pass sieve and ML classification techniques.
+2.3. The multi-pass sieve algorithm
+We followed the multi-pass sieve framework to automatically classify text snippets into one
+of five categories. In previous studies, the multi-pass sieve framework has been successfully
+37 38
+applied to solve co-reference resolution problem ( , ). The framework favors applying
+multiple independent sieves passing through the document several times to perform the
+classification. The alternative machine learning approaches use a single-pass model, which
+performs the classification in a single pass through the document. An advantage of the multi-
+pass sieve model is the flexibility of breaking the complex task into multiple sub-tasks (or
+sieves). Each sieve is specialized to a specific task, which makes it convenient for testing,
+debugging and controlling for precision. To adapt the multi-pass sieve framework to text
+classification task, we implemented sieves, which included five main configurations: Begin
+condition, Pass condition, Stop condition, Directionality, and Repetition. The configurations
+are varied in different sieves and optimized to recognize a specific target label. +Begin
+Condition: If one of the composing rules is met, the sieve triggers the discovery process.
+Many of the begin conditions are dictionary matching rules such as looking up a prebuilt
+section heading collection. For instance, to identify author metadata, we look for snippets
+having patterns such as “correspondence to:,” “author affiliations,” and “financial
+disclosures”.
++Directionality: This defines the direction to which the sieve moves to compute the next
+snippets in the document. Typically, the directionality for specific labels is statically
+configured to either UP or DOWN direction. For TABLE and FIGURE labels, the
+directionalities are dynamically configured. The sieve chooses direction dynamically based
+on an examination of the surrounding contexts.
++Pass Condition: The sieve assigns the target label to the snippet if the pass condition is met.
++Stop Condition: The sieve stops the discovery process if the condition is met. Stop
+condition prevents the sieve from aggressively expanding to other sections. A frequently
+used stop condition is the first failure of the Pass Condition, but there are other rules, such as
+matching common content headings and maximum page number limit.
++Repetition: This configuration defines the number of times the sieve is repeated. The sieve
+can be repeated one or many times. A difficult case involves the sieve recognition of
+ABSTRACT snippets. Abstract texts are sometimes divided into two clusters of texts.
+Therefore, we configured the sieve repetition of two times to capture those clusters.
+Table 1 describes the full multi-pass sieve algorithm. The recognition of METADATA labels
+is subdivided into recognition of HEADER, FOOTER, KEYWORD, AUTHOR, JOURNAL,
+and REFERENCE. We built FIGURE and TABLE sieves to recognize SEMISTRUCTURE
+text snippets. Last, all unlabeled snippets were assigned to BODYTEXT labels.
+J Biomed Inform. Author manuscript; available in PMC 2017 June 01.
+Author
+Manuscript
+Author
+Manuscript
+Author
+Manuscript
+Author
+Manuscript
+An Bui et al. Page 6
+2.4. Machine learning classifiers
+We implemented and tested a representative set of machine learning algorithms to compare
+with the multi-pass sieve algorithm. Several machine learning algorithms that have been
+39
+implemented and integrated in the data mining software WEKA were used in this study ( ).
+The Support Vector Machine algorithm, Sequential Minimal Optimization (SMO), with
+polynomial kernel and radial basis function (RBF) kernel were tested at various exponent,
+gamma values, and hyper-parameter c values. In addition, we tested Naïve Bayes, J48, and
+Logistic Regression algorithms with their default configurations.
+We developed a machine learning model as summarized in Table 2. In addition to bag of
+words features that have been used in designing machine learning models as well as used as
+40 43
+baseline approaches ( - ), we also developed additional features that take advantage of
+external resources (MEDLINE® metadata, PDFBox, and Stanford's NER) that were used in
+the multi-pass sieve algorithm.
+The number of text snippets used for training is significantly large (16,546 snippets in 24
+documents). Training snippets all at once become inefficient and difficult to scale. In our
+experiments, a computer with 16 GB of RAM ran out of memory when training SVMs with
+all the text snippets. Training all snippets was not feasible due to significant need for system
+memory. This issue raises a scalability limitation when training the ML model in larger and
+more diverse datasets. To address this problem, we treated each document as a single
+classifier, and used the majority voting approach proposed by John Wiley & Sons (2004) to
+44
+combine the individual classifiers( ). A snippet was assigned to a class if it received the
+majority of votes from multiple document classifiers. If there were ties, random assignment
+following a uniform random distribution was conducted.
+2.5. Outcome extraction system
+To measure the impact of the classification algorithm on an IE system, we used a
+homegrown PICO (Population, Intervention, Comparison, and Outcome) extraction system
+(citation pending). The goal of this system is to extract PICO data elements from full-text
+PDF reports to aid in SR development. The full description of the system is beyond the
+scope of this report; therefore, we present a brief description of one of the most mature
+components, the outcome extraction system. In short, the outcome extraction system is
+composed of two main stages: sentence selection and noun phrase chunking and filtering.
+The first stage accepts raw text input from any source and splits the input into multiple
+sentences by using Stanford NLP's sentence splitter. From those sentences, we selected only
+sentences that potentially contain outcome information (e.g., contain definitive phrases:
+“outcomes were,” “study end points were”) or contain reporting phrases, such as
+“statistically different,” “was improved,” “was measured”). In the second stage, we used
+Stanford's parser to generate a Penn tree and extract all noun phrase mentions. Since noun
+phrase extraction might detect exceedingly long phrases in complex sentences, we filtered
+phrases that have more than 10 words. Last, we applied a set of regular expression rules and
+semantic tests to collect outcome mentions. Regular expression rule looks for surrounding
+contexts [e.g., rate of (\\S+), incidence of (\\S+), etc.] to determine candidate mentions. In
+45
+semantic test, we used Metamap ( ) to map text snippets to UMLS concepts restricted to
+J Biomed Inform. Author manuscript; available in PMC 2017 June 01.
+Author
+Manuscript
+Author
+Manuscript
+Author
+Manuscript
+Author
+Manuscript
+An Bui et al. Page 7
+the following semantic types: “Finding,” “Sign or Symptom,” “Laboratory or Test Result,”
+and “Disease and Syndrome.”
+2.6. Evaluation Approach
+We used the gold standard and methods described to test two hypotheses: H1: In the
+classification of PDF texts, the rule-based multi-pass sieve approach is more accurate than
+the machine learning approach; and H2: Using automated text classification to filter semi-
+structures and publication metadata improves performance of information extraction from
+full-text publications when compared to off-the-shelf PDF Box extraction.
+To test H1, we randomly divided the gold standard into a 50-50 random split of documents.
+The first half of the dataset was used to train the ML classifier and to develop rules for the
+multi-pass sieve algorithm; the other half was used for the evaluation. Standard text
+classification evaluation metrics such as accuracy, recall, precision, and F-measure were
+calculated at the token level, with accuracy used as the primary endpoint. There are short
+and long text snippets. We evaluate at token level to better represent the amount of
+information irrespective of the length of text snippets. We used Wilcoxon signed-rank test to
+assess the significance of the differences between the two approaches in terms of the
+accuracies averaged across documents.
+To test H2, we setup the experiment with two study arms. The first arm used raw texts
+extracted from PDF reports by using PDFBox. The second arm used the multi-pass sieve
+algorithm to categorize raw texts and filter all SEMISTRUCTURE and METADATA
+snippets before passing them to the IE system. Both arms were tested against the evaluation
+set of the gold standard described earlier. Recall, precision, F-measure, number of split
+sentences, and processing time are reported, with F-measure being the primary endpoint. We
+considered a correct mention if it contained phrases that appeared in the gold standard.
+Wilcoxon signed-rank test was used to test the significance of the performance difference
+per document between the two study arms.
+3. Results
+We constructed a gold standard composed of 48 published reports that were included in
+eight Cochrane reviews. Those reports represent the publication formats of 34 different
+journals. A follow-up analysis showed that only 64% of studies have contents available in
+HTML pages, while all of them can be downloaded as PDF reports. All of them are
+randomized controlled trials, but only 16% have posted structured results on
+ClinicalTrials.gov. Raw text extraction using PDFBox generated 33,307 lines of text
+snippets, from which we were able to annotate 157 (0.5%) TITLE snippets, 1230 (3.7%)
+ABSTRACT snippets, 17,711 (53.2%) BODYTEXT snippets, 5596 (16.8%)
+SEMISTRUCTURE snippets, and 8613 (25.9%) METADATA snippets. In the outcome
+extraction dataset, we were able to manually annotate 204 outcome mentions, with a rate of
+4.2 outcome mentions per document.
+Classification performances of various machine learning classifiers are summarized in Table
+3. The best classifier used a logistic regression algorithm and achieved an accuracy of
+J Biomed Inform. Author manuscript; available in PMC 2017 June 01.
+Author
+Manuscript
+Author
+Manuscript
+Author
+Manuscript
+Author
+Manuscript
+An Bui et al. Page 8
+82.9%. The multi-pass sieve approach achieved an average accuracy of 92.6% over 24
+documents. This is a significant improvement of 9.7% (p<0.001) over the logistic regression
+classifier. According to a power analysis, to reach a statistical power of 80% for the effect
+size we found, a sample of 16 documents would be needed.
+Table 4 shows the detailed performance comparison of the logistic regression classifier and
+the multi-pass sieve algorithm. For certain data elements, the F-measures for the multi-pass
+sieve approach were much better than those for the machine learning classifier (TITLE
++15.6%, ABSTRACT +54.2%; BODYTEXT +3.7%; SEMISTRUCTURE +34%;
+METADATA +14.2%).
+For outcome extraction task, the IE system that operated on PDF texts after filtering out
+SEMISTRUCTURE and METADATA snippets had better performance than off-the-shelf
+PDF Box extraction (Table 3). The improvement on recall was not significant (+1%; p=0.11)
+while precision was significantly improved (+4.3%; p<0.001). F-measure increased
+significantly by 4.1% (p=0.002). Most notably, filtering publication metadata and semi-
+structured texts reduced the number of sentences to be processed by 44.9% (p<0.001), which
+corresponds to a processing time reduction of 50% (p=0.005). In our testing, the most time
+consuming step of unfiltered branch was the syntactic parsing the lengthy non-grammar
+texts such as table.
+4. Discussion
+4.1. PDF text classification
+We designed and evaluated a rule-based multi-pass sieve approach to categorize texts
+extracted from PDF documents. The approach is an alternative to the machine learning
+43 46 47 algorithms that are commonly used in text classification studies ( , , ). Overall, the
+multi-pass sieve classifier significantly outperformed the best machine learning classifier
+(accuracy 92.6% vs. 82.9%, p<0.001). Machine learning approaches tend not to perform
+48 49
+well on imbalanced datasets( , ). For this task of document-level classification, the
+distribution of text labels is not symmetrical (0.5% TITLE, 3.7% ABSTRACT, 53.2%
+BODYTEXT, 16.8% SEMISTRUCTURE, and 25.9% METADATA). This imbalanced
+dataset could lead to training models biased toward the majority labels. The multi-pass sieve
+framework addresses such problem through high precision sieves that target minority labels.
+To classify large labels, the framework allows breaking the task into multiple sieves with
+each sieve targeting a specific aspect of the data. That approach can control for precision,
+while recall can be improved by stacking multiple sieves. In the present study, the label-
+specific performances of the multi-pass sieve algorithm are significantly better, especially
+for minority labels (F-measure: TITLE +15.6%, ABSTRACT +54.2%, SEMISTRUCTURE
++34%, and MEDADATA +14.2%).
+Our dataset also showed that 36% of studies published in PDF format did not have an
+HTML version available. This is further confirmed with Cochrane Heart Group's systematic
+reviewers, who stated that PDF is often the preferred choice due to wider adoption and
+availability offline. Therefore, IE systems need to operate on PDF documents to effectively
+support systematic review development. The annotation results showed that 26% of text
+J Biomed Inform. Author manuscript; available in PMC 2017 June 01.
+Author
+Manuscript
+Author
+Manuscript
+Author
+Manuscript
+Author
+Manuscript
+An Bui et al. Page 9
+snippets are publication metadata, and 17% are semi-structured texts. These findings
+confirm the heterogeneity problem in PDF reports. There are off-the-shelf tools developed to
+help detect the PDF logical structure. However, our preliminary studies could not find one
+that meets the needs of data extraction either because the classification schema did not
+match the needs of data extraction, or because tools did not perform well in our systematic
+review dataset.
+The multi-pass sieve framework proposed in this study has several strengths. First, its
+accuracy was higher than the best performing machine learning classifier by 9.7%. Second,
+the framework is flexible and extendable. Developers have the flexibility to create and add
+new sieves and rules to target new data elements. Rules are organized at different stages to
+facilitate maintainability and extension. Third, the algorithm is intuitive, i.e. it operates in a
+way similar to human screening, in which documents are scanned for the prominent
+signatures (e.g., heading, caption) and then examine the contents.
+4.2. Clinical outcome extraction
+Our baseline system achieved 95.8% recall and 43.1% precision. While the recall is
+adequate, precision needs further improvement. The use of the classification algorithm to
+filter publication metadata and semi-structured texts improved recall by 1% and precision by
+4.3%. The difference in recall was not significant, since the baseline recall was very high
+with little room for improvement. The precision improvement corresponds to a reduction of
+17% in the number of false-positive mentions; therefore, the algorithm would considerably
+reduce the number of mentions that reviewers would need to correct in a semi-automated
+data extraction process.
+A subsequent analysis showed that texts without filtering sometimes have publication
+metadata and semi-structured texts embedded within body text fragments, breaking up
+sentences. Detecting and filtering those non-prose texts improved the performance of the
+sentence splitter algorithm (e.g., Stanford sentence splitter). Defining correct sentence
+boundaries is an important prerequisite step for most NLP systems. Incorrect sentence
+boundaries negatively impact subsequent NLP pipelines such as syntactic parsing and phrase
+chunking. Moreover, the filtering reduced the number of sentences to be processed by
+44.9%. This reduction improved the efficiency of the NLP approach by reducing processing
+time (50%) without causing performance loss.
+This study evaluated impacts of the PDF structure recognition on an IE system. However,
+the proposed technique is also potentially useful in other areas, such as information retrieval,
+automated document classification, and library management. These areas share the PDF
+heterogeneity problem that might degrade the performance of any text processing
+approaches.
+4.3. Limitations
+The algorithm takes advantage of MEDLINE® resources such as title, abstract, and author
+metadata, which reduces the applicability of the method to documents not indexed in
+MEDLINE®. However, our focus was on biomedical research publications and the majority
+of these resources are openly available in the MEDLINE® database.
+J Biomed Inform. Author manuscript; available in PMC 2017 June 01.
+Author
+Manuscript
+Author
+Manuscript
+Author
+Manuscript
+Author
+Manuscript
+An Bui et al. Page 10
+This study did not test an exhaustive list of machine learning algorithms, their optimization
+parameters, and ensemble approaches to combine classifiers. Unexplored ML optimizations
+include using feature selection and sampling techniques to reduce dimensionality. Other
+50 51
+ensemble approaches such as Bayes Optimal Classifier( ) and Stacking( ), have not been
+investigated. The ML baseline could be improved with sequential ML models such as
+52 53
+Hidden Markov Model( ) and Conditional Random Field( ). Further parameter
+optimization of ML models might also boost the classification performance, but with the risk
+of over-fitting the model over the training set. Nevertheless, given the abundance of ML
+models and optimization methods, finding the best model to a single problem requires a
+significant amount of experimental work and often lacks generalizability. Our rule-based
+approach using the multi-pass sieve framework can serve as alternative or a complement to a
+machine learning solution, especially for classifying minority labels.
+This study used the outcome extraction module to perform an intrinsic evaluation. The
+impacts of filtering on other data elements, such as sample size and intervention are
+unknown. Our analysis confirmed that filtering affects the performance of the sentence-
+splitter, which impacts any extraction methods that rely on the assumption of a correct
+sentence boundary.
+We did not use semi-structured texts as the source of extraction, although they might contain
+outcome mentions. Semi-structured texts require different extraction strategies that rely
+more on pattern-matching and dictionary-matching than on syntactic parsing and chunking.
+Because we deemed recall to be satisfactory, an additional source of extraction was
+considered unnecessary.
+4.4. Future Work
+Areas that demand future research include testing the classification algorithm on a diverse
+set of PDF documents, validating the usefulness in other text mining research such as
+information retrieval, document classification, and IE of other data elements, and using
+semi-structured texts instead of excluding them.
+5. Conclusion
+We present an alternative approach for PDF structure recognition by using PDFBox to
+extract raw texts and a multi-pass sieve algorithm for classification. The multi-pass sieve
+algorithm achieved a higher accuracy than the more commonly used machine learning
+classification approach. The multi-pass sieve algorithm also improved the performance of an
+IE system compared to off-the-shelf PDF extraction. PDF structure recognition unlocks the
+door to conduct text mining research on PDF files, an important information source for
+biomedical research.
+Acknowledgments
+This work was made possible by funding from National Library of Medicine grants (R00LM011389 and
+R01LM011416-01). We are also thankful to the guidance provided by the US Satellite of the Cochrane Heart Group
+led by Dr. Mark Huffman.
+J Biomed Inform. Author manuscript; available in PMC 2017 June 01.
+Author
+Manuscript
+Author
+Manuscript
+Author
+Manuscript
+Author
+Manuscript
+An Bui et al. Page 11
+References
+1. Sackett DL, Rosenberg WM, Gray JA, Haynes RB, Richardson WS. Evidence based medicine: what
+it is and what it isn't. BMJ (Clinical research ed ). 1996; 312(7023):71–2.
+2. Ware M, Mabe M. An overview of scientific and scholarly journal publishing. The stm report. 2009
+3. Statistical Reports on MEDLINE®/PubMed® Baseline Data. Available from: https://
+www.nlm.nih.gov/bsd/licensee/baselinestats.html
+4. Schaafsma ME. The Cochrane Collaboration Treasurer's Report. 2012
+5. Limited CTC. Directors' reports and financial statements. 2013
+6. Shojania KG, Sampson M, Ansari MT, Ji J, Doucette S, Moher D. How quickly do systematic
+reviews go out of date? A survival analysis. Annals of internal medicine. 2007; 147(4):224–33.
+[PubMed: 17638714]
+7. Bragge P, Clavisi O, Turner T, Tavender E, Collie A, Gruen RL. The Global Evidence Mapping
+Initiative: scoping research in broad topic areas. BMC medical research methodology. 2011; 11(1):
+92. [PubMed: 21682870]
+8. Higgins, JP.; Green, S. Cochrane handbook for systematic reviews of interventions. Wiley Online
+Library; 2008.
+9. Bui DD, Jonnalagadda S, Del Fiol G. Automatically finding relevant citations for clinical guideline
+development. J Biomed Inform. 2015
+10. Summerscales, RL. Automatic summarization of clinical abstracts for evidence-based medicine.
+Illinois Institute of Technology; 2013.
+11. Huang K- C, Chiang IJ, Xiao F, Liao C- C, Liu CC- H, Wong J- M. PICO element detection in
+medical text without metadata: are first sentences enough? J Biomed Inform. 2013; 46(5):940–6.
+[PubMed: 23899909]
+12. Boudin F, Nie J- Y, Bartlett JC, Grad R, Pluye P, Dawes M. Combining classifiers for robust PICO
+element detection. BMC Med Inform Decis Mak. 2010; 10:29. [PubMed: 20470429]
+13. Zhu H, Ni Y, Cai P, Qiu Z, Cao F. Automatic extracting of patient-related attributes: disease, age,
+gender and race. Studies in health technology and informatics. 2012; 180:589–93. [PubMed:
+22874259]
+14. Corney DPA, Buxton BF, Langdon WB, Jones DT. BioRAT: extracting biological information from
+full-length papers. Bioinformatics (Oxford, England). 2004; 20(17):3206–13.
+15. Verspoor K, Mackinlay A, Cohn JD, Wall ME. Detection of protein catalytic sites in the
+biomedical literature. Pac Symp Biocomput. 2013:433–44. [PubMed: 23424147]
+16. Hakenberg J, Leaman R, Vo NH, Jonnalagadda S, Sullivan R, Miller C, et al. Efficient extraction of
+protein-protein interactions from full-text articles. IEEE/ACM Trans Comput Biol Bioinform.
+2010; 7(3):481–94. [PubMed: 20498514]
+17. Hsu W, Speier W, Taira RK. Automated extraction of reported statistical analyses: towards a
+logical representation of clinical trial literature. AMIA Annual Symposium proceedings / AMIA
+Symposium AMIA Symposium. 2012; 2012:350–9. [PubMed: 23304305]
+18. de Bruijn B, Carini S, Kiritchenko S, Martin J, Sim I. Automated information extraction of key
+trial design elements from clinical trial publications. AMIA Annual Symposium proceedings /
+AMIA Symposium AMIA Symposium. 2008:141–5. [PubMed: 18999067]
+19. Kiritchenko S, de Bruijn B, Carini S, Martin J, Sim I. ExaCT: automatic extraction of clinical trial
+characteristics from journal publications. BMC Med Inform Decis Mak. 2010; 10:56. [PubMed:
+20920176]
+20. Kern R, Jack K, Hristakeva M, Granitzer M. TeamBeam Meta-Data Extraction from Scientific
+Literature. D-Lib Magazine. 2012; 18(7):1.
+21. Granitzer, M.; Hristakeva, M.; Knight, R.; Jack, K.; Kern, R., editors. Proceedings of the 2nd
+International Conference on Web Intelligence, Mining and Semantics. ACM; 2012. A comparison
+of layout based bibliographic metadata extraction techniques..
+22. Han, H.; Giles, CL.; Manavoglu, E.; Zha, H.; Zhang, Z.; Fox, E., editors. Proceedings 2003 Joint
+Conference on. Vol. 2003. Digital Libraries; IEEE; 2003. Automatic document metadata extraction
+using support vector machines..
+J Biomed Inform. Author manuscript; available in PMC 2017 June 01.
+Author
+Manuscript
+Author
+Manuscript
+Author
+Manuscript
+Author
+Manuscript
+An Bui et al. Page 12
+23. Luong M-T, Nguyen TD, Kan M-Y. Logical structure recovery in scholarly articles with rich
+document features. Multimedia Storage and Retrieval Innovations for Digital Library Systems.
+2012:270.
+24. Constantin, A.; Pettifer, S.; Voronkov, A., editors. Proceedings of the 2013 ACM symposium on
+Document engineering. ACM; 2013. PDFX: fully-automated PDF-to-XML conversion of
+scientific literature..
+25. Kboubi, F.; Chabi, AH.; Ahmed, MB., editors. 2005 Proceedings Eighth International Conference
+on. IEEE; 2005. Table recognition evaluation and combination methods. Document Analysis and
+Recognition.
+26. Chao, H.; Fan, J. Document Analysis Systems VI. Springer; 2004. Layout and content extraction
+for pdf documents.; p. 213-24.
+27. Klampfl S, Jack K, Kern R. A Comparison of Two Unsupervised Table Recognition Methods from
+Digital Scientific Articles. D-Lib Magazine. 2014; 20(11):7.
+28. Klampfl, S.; Kern, R. Research and Advanced Technology for Digital Libraries. Springer; 2013.
+An unsupervised machine learning approach to body text and table of contents extraction from
+digital scientific articles.; p. 144-55.
+29. Oro, E.; Ruffolo, M., editors. 2009 ICDAR'09 10th International Conference on. Document
+Analysis and Recognition; IEEE; 2009. PDF-TREX: An approach for recognizing and extracting
+tables from PDF documents..
+30. Apache PDFBox - A Java PDF Library. 2015. Available from: https://pdfbox.apache.org/
+31. Beel, J.; Gipp, B.; Shaker, A.; Friedrich, N. Research and Advanced Technology for Digital
+Libraries. Springer; 2010. SciPlore Xtract: Extracting Titles from Scientific PDF Documents by
+Analyzing Style Information (Font Size).; p. 413-6.
+32. Garcia-Remesal M, Maojo V, Crespo J. A knowledge engineering approach to recognizing and
+extracting sequences of nucleic acids from scientific literature. Conf Proc IEEE Eng Med Biol
+Soc. 2010; 2010:1081–4. [PubMed: 21096556]
+33. Schäfer, U.; Kiefer, B. Advances in deep parsing of scholarly paper content. Springer; 2011.
+34. Kenter, T.; Maynard, D. Natural language processing group. University of Sheffield; 2005. Using
+gate as an annotation tool..
+35. Jones AP, Remmington T, Williamson PR, Ashby D, Smyth RL. High prevalence but low impact of
+data extraction and reporting errors were found in Cochrane systematic reviews. Journal of clinical
+epidemiology. 2005; 58(7):741–2. [PubMed: 15939227]
+36. Finkel, JR.; Grenager, T.; Manning, C., editors. Proceedings of the 43rd Annual Meeting on
+Association for Computational Linguistics. Association for Computational Linguistics; 2005.
+Incorporating non-local information into information extraction systems by gibbs sampling..
+37. Raghunathan, K.; Lee, H.; Rangarajan, S.; Chambers, N.; Surdeanu, M.; Jurafsky, D., et al.,
+editors. Proceedings of the 2010 Conference on Empirical Methods in Natural Language
+Processing. Association for Computational Linguistics; 2010. A multi-pass sieve for coreference
+resolution..
+38. Jonnalagadda SR, Li D, Sohn S, Wu ST, Wagholikar K, Torii M, et al. Coreference analysis in
+clinical notes: a multi-pass sieve with alternate anaphora resolution modules. J Am Med Inform
+Assoc. 2012; 19(5):867–74. [PubMed: 22707745]
+39. Hall M, Frank E, Holmes G, Pfahringer B, Reutemann P, Witten IH. The WEKA data mining
+software: an update. SIGKDD Explor Newsl. 2009; 11(1):10–8.
+40. García MAM, Rodríguez RP, Rifón LEA. Biomedical literature classification using encyclopedic
+knowledge: a Wikipedia-based bag-of-concepts approach. PeerJ. 2015; 3:e1279. [PubMed:
+26468436]
+41. Soguero-Ruiz C, Hindberg K, Rojo-Alvarez J, Skrovseth SO, Godtliebsen F, Mortensen K, et al.
+Support Vector Feature Selection for Early Detection of Anastomosis Leakage from Bag-of-Words
+in Electronic Health Records. 2014
+42. Xu, R.; Hirano, Y.; Tachibana, R.; Kido, S. Medical Image Computing and Computer-Assisted
+Intervention–MICCAI 2011. Springer; 2011. Classification of diffuse lung disease patterns on
+high-resolution computed tomography by a bag of words approach.; p. 183-90.
+J Biomed Inform. Author manuscript; available in PMC 2017 June 01.
+Author
+Manuscript
+Author
+Manuscript
+Author
+Manuscript
+Author
+Manuscript
+An Bui et al. Page 13
+43. Bui DD, Zeng-Treitler Q. Learning regular expressions for clinical text classification. J Am Med
+Inform Assoc. 2014; 21(5):850–7. [PubMed: 24578357]
+44. Kuncheva, LI. Combining pattern classifiers: methods and algorithms. John Wiley & Sons; 2004.
+45. Aronson, AR. Metamap: Mapping text to the umls metathesaurus. NLM, NIH, DHHS; Bethesda,
+MD: 2006. p. 1-26.
+46. Song MH, Kim SH, Park DK, Lee YH. A multi-classifier based guideline sentence classification
+system. Healthcare informatics research. 2011; 17(4):224–31. [PubMed: 22259724]
+47. Sohn S, Torii M, Li D, Wagholikar K, Wu S, Liu H. A hybrid approach to sentiment sentence
+classification in suicide notes. Biomed Inform Insights. 2012; 5(Suppl. 1):43–50. [PubMed:
+22879759]
+48. Japkowicz N, Stephen S. The class imbalance problem: A systematic study. Intelligent data
+analysis. 2002; 6(5):429–49.
+49. Van Hulse, J.; Khoshgoftaar, TM.; Napolitano, A., editors. Proceedings of the 24th international
+conference on Machine learning. ACM; 2007. Experimental perspectives on learning from
+imbalanced data..
+50. Tong, S.; Koller, D., editors. Restricted bayes optimal classifiers. AAAI/IAAI; 2000.
+51. Wolpert DH. Stacked generalization. Neural networks. 1992; 5(2):241–59.
+52. Eddy SR. Hidden markov models. Current opinion in structural biology. 1996; 6(3):361–5.
+[PubMed: 8804822]
+53. Pinto, D.; McCallum, A.; Wei, X.; Croft, WB., editors. Proceedings of the 26th annual
+international ACM SIGIR conference on Research and development in informaion retrieval. ACM;
+2003. Table extraction using conditional random fields..
+J Biomed Inform. Author manuscript; available in PMC 2017 June 01.
+Author
+Manuscript
+Author
+Manuscript
+Author
+Manuscript
+Author
+Manuscript
+An Bui et al. Page 14
+Highlights
+- Full-text publications in PDF format are the main sources used in the development
+of systematic reviews.
+- PDF reports used in the development of Cochrane systematic reviews were used as
+gold a standard.
+- The multi-pass sieve algorithm is a powerful alternative approach to the machine
+learning approaches in the classification of PDF texts.
+- The PDF text classification algorithm improved performance of an information
+extraction system that identifies clinical outcome mentions from full-text
+publications.
+J Biomed Inform. Author manuscript; available in PMC 2017 June 01.
+Author
+Manuscript
+Author
+Manuscript
+Author
+Manuscript
+Author
+Manuscript
+An Bui et al. Page 15
+Figure 1.
+The system architecture and the study design.
+J Biomed Inform. Author manuscript; available in PMC 2017 June 01.
+Author
+Manuscript
+Author
+Manuscript
+Author
+Manuscript
+Author
+Manuscript
+An Bui et al. Page 16
+Figure 2.
+An example of text classification output. The text portion highlighted in red is filtered out
+before passing to the information extraction system.
+J Biomed Inform. Author manuscript; available in PMC 2017 June 01.
+Author
+Manuscript
+Author
+Manuscript
+Author
+Manuscript
+Author
+Manuscript
+Author
+Manuscript
+Author
+Manuscript
+Author
+Manuscript
+Author
+Manuscript
+An Bui et al. Page 17
+Table 1
+The full description of multi-pass sieve algorithm (R=Rule).
+Target Element Begin Condition Pass Condition Stop Condition Direction/Repetition
+HEADER R1: Begin of page AND R2: R3: Same paragraph with R4: Fail Pass Direction: DOWN
+Repeat more than 1 times. previous line. Condition Repeat: UNLIMITED
+R5: Match common
+section headings
+FOOTER R5: End of page AND R2 R3 R4 Direction: UP
+R5 Repeat: UNLIMITED
+KEYWORD R6: Match keywords headings R3 R4 Direction: DOWN
+R5 Repeat: 1
+TABLE R7: Match table common R3 R4 Direction: DYNAMIC
+headings. R8: Same font with previous R5 (e.g., choose the direction
+R7.1: Treat the following lines in line AND R9.1: NOT R9.2: Contain with the largest number of
+the paragraph as the Table contain document main font document main font numeric patterns)
+captions. R10: Contain sequence of AND R12: Contain Repeat: UNLIMITED
+number pattern (e.g., Mean predication/verb
+age 46 87)
+R11 Contain mathematical
+and reporting symbols
+(±*<>†‡)
+FIGURE R13: Match figure common R3 R4 Direction: DYNAMIC
+headings. R8 AND R9.1 R5 Repeat: UNLIMITED
+R13.1: Treat the following lines in R11 R9.2 AND R12:
+paragraph as the Figure captions
+TITLE R13: Begin of paragraph AND R3 R4 Direction: DOWN
+R14: Contain in MEDLINE's title R14 R5 Repeat: 1
+R15: Page number >
+2
+ABSTRACT R16: Match the Abstract heading. R3 R4 Direction: DOWN
+R17: Contain in MEDLINE's R17 R5 Repeat: 2
+abstract R6
+R15
+REFERENCE R18: Match reference common R3 R4 Direction: DOWN
+headings. R8 Repeat: UNLIMITED
+R19: Prefix by a number AND
+R20: Contain PERSON or
+ORGANIZATION entities.
+AUTHOR R20: Contain in MEDLINE's R3 R4 Direction: DOWN
+authors R8 AND R9 R5 Repeat: UNLIMITED
+R21: Match common Authors R22: Contain LOCATION,
+information headings (e.g., PERSON,
+correspondence to:, author ORGANIZATION entities
+affiliations, financial disclosures, R23: Contain publication
+etc) predications (submitted,
+published, supported,
+received, accepted, etc)
+JOURNAL R24: Match Journal metadata R3 R4 Direction: DOWN
+headings (e.g., original article, R23 R5 Repeat: UNLIMITED
+print issn:, link available on, etc) R25: Match URL, IP
+address, price, DOI patterns
+J Biomed Inform. Author manuscript; available in PMC 2017 June 01.
+Author
+Manuscript
+Author
+Manuscript
+Author
+Manuscript
+Author
+Manuscript
+An Bui et al. Page 18
+Table 2
+Text snippet classification machine learning features.
+Variable Type Description
+text_length Numeric Length of text snippet in number of characters
+paragraph_number Numeric Paragraph position number
+page_number Numeric Page number
+IsPrimaryFont Boolean Whether the text snippet uses the most prominent font in the document
+font_size Numeric Font size of the text snippet
+containInMedlineTitle Boolean Whether the snippet is contained in the MEDLINE® title
+containInMedlineAbstract Boolean Whether the snippet is contained in the MEDLINE® abstract
+containInMedlineAuthor Boolean Whether the snippet is contained in the MEDLINE® author metadata
+numPERSON Numeric Number of PERSON entities
+numLOCATION Numeric Number of LOCATION entities
+numORGANIZATION Numeric Number of ORGANIZATION entities
+Bag-Of-Words features Numeric Frequencies of each word
+J Biomed Inform. Author manuscript; available in PMC 2017 June 01.
+Author
+Manuscript
+Author
+Manuscript
+Author
+Manuscript
+Author
+Manuscript
+An Bui et al. Page 19
+3
+elbaT
+.sledom
+gninrael
+enihcam
+suoirav
+fo
+secnamrofrep
+noitacifissalC
+noissergeR
+citsigoL
+84J
+seyaB
+evïaN
+lenreK
+FBR
+MVS
+lenreK
+laimonyloP
+MVS
+50.0=g
+40.0=g
+30.0=g
+20.0=g
+10.0=g
+5=e
+4=e
+3=e
+2=e
+1=e
+c
+9.37
+8.37
+4.37
+8.37
+9.47
+5.15
+5.36
+3.76
+4.57
+9.08
+1
+8.57
+3.57
+57
+5.47
+6.27
+7.05
+3.36
+3.56
+5.57
+9.08
+2
+9.28
+6.86
+3.97
+6.77
+6.67
+1.67
+5.57
+7.47
+2.35
+7.46
+1.66
+2.67
+9.08
+3
+97
+1.87
+9.67
+9.57
+2.57
+1.45
+3.56
+1.76
+4.67
+18
+4
+8.97
+1.97
+8.77
+6.67
+3.57
+4.45
+2.56
+4.76
+9.67
+18
+5
+J Biomed Inform. Author manuscript; available in PMC 2017 June 01.
+Author
+Manuscript
+Author
+Manuscript
+Author
+Manuscript
+Author
+Manuscript
+An Bui et al. Page 20
+Table 4
+Performance comparison of the multi-pass sieve approach versus the logistic regression classifier.
+Logistic Regression classifier Multi-pass sieve approach
+Accuracy Recall Precision F-measure Accuracy Recall Precision F-measure
+TITLE (%) 89 62.3 69.7 95.8 80.3 85.3
+ABSTRACT (%) 21.3 57.5 28.9 86.6 82.2 83.1
+BODYTEXT (%) 82.9 92 88 89.3 92.6 (p<0.001) 95.9 90.6 93
+SEMISTRUCTURE (%) 50.4 70.9 54.9 88.6 91.5 88.9
+METADATA (%) 81 72.9 73.1 82 96.8 87.3
+J Biomed Inform. Author manuscript; available in PMC 2017 June 01.
+Author
+Manuscript
+Author
+Manuscript
+Author
+Manuscript
+Author
+Manuscript
+An Bui et al. Page 21
+Table 5
+Comparison of IE performance operated on original PDF texts vs PDF texts after filtering SEMISTRUCTURE
+and METADATA snippets.
+Original texts extracted from PDF PDF texts after filtering SEMISTRUCTURE and
+reports METADATA snippets
+Recall (%) 95.8 96.8 (p=0.11)
+Precision (%) 43.1 47.4 (p=0.004)
+F Score (%) 68.5 62.6 (p<0.002)
+Average number of sentences 256 141 (p<0.001)
+Average processing time (minute) 1.16 0.58 (p=0.005)
+J Biomed Inform. Author manuscript; available in PMC 2017 June 01.

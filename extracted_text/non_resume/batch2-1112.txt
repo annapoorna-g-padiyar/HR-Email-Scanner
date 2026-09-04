@@ -1,0 +1,24 @@
+Invoice no: 74930140
+Date of issue: 05/14/2016
+—}) Seller: Client:
+Callahan-Benson Bowman-Lam
+8882 Vickie Alley Apt. 294 8130 Sanchez Causeway Apt. 639
+Obrienchester, MO 25760 Lake Monique, VA 09756
+Tax Id: 924-85-5882 Tax Id: 972-81-1228
+IBAN: GB72SQEQ91856730048088
+7) ITEMS
+No. Description Qty UM Net price Net worth VAT [%] Gross
+worth
+1, Soft Sheepskin Mat Faux Fur 3,00 each 9,84 29,52 10% 32,47
+Fake Rug Shaggy Non Slip Floor
+Carpet Black
+2. Chef Pattern Kitchen Floor Rugs 1,00 each 15,96 15,96 10% 17,56
+Carpet Blanket Area Mats Home
+Supply 40x60cm
+3. Yilong 1'x1.5' 400Lines Area 1,00 each 540,00 540,00 10% 594,00
+Rug High Density Hand knotted
+Silk Carpet 221H
+—______} SUMMARY
+VAT [%] Net worth VAT Gross worth
+10% 585,48 58,55 644,03
+Total $ 585,48 $ 58,55 $ 644,03

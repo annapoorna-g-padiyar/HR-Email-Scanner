@@ -1,0 +1,36 @@
+Invoice no: 41893391
+Date of issue: 08/08/2015
+—____) Seller: Client:
+Moore and Sons Charles, Vazquez and Fernandez
+868 Vega Port Apt. 066 05284 Keith Ridge
+Garymouth, AR 24981 Nicolefurt, NY 77643
+Tax Id: 930-88-0820 Tax Id: 987-79-8047
+IBAN: GB48YTIM62309578008008
+7) ITEMS
+No. Description Qty UM Net price Net worth VAT [%] Gross
+worth
+1, Geometry Hippie Non-slip Area 1,00 each 13,66 13,66 10% 15,03
+Rugs Kitchen Rug Floor Mat
+LivingRoom Carpet Decor
+2. 2Pack Soft Fluffy Faux Fur Plain 4,00 each 13,59 54,36 10% 59,80
+Chair Cover Washable Shaggy
+Area Rugs Carpet
+3. 3D Printed Mat Vortex Illusion 2,00 each 11,63 23,26 10% 25,59
+Living room Rug Carpet Floors
+Doors Round Mat
+4, Garden Flower Carpet Quilted 5,00 each 45,50 227,50 10% 250,25
+Bedroom Floor Princess Tapis
+Lace Rug Carpets
+5. Indian Green Red Color 2.6'x4' 4,00 each 215,00 860,00 10% 946,00
+Carpet Hand Knotted Living
+Room Traditional Chobi
+6. Deluxe Soft Faux Sheepskin 4,00 each 14,02 56,08 10% 61,69
+Shaggy Area Floor Rugs Kids
+Play Carpet
+7. War Horse Series Small Large 2,00 each 36,30 72,60 10% 79,86
+Long Floor Carpet Area Rugs
+Various Size Soft Rug
+1) SUMMARY
+VAT [%] Net worth VAT Gross worth
+10% 1 307,46 130,75 1 438,21
+Total $ 1 307,46 $ 130,75 $1 438,21

@@ -1,0 +1,24 @@
+Invoice no: 11437761
+Date of issue: 05/14/2014
+—____) Seller: Client:
+Hansen-Ramirez Martin, Boyer and Johnson
+33840 Wallace Bypass Apt. 425 221 Reeves Grove
+Gordonmouth, NJ 94430 Jamesshire, SD 09370
+Tax Id: 909-92-9460 Tax Id: 901-78-7291
+IBAN: GB53YGAN18915667410952
+______) ITEMS
+No. Description Qty UM Net price Net worth VAT [%] Gross
+worth
+1. Dont Sweat the Small Stuff... 1,00 each 4,49 4,49 10% 4,94
+and Its All Small Stuff: Simple
+Ways to Keep
+2. Battle of the Dum Diddys 2,00 each 4,49 8,98 10% 9,88
+(Rotten School, No. 12) by R.L.
+Stine
+4. KING JAMES VERSION (KJV), 1,00 each 52,99 52,99 10% 58,29
+RAINBOW STUDY BIBLE, BLACK
+LEATHER with INDEX
+—_______] SUMMARY
+VAT [%] Net worth VAT Gross worth
+10% 93,40 9,34 102,74
+Total $ 93,40 $ 9,34 $ 102,74

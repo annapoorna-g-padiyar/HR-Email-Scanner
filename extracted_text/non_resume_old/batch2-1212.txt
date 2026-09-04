@@ -1,0 +1,36 @@
+Invoice no: 62027448
+Date of issue: 03/25/2014
+—}) Seller: Client:
+Howard-Martinez Johnson, Silva and Hernandez
+73895 Jack Ridge Apt. 304 5806 Robert Dam Suite 286
+Ericview, DE 52144 Anthonystad, MS 07351
+Tax Id: 922-85-7855 Tax Id: 933-86-1046
+IBAN: GB52EZGP41685839783409
+7) ITEMS
+No. Description Qty UM Net price Net worth VAT [%] Gross
+worth
+1, 6'x3' Marble Counter Height 4,00 each 5 469,38 21 877,52 10% 24 065,27
+Dining Table Top Multi Inlay
+Furniture Decor E955A
+2. 12" White Marble Center Coffee 5,00 each 248,78 1 243,90 10% 1 368,29
+Table Top Lapis Random Inlay
+Cafeteria Decor W294
+3. 15"x15" White Marble Coffee 4,00 each 650,00 2 600,00 10% 2 860,00
+Top Table Filigree Lapis Inlay
+Art Christmas Gift
+4. 24"x24" Black Marble Round 3,00 each 1 188,00 3 564,00 10% 3 920,40
+Top Center Table Florals tnlaid
+Art Christmas Gift
+5. Cottage Crafts Marble Dinning 3,00 each 5 596,00 16 788,00 10% 18 466,80
+Table Top Round Conference
+Table Size 60 Inches
+6. 18” Handmade White Table 1,00 each 520,00 520,00 10% 572,00
+Chess Coffee Table Inlay Mosaic
+Art Christmas Gift Arts
+7. 60 Inches Marble Dinning Table 5,00 each 5 908,00 29 540,00 10% 32 494,00
+Top Hand Inlaid Garden Table
+with Gemstones
+1) SUMMARY
+VAT [%] Net worth VAT Gross worth
+10% 76 133,42 7 613,34 83 746,76
+Total $ 76 133,42 $7 613,34 $ 83 746,76

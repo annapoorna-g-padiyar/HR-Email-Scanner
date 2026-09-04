@@ -1,0 +1,18 @@
+Invoice no: 24206086
+Date of issue: 05/24/2012
+—____) Seller: Client:
+Hall, Hancock and Holt Weber-Roy
+529 Henry Brooks 901 Angel Oval Apt. 914
+South Stephanie, ME 54873 New Samuel, KS 55681
+Tax Id: 912-83-7916 Tax Id: 939-76-7916
+IBAN: GB91FWQE48139343226359
+7) ITEMS
+No. Description Qty UM Net price Net worth VAT [%] Gross
+worth
+1, Heroes' Feast (Dungeons & 2,00 each 4,00 8,00 10% 8,80
+Dragons): The Official D&D;
+Cookbook
+7] SUMMARY
+VAT [%] Net worth VAT Gross worth
+10% 8,00 0,80 8,80
+Total $ 8,00 $ 0,80 $ 8,80

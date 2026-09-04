@@ -1,0 +1,31 @@
+Invoice no: 42910151
+Date of issue: 04/05/2013
+—}) Seller: Client:
+Terry, Mccarthy and Clark Schultz, Thomas and Lang
+227 Castro Pine 805 Gregory Lock Suite 478
+Port Sarah, UT 81957 Sheppardborough, AL 35800
+Tax Id: 933-95-9157 Tax Id: 960-86-6276
+IBAN: GB35THGM38607815672207
+7) ITEMS
+No. Description Qty UM Net price Net worth VAT [%] Gross
+worth
+1, 36 Inches Marble Dinning Table 5,00 each 1 451,25 7 256,25 10% 7 981,87
+Top Hand Inlaid Office Table
+with Multi Gemstones
+2. 54 Inches Marble Dinning Table 4,00 each 4 600,00 18 400,00 10% 20 240,00
+Top Inlay Restaurant Table with
+Peacock Design
+3. 36 Inches Marble Meeting Table 5,00 each 1 376,25 6 881,25 10% 7 569,37
+Top Inlay Dinning Table with
+Red Jasper Stone Art
+4. 16" Marble Coffee Table Top 2,00 each 318,71 637,42 10% 701,16
+Mother of Peral Peacock Inlay
+Restaurant Decors W366
+5. SOFA SET 5,00 each 250,00 1 250,00 10% 1 375,00
+6. 18"x18" Marble White Top 2,00 each 1 200,00 2 400,00 10% 2 640,00
+Counter Table Lapis Inlay Floral
+Art Halloween Gift Art
+—_) SUMMARY
+VAT [%] Net worth VAT Gross worth
+10% 36 824,92 3 682,49 40 507,41
+Total $ 36 824,92 $3 682,49 $ 40 507,41

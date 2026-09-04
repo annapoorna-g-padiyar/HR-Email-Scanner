@@ -1,0 +1,24 @@
+Invoice no: 37254367
+Date of issue: 09/20/2018
+—}) Seller: Client:
+Price PLC Foster-Mitchell
+5729 Mitchell Camp Apt. 384 9685 Jon Vista
+New Brucechester, MA 31531 Wileyfort, CT 15224
+Tax Id: 986-86-6934 Tax Id: 933-98-0610
+IBAN: GB471UJV06658611869960
+7) ITEMS
+No. Description Qty UM Net price Net worth VAT [%] Gross
+worth
+1, Single Bottle Wine Holder Mini 1,00 each 39,99 39,99 10% 43,99
+Bar Painted & Signed by Artist
+Alejandro Lopez
+2. Grand Reserve Wine Bottle 4,00 each 39,99 159,96 10% 175,96
+Opener, Bar Stand, Table Top
+Cork Puller
+3. 2 Hand Blown Wine Water 5,00 each 29,99 149,95 10% 164,94
+Goblet Glass Art Mexico Pulled
+Feather Iridescent Swirl
+—______} SUMMARY
+VAT [%] Net worth VAT Gross worth
+10% 349,90 34,99 384,89
+Total $ 349,90 $ 34,99 $ 384,89

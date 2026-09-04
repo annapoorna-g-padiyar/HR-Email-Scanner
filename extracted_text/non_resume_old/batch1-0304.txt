@@ -1,0 +1,27 @@
+Invoice no: 73164326
+Date of issue: 07/13/2012
+—____) Seller: Client:
+Larson-Freeman Meyer, Horne and Hartman
+06118 Hale Ports 4312 Navarro Camp Apt. 554
+Barrside, SD 98812 West Alexandra, MI 02825
+Tax Id: 912-94-4609 Tax Id: 984-91-8041
+IBAN: GB41AMUU15348762248382
+7) ITEMS
+No. Description Qty UM Net price Net worth VAT [%] Gross
+worth
+1, Computer Desktop Gaming i5 2,00 each 315,00 630,00 10% 693,00
+Ram 16G
+2. Dell Desktop Computer Optiplex 3,00 each 99,95 299,85 10% 329,84
+790 USFF Core i3 4GB 250GB
+HD Windows 10 Pro PC
+3. AMD Custom Built Quad Core 5,00 each 599,99 2 999,95 10% 3 299,95
+Ryzen 5 Gaming PC Computer
+8GB DDR4 Vega 11 SSD
+4 Intel core i7 Geforce GTX1060 5,00 each 689,99 3 449,95 10% 3 794,95
+Super Game Gamer Master
+Gaming Desktop Computer PC
+5. personal computer 4,00 each 59,00 236,00 10% 259,60
+7} SUMMARY
+VAT [%] Net worth VAT Gross worth
+10% 7 615,75 761,58 8 377,33
+Total $7 615,75 $ 761,58 $ 8 377,33

@@ -1,0 +1,18 @@
+Invoice no: 52786363
+Date of issue: 06/11/2011
+—____) Seller: Client:
+Thomas-Moore Villanueva-Gonzalez
+06363 Devin Vista PSC 8101, Box 1579
+Port Kristina, OR 38067 APO AA 65856
+Tax Id: 968-79-0940 Tax Id: 920-75-1593
+IBAN: GB26DI0X99480612156870
+7) ITEMS
+No. Description Qty UM Net price Net worth VAT [%] Gross
+worth
+1, Beyblade Burst B-163 Superking 2,00 each 11,59 23,18 10% 25,50
+Brave Valkyrie.Ev' 2A Top
+/Launcher /Grip Kid Toy
+7] SUMMARY
+VAT [%] Net worth VAT Gross worth
+10% 23,18 2,32 25,50
+Total $ 23,18 $ 2,32 $ 25,50

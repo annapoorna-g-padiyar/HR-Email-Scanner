@@ -1,0 +1,21 @@
+Invoice no: 65840908
+Date of issue: 01/23/2017
+—____) Seller: Client:
+Wright-Glover Thompson LLC
+71115 Alexandria Ramp Suite 345 2592 Morgan Islands Apt. 270
+Port Kristen, LA 29913 New Lisamouth, NH 59364
+Tax Id: 917-94-2245 Tax Id: 933-72-1648
+IBAN: GBOSLWRU88274210880372
+7) ITEMS
+No. Description Qty UM Net price Net worth VAT [%] Gross
+worth
+1, Alarco Gaming PC Desktop 4,00 each 500,00 2 000,00 10% 2 200,00
+Computer Intel i5v 8Gv WIN
+10¥1Tbe NVIDIA GTX 650 16GB
+2. Gaming PC Desktop Computer 1,00 each 809,99 809,99 10% 890,99
+Intel i7 RGB, GTX 1660, 16GB
+RAM, 2TB HDD, 480GB SSD
+7} SUMMARY
+VAT [%] Net worth VAT Gross worth
+10% 2 809,99 281,00 3 090,99
+Total $ 2 809,99 $ 281,00 $ 3 090,99

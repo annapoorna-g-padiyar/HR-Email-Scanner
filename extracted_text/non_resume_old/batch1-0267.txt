@@ -1,0 +1,30 @@
+Invoice no: 27006132
+Date of issue: 09/18/2017
+—____) Seller: Client:
+Vasquez, May and Lewis White, Hayes and Blackwell
+306 Patricia Unions Apt. 017 987 Adams Loop Apt. 228
+Larsonside, HI 79833 Bruceview, WY 49509
+Tax Id: 909-99-1866 Tax Id: 983-83-2285
+IBAN: GBO2IHCRO3244622486086
+7) ITEMS
+No. Description Qty UM Net price Net worth VAT [%] Gross
+worth
+1. AMD Custom Built Quad Core 1,00 each 599,99 599,99 10% 659,99
+Ryzen 5 Gaming PC Computer
+8GB DDR4 Vega 11 SSD
+2. Intel Compute Stick (32GB, Intel 5,00 each 45,00 225,00 10% 247,50
+Atom, 1.33GHz, 2GB) PC
+Desktop
+3. HP ProDesk 7th Gen. | 16GB | 4,00 each 279,00 1 116,00 10% 1 227,60
+2TB | SSD Windows 10 Pro
+Desktop Computer PC WiFi
+4, Fast Dell Optiplex Desktop PC 4,00 each 217,00 868,00 10% 954,80
+Computer Dual Core 3.4Ghz
+8GB 1TB Win 10 Pro WIFI
+5. SAMA RGB Gaming PC Desktop 5,00 each 400,00 2 000,00 10% 2 200,00
+Computer i5 3.7GHz Nvidia GTX
+1060 16GB Windows 10
+7} SUMMARY
+VAT [%] Net worth VAT Gross worth
+10% 4 808,99 480,90 5 289,89
+Total $4 808,99 $ 480,90 $5 289,89

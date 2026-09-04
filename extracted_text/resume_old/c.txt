@@ -1,0 +1,38 @@
+ANJALI SHARMA 
+Email: anjali.sharma@example.com 
+Phone: +91-9876543210 
+LinkedIn: linkedin.com/in/anjali-sharma 
+CAREER OBJECTIVE 
+Motivated BCA student with strong foundations in programming and web development. Seeking 
+an entry-level role to apply and enhance my skills in software development. 
+EDUCATION 
+Bachelor of Computer Applications (BCA) 
+XYZ College, Bengaluru 
+2022 - Present 
+- CGPA: 8.5/10 (Till 4th Semester) 
+SKILLS 
+- Programming Languages: Python, Java, C 
+- Web Development: HTML, CSS, JavaScript, PHP 
+- Database: MySQL 
+- Tools: Git, VS Code 
+PROJECTS 
+1. Online Bookstore Website 
+- Built using HTML, CSS, JavaScript, PHP, and MySQL 
+- Features user login, cart, and order tracking 
+2. Student Record Management System 
+- Developed in Java with MySQL 
+- CRUD operations for student data 
+INTERNSHIPS 
+Web Development Intern | ABC Solutions, Bengaluru May 2023 - July 2023 
+- Assisted in building responsive web pages 
+- Wrote clean HTML/CSS code for client projects 
+CERTIFICATIONS 
+- Python for Everybody - Coursera 
+- Web Development Bootcamp - Udemy 
+EXTRACURRICULAR 
+- Member, College Coding Club 
+- Volunteered at College Tech Fest 
+LANGUAGES 
+- English 
+- Hindi 
+- Kannada

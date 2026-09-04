@@ -1,0 +1,23 @@
+Invoice no: 73144550
+Date of issue: 01/31/2012
+—}) Seller: Client:
+Mcdowell, Odom and Crosby Rodriguez-Sherman
+40617 Price Lodge Suite 850 04734 Stevens Roads
+Joanstad, MD 47190 Port Christina, OK 91381
+Tax Id: 903-96-0427 Tax Id: 954-84-2310
+IBAN: GB20YMNW10786270813816
+7) ITEMS
+No. Description Qty UM Net price Net worth VAT [%] Gross
+worth
+2. The Wim Hof Method Activate 3,00 each 4,22 12,66 10% 13,93
+Your Potential, Transcend Your
+LimitsD000
+3. Bronze Dragon Codex (The 2,00 each 4,49 8,98 10% 9,88
+Dragon Codices) by R.D.
+Henham
+4. CSS: The Definitive Guide by 4,00 each 4,49 17,96 10% 19,76
+Eric A. Meyer
+7} SUMMARY
+VAT [%] Net worth VAT Gross worth
+10% 57,56 5,76 63,32
+Total $ 57,56 $ 5,76 $ 63,32

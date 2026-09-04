@@ -1,0 +1,18 @@
+Invoice no: 50791892
+Date of issue: 03/08/2016
+—}) Seller: Client:
+Campbell-Gray Lester PLC
+PSC 8466, Box 0826 5079 Ramirez Island Apt. 532
+APO AA 83063 Patriciaville, UT 54240
+Tax Id: 924-96-3709 Tax Id: 940-85-1337
+IBAN: GB59FCPB72496408941440
+7) ITEMS
+No. Description Qty UM Net price Net worth VAT [%] Gross
+worth
+1, 6'x3' White Marble Living Room 4,00 each 5 590,21 22 360,84 10% 24 596,92
+Dining Table Top Marquetry
+Inlay Furniture H4743A
+7] SUMMARY
+VAT [%] Net worth VAT Gross worth
+10% 22 360,84 2 236,08 24 596,92
+Total $ 22 360,84 $ 2 236,08 $ 24 596,92

@@ -1,0 +1,24 @@
+Invoice no: 16385507
+Date of issue: 05/30/2012
+—____) Seller: Client:
+Wolfe, Ibarra and Mitchell Wilkins, Green and Gomez
+99512 Thomas Summit 29016 Hernandez Club
+East Marcfurt, IA 22549 Castillofurt, MN 14899
+Tax Id: 999-82-9504 Tax Id: 949-99-3010
+IBAN: GBO4PGTN39732137102450
+7) ITEMS
+No. Description Qty UM Net price Net worth VAT [%] Gross
+worth
+1, NIB Waterford Seahorse Crystal 2,00 each 59,99 119,98 10% 131,98
+Wine Bottle Stopper with Tag
+Ireland
+2. Rickshaw Decoration Gift Wine 1,00 each 71,49 721,49 10% 78,64
+Rack Retro Holder Bar Home
+Ornaments Vintage Iron
+3. NIB Corkit Wine Cork & Bottle 1,00 each 14,95 14,95 10% 16,45
+Display Holder Industrial
+Steampunk Modern Art NEW
+—______} SUMMARY
+VAT [%] Net worth VAT Gross worth
+10% 206,42 20,64 227,06
+Total $ 206,42 $ 20,64 $ 227,06

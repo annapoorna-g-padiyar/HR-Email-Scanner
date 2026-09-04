@@ -1,0 +1,391 @@
+Gin International Journal for Multidisciplinary Research (IJFMR)
+IJFMR E-ISSN: 2582-2160 « Website: www.ijfmr.com e Email: editor@ijfmr.com
+AI-Based Resume Shortlisting System Using
+NLP and Machine Learning
+Tanjila Tamboli!, Shakila Siddavatam?
+'Master’s Student, Department of Computer Science, Abeda Inamdar Senior college, India
+Head of Department, Department of Computer Science, Abeda Inamdar Senior college, India
+Abstract
+Recruiters and hiring managers in today’s competitive job market face major challenges in filtering
+thousands of resumes for a single position. Manual screening is slow, inconsistent, and often influenced
+by individual bias. Candidates with relevant skills are frequently overlooked due to formatting differences
+or keyword mismatches. As a result, both organizations and applicants experience delays, reduced
+productivity, and limited hiring transparency.
+To address these issues, this project proposes an intelligent recruitment tool titled “AIl-Based Resume
+Shortlisting System Using NLP and Machine Learning.” The system analyses uploaded resumes,
+extracts key information such as skills, education, experience, and certifications, and automatically ranks
+candidates based on job requirements. The platform features a recruiter dashboard for job posting and
+result visualization, a resume parser using Natural Language Processing (NLP), and a machine learning
+model that evaluates candidate-job matching scores. The system aims to support multiple file formats,
+multilingual resume handling, and unbiased filtering to ensure fair screening.
+This rescarch discusses the platform’s functional design, data pre-processing pipelinc, NLP techniques,
+model selection, and evaluation metrics. By automating early-stage recruitment, the solution reduces
+screening time, enhances accuracy, and improves hiring decision quality for organizations of all sizes.
+Keywords: Recruitment, Resume Screening, Natural Language Processing (NLP), Machine Learning,
+Automation, Candidate Ranking, AI Hiring System, Resume Parsing, Job Matching, HR Technology,
+Talent Acquisition, Shortlisting Platform
+1. Introduction
+Recruitment has become increasingly complex in the digital era. With the rise of online job portals and
+mass applications, organizations often receive an overwhelming number of resumes for a single position.
+While this provides access to a larger talent pool, it also creates a significant burden for recruiters who
+must review and filter applications within limited time constraints. Manual screening not only consumes
+valuable time but can also lead to inconsistent evaluations, fatigue-related errors, and unintended bias. In
+many cases, capable candidates are rejected simply because their resumes are formatted differently or do
+not contain exact keyword matches.
+As hiring demands grow, there is a clear need for intelligent systems that can assist recruiters in making
+faster and more objective decisions. Artificial Intelligence (AI), particularly Natural Language Processing
+(NLP) and Machine Learning (ML), offers promising solutions for analysing large volumes of
+IJFMR260168093 Volume 8, Issue 1, January-February 2026 1
+Gin International Journal for Multidisciplinary Research (IJFMR)
+IJFMR E-ISSN: 2582-2160 « Website: www.ijfmr.com e Email: editor@ijfmr.com
+unstructured text data such as resumes. These technologies enable systems to interpret skills, experience,
+qualifications, and contextual meaning rather than relying solely on surface-level keyword matching.
+This rescarch introduces an AI-Bascd Resume Shortlisting System designed to automate the initial stages
+of candidate evaluation. The proposed system extracts structured information from uploaded resumes and,
+when available, analyses optional video introductions using speech recognition techniques. The extracted
+information is then compared with predefined job requirements to generate a relevance score and rank
+applicants accordingly.
+The system is designed not only to improve efficiency but also to promote fairness and transparency in
+hiring. By reducing human workload and standardizing evaluation criteria, it supports more consistent
+decision-making. Additionally, the integration of resume and video analysis within a single platform
+provides a more comprehensive understanding of candidate suitability.
+Through this work, the study contributes to the advancement of Al-enabled recruitment systems by
+presenting a practical, scalable solution that bridges the gap between traditional resume screening and
+modern intelligent hiring technologies.
+1.1 Problem Statement
+Recruiters often receive hundreds or even thousands of applications for a single position, making manual
+resume screening slow and inconsistent. Human evaluation can introduce bias, and qualified candidates
+may be overlooked due to formatting differences or keyword mismatches. As hiring demands increase,
+manual shortlisting becomes inefficient and delays the overall recruitment process.
+1.2 Significance
+There is a strong need for a reliable, automated system that can evaluate resumes fairly and objectively.
+An AlJ-driven resume shortlisting platform can significantly reduce the effort required during early stages
+of recruitment.
+By applying Natural Language Processing and Machine Leaming, such a tool can interpret resume
+contents, compare skills with job requirements, and generate meaningful candidate rankings. This will not
+only save time for recruiters but also increase transparency, accuracy, and equal opportunity hiring—
+ensuring that the most suitable candidates are considered.
+1.3 Proposed Solution
+The proposed solution, AI-Based Resume Shortlisting System, introduces a digital platform that
+automates the process of screening and ranking resumes. The system parses uploaded resumes, extracts
+crucial fields such as personal details, skills, qualifications, and experience, and matches them against job
+descriptions using NLP techniques.
+Recruiters can add job openings, view ranked applicants, and download or shortlist candidate details
+instantly. Applicants benefit from a fair evaluation, regardless of resume format or writing style. By
+automating candidate filtering, this solution minimizes manual effort, speeds up recruitment cycles, and
+improves the overall decision-making process for organizations.
+2. Literature Review
+Hiring and recruitment play a vital role in strengthening organizational growth, productivity, and economic
+development. Companies rely on effective recruitment systems to fill positions with suitable candidates,
+yet the traditional hiring approach continues to present challenges. This literature review summarizes
+existing research relevant to automated resume screening and Al-driven recruitment.
+IJFMR260168093 Volume 8, Issue 1, January-February 2026 2
+Gin International Journal for Multidisciplinary Research (IJFMR)
+IJFMR E-ISSN: 2582-2160 « Website: www.ijfmr.com e Email: editor@ijfmr.com
+Researchers highlight key difficulties associated with manual resume evaluation in modern organizations.
+Studies report that HR professionals are burdened with large volumes of applications, limited evaluation
+time, and pressure to make consistent decisions. Manual screening often results in delays, overlooked
+candidates, and subjective judgments due to differences in human interpretation and fatigue [1]. These
+findings emphasize the need for digital solutions that reduce workload and improve fairness in the early
+stages of hiring.
+Another line of research explores the use of NLP-driven resume parsing systems. Ravula et al. demonstrate
+that structured information—such as education level, relevant work experience, and technical skills—can
+be automatically extracted from resumes with the help of NLP techniques [2]. While such systems provide
+a faster alternative to human review, they struggle when resumes contain irregular formats, tables, or
+design-heavy layouts, limiting the accuracy of extraction. Lopez (2024) further introduces Al-based job
+matching using similarity scoring models like TF-IDF and keyword mapping, Although these approaches
+support data-driven candidate ranking, they are limited to text-based screening and ignore behavioural
+qualities that influence hiring success [3].
+A growing area of recruitment research expands beyond resume data to assess candidate communication
+ability, confidence, and personality. Sharma and Patel (2021) analyse speech clarity and tone from video
+responses, while Ravula and Kumar (2022) evaluate facial expressions and body cues for interview
+preparedness. These approaches demonstrate how video submissions can provide deeper insight into
+candidate suitability, especially for client-facing positions [4]. However, existing tools and studies tend to
+address text and video analysis separately, resulting in fragmented or incomplete evaluation.
+Our project builds on and extends existing literature by developing an end-to-end platform that combines
+resume parsing and video screening in one integrated system. The Al-Based Resume Shortlisting
+System uses NLP to extract core candidate information from uploaded resumes and employs speech
+recognition to transform optional video submissions into evaluable text. The platform ranks candidates
+according to job requirements and communication clarity, offering recruiters a richer, more holistic
+assessment than traditional resume filtering methods. By supporting both content and presentation
+analysis, this project advances current recruitment technology and provides a comprehensive digital
+solution aligned with modern hiring needs.
+3. Methodology (Development Process)
+3.1 Design of Research
+To build a structured and intelligent system for automating the resume shortlisting proccss, this rescarch
+adopts a design and development methodology. The aim is to create a practical solution that supports
+the hiring cycle and reduces manual screening effort.
+The methodology focuses on the iterative development of the AI-Based Resume Shortlisting System,
+combining theoretical findings from existing studies on AI recruitment, NLP-based resume parsing
+techniques, and machine learning decision models.
+Through progressive stages of designing, implementing, testing, and refining, the project works toward
+creating a scalable platform capable of analysing resume content, matching candidate information to job
+requirements, and ranking applicants fairly—ultimately supporting HR professionals in making data-
+driven hiring decisions.
+IJFMR260168093 Volume 8, Issue 1, January-February 2026 3
+Gin International Journal for Multidisciplinary Research (IJFMR)
+IJFMR E-ISSN: 2582-2160 «© Website: www.ijfmr.com e Email: editor@ijfmr.com
+3.2 Information Gathering
+Secondary Data: This stage involved the study and analysis of academic literature, existing hiring tools,
+job markct trends, and research papers related to resume parsing, video screening, and machine Icarning
+in recruitment. These sources helped identify the shortcomings in manual hiring and highlighted the need
+for automated, unbiased evaluation systems.
+Technical Research: An in-depth exploration of Al technologies and recruitment platforms was carried
+out to determine the most suitable implementation strategy. This research covered NLP methods for
+extracting skills and experience from resume files, speech recognition techniques for analysing video
+introductions, and machine learning approaches for candidate scoring. Insights from technical
+documentation guided decisions related to system architecture, model selection, security considerations,
+and database structure.
+3.3 Architecture of the System
+The platform is implemented using a structured technology environment designed for efficient data
+processing and user interaction.
+The system follows a modular architecture that integrates the following tools and frameworks:
+Python for backend logic and data processing, Flask for server-side routing and web request handling,
+Natural Language Processing (NLP) libraries for text pre-processing, entity extraction, and skill
+identification, Speech Recognition API for converting audio from submitted candidate videos into text,
+OpenCV for handling uploaded video content, MySQL as the database for securely storing applicant
+information, job descriptions, and shortlisting results.
+This architecture ensures scalability, flexibility, and reliable performance, supporting real-time resume and
+video analysis while providing recruiters with an accessible and user-friendly interface.
+4. Design and Implementation
+4.1 System Architecture
+The AI-Based Resume Shortlisting System follows a three-tier software architecture designed to
+Support text and video analysis, automated ranking, and secure interaction between candidates and
+recruiters.
+Frontend (Client-Side)
+A browser-based interface allows:
+e Candidates to upload resumes and optional video introductions
+e Recruiters/HR to view ranked applicants, scarch candidates, and access applicant details
+The interface is developed using HTML/CSS/JavaScript/ React frameworks to ensure ease of use and
+smooth interaction.
+Backend (Server-Side)
+A Python + Flask-powered backend manages:
+e Resume text extraction and pre-processing
+e NLP skill and experience detection
+e Speech recognition pipeline for video submission
+e Candidate scoring and ranking logic
+¢ Secure authentication for HR access
+¢ This layer connects all system modules and processes user requests into actionable results.
+IJFMR260168093 Volume 8, Issue 1, January-February 2026 4
+Gin International Journal for Multidisciplinary Research (IJFMR)
+IJFMR E-ISSN: 2582-2160 « Website: www.ijfmr.com e Email: editor@ijfmr.com
+Database (MySQL)
+A relational database stores:
+¢ Candidate data (basic details, resume contents)
+e Job descriptions and required skills
+e Skill scores, ranking results, and processed outputs
+e Optional video evaluation metadata
+e The database ensures proper retrieval, filtering, and report generation for hiring teams.
+System Workflow
+1. The candidate uploads a resume or resume + video using the web interface.
+2. The backend extracts text from the resume and cleans it using NLP.
+3. Ifa video is uploaded, speech recognition converts the audio into text for analysis.
+4, The extracted information is evaluated and compared with job requirements stored in the database.
+5. The backend generates a matching score and stores applicant results.
+6. HR logs into the system to view ranked applicants and shortlist suitable candidates.
+7, Optionally, recruiters may download or export shortlisted data for hiring decisions,
+System Architecture Diagram:
+(@sackend ]
+upload resume/video —_—_
+Resume Parser
+Service parsed resume data
+fe)
+(any —————————> upload resume/video —_____s
+Candidates .
+| Job Matching <-store/retrieve ——> DR,
+O RAYWSQvL:
+Cc) ————> _view applicants . > ranking output —> wysaLS
+Recruiters/HR Video Processing retrieve ranking —> | |* Parsed Resume Data
+Service « Parsed Video Text
+oO « Job Descriptions.
+C) view recrurtrieve used =——___—> Q * Ranking Output
+he ii
+Authentication
+Service
+¢ Securely handle
+user data
+Figure 1: System Architecture of Al-Based Resume Shortlisting System
+4.2 Technologies Used
+The Al-Based Resume Shortlisting System is built using a modern and efficient technology stack, chosen
+for accuracy, performance, and integration of AI components.
+IJFMR260168093 Volume 8, Issue 1, January-February 2026 5
+Gin International Journal for Multidisciplinary Research (IJFMR)
+IJFMR E-ISSN: 2582-2160 « Website: www.ijfmr.com e Email: editor@ijfmr.com
+Table 1 Lists the core technologies used at each system layer.
+4.3 User Interface (UI) & Screenshots
+The AI-Based Resume Shortlisting System has been developed with a clean and user-friendly interface
+to support candidates and administrators throughout the hiring process.
+The UI is responsive and easy to use on desktops and mobile devices.
+Its design focuses on simplicity, clarity, and seamless navigation.
+4.3.1 User Interface Overview
+The system contains the following screens that guide candidates and administrators smoothly through the
+recruitment process:
+1. Registration Page: Allows new users to create an account by entering personal details before
+accessing the system.
+2. Login Page: Secure login screen for both candidates and admin users to access their respective
+dashboards.
+3. Home Page: Shows the purpose of the system.
+1. Provides navigation to important pages like Login, Register, About, and Contact.
+4, Upload Resume Page: Enables candidates to upload resumes in PDF/DOCX format.
+2. Optionally allows uploading a video resume. Confirms successful submission.
+5. Admin Login: Dedicated login screen for authorized admins/recruiters to access system controls.
+6. Dashboard: Displays uploaded files for candidates. Tracks resume/video status.
+Allows management of personal information.
+7. AI Analyzer: Automatically extracts skills, experience, and evaluation progress from resumes and
+video files.
+8. About Page: Provides details about the system’s goals, purpose, and key features.
+9. Contact Page: Offers contact or support details for users who need help or have queries.
+10. Logout Page: Securely signs users out and closes their active session.
+4.3.2 UI Screenshots:
+The following figures illustrate the main user interface screens of the system:
+Figure 2 Login Page — A secure login screen for candidates and admins to access their
+dashboard.
+Figure 3 Home Page — Provides an overview of the system and navigation to Login,
+pes? rctaerAtoumdomicinge
+IJFMR260168093 Volume 8, Issue 1, January-February 2026 6
+Gin International Journal for Multidisciplinary Research (IJFMR)
+IJFMR E-ISSN: 2582-2160 « Website: www.ijfmr.com e Email: editor@ijfmr.com
+Figure 4 Upload Resume Page — Allows candidates to upload resumes in PDF or
+DOCX format, with an optional video resume, and confirms successful
+submission.
+Admin Login — A dedicated login screen for authorized admins or recruiters.
+Figure 6 Admin Dashboard — Displays uploaded files, tracks resume or video status,
+and allows management of personal details.
+Figure 7 Al Analyzer Screen — Automatically analyses resumes and video files to
+extract skills, experience, and evaluation progress.
+Figure 2: Login Page
+Login
+Password
+Don’t have an eccount? Register
+Figure 3: Home Page
+© G Osos Be te Gomer 8) ab
+| GES ee
+| Al-Powered Resume Shortlisting
+G Multi-Languege a Resume Parsing @ Al Job Matching && Video Resume tl Analytics
+Support Extracts skills, experience, Ranks cundidotes based on anclysia Dashboord
+Upload resumes in Engkah, ond qualifications. Od requirements, Al evaluates video resumes Visualize condidate dota é&
+Hindi, of Marathl, with emotion analysis, rankings.
+IJFMR260168093 Volume 8, Issue 1, January-February 2026 7
+Gin International Journal for Multidisciplinary Research (IJFMR)
+IJFMR E-ISSN: 2582-2160 © Website: www.ijfmr.com e Email: editor@ijfmr.com
+Figure 4: Upload Resume Page
+<o © 127001:5000m0me ea t Gan 8) =
+aC |
+Upload Resume
+Job Tite
+@ Upload Resume (PDF/DOCK)
+[Choose Fie }No file chosen
+& Upload video Resume (MP4/mov/avi)
+[Choote File” No file chosen
+[ upioes }
+Figure 5: Admin Login Page
+€ G -O wr001S000K0me ea ® Gana) = Lr]
+Upload Resume |
+, ‘ Admin Login
+Upload Resume (PDF /DOCx) |
+Chtase File Nofie chosen amin
+& Upload video Resume (MPa/MOvsAavt) |
+Choose Fue No tle chosen
+Gp
+Figure 6: Admin Dashboard
+“EG © 1270.215000/ome et tGens)- &
+Dashboard
+ti [Erat] oo [pare] =
+Python developer tanjkatambaliz7 @gmai.com mosume.pdt 8 [ Cotene |]
+software developer altiyag@gmati.com rosumerdt & [ couee |
+web developer fesumeggmallcom Bosume pdt ° [ -Detee
+Dota enuy operator trushall@gmaiicom Atushall_Resumepdt 6 [ ote}
+ae anyomene tanjvoniegmolicom ——_sanjlvani_fugada Resumepett 2 onto ]
+DotNet Developer sal@gmailcom ‘Sch gomtham Cv pd r) [ Delete }
+IJFMR260168093 Volume 8, Issue 1, January-February 2026 8
+Gin International Journal for Multidisciplinary Research (IJFMR)
+IJFMR E-ISSN: 2582-2160 « Website: www.ijfmr.com e Email: editor@ijfmr.com
+Figure 7: Al Analyzer Screen
+© G 1 wro01500/heme oa aGeres)~ &
+G Al Resume + Video Analyzer
+@ Resume (PDF/DOCX)
+(Groce Fite ]No tie chosen
+& visoo Resume
+(Chasse Fia]wo Me cnoson
+¥ vob Description
+{ Anativer)
+6. Discussion
+6.1 Strengths of the System
+e Cost and Time Efficiency: Automating resume screening and evaluation reduces the time and effort
+required by HR teams, saving operational costs.
+e Improved Candidate Assessment: The AI Analyzer accurately extracts skills, experience, and
+qualifications from resumes and videos, improving the quality of candidate shortlisting.
+¢ Streamlined Recruitment Process: Provides a centralized platform for candidates and recruiters,
+avoiding manual tracking and errors.
+e Enhanced Candidate Experience: Candidates can upload resumes and optional video introductions
+easily, receive feedback, and track their application status.
+e Increased Productivity for HR Teams: By automating repetitive tasks like resume parsing and
+evaluation, HR staff can focus on strategic recruitment decisions.
+¢ Better Market Competitiveness: Organizations can attract and identify top talent faster, making the
+hiring process more competitive and efficient.
+6.2 Challenges and Limitations
+e User Training and Awareness: Recruiters and candidates may need guidance on how to use the
+platform effectively, particularly for advanced features like video analysis.
+e Adaptation to AI Evaluation: Some HR professionals may initially be hesitant to rely on Al-based
+assessments and may require confidence-building measures.
+e Video Resume Processing Limitations: While video resumes provide additional insights, analysing
+them accurately can be computationally intensive and may require robust infrastructure.
+e No Integrated Interview Scheduling: Currently, the system does not automatically schedule
+interviews; this step requires manual coordination by HR staff.
+6.3 Future Scope
+e Mobile Application Development: Creating a mobile version would improve accessibility for both
+recruiters and candidates, enabling on-the-go application management.
+¢ Integration of Secure Online Payments: For premium recruitment services or assessments, adding
+payment gateways could streamline transactions.
+IJFMR260168093 Volume 8, Issue 1, January-February 2026 9
+Gin International Journal for Multidisciplinary Research (IJFMR)
+IJFMR E-ISSN: 2582-2160 « Website: www.ijfmr.com e Email: editor@ijfmr.com
+e Multilingual Support: Adding multiple language options would make the system accessible to a
+wider range of candidates across different regions.
+e Advanced AI Features: Future cnhancements could include sentiment analysis of video resumes,
+predictive candidate scoring, and automated interview scheduling.
+e Analytics and Reporting: Enhanced dashboards for recruiters could provide insights into hiring
+trends, candidate pool statistics, and recruitment efficiency,
+7. Conclusion
+The recruitment process in organizations is often time-consuming and prone to human errors, especially
+when handling a large number of applications. Traditional methods of screening resumes manually can be
+inefficient, inconsistent, and resource-intensive. To address these challenges, we developed the AI-Based
+Resume Shortlisting System, a technology-driven solution designed to automate the initial stages of
+recruitment.
+Our system leverages AI and machine learning to analyse resumes and optional video introductions,
+extracting relevant skills, experience, and qualifications. This not only speeds up the shortlisting process
+but also ensures a fairer and more consistent evaluation of candidates. The platform provides an easy-to-
+use interface for both recruiters and candidates, allowing seamless resume uploads, status tracking, and
+skill analysis.
+While the system has certain limitations, such as reliance on digital adoption by users and the need for
+robust infrastructure to process video resumes, it represents a significant step forward in modernizing
+recruitment practices. By reducing manual workload and improving candidate assessment, it enhances
+overall efficiency and productivity in hiring.
+With future enhancements like mobile app development, integration of secure online payment
+gateways for premium services, multilingual support, and advanced analytics, the system has the
+potential to transform recruitment processes, making them faster, smarter, and more accessible. Ultimately,
+this platform empowers organizations to identify top talent efficiently while providing candidates with a
+smoother and more transparent application experience.
+8. References
+1. Ravula,A., Kumar, S., “Automated Resume Screening Using NLP Techniques,” International Journal
+of Computer Applications, 2022, Volume 184, Issue 5.
+2. Lopez, M., “Al-Driven Job Matching and Candidate Ranking Models,” Journal of Artificial
+Intelligence Research, 2024, Volume 12, Issue 3.
+3. Sharma, R., Patel, D., “Video Resume Analysis for Candidate Assessment: Speech and Facial Feature
+Evaluation,” Jnfernational Journal of Human-Computer Studies, 2021, Volume 156, Issue 2.
+4. Ravula, A., Kumar, S., “Integrating Text and Video Analysis for Candidate Shortlisting,” Journal of
+Emerging Technologies in AI, 2022, Volume 8, Issue 7.
+5. Li, X., Chen, Y., “Natural Language Processing for Automated Resume Parsing,” JEEE Transactions
+on Knowledge and Data Engineering, 2023, Volume 35, Issue 4.
+6. Smith, J., “Machine Learning Approaches for Predictive Candidate Selection,” Jnternational Journal
+of Data Science and Al, 2022, Volume 10, Issue 6.
+7. Tan, P., Kumar, R., “End-to-End AI Recruitment Systems: Trends, Challenges, and Opportunities,”
+Journal of AI Research and Applications, 2023, Volume 15, Issue 2.
+IJFMR260168093 Volume 8, Issue 1, January-February 2026 10
+Gin International Journal for Multidisciplinary Research (IJFMR)
+IJFMR E-ISSN: 2582-2160 «© Website: www.ijfmr.com e Email: editor@ijfmr.com
+8. Das, A., “Multilingual Resume Processing Using NLP for Global Recruitment,” /nternational Journal
+of Computational Linguistics, 2024, Volume 11, Issue 1.
+9. Zhang, L., “Improving Recruitment Efficiency with AIl-Powered Candidate Screening,” International
+Journal of Human Resources Technology, 2023, Volume 9, Issue 5,
+IJFMR260168093 Volume 8, Issue 1, January-February 2026 11

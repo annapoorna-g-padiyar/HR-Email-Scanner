@@ -1,0 +1,15 @@
+Invoice no: 61479635
+Date of issue: 07/02/2018
+—____) Seller: Client:
+Kelley-Thomas Green, Kelly and Matthews
+19996 Diane Well 5110 Heather Ways
+Port Jennifer, TX 60910 Andersontown, RI 96931
+Tax Id: 969-94-5063 Tax Id: 963-81-9853
+IBAN: GB29ZNFB26250974035092
+______) ITEMS
+No. Description Qty UM Net price Net worth VAT [%] Gross
+worth
+1} SUMMARY
+VAT [%] Net worth VAT Gross worth
+10% 29,95 3,00 32,95
+Total $ 29,95 $ 3,00 $ 32,95

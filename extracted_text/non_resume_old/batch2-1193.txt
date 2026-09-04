@@ -1,0 +1,23 @@
+Invoice no: 42931586
+Date of issue: 10/23/2014
+—}) Seller: Client:
+Campbell PLC Jackson-Adams
+0299 Murphy Springs Suite 530 1245 Bates Valley
+Lake Brian, VA 18295 Sandyland, NM 98408
+Tax Id: 925-81-8358 Tax Id: 961-79-4449
+IBAN: GB73RZSR36049270068368
+7) ITEMS
+No. Description Qty UM Net price Net worth VAT [%] Gross
+worth
+1. Microsoft Xbox 360 - White - 5,00 each 39,95 199,75 10% 219,73
+Console, Power Supply, AV
+Cables *Tested, Working*
+2. Nintendo Gameboy Original 3,00 each 140,00 420,00 10% 462,00
+Console Gray with Box Manual
+DMB-01 Japan Tested 67
+3. Nintendo Wii U Console 1,00 each 79,99 79,99 10% 87,99
+Deluxe/Handheld Bundle
+—_____] SUMMARY
+VAT [%] Net worth VAT Gross worth
+10% 699,74 69,97 769,71
+Total $ 699,74 $ 69,97 $ 769,71

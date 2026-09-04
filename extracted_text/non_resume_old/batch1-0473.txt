@@ -1,0 +1,15 @@
+Invoice no: 63246591
+Date of issue: 01/07/2020
+—____) Seller: Client:
+Rose, Smith and Moreno Williams-Jimenez
+4507 James Mill Suite 588 07227 Kristen Locks Suite 358
+New Alyssa, NE 08835 Julieview, KS 58803
+Tax Id: 901-98-6571 Tax Id: 959-94-8870
+IBAN: GB87FIAL58030346735047
+______) ITEMS
+No. Description Qty UM Net price Net worth VAT [%] Gross
+worth
+—_] SUMMARY
+VAT [%] Net worth VAT Gross worth
+10% 17,96 1,80 19,76
+Total $ 17,96 $ 1,80 $ 19,76

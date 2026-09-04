@@ -1,0 +1,27 @@
+Invoice no: 13201609
+Date of issue: 04/06/2019
+—____) Seller: Client:
+Williams-Mason Rivera-Smith
+49924 Jennifer Via 8535 Angela Mews Suite 623
+North Susanfurt, OK 47459 East Jeremy, TX 24357
+Tax Id: 997-80-6117 Tax Id: 903-73-5151
+IBAN: GB42UPHJ05412061815170
+7) ITEMS
+No. Description Qty UM Net price Net worth VAT [%] Gross
+worth
+1. 24"x24" Black Marble Round 2,00 each 1 188,00 2 376,00 10% 2 613,60
+Top Center Table Florals Inlaid
+Art Christmas Gift
+2. 18"x18" Marble Black Round 4,00 each 1 000,00 4 000,00 10% 4 400,00
+Top Customize Table Floral Art
+Black Friday Gift Deco
+3. 6'x3' White Large Marble Dining 5,00 each 5 100,77 25 503,85 10% 28 054,24
+Top Table Marquetry Multi Inlay
+Home Decor H4327
+4. 6'x3' Black Marble Top Dining 2,00 each 5 710,22 11 420,44 10% 12 562,48
+Room Table Sets Scagaliola
+Very Pietradure Decor
+—__ 7} SUMMARY
+VAT [%] Net worth VAT Gross worth
+10% 43 300,29 4 330,03 47 630,32
+Total $ 43 300,29 $ 4 330,03 $ 47 630,32

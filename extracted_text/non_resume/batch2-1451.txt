@@ -1,0 +1,33 @@
+Invoice no: 48081090
+Date of issue: 11/09/2020
+—}) Seller: Client:
+Taylor PLC Peterson PLC
+8130 Craig Crescent 813 Kathleen Springs Apt. 241
+Jennashire, CO 22558 West Joshua, CT 39634
+Tax Id: 991-97-9685 Tax Id: 928-96-7744
+IBAN: GB87FAJA52373703158973
+7) ITEMS
+No. Description Qty UM Net price Net worth VAT [%] Gross
+worth
+1, Sony PlayStation 3 PS3 1,00 each 119,99 119,99 10% 131,99
+CECH-2501A Slim 150GB Black
+Console TESTED
+2. Nintendo Wii Teal Blue Limited 1,00 each 114,99 114,99 10% 126,49
+Edition Console with Mario Kart -
+MINT TESTED
+3. nes nintendo entertainment 2,00 each 99,00 198,00 10% 217,80
+system console system With
+500 In 1 Cartridge, Pistol
+4, Sony PlayStation 5 Console - 2,00 each 630,00 1 260,00 10% 1 386,00
+White - Digital Version -
+CONFIRMED PRE ORDER PS5
+5. Nintendo Switch Lite Gray 2,00 each 135,00 270,00 10% 297,00
+CONSOLE ONLY - No
+Accessories or Charger [B4-4]
+6. Pre Order New Sony PlayStation 5,00 each 850,00 4 250,00 10% 4 675,00
+5 Console Disk Version Ships
+Fast 11/12 Confirmed
+1) SUMMARY
+VAT [%] Net worth VAT Gross worth
+10% 6 212,98 621,30 6 834,28
+Total $ 6 212,98 $ 621,30 $ 6 834,28

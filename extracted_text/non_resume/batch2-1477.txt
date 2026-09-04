@@ -1,0 +1,18 @@
+Invoice no: 63295937
+Date of issue: 12/09/2017
+—____) Seller: Client:
+Landry-Knapp Smith Ltd
+33906 Barr Harbors Suite 142 188 Rowe Mountains
+West Tony, 1D 22715 North Cynthiachester, AK 76267
+Tax Id: 932-78-7832 Tax Id: 915-76-9875
+IBAN: GB13BZPS50901618387190
+7) ITEMS
+No. Description Qty UM Net price Net worth VAT [%] Gross
+worth
+1, Earl Scruggs and the 5-String 3,00 each 22,68 68,04 10% 74,84
+Banjo: Revised and Enhanced
+Edition (Paperback or
+7] SUMMARY
+VAT [%] Net worth VAT Gross worth
+10% 68,04 6,80 74,84
+Total $ 68,04 $ 6,80 $ 74,84

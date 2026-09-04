@@ -1,0 +1,27 @@
+Invoice no: 31315115
+Date of issue: 10/14/2017
+—}) Seller: Client:
+Murphy and Sons Kirk-Johns
+93758 Stephen Rapid 14989 Bradley Plaza Apt. 637
+Monicamouth, CA 39409 Burnsborough, TN 22137
+Tax Id: 941-96-4292 Tax Id: 987-94-8050
+IBAN: GB76RHAG52283675201110
+7) ITEMS
+No. Description Qty UM Net price Net worth VAT [%] Gross
+worth
+1. Yilong 6'x9' Handknotted Silk 5,00 each 3 800,00 19 000,00 10% 20 900,00
+Red Carpet Kid Friendly Oriental
+Luxury Rug Z439A
+2. Nordic Braided Tassels Sofa 5,00 each 186,54 932,70 10% 1 025,97
+Rugs Area Rug Soft Mat Palm
+Leaves Room Carpet
+3. Yilong 5'x8' Handknotted Silk 3,00 each 8 000,00 24 000,00 10% 26 400,00
+Area Rug Home Decor Kid
+Friendly Carpet L398
+4. Round Carpets Bedroom Decor 3,00 each 45,46 136,38 10% 150,02
+Rugs Double Layer Sponge Rugs
+Modern Style Carpets
+—__ 7} SUMMARY
+VAT [%] Net worth VAT Gross worth
+10% 44 069,08 4 406,91 48 475,99
+Total $ 44 069,08 $4 406,91 $ 48 475,99

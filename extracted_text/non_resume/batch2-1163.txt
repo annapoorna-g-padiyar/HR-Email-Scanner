@@ -1,0 +1,21 @@
+Invoice no: 62022197
+Date of issue: 05/30/2013
+—}) Seller: Client:
+Patel and Sons Brown Ltd
+8071 Green Pines Apt. 463 709 Ashley Terrace
+Robertburgh, LA 27905 Aaronfurt, CT 44529
+Tax Id: 968-74-5969 Tax Id: 936-80-8610
+IBAN: GB51KECW38882579567345
+7) ITEMS
+No. Description Qty UM Net price Net worth VAT [%] Gross
+worth
+1, Nike Dangeruss Wilson Youth 4,00 each 19,95 79,80 10% 87,78
+Flex Shoes Green Blue Sneakers
+Kids Size 12,5
+2. PUMA Pre-School Scuderia 5,00 each 21,22 106,10 10% 116,71
+Ferrari Drift Cat 5 Ultra I! Shoes
+Boys 12c
+7} SUMMARY
+VAT [%] Net worth VAT Gross worth
+10% 185,90 18,59 204,49
+Total $ 185,90 $ 18,59 $ 204,49

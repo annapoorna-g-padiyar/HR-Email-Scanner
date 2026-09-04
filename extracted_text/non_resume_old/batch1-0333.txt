@@ -1,0 +1,18 @@
+Invoice no: 74819543
+Date of issue: 10/07/2020
+—____) Seller: Client:
+Solomon, Ford and Ellis Hamilton-Jackson
+568 Gaines Isle Apt. 391 164 Jennifer Loaf Apt. 007
+Zacharyport, OK 67499 Port Sarahchester, WI 71982
+Tax Id: 954-73-2478 Tax Id: 988-96-5706
+IBAN: GB30GNJJ79141055834845
+______) ITEMS
+No. Description Qty UM Net price Net worth VAT [%] Gross
+worth
+1, Crystal Grape Wine Bottle 5,00 each 25,00 125,00 10% 137,50
+Embellishment Jewelry Necklace
+For The Bottle
+1] SUMMARY
+VAT [%] Net worth VAT Gross worth
+10% 125,00 12,50 137,50
+Tota! $ 125,00 $ 12,50 $ 137,50

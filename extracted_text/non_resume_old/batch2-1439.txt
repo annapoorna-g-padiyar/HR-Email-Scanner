@@ -1,0 +1,25 @@
+Invoice no: 22757537
+Date of issue: 08/11/2015
+—}) Seller: Client:
+Thomas-Weeks Olsen-Valdez
+88205 Huff Spurs USS Stark
+Port Kyle, ID 94522 FPO AE 11940
+Tax Id: 971-83-1236 Tax Id: 913-95-9639
+IBAN: GB48NVPK89481246083403
+7) ITEMS
+No. Description Qty UM Net price Net worth VAT [%] Gross
+worth
+1. Coolibar Sun Protection Tunic 5,00 each 26,99 134,95 10% 148,44
+Dress Cover Up Size Small S
+Pink Pattern UPF 50
+2. KAREN SCOTT 3X DRESS 3,00 each 5,99 17,97 10% 19,77
+3. NWT As U Wish NEW Black 3,00 each 4,00 12,00 10% 13,20
+Chevron Size Small Sequin
+cocktail formal! dress prom
+4. Women's Almatrichi Madrid 5,00 each 54,86 274,30 10% 301,73
+Dress Chevron Boho Ethnic
+Exotic Tribal Size 42 L
+____] SUMMARY
+VAT [%] Net worth VAT Gross worth
+10% 439,22 43,92 483,14
+Total $ 439,22 $ 43,92 $ 483,14

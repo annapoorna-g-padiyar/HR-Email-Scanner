@@ -1,0 +1,18 @@
+Invoice no: 13865937
+Date of issue: 10/05/2014
+—}) Seller: Client:
+White and Sons Butler LLC
+50566 Johnson Pass Apt. 654 Unit 5502 Box 9807
+Gabrielside, PA 65166 DPO AP 91576
+Tax Id: 968-74-3453 Tax Id: 980-78-0305
+IBAN: GB47CQIL18836858037017
+7) ITEMS
+No. Description Qty UM Net price Net worth VAT [%] Gross
+worth
+1. Adult Girl Version Hermione 5,00 each 64,16 320,80 10% 352,88
+Granger Cosplay Costume
+Gryffindor Kid size In Stock
+7} SUMMARY
+VAT [%] Net worth VAT Gross worth
+10% 326,60 32,66 359,26
+Total $ 326,60 $ 32,66 $ 359,26

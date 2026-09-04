@@ -1,0 +1,35 @@
+Invoice no: 58269935
+Date of issue: 11/12/2017
+—}) Seller: Client:
+Brown, Jackson and Keller Stephens LLC
+Unit 5492 Box 4350 8088 Garcia Key Apt. 489
+DPO AE 47685 East Geraldville, NJ 12475
+Tax Id: 912-75-0363 Tax Id: 909-84-3726
+IBAN: GBO7GVIT26822260415384
+7) ITEMS
+No. Description Qty UM Net price Net worth VAT [%] Gross
+worth
+1, 4 pcs Kids Size Cartoon Peppa 3,00 each 11,88 35,64 10% 39,20
+Pink Pig Cotton Face Masks
+Mouth Cover Washable
+2. crewcuts shoes 2,00 each 12,00 24,00 10% 26,40
+3. PUMA Boys Youth Universal FG 5,00 each 19,99 99,95 10% 109,94
+Jr Soccer Cleats 5 White High
+Risk Red Black 5Y
+4. FLORSHEIM KIDS BOYS Sz 5 1,00 each 25,00 25,00 10% 27,50
+BLACK REVEAL OXFORD DRESS
+SHOES
+5. Kid's Boys Hiking Garden 1,00 each 31,88 31,88 10% 35,07
+Sandals Leisure Closed Toe
+Fisherman Beach Shoes
+Summer
+6. Children's sports shoes 4,00 each 19,99 79,96 10% 87,96
+breathable mesh boys casual
+shoes
+7. Steve Madden Bserge Boys 3,00 each 39,95 119,85 10% 131,84
+Black Dress Leather Loafer
+Shoes US 4 NIB
+—_____] SUMMARY
+VAT [%] Net worth VAT Gross worth
+10% 416,28 41,63 457,91
+Total $ 416,28 $ 41,63 $ 457,91

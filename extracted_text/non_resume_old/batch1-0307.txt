@@ -1,0 +1,21 @@
+Invoice no: 33965841
+Date of issue: 11/27/2017
+—}) Seller: Client:
+Moore-Kelly Hanson, Mathews and Brown
+3838 Kevin Cliffs Apt. 568 78379 Mary Springs
+Lake Williammouth, NY 06726 New William, MS 90713
+Tax Id: 966-97-4567 Tax Id: 922-83-1798
+IBAN: GBO9LHJK31212828294340
+7) ITEMS
+No. Description Qty UM Net price Net worth VAT [%] Gross
+worth
+2. Aesop's Fables Aesop Illustrated 2,00 each 34,65 69,30 10% 76,23
+By A. Rackham Sealed Leather
+Bound Collectible
+3. My Life in and Out of the Rough 4,00 each 6,74 26,96 10% 29,66
+by John Daly (2006, Hardcover)
+FREE SHIPPING
+7} SUMMARY
+VAT [%] Net worth VAT Gross worth
+10% 207,36 20,74 228,10
+Total $ 207,36 $ 20,74 $ 228,10

@@ -1,0 +1,25 @@
+Invoice no: 77980602
+Date of issue: 05/07/2017
+—}) Seller: Client:
+Cohen-Fleming Hoffman-Foley
+USNS Osborne 494 Harris Villages Apt. 528
+FPO AE 80018 North Shane, CT 06537
+Tax Id: 979-78-8300 Tax Id: 931-76-4901
+IBAN: GB55NIBX31153972731194
+7) ITEMS
+No. Description Qty UM Net price Net worth VAT [%] Gross
+worth
+1, Beach Lunch Lounge Striped 2,00 each 16,99 33,98 10% 37,38
+Shirt Dress Large Navy Blue
+White Long Sleeve Causal
+2. Jams World Hawaiian J Dress 3,00 each 65,00 195,00 10% 214,50
+Rayon sz.L
+3. Talbots Petite 8 Navy & White 3,00 each 14,99 44,97 10% 49,47
+Dandelion Puffs Sleeveless
+Dress
+4, ) Crew A Line Ponte Dress Red 1,00 each 11,75 11,75 10% 12,93
+Size 0
+____] SUMMARY
+VAT [%] Net worth VAT Gross worth
+10% 285,70 28,57 314,27
+Total $ 285,70 $ 28,57 $ 314,27

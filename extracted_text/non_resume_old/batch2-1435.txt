@@ -1,0 +1,32 @@
+Invoice no: 38812727
+Date of issue: 04/25/2019
+—}) Seller: Client:
+Gray, Harris and Leonard Murphy-Peterson
+51747 Davis Creek 773 Christina Orchard Apt. 410
+Christianport, DE 71966 Patrickfort, OH 68079
+Tax Id: 982-85-6060 Tax Id: 959-99-5124
+IBAN: GB44CYWF97052013311026
+7) ITEMS
+No. Description Qty UM Net price Net worth VAT [%] Gross
+worth
+1. Guess Dress Size 6 1,00 each 20,00 20,00 10% 22,00
+2. Charlie Jade Purple Black Brown 1,00 each 11,97 11,97 10% 13,17
+Sleeveless Dress WOMENS SIZE
+SMALL
+3. Lilly Pulitzer 8 Sunkissed with 1,00 each 56,89 56,89 10% 62,58
+Glow Janice Shift Dress
+4, Forever 21 Blue A-Line Dress 3,00 each 14,99 44,97 10% 49,47
+SIZE MEDIUM
+5. R&M; RICHARDS WOMAN’S 3,00 = each 29,99 89,97 10% 98,97
+BLUE DRESS With Rhinestone
+Accent Short Sleeves Sz 16W
+NWT
+6. Speechless Green Brown White 3,00 each 7,00 21,00 10% 23,10
+Psychedelic Sleeveless Dress
+Size Large
+7. StellaLuxe One Shoulder Lace 3,00 each 25,00 75,00 10% 82,50
+Dress
+—__] SUMMARY
+VAT [%] Net worth VAT Gross worth
+10% 319,80 31,98 351,78
+Total $ 319,80 $ 31,98 $ 351,78

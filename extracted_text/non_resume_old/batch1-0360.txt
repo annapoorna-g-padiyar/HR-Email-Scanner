@@ -1,0 +1,27 @@
+Invoice no: 58126171
+Date of issue: 08/14/2015
+—____) Seller: Client:
+Mclean Inc Richards and Sons
+245 Robert Viaduct 094 Mcintosh Estates Suite 179
+Patriciaberg, TN 36261 East Sherry, TX 54155
+Tax Id: 913-81-7541 Tax Id: 952-95-0332
+IBAN: GB56KJLZ66858512202986
+7) ITEMS
+No. Description Qty UM Net price Net worth VAT [%] Gross
+worth
+1, Multi Color Elephant Design 5,00 each 1 751,25 8 756,25 10% 9 631,87
+White Dinning Table Top Marble
+Hall Table 36 Inches
+2. 6'x3’ Elegant Marble Black Top 1,00 each 5 469,38 5 469,38 10% 6 016,32
+Dining Table Italian Inlay
+Furniture Decor E964B
+3. 5'x2' Marble White Center Table 3,00 each 3 888,89 11 666,67 10% 12 833,34
+Top With 18" Tall Stand
+Pauashell Inlay Art Deco
+4, Semi precious Stone Work Inlaid 2,00 each 2 496,00 4 992,00 10% 5 491,20
+Dinning Table Top Marble
+Kitchen Table 42 Inches
+—__ 7} SUMMARY
+VAT [%] Net worth VAT Gross worth
+10% 30 884,30 3 088,43 33 972,73
+Total $ 30 884,30 $ 3 088,43 $ 33 972,73

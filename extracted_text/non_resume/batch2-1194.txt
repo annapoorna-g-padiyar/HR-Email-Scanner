@@ -1,0 +1,27 @@
+Invoice no: 11082193
+Date of issue: 07/20/2013
+—}) Seller: Client:
+Miller PLC Fleming-Bridges
+73567 Patricia Trace Apt. 058 6837 Tina Hill Apt. 676
+South Laura, OK 70944 New Joseph, MA 39754
+Tax Id: 926-99-7174 Tax Id: 986-81-7469
+IBAN: GB49IGFH14041693545495
+7) ITEMS
+No. Description Qty UM Net price Net worth VAT [%] Gross
+worth
+1. Nintendo 2DS Console Blue 1,00 each 54,99 54,99 10% 60,49
+Japan model Combine Shipping
+available 2
+2. Nintendo Wii Console With 5,00 each 29,99 149,95 10% 164,94
+Cables And Accessories And
+New Super Mario Bros Disc!
+3. Nintendo Switch Lite Turquoise 4,00 each 135,00 540,00 10% 594,00
+Blue CONSOLE ONLY - No
+Charger [B4-3]
+4. Nintendo Wii Console Mario Kart 2,00 each 199,97 399,94 10% 439,93
+Controller Wii Fit 2 Board
+Remotes Game BUNDLE
+—__ 7} SUMMARY
+VAT [%] Net worth VAT Gross worth
+10% 1 144,88 114,49 1 259,37
+Total $1144,88 $ 114,49 $1 259,37

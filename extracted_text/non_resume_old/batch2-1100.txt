@@ -1,0 +1,26 @@
+Invoice no: 73091617
+Date of issue: 02/13/2018
+—}) Seller: Client:
+Barrera, Holloway and Maldonado Boyd and Sons
+8461 Kenneth Gateway Suite 544 66147 Campbell Meadow Suite 009
+South Margaret, DC 18408 North Steven, WA 20529
+Tax Id: 984-88-9485 Tax Id: 975-79-1291
+IBAN: GB12ROIG59956384646906
+7) ITEMS
+No. Description Qty UM Net price Net worth VAT [%] Gross
+worth
+1, Egg Shape Area Rugs Soft 1,00 each 29,43 29,43 10% 32,37
+Cotton Carpet Floor Mat for Kids
+Study Playroom
+2. Yilong 2'x3' Traditional 4,00 each 1 200,00 4 800,00 10% 5 280,00
+Handmade Silk Area Rugs Kid
+Friendly Floor Carpet 356B
+3. Moroccan Amazigh Handmade 1,00 each 342,00 342,00 10% 376,20
+Carpet 14'2" x 7'5"
+4, S XL Fluffy Rugs Anti-Slip 1,00 each 16,81 16,81 10% 18,49
+SHAGGY RUG Soft Carpet Mat
+Living Room Floor Bedroom
+7} SUMMARY
+VAT [%] Net worth VAT Gross worth
+10% 5 188,24 518,82 5 707,06
+Total $5 188,24 $ 518,82 $5 707,06

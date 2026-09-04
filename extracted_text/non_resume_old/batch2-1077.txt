@@ -1,0 +1,16 @@
+Invoice no: 85466568
+Date of issue: 03/24/2012
+—_—_ Seller: Client:
+Hunter, Stone and Miller Russell-Mcintosh
+4248 Hubbard Land 2424 Chad Hills
+Port Amberton, OR 46984 Bellmouth, RI 50458
+Tax Id: 966-83-6467 Tax Id: 996-80-9687
+IBAN: GB56MDJS24748473276237
+______) ITEMS
+No. Description Qty UM Net price Net worth VAT [%] Gross
+worth
+Braided Strap Tank Maxi Dress
+—______] SUMMARY
+VAT [%] Net worth VAT Gross worth
+10% 3,96 0,40 4,36
+Total $ 3,96 $ 0,40 $ 4,36

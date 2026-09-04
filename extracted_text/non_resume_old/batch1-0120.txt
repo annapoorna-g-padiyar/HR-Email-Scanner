@@ -1,0 +1,33 @@
+Invoice no: 33035917
+Date of issue: 11/26/2017
+—____) Seller: Client:
+Harris Group Hodge Inc
+090 Garrett Turnpike PSC 2367, Box 5979
+Wilsonport, SC 69851 APO AP 77717
+Tax Id: 980-70-0655 Tax Id: 992-82-0533
+IBAN: GB9O5VBIY55486284281441
+7) ITEMS
+No. Description Qty UM Net price Net worth VAT [%] Gross
+worth
+1, 10 Core Gaming Computer 2,00 each 369,99 739,98 10% 813,98
+Desktop PC Tower 1T 16GB R7
+CUSTOM BUILT RED/BLACK
+2. 10-Core Gaming Computer 2,00 each 618,49 1 236,98 10% 1 360,68
+Desktop PC Tower 3TB Quad
+16GB DDR4 AMD Graphics WIFI
+PC
+3. HP Desktop Computer 400 G1 3,00 each 139,95 419,85 10% 461,83
+Core i3 3.4GHz 8GB 256GB SSD
+19” LCD Windows 10 PC
+4, AMD Custom Ryzen 5 Quad 2,00 each 574,99 1 149,98 10% 1 264,98
+Core Gaming PC 4.2GHZ
+Computer 8GB 1TB AM4 DDR4
+Vega 11
+5. Custom Gaming Computer 5,00 each 1 092,27 5 461,35 10% 6 007,49
+Ryzen 7 2700 32GB DDR4
+Nvidia RTX 2060 RGB SSD
+500GB HDD
+1] SUMMARY
+VAT [%] Net worth VAT Gross worth
+10% 9 008,14 900,81 9 908,95
+Total $9 008,14 $ 900,81 $9 908,95

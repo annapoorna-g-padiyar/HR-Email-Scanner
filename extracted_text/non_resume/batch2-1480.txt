@@ -1,0 +1,16 @@
+Invoice no: 56696356
+Date of issue: 01/07/2016
+—_—_ Seller: Client:
+Thomas, Brown and Rios White LLC
+474 Micheal Fields Apt. 179 99977 Robert Mountain
+Port Tracy, SD 62808 Taylorport, ID 54287
+Tax Id: 958-90-9461 Tax Id: 979-80-3298
+IBAN: GB39TEZD99402132570484
+______) ITEMS
+No. Description Qty UM Net price Net worth VAT [%] Gross
+worth
+Dress. Size Small
+—______] SUMMARY
+VAT [%] Net worth VAT Gross worth
+10% 17,98 1,80 19,78
+Total $ 17,98 $ 1,80 $ 19,78

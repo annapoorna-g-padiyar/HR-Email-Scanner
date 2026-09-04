@@ -1,0 +1,19 @@
+Invoice no: 27064612
+Date of issue: 02/21/2021
+—____) Seller: Client:
+Hunt, Casey and James Martinez-Thomas
+USNV Rodriguez 1439 Melissa Cliffs Apt. 440
+FPO AA 21271 Port Krystalport, AL 15081
+Tax Id: 916-71-6139 Tax Id: 961-84-1899
+IBAN: GB91DMWK53222834777147
+7) ITEMS
+No. Description Qty UM Net price Net worth VAT [%] Gross
+worth
+1, HP Elite 8200 Desktop 2,00 each 219,95 439,90 10% 483,89
+Computer Tower Intel i5 8GB
+1TB 19"LCD Windows 10 Pro
+WiFi
+7] SUMMARY
+VAT [%] Net worth VAT Gross worth
+10% 439,90 43,99 483,89
+Total $ 439,90 $ 43,99 $ 483,89

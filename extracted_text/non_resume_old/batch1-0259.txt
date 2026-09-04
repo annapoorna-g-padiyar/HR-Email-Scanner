@@ -1,0 +1,26 @@
+Invoice no: 40046347
+Date of issue: 07/28/2011
+—}) Seller: Client:
+Campos-Cooper Schneider, Carr and Vazquez
+7667 Wyatt Key 2915 Robert Inlet Suite 605
+Port Kellyside, CO 15374 Campbellmouth, AK 64282
+Tax Id: 952-75-4009 Tax Id: 969-99-3685
+IBAN: GB93PRUT68803964166222
+7) ITEMS
+No. Description Qty UM Net price Net worth VAT [%] Gross
+worth
+1, Joma Youth Boys Gol 205 Piso 3,00 each 19,99 59,97 10% 65,97
+Multitaco Soccer Cleats 1.5
+White Blue Yellow NEW
+2. 3 Boys sneakers light up size 11 5,00 each 3,00 15,00 10% 16,50
+3. LL Bean HIGH TOP Black Canvas 2,00 each 16,99 33,98 10% 37,38
+SNEAKER Shoes Kid's Boy's 6 M
+EXCL CND
+4, Timberland brown slip on shoes 3,00 each 2,00 6,00 10% 6,60
+size 4.5 juniors
+5. Wonder Nation Kids Shoes Size 1,00 each 3,99 3,99 10% 4,39
+8¢
+_____] SUMMARY
+VAT [%] Net worth VAT Gross worth
+10% 118,94 11,89 130,83
+Total $ 118,94 $ 11,89 $ 130,83

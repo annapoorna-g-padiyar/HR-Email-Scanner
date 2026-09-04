@@ -1,0 +1,29 @@
+Invoice no: 14277250
+Date of issue: 11/17/2013
+—____) Seller: Client:
+Benson LLC Skinner-Moore
+42383 Gardner Run 36242 Harrison Extension Apt. 413
+Sheltonstad, KY 53351 Joelmouth, NC 72018
+Tax Id: 908-94-3733 Tax Id: 915-75-4250
+IBAN: GB11HCOC11218739882682
+7) ITEMS
+No. Description Qty UM Net price Net worth VAT [%] Gross
+worth
+1, Sperry top sider kids 1,00 each 12,50 12,50 10% 13,75
+2. Boys water/beach/pool black 5,00 each 1,18 5,90 10% 6,49
+orange and blue hook and loop
+size 13-1 shoes
+3. Joma Boys Youth Super Copa 3,00 each 19,99 59,97 10% 65,97
+102 Soccer Cleats 1.5 White
+Yellow Blue Futbo! NEW
+4, Reebok Kids Boys Blue Sneakers 1,00 each 5,00 5,00 10% 5,50
+Shoes US 11 No Laces
+5. LL Bean Boys Lot Size 1 Athletic 1,00 each 6,99 6,99 10% 7,69
+Sneakers 2 Black Blue Canvas
+Belts SM
+6. jordan 3 white cement size 13.5 2,00 each 21,00 42,00 10% 46,20
+kids youth boys
+—______] SUMMARY
+VAT [%] Net worth VAT Gross worth
+10% 132,36 13,24 145,60
+Total $ 132,36 $ 13,24 $ 145,60

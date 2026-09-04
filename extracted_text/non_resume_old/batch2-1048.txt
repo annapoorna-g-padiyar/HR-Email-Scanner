@@ -1,0 +1,32 @@
+Invoice no: 23569804
+Date of issue: 04/04/2018
+—}) Seller: Client:
+Novak Ltd Perez, Holt and Porter
+16106 Danielle Greens Apt. 956 USNV Taylor
+East Molly, AR 68865 FPO AE 88146
+Tax Id: 972-76-7514 Tax Id: 966-80-5784
+IBAN: GB95AZPV84905426010288
+7) ITEMS
+No. Description Qty UM Net price Net worth VAT [%] Gross
+worth
+1. Christmas Dress Grace Karin 4,00 each 9,99 39,96 10% 43,96
+Sleeveless Christmas dress Red
+Black size Large
+2. Elisa Cavaletti Daniela 2,00 each 60,00 120,00 10% 132,00
+Datlavalle Shift Dress Grey And
+White .Size M
+3. Large Blue Long Sleeve Fit & 4,00 each 0,99 3,96 10% 4,36
+Flare Dress Elastic Waist
+Crochet Detail Bohemian
+4, Newborn Toddler Baby Girls 5,00 each 9,15 45,75 10% 50,33
+Floral Print Romper Dress
+Bodysuits Ouftits Clothes
+5. NWT $1200 J.Crew Silk Chiffon 1,00 each 295,00 295,00 10% 324,50
+Ivory Wedding Dress with
+Beading
+6. KAREN SCOTT 3X DRESS 2,00 each 5,99 11,98 10% 13,18
+7. NWT J.Crew Silk Wedding Dress 5,00 each 395,00 1 975,00 10% 2 172,50
+—__] SUMMARY
+VAT [%] Net worth VAT Gross worth
+10% 2 491,65 249,17 2 740,82
+Total $2 491,65 $ 249,17 $ 2 740,82

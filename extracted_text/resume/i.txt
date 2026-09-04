@@ -1,0 +1,30 @@
+MEGHA SINGH 
+Email: megha.singh@example.com | Phone: +91-9871122334 
+GitHub: github.com/meghaml | LinkedIn: linkedin.com/in/megha-singh 
+PROFILE 
+Computer Science Engineering student with experience in machine learning and data analysis. Strong knowledge of Python and popular ML libraries. Looking for an internship to apply skills in real-world projects. 
+EDUCATION 
+B.Tech in Computer Science Engineering 
+Punjab Engineering College, Chandigarh | 2021 – 2025 
+CGPA: 9.0/10 
+TECHNICAL SKILLS 
+- Languages: Python, SQL, R 
+- Libraries: scikit-learn, TensorFlow, Pandas, Matplotlib 
+- Tools: Jupyter, Google Colab, Git 
+- Database: MySQL 
+PROJECTS 
+1. **Spam Email Classifier** 
+- 
+Built with scikit-learn, Naive Bayes 
+- 95% accuracy on test data 
+2. **Image Classification using CNN** 
+- Used TensorFlow and Keras 
+- Classified CIFAR-10 dataset with ~89% accuracy 
+CERTIFICATIONS 
+- Deep Learning Specialization - Coursera 
+- Python for Data Science - IBM 
+ACHIEVEMENTS 
+- Finalist, National Hackathon 2023 
+- Published paper on "Al in Healthcare" in college journal 
+LANGUAGES 
+English, Hindi, Punjabi

@@ -1,0 +1,21 @@
+Invoice no: 11132156
+Date of issue: 05/23/2015
+—}) Seller: Client:
+Parker PLC Guerrero Ltd
+708 Victoria Skyway Apt. 075 001 Smith Mountains Suite 097
+Ryanport, CT 31363 South Josemouth, NY 51887
+Tax Id: 985-92-5343 Tax Id: 988-86-3068
+IBAN: GBOSUFGL41842954248956
+7) ITEMS
+No. Description Qty UM Net price Net worth VAT [%] Gross
+worth
+1, PlayStation 5 Console Disc 2,00 each 899,99 1 799,98 10% 1 979,98
+Version
+**PREORDER**Q00L!!!
+2. Presale Microsoft Xbox Series X 3,00 each 655,00 1 965,00 10% 2 161,50
+1TB Black Console Confirmed
+Order Free Shipping
+7} SUMMARY
+VAT [%] Net worth VAT Gross worth
+10% 3 764,98 376,50 4141,48
+Total $ 3 764,98 $ 376,50 $4141,48

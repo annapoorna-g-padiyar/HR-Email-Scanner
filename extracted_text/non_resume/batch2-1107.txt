@@ -1,0 +1,27 @@
+Invoice no: 83207477
+Date of issue: 12/27/2015
+—____) Seller: Client:
+Gregory Inc Jones PLC
+16154 Angie Courts 58656 Williams Throughway Suite 599
+Webbfort, NV 74421 Thomasville, ME 17129
+Tax Id: 933-70-3236 Tax Id: 924-84-2919
+IBAN: GB58BDDL82047964817857
+7) ITEMS
+No. Description Qty UM Net price Net worth VAT [%] Gross
+worth
+1. Marble Beautiful White Coffee 3,00 each 271,01 813,03 10% 894,33
+Table Top Malachite Inlay Art
+Home Decor H5372
+2. 72 Inches Marble Dinning Table 4,00 each 8 400,00 33 600,00 10% 36 960,00
+Top Pietra Dura Art Lawn Table
+for Home Furniture
+3. 24 Inches Round Marble Coffee 1,00 each 446,25 446,25 10% 490,87
+Table Top Inlay Sofa Table with
+Geometrical Design
+4. 6'x3' Multi Pietra Dura Design 2,00 each 5 355,17 10 710,34 10% 11 781,37
+Marble Dining Room Table Top
+Furniture Decor E764
+—__ 7} SUMMARY
+VAT [%] Net worth VAT Gross worth
+10% 45 569,62 4 556,96 50 126,58
+Total $ 45 569,62 $4556,96 $50 126,58

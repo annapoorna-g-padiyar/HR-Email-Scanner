@@ -1,0 +1,15 @@
+Invoice no: 36433509
+Date of issue: 03/29/2021
+—_—_ Seller: Client:
+Gutierrez LLC Miller, Myers and Bean
+8987 Fitzpatrick Parks Apt. 322 45922 Patricia Courts
+New Misty, NM 20546 South William, IN 08798
+Tax Id: 903-83-7680 Tax Id: 970-76-7381
+IBAN: GB40BEQA27978227402725
+______) ITEMS
+No. Description Qty UM Net price Net worth VAT [%] Gross
+worth
+1} SUMMARY
+VAT [%] Net worth VAT Gross worth
+10% 11,60 1,16 12,76
+Total $ 11,60 $ 1,16 $ 12,76

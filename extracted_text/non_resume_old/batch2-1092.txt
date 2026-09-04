@@ -1,0 +1,27 @@
+Invoice no: 93085382
+Date of issue: 10/09/2011
+—____) Seller: Client:
+Wilson Inc Mullen, Gonzalez and Ramirez
+71716 Lisa Dam Apt. 196 PSC 3659, Box 8464
+Lake Luismouth, IA 25623 APO AA 39693
+Tax Id: 978-97-9538 Tax Id: 987-86-4304
+IBAN: GB51JGWL79197246851730
+7) ITEMS
+No. Description Qty UM Net price Net worth VAT [%] Gross
+worth
+1, 5 YOUTH Boys Big Kids Nike 4,00 each 89,99 359,96 10% 395,96
+Jordan 6-17-23 Basketball White
+red Black 428818 100
+2. Lego Star Wars Minifigures 5,00 each 2,98 14,90 10% 16,39
+Stormtrooper Darth Vader Yoda
+Obi Van Mandalorian New
+3. RICOSTA BGE boys everyday 3,00 each 45,00 135,00 10% 148,50
+casual sandals NEW Size 33/ US
+2
+4. Nike 747998-401 Team Hustle 5,00 each 10,99 54,95 10% 60,45
+D7 Kids Blue Mid Top Basketball
+Shoes Size 4Y US
+—__ 7} SUMMARY
+VAT [%] Net worth VAT Gross worth
+10% 564,81 56,48 621,29
+Total $ 564,81 $ 56,48 $ 621,29

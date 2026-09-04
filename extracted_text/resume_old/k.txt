@@ -1,0 +1,27 @@
+ARUN DEVAN 
+Email: arun.devan@example.com | Phone: +91-9090887766 
+GitHub: github.com/arundevan | LinkedIn: linkedin.com/in/arun-devan 
+OBJECTIVE 
+Final-year CSE student with a passion for systems programming, Linux, and performance optimization. Seeking opportunities in embedded systems or low-level software development. 
+EDUCATION 
+B.E. Computer Science Engineering 
+Anna University, Chennai | 2021 – 2025 
+CGPA: 8.6/10 
+TECHNICAL SKILLS 
+- Languages: C, C++, Python 
+- OS: Linux, Ubuntu 
+- Tools: GCC, GDB, Git 
+- Scripting: Bash 
+PROJECTS 
+1. **Custom Linux Shell** 
+- Built using C, supports pipes, redirection, background jobs 
+2. **Memory Allocator Simulator** 
+-C program mimicking malloc/free behavior 
+CERTIFICATIONS 
+- Linux Foundation Certified System Administrator (LFCS) 
+- C Programming Masterclass - Udemy 
+ACHIEVEMENTS 
+- College topper in Systems Programming course 
+- Conducted workshop on Linux CLI for juniors 
+LANGUAGES 
+English, Tamil, Hindi

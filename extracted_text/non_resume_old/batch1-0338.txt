@@ -1,0 +1,24 @@
+Invoice no: 11926242
+Date of issue: 03/01/2012
+—}) Seller: Client:
+Bailey PLC Turner Inc
+17688 Joseph Tunnel 786 Troy Flat Suite 673
+Lake Catherinechester, MI 85198 Youngville, IN 45339
+Tax Id: 918-95-6591 Tax Id: 998-92-7755
+IBAN: GBO7TFLJ75932069756707
+7) ITEMS
+No. Description Qty UM Net price Net worth VAT [%] Gross
+worth
+1, Cherry Halter Rockabilly Black 1,00 each 3,50 3,50 10% 3,85
+Summer Dress Size 3/4
+2. Cabi 5610 Striped White Blue 3,00 each 48,99 146,97 10% 161,67
+Launch Maxi Dress Womens Sz
+M
+3. sandro dress 1,00 each 80,00 80,00 10% 88,00
+4. O'Neill Black Pink gray green 2,00 each 5,00 10,00 10% 11,00
+Floral Dress Beach coverup xs 0
+5. balmain dress 36 2,00 each 1 550,00 3 100,00 10% 3 410,00
+7} SUMMARY
+VAT [%] Net worth VAT Gross worth
+10% 3 340,47 334,05 3 674,52
+Total $ 3 340,47 $ 334,05 $3 674,52

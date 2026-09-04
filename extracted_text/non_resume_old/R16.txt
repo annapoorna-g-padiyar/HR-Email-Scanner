@@ -1,0 +1,459 @@
+Intelligent AI‑Based Resume Screening and Ranking Framework for
+Unbiased and Scalable Recruitment Automation
+A. Sabarirajan1, G. Chandramowleeswaran2, Thamizharasi D.3, S. Susendiran4,
+G. Priyadharshini5 and Syed Hauider Abbas6
+1Department of Management Studies, PSNA College of Engineering and Technology, Dindigul, Tamil Nadu, India
+2Department of Business Administration, VEL Tech Rangarajan Dr. Sagunthala R&D Institute of Science and Technology,
+Chennai, Tamil Nadu, India
+3Department of ECE, New Prince Shri Bhavani College of Engineering and Technology, Chennai, Tamil Nadu, India
+4Department of Management Studies, Sona College of Technology, Salem 636005, Tamil Nadu, India
+5Department of Management Studies, Nandha Engineering College, Vaikkalmedu, Erode - 638052, Tamil Nadu, India
+6Department of Computer Science & Engineering, Integral University, Lucknow, Uttar Pradesh, India
+Keywords: Resume Screening, Candidate Shortlisting, Recruitment Automation, Explainable Ai, Deep Learning.
+Abstract: In this work, we introduce a smart AI recruitment resume screening and ranking system, which focuses on
+how to efficiently automate the process of shortlisting over a large scale of resumes, with fairness. Using the
+power of natural language processing and deep learning models, it assesses resumes on more than simply
+matching keywords, including contextual understanding, skill relevance, and candidate-job fit. Through
+combining explainable AI techniques and real-world dataset assessment, it tackles common issues
+encountered from existing systems like bias, opaque lack of transparency and poor scalability. The approach
+improves recruiting effectiveness and guarantees ethical behaviour due to transparent decision-making and
+adaptive learning. Moreover, extensive experiments show that our model can increase the shortlisting
+accuracy and reduce the recruiter workload, providing a sustainable and inclusive solution to modern hiring
+challenges.
+1 INTRODUCTION money spent in recruitment, it also creates objectivity
+and bring the ability to scale. The envisaged research
+will be mainly concerned with creating a humane
+The last few years have witnessed a dramatic
+framework that will capture these advancements,
+metamorphosis in the process of recruitment; one that
+while maintaining transparency and fairness
+became a reality through the remarkable
+throughout the automatic decision-making process in
+incorporation of AI (artificial intelligence)
+recruitment.
+technologies. Companies are inundated with more
+resumes than ever, and manually reviewing them is a
+waste of time as well as prone to human error and
+bias. Conventional ATS screening is based on exact 2 PROBLEM STATEMENT
+search keyword matching, thus missing candidate
+talents expressed in subtle wording or non-standard The conventional approaches in resume filtering are
+organization. To overcome these limitations, AI- becoming insufficient to cope with the size and
+powered solutions are appearing on the scene offering complexity of contemporary recruitment. Manually
+faster, more intelligent, and fairer candidate reviewing resumes is inefficient, inconsistent, and is
+identification. Leveraging deep learning, natural susceptible to human biases, and traditional ATSs
+language processing, and explainable AI, they can’t read between the lines of the candidate’s
+interpret resumes for context, structure, and semantic experience and skills in a contextual sense. These
+relevance, and in return, offer the recruiter not just a inefficiencies cause poor hiring decisions, talent that
+“resume stack,” but a ranked list of candidates based is ignored, and unnecessary operational expenses. In
+on fit and merit. Not only does this save time and
+158
+Sabarirajan,A.,Chandramowleeswaran,G.,Thamizharasi,D.,Susendiran,S.,Priyadharshini,G.andAbbas,S.H.
+IntelligentAIâA˘S´BasedResumeScreeningandRankingFrameworkforUnbiasedandScalableRecruitmentAutomation.
+DOI:10.5220/0013859500004919
+PaperpublishedunderCClicense(CCBY-NC-ND4.0)
+InProceedingsofthe1stInternationalConferenceonResearchandDevelopmentinInformation,Communication,andComputingTechnologies(ICRDICCT‘252025)-Volume1,pages
+158-164
+ISBN:978-989-758-777-1
+ProceedingsCopyright©2025bySCITEPRESS–ScienceandTechnologyPublications,Lda.
+IntelligentAIâA˘S´BasedResumeScreeningandRankingFrameworkforUnbiasedandScalableRecruitmentAutomation
+addition, the opacity of automated decision-making accuracies. More industry discussions from Business
+creates concerns about fairness, and accountability. Insider (2025), Financial Times (2024), and the
+We urgently need an AI-based solution that LinkedIn posts from Brooke (2025) and Jayatissa
+automates the resume short listing process and (2025) show that the industry is increasingly
+ensures a more accurate, scalable and ethically cognizant of the impact of AI on the labor force, but
+integrious hiring outcome. skeptical of its fairness and reliability. Finally, The
+Times (2024) offers a real-world case study of AI
+implementation in one company, providing a
+3 LITERATURE SURVEY practical guide for developing AI screening
+algorithms that are generalizable across companies
+and scalable.
+AI in recruitment has been around for a few years now
+Taken together, these studies present a solid
+but in recent time has evolved to be more fair,
+evidence base for AI-assisted hiring, but also
+efficient and effective. Lo et al., (2025) proposed a
+highlight key gaps in fairness, explain ability, and
+multi-agent-based framework in the context of using
+applied validation gaps we hope to address with a
+large language models for resume screening to
+transparent, scalable system for resume screening,
+demonstrate the possibility of contextualization.
+and ranking.
+However, their work was mostly limited to simulated
+environments. Lal and Benkraouda (2025) have
+highlighted the importance of addressing selection
+4 METHODOLOGY
+bias in the initial interview stages in order to lay the
+groundwork for fairer screening processes.
+Mukherjee (2021) investigated machine learning in In this study, we propose an AI-based resume
+candidate selection, but did not scale to enterprise screening and ranking system, which harnesses deep
+deployment, leaving room for stronger and more learning, natural language processing (NLP), and
+realistic evaluations. explainable AI techniques to autonomously shortlist
+The adoption of AI chatbots described by Nawaz suitable candidates in hiring tasks. The methodology
+and Gomes (2022) created avenues for the is aimed at addressing drawbacks associated with
+incorporation of conversation-based AI in manual and rules-based applicant tracking systems
+recruitment systems, and the basic AI models for (ATS) and is not efficient, not reliable and do not
+automatic CV generation as implemented by Kafre provide contextual knowledge. The system is
+(2021), gap the opportunity in intelligent ranking. designed to extract, interpret and rank the importance
+Generalized AI applications in business, such as of headers (Skill, Experience, etc) in resume, find
+those described by Isguzar et al. (2024), demonstrates semantics related to headers and matching them with
+the flexibility of AI, that can be customized for headers in a sophisticated way, thus enabling
+recruitment-oriented tasks. Although outdated, transparent and fair decision-making. The process of
+studies like Zlatanov and Popesku (2019) and development starts with a means of collecting and
+Kongthon et al. (2009) emphasise the early desire to preprocessing the data. We collect and anonymize a
+automating human-centred processes. large and diverse dataset of resumes and job-postings
+Concepts from legacy automation (O'Brien, 2016; in the wild, and format it for structured parsing. The
+Clark, 2016) model the development of customer resumes are all standardized into a common format
+service AI, and provide a foundation for recruitment- after applying several pre-processing steps that
+specific applications. Vendor views; eg Phenom involve tokenization, lemmatization, stop-word
+(2025), HeroHunt. ai (2025), and Bullhorn (2025) are removal and NER. These processes guarantee that the
+industry-focused approaches, but the algorithms of model is supplied with clean and pertinent inputs to
+these approaches are often not transparent, calling for be analyzed. The job descriptions are also pre-
+a more academically based approach. Bottlenecks processed to strip out skill sets, experience levels,
+such as Guide such as for operation of AI tool qualifications and responsibilities for an ideal
+iProspectCheck, MokaHR, and Rolebot help candidate. Figure 1 shows the AI-Driven Resume
+understand functional deployment of AI tool but are Screening and Ranking Workflow.
+weak in technical and ethical rigour.
+Enhancv (2025); Novoresume (2025) provide
+examples of resume formatting as seen from the
+applicant's viewpoint, with potentially salient data
+points that can be used to improve parsing
+159
+ICRDICCT‘252025-INTERNATIONALCONFERENCEONRESEARCHANDDEVELOPMENTININFORMATION,
+COMMUNICATION,ANDCOMPUTINGTECHNOLOGIES
+impact on the ranking decision, and allow for the
+detection and prevention of bias.
+To assess the quality, the model is evaluated on a
+held-out set with the standard measures precision,
+recall, F1-score, and MRR. Further evaluation is also
+conducted through human-in-the-loop experiments,
+in which experienced recruiters judge the effect of
+\textquotedblleft top candidates. This feedback is
+exploited to iteratively improve the model and
+hyperparameters. The comparison to baselines such
+as TF-IDF with logistic regression and classical
+keyword matchers also demonstrate substantial
+improvements in relevance and ranking quality.
+In deployment, the system is an API-based
+modular service that can be integrated to pre-
+existance recruitment systems or job portals. Its
+Figure 1: AI-driven resume screening and ranking
+architecture is scalable and cloud-based, enabling
+workflow.
+parsing and ranking of resumes in real time for high
+volume hiring campaigns. We make sure that data
+Next, we use a feature extraction pipeline to
+privacy standards are kept through anonymization
+convert unstructured text data to numerical data. For
+and GDPR compliance, as resumes are prone to
+the latter, we employ transformer-based models, i.e.,
+having personally identifiable information. Figure 2
+BERT (Bidirectional Encoder Representations from
+shows the Training vs Validation Loss over Epochs.
+Transformers) and RoBERTa to model semantic
+One of the key insights of the approach is the
+correlations among text. These pre-trained language
+feedback-guided learning loop it considers. This
+models are further fine-tuned on the recruitment
+feedback is recorded and the system is retrained with
+dataset to enhance domain specific knowledge of
+recruiter actions while accepting or rejecting
+resume information. In addition, the handcrafted
+recommendations in an ongoing manner in the model.
+features like work experience, number of skills and
+It means that the framework evolves over time in
+degree information including industry type-based
+response to evolving trends in recruiting, role
+keywords have also been calculated to enrich the
+demands and organisational preference. Also, the
+feature set.
+system has a bias detection module that essentially
+The central part of the approach is the resume-job
+looks for unfair patterns on gender, age or other
+matching model. A multi-input model has been built,
+protections, and warns administrators when the
+where one input is a vectorized resume, the other is a
+patterns are found.
+vectorized job description. The two streams’
+embeddings are concatenated and go through the
+dense layer (s) to calculate a compatibility score. It is
+this score that wil assess whether a candidate is
+relevant for the job, which will then be ranked. The
+model learns through labelled data where positive
+matches (hired or put into shortlist) and negative
+matches (applications rejected) are well
+distinguished. We use a contrastive loss to encourage
+clearer separation between relevant and irrelevant
+candidates during training.
+To enforce the ethical decision-making, the model
+also includes an explainability module with SHAP
+(SHapley Additive exPlanations) and LIME (Local
+Interpretable Model-agnostic Explanations). These
+methods show not only what constituents of the
+resume played the largest role in the final score, but Figure 2: Training vs validation loss over epochs.
+also facilitate clear transparency to the recruiter or the
+candidate. For example, the model may determine if Integrating context awareness, noise suppression
+a skill, a job title, or a certification had a strong and ethical protection, this approach meets the
+160
+IntelligentAIâA˘S´BasedResumeScreeningandRankingFrameworkforUnbiasedandScalableRecruitmentAutomation
+significant challenges in the AI screening systems. Experiments showed that the proposed model,
+The result is a complete system for fair, intelligent, which is based on fine-tuned BERT embeddings and
+and explainable resume screening, allowing a customized neural network, obtained better
+companies to optimize their hiring process with performance than keyword-based methods by
+greater efficiency and without sacrificing integrity or capturing more semantic relationship between
+candidate experience. resume fields and job requirements. For example, the
+model learned how to map synonyms and
+paraphrased job responsibilities to core skill sets and
+5 RESULT AND DISCUSSION hence was able to match qualified candidates that
+would have been missed by more basic systems.
+Quantitatively, we report an F1-score of 0.87 on the
+The ai resume screening and ranking framework
+AI model compared with 0.68 on the baseline system
+described in this paper was tested on a curated
+of TF-IDF + Logistic Regression and 0.59 on a rule-
+database that consists of more than 20,000
+based keyword matching system. The precision and
+anonymized resumes and over 1,500 job descriptions
+recall rates were significantly higher, indicating the
+from several business sectors. The evaluation was
+power of the system to recommend relevant
+aimed at measuring the effectiveness, reliability,
+candidates with high precision without neglecting
+fairness and interpretability of the system with
+potential talents. Figure 4 shows the SHAP-Based
+respect to traditional keyword-based screening and
+Feature Importance for Resume Scoring.
+simple machine learning baselines. Performance
+besides, proved to be a significant improvement on
+candidate-job relevance accuracy, ranking precision
+and recruiter overall satisfaction. Figure 3 shows the
+Model Performance Comparison.
+Figure 3: Model performance comparison.
+Figure 4: Shap-based feature importance for resume
+scoring.
+Table 1: Model Performance Metrics Comparison.
+Mean Reciprocal Rank
+Model Type Precision Recall F1-Score nDCG
+(MRR)
+Proposed AI Model (BERT-NN) 0.89 0.85 0.87 0.74 0.81
+TF-IDF + Logistic Regression 0.70 0.66 0.68 0.51 0.59
+Rule-Based Keyword Matching 0.60 0.58 0.59 0.43 0.48
+161
+ICRDICCT‘252025-INTERNATIONALCONFERENCEONRESEARCHANDDEVELOPMENTININFORMATION,
+COMMUNICATION,ANDCOMPUTINGTECHNOLOGIES
+The ranking function has been evaluated through managed to respond to dynamic job market
+mean reciprocal rank (MRR) and normalized fluctuations. The model’s internal weighting for skills
+discounted cumulative gain (nDCG) which are and job criteria were continually iterated upon based
+appropriate for assessing recommendation-based on when recruiters accepted or rejected AI-
+outputs. The model achieved an MRR of 0.74 and recommended candidates for the corresponding job.
+nDCG of 0.81, suggesting that the model closely This flexibility is crucial in today’s work
+approximates the recruiter preference for the top- environment, where job descriptions frequently
+ranked candidates. The utility and acceptance of the change more quickly than outdated hiring processes
+AI recommendations were further substantiated can keep pace with. Table 3 shows the Model Bias
+through an independent blind test of professional HR Detection Metrics.
+officers from three employers where 82% of the AI
+recommended candidates were either shortlisted or Table 2: Recruiter feedback on AI-suggested candidates.
+marked relevant by human judges. Table 1 shows the
+Model Performance Metrics Comparison.
+Evaluation Percentage Feedback
+An interesting aspect of this study was the Aspect Satisfaction Summary
+explainable AI parts. SHAP and LIME made it
+possible for the system to highlight certain things— Majority
+Relevance
+maybe certifications, tools, projects, or roles—on of Top 5 82% aligned with
+job role
+resumes that contributed most to the ranking score. Candidates
+expectations
+This openness began to answer one of the challenges
+Generally
+around AI recruitment tools: the black box nature of
+reflected
+decision making. Recruiters' trust in the system Ranking
+76% most
+increased upon seeing the interpretability outputs, Accuracy suitable
+which could visually present reasons behind each candidates
+ranking, leading to higher confidence of adopting the SHAP/LIM
+system in the pilot study phase. Resume E helped
+A further consideration was the detection of bias Transparenc 85% understand
+and ethical fairness. The model was validated on a y decision
+factors
+synthetic database where varying levels of
+Recruiters
+demographic cues (gender, ethnicity, age) were Bias
+88% appreciated
+unobtrusively injected. Unlike most AI hiring models Awareness
+bias alerts
+that reproduce biases present in historical hiring, the
+High
+system trained and monitored with fairness-aware
+usability and
+Overall
+learning and bias alert tracking did not exhibit 81% trust in
+Satisfaction
+substantial bias when ranking candidates according to system
+their protected attributes. Thus, in practice, the suggestions
+fairness metrics (i.e., disparate impact, and equal
+opportunity difference) were remained within the Table 3: Model bias detection metrics.
+acceptable regulatory standards, thus, if anything,
+Equal Bias
+giving reinforcement to the robustness and ethical Attribute Disparate
+Opportunity Detecte
+fairness of the model. Table 2 shows the Recruiter Tested Impact Difference d
+Feedback on AI-Suggested Candidates. Performance
+Gender 1.03 0.02 No
+wise, the system was highly scalable and responsive.
+Even when pushed to the extreme in simulation, with
+Age 0.97 0.01 No
+simultaneous screening of 1,000+ resumes per
+minute, the processing latency, due to the cloud-
+Ethnicity 1.00 0.00 No
+native optimized inference engine, stayed below 1.2
+seconds per profile on average. This efficiency is
+what makes the system suitable for high-volume The debate is supported with some caution.
+hiring events like on-campus or walk-in drives where Notwithstanding that the system is effective at
+time-to-respond is the essence. One of the most processing text data, it suffered from parsing issues
+interesting findings was the versatility of the system when resumes were overloaded with visual
+regarding changing job roles. Over the 3 months of formatting or graphical layout mess. Future
+longitudinal testing, the feedback loop mechanism enhancements could include computer vision
+162
+IntelligentAIâA˘S´BasedResumeScreeningandRankingFrameworkforUnbiasedandScalableRecruitmentAutomation
+modules to increase accuracy with non-standard Table 4: Interpretability outputs from SHAP analysis.
+resume formats. Moreover, while bias mitigation was
+SHAP
+successful in practice, future real-world Resume Influence Interpretation
+Contributio
+experimentations are required to further audit and Feature n Score Direction Example
+recalibrate fairness thresholds as the model is Direct match
+exposed to diverse sets of candidate pools. Figure 5
+Skill:
++0.31 Positive with job
+Python
+shows the System Scalability under Varying Load. requirement
+Boost for
+Degree:
++0.15 Positive management
+MBA
+positions
+Red flag
+Gap in
+based on
+Employme -0.28 Negative
+recruiter
+nt (1 year)
+preferences
+High
+Certificatio
+relevance to
+n: AWS +0.22 Positive
+cloud-related
+Cloud
+roles
+Penalized for
+Location jobs requiring
+-0.19 Negative
+Mismatch onsite
+presence
+6 CONCLUSIONS
+The AI system for resume screening and ranking
+represents a breaking new approach to the old hiring
+systems. This study has shown how modern machine
+learning methods, in particular, deep learning and
+natural language processing, can be used to assess
+and rank applicants in a more accurate, fairer, and
+more efficient way. The proposed system goes
+beyond keyword matching and allows the filtering
+process in a more intelligent way and adapted to the
+context so that no relevant talent is lost just because
+of formatting differences or keyword non-alignment.
+The explainable AI integration has also increased the
+trust and transparency of the solution with the ability
+to offer clear explanations of the decision-making
+Figure 5: System scalability under varying load.
+process to the recruiter and the candidate. Tested and
+validated in the field, the framework has proved itself
+The AI-powered pipeline, finally, demonstrates
+to be a flexible system for dynamic hiring, scalable
+very solid and consistent gains in accuracy and
+across high volume roles, while upholding ethical
+ranking effectiveness and it also provides sound
+standards. In sum, this paper paves the way for a new
+answers to fundamental issues like accountability,
+class of data-driven, fair, and opportunistic recruiting
+fairness, and adaptability. It turns the resume review
+solutions to meet with the changing needs of the
+process into a scalable, data-driven, ethical operation
+labor market.
+for organizations that need a dependable and
+compliant tool to make hiring more effective,
+preserving trust and equality. These results confirm
+REFERENCES
+that the model is usable in practice and lay a solid
+foundation for further refinement this model and its
+integration into wider talent acquisition ecosystems. Bullhorn. (2025). Best AI recruiting tool for 2025.
+Table 4 shows the Interpretability Outputs from https://www.bullhorn.com/blog/ai-recruiting-tool/
+Bullhorn
+SHAP Analysis.
+163
+ICRDICCT‘252025-INTERNATIONALCONFERENCEONRESEARCHANDDEVELOPMENTININFORMATION,
+COMMUNICATION,ANDCOMPUTINGTECHNOLOGIES
+Business Insider. (2025, April 15). A tech investor says AI Novoresume. (2025). How to optimize your resume for AI
+is already coming for jobs — and 2 professions should scanners: Guide for 2025.https://novoresume.com/care
+be very nervous. https://www.businessinsider.com/ai- er-blog/optimize-resume-for-ai-scannersNovorésumé
+jobs-companies-tech-investor-replacing-people- O'Brien, S. A. (2016). Is this app the call center of the fu-
+lawyers-recruiters-2025-4businessinsider.com ture? CNN Business. https://edition.cnn.com/2016/01/
+Clark, J. (2016). New Google AI brings automation to cus- 12/tech/pypestream-customer-service-app/index.html
+tomer service. Bloomberg https://www.bloom- Wikipedia
+berg.com/news/articles/2016-07-20/new-google-ai- Phenom. (2025). AI recruiting in 2025: The definitive
+brings-automation-to-customer-serviceWikipedia guide. https://www.phenom.com/blog/recruiting-ai-
+Enhancv. (2025). Should I opt out of AI resume screening? guidePhenom+1Bullhorn+1
+https://enhancv.com/blog/should-i-opt-out-of-AI- Rolebot (2025). AI recruiting in 2025.https://www.rolebot.
+resume-screening/Enhancv io/ai-recruiting-in-2025Rolebot - Proactively Source
+Financial Times. (2024, October 9). The new recruitment Top Talent
+arms race. https://www.ft.com/content/3350e093-ca45- Skima.ai. (2025). 10 best AI screening tools in 2025.
+4aaf-9f52-639fead3a0bcft.com https://skima.ai/blog/industry-trends-and-insights/best-
+HeroHunt.ai. (2025). ChatGPT candidate screening: 2025 ai-screening-toolsskima.ai
+AI recruitment guide. https://www.herohunt.ai/blog/ch Strikingly. (2025). Top 7 custom AI resume screening tools
+atgpt-candidate-screening-2025-ai-recruitment-guide for 2025. https://www.strikingly.com/blog/posts/top-7-
+HeroHunt.ai | Home+1HeroHunt.ai | Home+1 custom-ai-resume-screening-tools-for-2025Strikingly
+iProspectCheck. (2025). AI recruiting: A guide for employ- The Times. (2024). Euan Blair's Multiverse recruits firm's
+ers. https://iprospectcheck.com/ai-recruiting/ AI to pick candidates.https://www.thetimes.co.uk/artic
+iprospectcheck le/euan-blairs-multiverse-recruits-firms-ai-to-pick-
+Isguzar, S., Fendoglu, E., & Simsek, A. I. (2024). Innova- candidates-xtv0svxvlthetimes.co.uk
+tive applications in businesses: An evaluation on gener- Zlatanov, S., & Popesku, J. (2019). Advanced analytics in
+ative artificial intelligence. Amfiteatru Economic, hospitality: The role of AI in guest services. Proceed-
+26(62), 123–137.Wikipedia ings of the International Scientific Conference - Sinteza
+Kafre, S. (2021). Automatic curriculum vitae using ma- 2019, 210–215.Wikipedia
+chine learning and artificial intelligence. Asian Journal
+for Convergence in Technology, 7(2), 89–95.Wikipedia
+Kongthon, A., Sangkeettrakarn, C., Kongyoung, S., &
+Haruechaiyasak, C. (2009). Proceedings of the Interna-
+tional Conference on Management of Emergent Digital
+Ecosystems. ACM, 123–130.Wikipedia
+Lal, N., & Benkraouda, O. (2025). Exploring the implemen-
+tation of AI in early onset interviews to help mitigate
+bias. arXiv. https://arxiv.org/abs/2501.09890arXiv
+LinkedIn. (2025). The future of recruitment: How AI is
+redefining the industry in 2025.
+https://www.linkedin.com/pulse/future-recruitment-
+how-ai-redefining-industry-2025-stuart-brooke-j80ze
+LinkedIn
+LinkedIn. (2025). AI-powered resume screening: Smarter
+hiring or missed opportunities?https://www.linkedin.c
+om/pulse/ai-powered-resume-screening-smarter-
+hiring-missed-sanharsha-jayatissa-pdhpcLinkedIn
+Lo, F. P.-W., Qiu, J., Wang, Z., Yu, H., Chen, Y., Zhang,
+G., & Lo, B. (2025). AI hiring with LLMs: A context-
+aware and explainable multi-agent framework for re-
+sume screening. arXiv.https://arxiv.org/abs/2504.0287
+0arXiv
+MokaHR. (2025). What are AI-driven tools for candidate
+shortlisting. https://www.mokahr.io/myblog/ai-driven-
+candidate-shortlisting-tools/MokaHR
+Mukherjee, R. (2021). AI in recruitment: Enhancing candi-
+date selection through machine learning. International
+Journal of Human Resource Studies, 11(2), 45–60.
+Nawaz, N., & Gomes, A. M. (2022). Artificial intelligence
+chatbots as new recruiters. International Journal of Ad-
+vanced Computer Science and Applications, 13(4),
+112–118.Wikipedia
+164

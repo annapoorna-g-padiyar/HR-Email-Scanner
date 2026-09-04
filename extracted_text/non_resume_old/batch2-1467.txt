@@ -1,0 +1,8 @@
+10 | DESCRIPTION QUANTITY PRICE, $ TOTAL, $
+M PUR EZ250150 WHITE 310ml 5/cs 5 each/case
+02 5 51.00 51.00
+M EC-776 Fuel Resistant Coating - Qt 12 quarts/case 126.00
+Subtotal 1135
+Sales Tax 8% 90.57
+Tota! Due 1275.57
+THANK YOU..

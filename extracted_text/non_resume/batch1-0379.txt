@@ -1,0 +1,28 @@
+Invoice no: 59051048
+Date of issue: 12/12/2015
+—}) Seller: Client:
+Howell, Underwood and Davis Gardner LLC
+28530 Aaron Rapid 5115 Meza Mountain Suite 952
+Port Michelleland, AR 51018 Lopezland, MA 27123
+Tax Id: 989-83-0730 Tax Id: 948-94-1459
+IBAN: GB20VEMN29130859876706
+7) ITEMS
+No. Description Qty UM Net price Net worth VAT [%] Gross
+worth
+1, Vintage Gothic Lolita Dress 2,00 each 22,77 45,54 10% 50,09
+Women Loose Puff Sleeve Pure
+Color Princess Dresses
+2. StellaLuxe One Shoulder Lace 3,00 each 25,00 75,00 10% 82,50
+Dress
+3. S.L. Fashions Size 16 Stretch 2,00 each 15,50 31,00 10% 34,10
+Bodice Dress
+4. Old Navy Womens Sleeveless 3,00 each 12,00 36,00 10% 39,60
+Rayon Dress Hawaiian Floral
+Print Size XS
+5. Athleta Coral Paisley Print 2,00 each 39,99 79,98 10% 87,98
+Stretch Ruching Wrap Athletic
+Dress Size L
+_______] SUMMARY
+VAT [%] Net worth VAT Gross worth
+10% 267,52 26,75 294,27
+Total $ 267,52 $ 26,75 $ 294,27

@@ -1,0 +1,15 @@
+Invoice no: 66702122
+Date of issue: 12/15/2012
+—_—_ Seller: Client:
+Carr-Charles Miranda LLC
+24805 Martin Well Suite 896 4987 Stewart Ranch
+Lisabury, OR 41774 New Haileyhaven, MI 11219
+Tax Id: 992-95-5810 Tax Id: 900-97-0245
+IBAN: GBO7AFIJ74636484077025
+______) ITEMS
+No. Description Qty UM Net price Net worth VAT [%] Gross
+worth
+1} SUMMARY
+VAT [%] Net worth VAT Gross worth
+10% 27,50 2,75 30,25
+Total $ 27,50 $ 2,75 $ 30,25

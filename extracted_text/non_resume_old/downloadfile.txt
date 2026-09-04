@@ -1,0 +1,435 @@
+International Research Journal of Engineering and Technology (IRJET) e-ISSN: 2395-0056
+Volume: 11 Issue: 04 | Apr 2024 www.irjet.net p-ISSN: 2395-0072
+Machine learning based Resume Shortlisting and Classification
+Einesh Naik1, Dr. Nilesh B. Fal Dessai2
+1Student, Department of Information Technology and Engineering, Goa College of Engineering, Farmagudi, Goa,
+India
+2Head of Department, Department of Information Technology and Engineering, Goa College of Engineering,
+Farmagudi, Goa, India
+---------------------------------------------------------------------***---------------------------------------------------------------------
+Abstract - The recruitment of candidates tailored to specific streamline their recruitment efforts, identify top candidates
+job profiles is a pivotal task for many companies. With the more efficiently, and ultimately improve hiring outcomes.
+increasing prevalence of online recruitment, traditional hiring
+The traditional approach to resume screening involves
+methods are proving to be less efficient. These conventional
+manual review by human recruiters, a process that is not
+techniques typically involve a labor-intensive process of
+only time consuming but also susceptible to bias. Human
+manually sifting through submitted applications, reviewing
+biases, whether conscious or unconscious, can influence
+resumes, and creating a shortlist of potential candidates for
+decisions and inadvertently exclude qualified candidates
+interviews. In the current technological era, job searching has
+based on factors such as gender, ethnicity, or educational
+evolved to be more intelligent and accessible. Companies
+background.
+receive a vast number of resumes/CVs, which are not always
+well-organized. While significant progress has been made in
+Machine learning presents a transformative solution to these
+optimizing the job search process, the selection of candidates
+challenges. By training algorithms on historical data of
+based on their resume remains a largely manual task. This
+successful hires, organizations can develop models that learn
+research presents a survey of methods that could be used for
+to identify patterns and characteristics indicative of a good
+resume shortlisting and classification according to the
+fit for a given role. These models can then be deployed to
+company’s job description.
+automate the initial screening process, reducing the burden
+on human recruiters and mitigating bias.
+Key Words: Candidate Classifying, Candidate
+Shortlisting, KNN, Machine Learning, Cosine Similarity;
+1.1 Objectives
+Random Forest; SVM
+Shortlisting and Ranking of Resume: Evaluate and rank
+1.INTRODUCTION
+resumes based on their relevance to the job description
+provided by the company.
+The conventional job trend, wherein individuals typically
+settled for one or two positions throughout their entire
+Segmentation of Resumes: Categorizing resume into
+professional journey, was once prevalent. Employers took
+different segments or classes based on their suitability for
+pride in having employees committed to their organization
+the given job profile. Clustering algorithms or classification
+for extended periods, often spanning two or three decades.
+models are implemented to achieve this segmentation,
+helping recruiters quickly identify potential candidates.
+However, in the contemporary era, marked by swift
+technological changes, such scenarios are no longer
+Filtering of Resumes: Filtering of Resumes according to
+applicable for most employees and employers alike.
+location and percentage or any other criteria.
+In the digital age, where job opportunities abound and
+2. Related Work
+applicants are plentiful, the process of resume shortlisting
+and classification poses a significant challenge for
+2Q-Learning scheme for Resume [1], In this research 2Q-
+organizations. Manual screening of resumes is not only
+learning framework is proposed. 2Q-learning framework
+labor-intensive but also prone to human biases and
+selects the resumes based on the given set of skills specified
+inconsistencies. However, with the advent of machine
+in the job description. The 2Q-Learning approach involves
+learning (ML) techniques, there's a newfound opportunity to
+the selection or rejection of resumes by comparing the
+revolutionize this aspect of talent acquisition.
+resume with the skills or requirements mentioned in the job
+description by recruiter. In this research NLP model is used
+Machine learning offers the promise of automating and
+for extracting the features from resume. Then extracted
+optimizing the initial stages of the recruitment process by
+skillset from the resume is given to the 2Q-learning agent
+leveraging algorithms and models to analyze resumes and
+that matches the skillset and job description and takes the
+categorize them based on predefined criteria. By harnessing
+action. The dataset required for training was obtained from
+the power of data-driven insights, organizations can
+© 2024, IRJET | Impact Factor value: 8.226 | ISO 9001:2008 Certified Journal | Page 2413
+International Research Journal of Engineering and Technology (IRJET) e-ISSN: 2395-0056
+Volume: 11 Issue: 04 | Apr 2024 www.irjet.net p-ISSN: 2395-0072
+Kaggle it contained 2400+ resumes with 14 categories. AI- qualifications, relevant experience, skills, certifications, and
+Powered Resume job matching: A document ranking achievements. Recruiters meticulously assess each resume,
+approach using deep neural networks [2], LSTM component often employing a combination of intuition, expertise, and
+processes the embeddings of each input sequence, capturing organizational guidelines to determine the suitability of
+contextual information and sequential dependencies. CNN candidates.
+component applies convolutional filters to the embeddings,
+extracting local patterns and features. Then the output of
+LSTM and CNN was concatenated to combine their
+respective representation. Next, multi-head attention
+mechanism was applied to the concatenated representation.
+This layer, allowed the model to focus on relevant
+information. Finally, a similarity score is generated using the
+cosine measure, which serves as an indicator of the degree of
+similarity or dissimilarity between the Resume and the job
+description. An Efficient algorithm for Ranking candidates in
+e-recruitment system [3], This research proposed an
+algorithm Slashrank for ranking candidates based on job
+posts. To rank the candidate score is generated by
+Fig -1: Shortlisting of Resumes using Manual or
+comparing there feature value to JD. Priority to feature is
+Traditional method
+given so that candidates can be evaluated based on some
+important features like education. Automated Resume
+3.2 Challenges involved in Manual or Traditional
+Evaluation system using NLP [4], The proposed architecture
+Method
+in this research first Converts the unstructured resumes in
+structured data using NLP. Extraction phase where relevant
+While manual shortlisting and classification offer valuable
+information is extracted from the resume and giving them
+insights into candidate suitability, they are not without
+identifier values. candidate’s information like personal,
+challenges:
+education, experience, technical skills, internship(if any),
+hobbies, etc. The next module is the filtration module, which Time-intensive process: Manual resume screening is labor-
+refines the lists by removing the insignificant terms that do intensive and time-consuming, especially for organizations
+not contribute to the matching process. It takes the list of receiving a high volume of applications. Recruiters must
+skills from both the resume and job posts to construct the dedicate significant resources to review each resume
+semantic network. It takes the semantic network as input thoroughly, leading to prolonged time-to-hire and potential
+and produces the measures of closeness between them as delays in candidate engagement.
+output. Based on the values assigned, the resumes are
+ranked accordingly in the final segment. To make the Subjectivity and Bias: Human judgment introduces
+filtration process more efficient, a score is given to each subjectivity and potential bias into the screening process.
+resume to rank the applicant. Recruiters may inadvertently favor certain candidates based
+on personal preferences, stereotypes, or unconscious biases,
+3. Methods used for Resume Shortlisting and leading to disparities in candidate selection and
+Classification of Resume representation.
+3.1 Manual Shortlisting and Classification of Scalability and Consistency: As organizational needs evolve
+Resumes and recruitment volumes fluctuate, manual processes may
+struggle to scale effectively. Maintaining consistency and
+Manual shortlisting and classification of resumes have long standardization across multiple recruiters and job openings
+been fundamental practices employed by organizations to can be challenging, resulting in variability in screening
+identify the most suitable candidates for job openings. This criteria and outcomes.
+process, although traditional, remains a cornerstone of
+recruitment strategies, offering insights into candidate However, manual screening is not without its limitations,
+qualifications, skills, and experiences that are crucial for including time-intensive nature, susceptibility to bias, and
+making informed hiring decisions. challenges in scalability and consistency. As organizations
+strive to optimize their recruitment processes, there is a
+Manual shortlisting and classification involve human growing interest in complementing manual practices with
+recruiters or hiring managers reviewing and evaluating technology-driven solutions such as machine learning
+resumes submitted by job applicants. This process typically algorithms for automated resume screening. By integrating
+follows a set of predefined criteria aligned with the theoretical insights with practical considerations,
+requirements of the job role, such as educational organizations can enhance their recruitment strategies and
+© 2024, IRJET | Impact Factor value: 8.226 | ISO 9001:2008 Certified Journal | Page 2414
+International Research Journal of Engineering and Technology (IRJET) e-ISSN: 2395-0056
+Volume: 11 Issue: 04 | Apr 2024 www.irjet.net p-ISSN: 2395-0072
+improve hiring outcomes while mitigating the inherent the dimensionality of the feature space and ensures that
+challenges of manual resume screening. different inflected forms of words are treated as the same
+token, thereby improving the accuracy and interpretability of
+3.3 Machine Learning based Shortlisting and NLP models.
+Classification of Resumes
+Popular NLP libraries such as NLTK (Natural Language
+Use of Machine Learning in Resume shortlisting and Toolkit), spaCy, and CoreNLP provide lemmatization
+classification can be broken down into 2 components. First functionality, making it easy to incorporate into NLP
+component Shortlisting of Resumes, it can be done using pipelines for various applications.
+machine learning techniques such as similarity matrix
+example Cosine Similarity. Similarity Matrix finds the Vectorization: Vectorization is the process of converting
+similarity between resume and job description, this textual data into numerical vectors or arrays that can be
+similarity is measured in values. Higher the value, more understood and processed by machine learning algorithms.
+similar is the resume to job description. Similarity value of This transformation allows NLP models to work with text data
+resumes can be arranged in descending order to shortlist effectively, as most machine learning algorithms require
+resumes according to number of available positions. Second numerical inputs. There are several techniques for
+component that is Classification of resumes can be achieved vectorizing text data:
+through various classification models like KNN, SVM,
+Bag-of-Words (BoW): BoW represents each document as a
+Random Forest.
+vector where each dimension corresponds to a unique word
+1.Steps involved in Pre-Processing in the vocabulary. The value of each dimension indicates the
+frequency of the corresponding word in the document. BoW
+Dropping of unwanted Features: Removal of less important disregards the order of words and only considers their
+features such as emails, phone, etc. Machine learning presence or absence in the document.
+libraries such as pandas could be used to remove unwanted
+Term Frequency-Inverse Document Frequency (TF-IDF): TF-
+entries.
+IDF is similar to BoW but also takes into account the
+Handling Null entries: Handling Null entries is important, so importance of words in the context of the entire corpus. It
+that model can be trained efficiently. Default values could be computes a weight for each word based on its frequency in
+used to handle null entries. the document (TF) and rarity across all documents in the
+corpus (IDF).
+Lemmatization: Lemmatization is a natural language
+processing (NLP) technique used to reduce words to their
+base or root form, known as the lemma. The lemma
+represents the canonical, dictionary form of a word, which
+allows for better analysis and understanding of text data.
+Unlike stemming, which simply chops off prefixes or suffixes
+from words to derive their root form (sometimes resulting in
+non-real words), lemmatization considers the morphological
+analysis of words and aims to return a real word that belongs
+to the language.
+Working of Lemmatization:
+2. First Component Shortlisting of Resumes
+Tokenization: The text is first divided into individual words or
+tokens. This can be done using Similarity Matrix. A similarity matrix
+is a square matrix that quantifies the similarity between
+Part-of-Speech Tagging (POS): Each word is tagged with its
+pairs of objects in a dataset. Each element of the matrix
+part of speech (e.g., noun, verb, adjective).
+represents the degree of similarity between two
+corresponding objects, typically ranging from 0 (no
+Lemmatization is Based on the part-of-speech information,
+similarity) to 1 (perfect similarity). Similarity matrices are
+each word is mapped to its lemma using a vocabulary and
+commonly used in various fields, including natural language
+linguistic rules. For example: "Running" (verb) → "run", "Cats"
+processing, image analysis, and clustering.
+(noun) → "cat", "Better" (adjective) → "good"
+In the context of Candidate shortlisting, a similarity matrix
+Lemmatization is beneficial in NLP tasks where the semantic
+can be constructed to measure the similarity between
+meaning of words is important, such as text classification,
+Resume and Job Description. Different similarity metrics can
+sentiment analysis, and machine translation. It helps reduce
+© 2024, IRJET | Impact Factor value: 8.226 | ISO 9001:2008 Certified Journal | Page 2415
+International Research Journal of Engineering and Technology (IRJET) e-ISSN: 2395-0056
+Volume: 11 Issue: 04 | Apr 2024 www.irjet.net p-ISSN: 2395-0072
+be used depending on the specific task and the characteristics which the data can be separated into distinct classes by
+of the data. Some commonly used similarity measures in NLP finding the hyperplane that maximizes the margin between
+include: them. In SVM, the margin is the distance between the
+hyperplane and the nearest data points from each class. The
+Cosine Similarity: Measures the cosine of the angle between goal is to find the hyperplane that maximizes this margin, as
+two vectors in a vector space. It is often used to compare the it provides the greatest separation between the classes and
+similarity between document vectors or word embeddings. is less likely to overfit the data. Support vectors are the data
+points closest to the hyperplane and are crucial for defining
+its position. These points determine the decision boundary
+and are used to maximize the margin.
+Random Forest is an ensemble learning method that
+constructs a multitude of decision trees during training and
+outputs the mode (for classification tasks) or mean (for
+Jaccard Similarity: Calculates the intersection over the union
+regression tasks) prediction of the individual trees. Each
+of two sets. It is frequently used to compare the similarity
+decision tree is built using a random subset of the training
+between sets of words or documents.
+data, with replacement, and a random subset of features at
+each split. This randomness introduces diversity among the
+trees, reducing overfitting and improving generalization.
+During prediction, each tree in the ensemble independently
+classifies or predicts the target variable for a given input, and
+the final output is determined by aggregating the individual
+Euclidean Distance: Measures the straight-line distance
+tree predictions through majority voting or averaging.
+between two points in a multidimensional space. It is often
+Random Forest is known for its robustness, scalability, and
+used in vector-based representations to measure
+ability to handle high-dimensional data, making it a popular
+dissimilarity.
+choice for a wide range of classification and regression tasks.
+The dataset used in this research can be obtained from
+kaggle. The Dataset contains resumes which are relevant to
+IT industry. The Resume Dataset contains collection of
+resumes, it has 963 resumes. It has 25 categories which are,
+3. Second Component Classification of Resume using
+Java Developer, Testing, DevOps Engineer, Python
+Machine Learning Models
+Developer, Web Designing, HR, Hadoop, Blockchain, ETL
+Developer, Operations Manager, Data Science, Sales,
+There are various machine learning models for classification.
+Mechanical Engineer, Arts, Database, Electrical Engineering,
+In this research we have implemented three classification
+Health and fitness, PMO, Business Analyst, DotNet
+models which are KNN, SVM, Random Forest.
+Developer, Automation Testing, Network Security Engineer,
+SAP Developer, Civil Engineer, Advocate.
+KNN - The K Nearest Neighbor (KNN) algorithm is a well-
+established method in AI that serves for both classification
+TABLE -1: DIFFERENT CATEGORIES AND COUNT OF RESUMES
+and regression tasks [14]. Unlike many other algorithms,
+KNN doesn't build an explicit model from the training data;
+instead, it memorizes the training instances to make
+predictions on new data points. KNN operates by identifying
+the k nearest data points to a query point based on a distance
+metric such as Euclidean or Manhattan distance. It then
+assigns the label or value of the majority of those k nearest
+neighbors to the query point. Being a non-parametric
+algorithm, KNN makes no assumptions about the distribution
+of the data and can perform effectively even on small datasets.
+However, its performance may be limited by the curse of
+dimensionality, where the distance between data points
+becomes less meaningful as the number of dimensions
+increases.
+Support Vector Machines (SVM) are powerful supervised
+learning models used for classification and regression tasks.
+SVMs are particularly effective for classification problems in
+© 2024, IRJET | Impact Factor value: 8.226 | ISO 9001:2008 Certified Journal | Page 2416
+International Research Journal of Engineering and Technology (IRJET) e-ISSN: 2395-0056
+Volume: 11 Issue: 04 | Apr 2024 www.irjet.net p-ISSN: 2395-0072
+TABLE -2: COMPARISON OF DIFFERENT MODELS 4. Results
+We computed accuracy of KNN, SVM, Random Forest as
+shown in Table II. Among these three models, the best
+results were obtained using SVM. As evident in Table II, SVM
+model outperforms the other three machine learning models
+in terms of performance.
+4. Shortlisting of Resumes using Existing Machine
+Also 10 Resumes were manually created to test ranking of
+Learning Algorithms
+resumes using Cosine similarity. Cosine similarity found the
+similarity between Resume and job description and assigned
+The 2Q Learning Framework [1], involves the evaluation of
+a similarity value. Then resumes were sorted in descending
+resumes against a predetermined set of skills outlined in the
+order of similarity value. Cosine Similarity effectively ranked
+job description. This approach facilitates the selection or
+the resumes, which help in shortling of resumes.
+rejection of resumes by comparing their contents with the
+specified skills or requirements provided by the recruiter.
+5. Conclusion
+Initially, the resume analyzer retrieves a resume from the
+database and extracts the relevant skill set from it.
+Shortlisting, Ranking and classifying a resume in Human
+Subsequently, the 2Q Learning agent makes a determination
+Resource department is usually a critical problem. In this
+regarding the suitability of the resume based on the skills
+paper, different methods based on machine learning
+outlined in the job description. Resumes that meet the
+techniques are implemented and compared. Manual or
+criteria are advanced to the interview stage, while those that
+Traditional methods are acceptable, but they are time
+do not are subjected to further review by the resume selector,
+consuming, susceptible to human bias. Machine learning
+which proceeds to evaluate the next resume provided by the
+based Shortlisting, Ranking, and classification of resume
+resume analyzer.
+algorithms have overcome such issues and achieved
+significant performances in both accuracy and speed.
+AI-Powered Resume job matching [2], LSTM component
+captures contextual information and sequential
+For future work, Deep Learning based models for
+dependencies. CNN component applies convolutional filters
+Shortlisting of Resumes could be used, such as Semantic
+to the embeddings, extracting local patterns and features.
+Similarity model. Semantic Similarity is the task of
+Then the output of LSTM and CNN was concatenated to
+determining how similar two sentences are, in terms of what
+combine their respective representation. Next, multi-head
+they mean. Use of semantic similarity models such as BERT.
+attention mechanism was applied to the concatenated
+Semantic models can be used for finding similarity between
+representation. This layer, allowed the model to focus on
+Resume and Job Description. Some widely used Semantic
+relevant information. Finally, a similarity score is generated
+models are all-mpnet-base-v2, Praphrase-MiniLM-L6-v2, all-
+using the cosine measure, which finds the degree of
+roberta-large-v1.
+similarity or dissimilarity between the Resume and the job
+description. all-mpnet-base-v2:This is a sentence transformers model: It
+maps sentences & paragraphs to a 768 dimensional dense
+Slashrank algorithm [3], It is an efficient algorithm which
+vector space and can be used for tasks like clustering or
+helps to evaluate resumes based on important features. First
+semantic search.
+we assign priority to features. Then we set Threshold for
+feature priority and candidates feature score. If feature
+Praphrase-MiniLM-L6-v2: sentence transformers model: It
+priority is greater than Threshold of feature priority, then for
+maps sentences & paragraphs to a 384 dimensional dense
+each candidate we calculate candidate score, else next feature.
+vector space and can be used for tasks like clustering or
+semantic search.
+TABLE -3: COMPARISON OF EXISTING ALGORITHMS
+all-roberta-large-v1: It maps sentences & paragraphs to a
+1024 dimensional dense vector space and can be used for
+tasks like clustering or semantic search.
+REFERENCES
+[1] Bhoomika SP, Likhitha S, Chandana H S, Kavya S A,
+Bhargavi K, 2Q-Learning scheme for Resume, 4th
+International Conference for Emerging Technology
+(INCET) IEEE 2023.
+© 2024, IRJET | Impact Factor value: 8.226 | ISO 9001:2008 Certified Journal | Page 2417
+International Research Journal of Engineering and Technology (IRJET) e-ISSN: 2395-0056
+Volume: 11 Issue: 04 | Apr 2024 www.irjet.net p-ISSN: 2395-0072
+[2] Sima Rezaeipourfarsangi, Evangelos E. Milios, AI- [11] Thapanee Boonchob, Nuengwong Tuaycharoen,
+Powered Resume job matching: A document ranking Santisook Limpeeticharoenchot, Narongthat Thanyawet,
+approach using deep neural networks, ACM Symposium Job-Candidate Classifying and Ranking System Based
+on Document Engineering 2023. Machine Learning Method, 26th International Computer
+Science and Engineering Conference (ICSEC) IEEE 2022.
+[3] Abdul Hanan Minhas, Mohammad Daniyal Shaiq, Saad
+Ali Qureshi, Musa Dildar Ahmed Cheema, Shujaat [12] Pratibha Swami, Vibha Pratap, Resume Classifier and
+Hussain, Kifayat Ullah Khan, An Efficient algorithm for Summarizer, International Conference on Machine
+Ranking candidates in e-recruitment system, 16th Learning, Big Data, Cloud and Parallel Computing (COM-
+International Conference on Ubiquitous Information IT-CON) IEEE 2022.
+Management and Communication IEEE 2022.
+[13] S Bharadwaj, Rudra Varun, Potukuchi Sreeram Aditya,
+[4] Rohini Nimbekar, Yogesh Patil, Rahul Prabhu, Shainila Macherla Nikhil, G.Charles Babu, Resume Screening
+Mulla, Automated Resume Evaluation system using NLP, using NLP and LSTM, International Conference on
+International Conference on Advance in Computing, Inventive Computation Technologies (ICICT) IEEE 2022.
+Communication and Control IEEE 2019.
+[14] M.Alamelu, D.Sathish Kumar, R.Sanjana, J.Subha Sree,
+[5] Saswat Mohanty, Anshuman Behera, Sushruta Mishra, A.Sangeerani Devi, D.Kavitha, Resume Validation and
+Ahmed Alkhayyat, Deepak Gupta, Resumate: A Filtration using Natural Language Processing, 10th
+Prototype to Enhance Recruitment Process with NLP International Conference on Internet of Everything,
+based Resume Parsing, 4th International Conference on Microwave Engineering, Communication and Networks
+Intelligent Engineering and Management (ICIEM) IEEE (IEMECON) IEEE 2021.
+2023.
+[15] Rishabh Bathija, Vanshika Bajaj, Chandni Megnani,
+[6] M.F. Mridha, Rabeya Basri, Rabeya Basri, Md. Abdul Jasmine Sawara, Prof. Sanjay Mirchandani,
+Hamid, A Machine Learning Approach for Screening Revolutionizing Recruitment: A Comparative Study Of
+Individual’s Job Profile Using Convolutional Neural KNN, Weighted KNN, and SVM - KNN for Resume
+Network, International Conference on Science & Screening, 8th International Conference on
+Contemporary Technologies (ICSCT) IEEE 2021. Communication and Electronics Systems (ICCES) IEEE
+2023.
+[7] Tumula Mani Harsha, Gangaraju Sai Moukthika,
+Dudipalli Siva Sai, Mannuru Naga Rajeswari Pravallika, [16] Rasika Ransing, Akshaya Mohan, Nikita Bhrugumaharshi
+Satish Anamalamudi, MuraliKrishna Enduri, Automated Emberi, Kailas Mahavarkar, Screening and Ranking
+Resume Screener using Natural Language Resumes using Stacked Model, 5th International
+Processing(NLP), 6th International Conference on Conference on Electrical, Electronics, Communication,
+Trends in Electronics and Informatics (ICOEI) IEEE Computer Technologies and Optimization Techniques
+2022. (ICEECCOT) IEEE 2021.
+[8] Vishnu S. Pendyala, Nishtha Atrey, Tina Aggarwal, [17] Ashif Mohamed, Wickram Bagawathinathan, Usama
+Saumya Goyal, Enhanced Algorithmic Job Matching Iqbal, Shahik Shamrath, Anuradha Jayakody, Smart
+based on a Comprehensive Candidate Profile using NLP Talents Recruiter – Resume Ranking and
+and Machine Learning, Eighth International Conference Recommendation System, IEEE 2018.
+on Big Data Computing Service and Applications
+(BigDataService) IEEE 2022. [18] Sujit Amin, Nikita Jayakar, Sonia Sunny, Pheba Babu,
+M.Kiruthika, Ambarish Gurjar, Web Application for
+[9] Muntaha Mehboob, M.Saad Ali, Saif ul Islam, Saif ul Screening Resume, International Conference on Nascent
+Islam, Evaluating Automatic CV Shortlisting Tool For Job Technologies in Engineering (ICNTE 2019) IEEE 2019.
+Recruitment Based On Machine Learning Techniques,
+Mohammad Ali Jinnah University International
+Conference on Computing (MAJICC) IEEE 2022.
+[10] Chamila Maddumage, Dulanjaya Senevirathne, Isuru
+Gayashan, Tharusha Shehan, Sagara Sumathipala,
+Intelligent Recruitment System, 5th International
+Conference for Convergence in Technology (I2CT) IEEE
+2019.
+© 2024, IRJET | Impact Factor value: 8.226 | ISO 9001:2008 Certified Journal | Page 2418

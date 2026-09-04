@@ -1,0 +1,17 @@
+INVOICE
+INVOICE NO.
+121
+DATE:
+March 12, 2022
+DUE DATE:
+April 12, 2022
+Bill from Bill To
+NELSON INDUSTRIAL FABRICATORS MYLES BURKE ARCHITECTURAL MODELS INC
+1155 Squires Beach Road 10 Planchet Road - Unit No 29
+Invoices: ap@nelsonindust.com VAUGHAN, Ontario, Canada
+PICKERING, Ontario, Canada
+10 | DESCRIPTION QUANTITY PRICE, $ TOTAL, $
+01 Araldite 2014 HT Epoxy Paste GRAY 50ml 2:1 6 cartridges/box | 2 349.00 349.00
+120 cartridges/case
+ee
+eee

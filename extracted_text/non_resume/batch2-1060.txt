@@ -1,0 +1,33 @@
+Invoice no: 24047009
+Date of issue: 10/01/2016
+—}) Seller: Client:
+Rogers Ltd Castro, Ray and Rodriguez
+898 Michelle Extensions Apt. 046 1585 Salinas Fords Apt. 746
+North Justin, AL 82570 Parkerstad, TX 78829
+Tax Id: 946-97-1175 Tax Id: 941-95-1177
+IBAN: GB11JETA84788514624542
+7) ITEMS
+No. Description Qty UM Net price Net worth VAT [%] Gross
+worth
+1, a pair of wine glasses drawer 1 1,00 each 7,30 7,30 10% 8,03
+e
+2. Wall Mounted Upside Down 3,00 each 14,98 44,94 10% 49,43
+Wine Bottle Rack Goblet Glass
+Holder Storage Organizer
+3. Vintage Set of 3 Cobalt Blue 2,00 each 24,00 48,00 10% 52,80
+Glass Wine Glasses / Water
+Goblets Barware Stemware
+4 Rabbit Wine Too! Kit 6 Piece Set. 1,00 each 24,20 24,20 10% 26,62
+Open box Sealed
+5. Vintage wine 2 bottles holder 5,00 each 55,00 275,00 10% 302,50
+tron & rattan rack
+6. Leed's Wine Companion Bottle 1,00 each 7,50 7,50 10% 8,25
+Corkscrew Opener Gift Box Set
+with Foil Cutter
+7. 1Pe Wine Glass Holder Beautiful 2,00 each 17,45 34,90 10% 38,39
+Goblet Storage Cup Draining
+Rack (Black)
+7} SUMMARY
+VAT [%] Net worth VAT Gross worth
+10% 441,84 44,18 486,02
+Total $ 441,84 $ 44,18 $ 486,02

@@ -1,0 +1,23 @@
+Invoice no: 75359983
+Date of issue: 12/04/2015
+—}) Seller: Client:
+Schwartz PLC Smith-Nash
+43805 Stephen Island Suite 331 81850 Barry Greens Suite 940
+Lindafurt, Ml 07432 Prattfurt, NH 86639
+Tax Id: 975-97-3231 Tax Id: 914-74-8737
+IBAN: GBO2WUPC40974766659754
+7) ITEMS
+No. Description Qty UM Net price Net worth VAT [%] Gross
+worth
+1, Cambridge Star Atlas 2000.0 by 2,00 each 20,37 40,74 10% 44,81
+Tirion, Wil Hardback Book The
+Fast Free Shipping
+2. PRETTY GOOD JOKE BOOK 2nd 1,00 each 4,49 4,49 10% 4,94
+ED (Prairie Home Compani
+3. The Nature Notes of an 5,00 each 26,67 133,35 10% 146,69
+Edwardian Lady (Country Dia...
+by Holden, Edith Paperback
+1] SUMMARY
+VAT [%] Net worth VAT Gross worth
+10% 178,58 17,86 196,44
+Total $ 178,58 $ 17,86 $ 196,44

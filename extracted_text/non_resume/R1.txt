@@ -1,0 +1,437 @@
+www.ijcrt.org © 2025 IJCRT | Volume 13, Issue 12 December 2025 | ISSN: 2320-2882
+IJCRT-ORG) ISSNJ:¥2320-2882
+A ae INTERNATIONAL JOURNAL OF CREATIVE
+i Sy RESEARCH THOUGHTS (IJCRT)
+vf “\ . .
+aS. 76" An International Upen Access, Peer-reviewed, Refereed Journal
+An AI-Driven Resume Parsing And Ranking
+System Using Natural Language Processing For
+Automated Talent Shortlisting
+A Structured NLP and NER-Based Framework for Fair, Explainable, and Scalable Recruitment Automation
+'Gayatri Yeravadekar, *Yug Jain, *Prathamesh Yewale, *Yug Vyas, *Shritej Zad
+'Undergraduate Student, *Undergraduate Student, >Undergraduate Student, ‘Undergraduate Student,
+a ” $Undergraduate Student,
+‘Department Of Computer Engineering
+a 'Vishwakarma Institute Of Technology,Pune, Maharashtra, India
+Abstract: The existing system for screening and ranking resumes is done manually in which recruiters rank
+resumes based on their company policies. It is not only time-consuming but also prone to human error and
+often influenced by biased opinions. Automated-resume screening has grown in popularity as it is more
+efficient and accurate. The main goal of this system is to help recruiters and job-seekers to recruit and get
+recruited, respectively. Not only we develop our system that does what traditional Al-based resume rankers
+do but also gives valuable insights and detailed analysis of our users that could improve their resumes
+ultimately making them more deserving candidates for that job position. ca a ae
+a rl : Fart! ‘S >
+Keywords: Intelligence, Machine Learning, Resume Parse, Weighting F ilter; RegEx, NLP
+I, INTRODUCTION... woe
+It's often hard for recruiters to compare different candidates fairly, especially when each person has a different
+background, resume format, and way of showing their experience. This can make it difficult to choose the
+right person for the job. To solve this, the system compares candidates based on three main things: their
+experience, education, and skills and achievements. It checks how well a candidate's background matches the
+job by looking at their past roles, degrees, and the skills they've picked up over time. It doesn't just look at
+what they've done, but also how relevant and useful their experience is. The system also gives extra attention
+to things like certifications, carccr growth, and how well a person might fit into the company's culture, Overall,
+it helps pick the best candidates by giving a clear and fair comparison across all the important arcas.
+Il. OBJECTIVES
+The goal is to create an Al-based resume ranking system that differentiate the candidate on the basis of the
+candidate's cducation, technical skills, skills compared to job requirements and experience in the industry.
+Having a simple user-friendly interface for complex procedures and being an effective and accurate bridge
+between rightful candidates and recruiters are the main objectives,
+IJCRT2512232 International Journal of Creative Research Thoughts (IJCRT) www.ijcrt.org ] b946
+www.ijcrt.org © 2025 IJCRT | Volume 13, Issue 12 December 2025 [| ISSN: 2320-2882
+ILA PROBLEM DEFINITION AND CONTRIBUTIONS
+This study investigates the need to eliminate bias and inconsistencies in the automatic estimation and ordering
+of applicants' resumes (as a group), according to job descriptions as defined by the hiring organizations, and
+be able to do this at a large scale. The group of resumes is represented by the symbol R, and contains n
+candidate resumes (i.e., rl, 12, ..., rm). The job description is represented by the letter J, and is a structured
+representation of all the required and preferred skills, the minimum education, and the minimum experience
+needed for the job. The goal of the system proposed in this project is to generate a rank for each resume (i.e.,
+S(ri, J)), with the candidates who are the most closely matching the job description (as per current market
+expectations) being given a higher ranking than those candidates that are less closely matched. Additionally,
+the system will provide recruiters and candidates with detailed analytical reports about their respective
+strengths and weaknesses, as well as possible career development paths.
+This document highlights the main contributions of this project, with three major areas of impact. First, we
+have established an end-to-end Natural Language Processing (NLP) and Named Entity Recognition (NER)
+based method for extracting relevant information from resumes written in semi-structured formats. We are
+able to identify key pieces of information (entities) such as SKILLS, EDUCATION, and EXPERIENCE, and
+convert them into a common standard for use in automated analysis. Secondly, the system provides recruiters
+and candidates with two different types of Skills Reports: a Comparison Skills Report compares the
+candidate's SKILLS to those outlined in the specific Job Description, while an In-Demand Skills Report
+compares the candidate's SKILLS to those currently being sought by employers throughout the job market in
+order to give both the recruiter and candidate a better understanding of where they sit relative to the rest of
+the market. Thirdly, the project proposes a Configurable Scoring Model that combines Skill Match Score,
+Experience Match Score, Education Match Score, and Cultural Fit Score into an Overall Match Score using
+tunable weights that allow the recruiter to adjust how the Overall Match Score ranks candidates relative to
+their organizational goals. Finally, we address the Fairness and Ethical implications of using Artificial
+Intelligence (AI) to screen candidates; specifically we address the exclusion of sensitive demographic
+identifiers, the potential for bias in the underlying. training data, and the importance of Maintaining
+Transparency and Conducting Periodic Audits of algorithmic behaviour, - we
+Ill. LITERATURE REVIEW ae we 4
+1. Smart Resume Parser and Analyzer Using AI a ae cy ae
+(2024) introduces an Ai-based Resume Parser Analyzer designed for tHe rectuiitment process by automating
+resume screening, extracting essential information, and providing feedback-:, Me
+The main purpose of this tool is to increase the accuracy of the candidate. filtering process compared to
+traditional screening methods. ‘The system integrates Named Entity. Recognition, Regular Expression
+Matching, and Structured Resume Parsing to provide coverage for various formats and layouts of resumes.
+This AI resume parsing tool also provides feedback to the candidates by identifying skills on their resume
+that are missing or can be added, which will allow recruiters and candidates to be more informed when making
+a decision.
+2. Resume Parsing Framework for E-recruitment
+Sajid et al. (2022) introduced a resume parsing framework designed to overcome hindrances associated with
+the extensive range of resume formats encountered in the electronic recruitment system. Traditional methods
+such as rule-based and supervised techniques struggle to differentiate font styles, colours and layout structures.
+These inaccuracies hinder the effective data mining, particularly in extracting crucial and relevant information
+and ranking applicants. To address these issues Named entity recognition (NER) framework is used to extract
+critical data.
+The authors propose to use an ontology to enhance the skill extraction process by clustering related
+competencies and thus improving the downstream matching and ranking of candidates. The authors of this
+project concluded that the extraction quality of resumes is much greater with a layout-aware parsing process
+IJCRT2512232 International Journal of Creative Research Thoughts (IJCRT) www.ijcrt.org ] b947
+www. ijcrt.org © 2025 IJCRT | Volume 13, Issue 12 December 2025 | ISSN: 2320-2882
+than when it is conducted using a rule-based approach alone. The authors also indicated that this enhanced
+quality of extraction is particularly beneficial when processing resumes that have complex layouts.
+3. Procedural Justice and Fairness in Automated Resume Parsers
+(2023) highlighted the ethical concerns around bias in resume parsing systems. Their study explores the
+candidates’ perspectives on fairness, equality, and transparency in Al-based resume screening. They find that
+while AI can reduce human bias, it often lacks fairness for minority groups. The authors propose guidelines
+for enhancing fairness and inclusivity in these systems.
+Recent research on Al-powered ranking systems for resumes has included the use of Natural Language
+Processing (NLP) and machine learning (ML) to determine the matching score between resumes and job
+descriptions based on semantic similarity, as opposed to solely on matching keyword counts. These resume
+ranking systems use vector representations of a candidate's resume and a job description to find matching
+candidates, presenting the list of ranked candidates to recruiters. To evaluate this type of ranking, researchers
+use the following metrics: precision, recall, Fl-score, and precision@k, and they find that Al-powered ranking
+systems significantly reduce manual effort while improving the quality of shortlisted candidates.
+4, Resume Analyzer and Recommender System Using Python
+An Al-driven tool to automate and enhance resume evaluation using NLP and machine learning. It extracts,
+analyzes and ranks candidate information based on predefined job criteria through a user-friendly Streamlit
+interface. a . ae
+Deep learning methods of developing frameworks for resume parsing (such as DeepResume), and hybrid
+transformer-based approaches to resume parsing, have combined traditional Named Entity Recognition (NER)
+and Transformer models (such as BERT, SBERT, and DeBERTa) with the use of NLP processing pipelines
+to offer layout-aware segmentation and more advanced methods of entity extraction for parsing resumes.
+These types of systems have increased the ability to identify complex relationships in resumes, such as those
+involving multi-sentence experiences and those containing multiple skills. The experimental results show that
+hybrid systems offer at Icast a twofold increase in extracting accuracy for most entity types’ (c.g., skills,
+education, and employment history) compared to using only classical NER and regular "expression methods.
+- < rot
+> a : ae ON
+5. Raising Questions of AI-Driven Resume Screening's Fairness, Transparency,and Bias
+. ’ a! s . an oN
+Several studics have explored issucs of fairncss and transparency in Al-based resume screening, pointing out
+that models developed on historical hiring data may be vulnerable to perpetuating or amplifying already
+existing demographic bias. Researchers have recommended the use of bias-aware machine learning techniques
+as well as developing fairness metrics such as demographic parity and equal opportunity to assess the impact
+of AI systems on various groups and recommend conducting regular audits of the impact of Al-driven resume
+screening on minority groups, Also recommended are establishing policy and procedures that exclude the use
+of sensitive characteristics.
+IJCRT2512232 International Journal of Creative Research Thoughts (IJCRT) www.ijcrt.org ] b948
+www.ijcrt.org © 2025 IJCRT | Volume 13, Issue 12 December 2025 [| ISSN: 2320-2882
+IV. METHODOLOGY
+Resume Ranking System Pipeline
+2
+a
+z
+a
+us
+Figure 1 illustrates the overall experimental workflow of the proposed Al-based resume ranking system, from
+dataset collection to performance evaluation.
+A. System Architecture 1. . |
+The proposed system will use a modular pipeline to convert raw resumes into ranked candidate lists and
+analytical reports based on a Job Description. The pipeline includes multiple steps: Document ingestion, Text
+extraction & Cleaning, Entity recognition & Normalization, Feature Engineering, Scoring & Ranking and
+Report Generation. At a high level, all candidate resumes (in formats including PDF & Word) will be
+submitted by the candidate or collected via external sources. These resumes will subsequently be run through
+the pipeline to create a structured profile of the candidate (through the use of structured data) and a score for
+the recruiter to interpret. The Document Ingestion section receives candidate resumes from multiple sources
+(i.e. job portals, email submissions, and applicant tracking systems). The File Handling module checks the
+. oe °
+source of each file for the proper file type, removes any corrupted files, and passes all valid resumes into the
+; os .
+queue to be processed. Text Extraction uses the appropriate parser for each file type,to extract plain text from
+PDF and Word format resumes, preserving as much of the resume structure as possible (ie. the major headings
+and bullet points). Once the plain text has been extracted from each resume; the text is normalized to prepare
+it for further analysis in the pipeline. The normalization process will include; converting the text to lower case,
+removing all boilerplate content, tokenizing the text, and segmenting the text'into sentence structures (i.e.
+identifying the beginning and end ofa sentencc). After the Document Ingestion and Text Extraction phascs
+are complete, the extracted and cleaned resumes will be passed to the Entity Recognition and Normalization
+phases for extraction of Semantics and Structure. So
+1, Data Collection
+The data collection process for Ai-resume links to various materials, including online job boards and career
+platforms, professional networking platforms, applicant tracking systems (ATS), and other online resources.
+The resumes are collected in various formats such as pdf, microsoft word, plain text file, portfolio, etc;
+depending on the job requirements and applicant's personal preferences.
+2. Data Extraction and Analysis
+The system processes resumes in pdf format, transforming them into structured text format. Named Entity
+Recognition (NER) model identifies and classifies entities such as name, CGPA, location, skills, etc.
+2.1. NLP and NER Pipeline
+The entity recognition and extraction (NER) of unstructured resume text converts it into structured resume
+fields. An NER model will either be pre-trained or fine-tuned for this purpose. NER models identify entities:
+Candidate Name, Candidates Contact Information (Phone# etc.), Academic Degree(s), School(s), Date(s), Job
+Title(s), Company(ies), Skill Phrase(s), etc. The normalized text is processed through the NER model, which
+IJCRT2512232 International Journal of Creative Research Thoughts (IJCRT) www.ijcrt.org ] b949
+www. ijcrt.org © 2025 IJCRT | Volume 13, Issue 12 December 2025 [| ISSN: 2320-2882
+assigns entity labels to tokens in the normalized text, and aggregates together these entity labels into large
+segments representing Education Entry(ies), Work Experience(s), and Skills Listings. This allows the
+information extracted from the resumes to be disaggregated into separate segments, thus eliminating the need
+for formatting assistance or manual templates to separate out the different semantic sections of the resume.
+After entity detection occurs, there is a normalization step to standardize the extracted information. All Skill
+Phrases are mapped to a Controlled Vocabulary/Skills Ontology so that any semantically similar skills (ex.
+"C-language","C-programming","C dev") are treated as one canonical skill. Job Titles are mapped to
+Normalized Role Categories and Seniority Levels, and Degree Names are Mapped to Standard Levels such
+as Diploma, Bachelor's, Master's, Doctorate. Dates are parsed, extracted, and stored as Structured-
+TimeStamps so experience duration can be calculated. By normalizing, sparsity is decreased, improved
+accuracy of matching occurs, and consistent scoring can be accomplished when candidates are being evaluated
+using various job profile types.
+2.2. Feature Engineering
+During the feature engineering step, a variety of features will be created for each candidate's resume and the
+job post(s) they apply for using a combination of the normalised entities for each element. These features
+include: an identification of overlapping skills between the candidate(s)’ resume(s) and employer(s)' post; a
+list of required skills from the job post that is missing from the candidates’ resumes; a count of the preferred
+skills the candidates that can be seen in their resumes; and a total number of years of relevant work experience
+across multiple organisations. The above-mentioned aggregation of work history will allow for the
+identification of how many years the candidate has been working in their respective field, by grouping multiple
+work experience entities by date of employment (start date and end date) and determining if the corresponding
+job description, job title matches the field/industry that the candidate is being applied for. In addition to these
+items, other measurable education elements can include the highest degree of education held, the field of study
+and whether or not the candidate meets/exceeds any minimum academic degree requirements for the job.
+Information that demonstrates cultural fit, behaviour fit, or any other signals relevant to behaviour could also
+be recorded as features. For example, stable work history may be reflected in the average length of time held
+in each position, while a candidate demonstrating rapid advancement may have been promoted within the
+same company, or have moved from a junior (entry) position to a senior position. Lastly,.sections of the
+resumes that are free-form text (e.g., career objectives, summaries, project descriptions) may, be examined for
+the presence of keywords or sentiments that reflect a connection to the value of the Company, or the soft skill
+attributes required to perform successfully in the job. All of these features will becombined into a structured
+feature vector to be used with the scoring model. ; a ra oy a
+3. Evaluation oo _— .
+The evaluation process uses a detailed and well-rounded scoring method to review and sort resumes based on
+several important factors. At the core of this system is the Overall Match Score, which is calculated by
+combining scores from four key areas: Skill Match Score (how well the resume matches the required and
+preferred skills), Experience Match Score (how relevant the past work experience is), Education Match Score
+(the type and level of education), and Cultural Fit Score (how well the candidate's values align with the
+company's). Based on this overall score, resumes are grouped into three categories: High Match (score above
+80% with strong alignment), Modcrate Match (score between 60% and 80% with a mix of strengths and arcas
+for improvement), and Low Match (score below 60% with major gaps).
+IJCRT2512232 International Journal of Creative Research Thoughts (IJCRT) www.ijcrt.org ] b950
+www.ijcrt.org © 2025 IJCRT | Volume 13, Issue 12 December 2025 | ISSN: 2320-2882
+Visuatization of Accuracy Result .
+B85 7 pairing Accuracy
+a Validation Accuracy ©
+ago —
+035 y
+Qao
+O75
+a6
+2000 225 «150 OL7S. 200 225 250 2.75 200
+Na. of Epochs
+Fig. 2 illustrates the convergence behavior of the proposed model during training. The steady increase and
+close alignment of training and validation accuracy indicate effective learning and limited overfitting.
+The system carefully reviews important aspects such as how skilled and relevant the candidate is for the role,
+how their career has progressed, how stable their job history is, how well their industry background fits the
+job, how compatible they are with the company culture, and how their skills meet current market needs. The
+evaluation produces clear match reports, analyzes the candidate's career path, highlights any skill gaps, offers
+suggestions for growth, and even explores other possible career directions, This approach ensures a complete
+and fair review of every resume, giving useful insights to both job seekers and employers.
+3.1. Scoring and Ranking Model oe
+There are four components in the scoring model that help recruiters decide if a candidate is suitable for the
+job: Skill Match Score, Experience Match Score, Education Match Score and Cultural Fit Score. -
+The Skill Match Score is based on how many of the candidate's skills match those listed in the job description.
+This includes normalising each candidate's skills and weighing the skills based on importance.
+o s ro
+The Experience Match Score takes into consideration both the length of time the,caiididate has been working
+in similar positions and how relevant their previous work experience is to.the position :for which they are
+applying. Candidates with superior experience in a similar field will recéive.a high score while candidates
+who have long periods of inactivity or worked in jobs for only short amounts oft time will receive lower scores.
+ne . Lo: ad a coors
+Candidates are checked for minimum educational requirements, and additional educational credits can be
+given for advanced degrees or degrees that are particularly related to the occupation for which they are
+applying. ee
+The Cultural Fit Score assesses how closely the candidate's career path, goals, and interests are to the mission
+and values of the company and the responsibilities of the job. The Overall Match Score is derived from the
+four scores listed above. This overall score is created by summing the subscores from above while taking into
+account the recruiters or company valucs for weighting. For cxample, a recruiter may choose to place a heavicr
+emphasis on the Skill Match Score for highly specialised technical positions and a heavier emphasis on the
+Experience Match Score and Cultural Fit Score for leadership positions.
+Once all of the job applicants have been evaluated and their Overall Match Scores computed, the resumes
+will be graded in descending order based on their respective scores, and this ranking will assist in creating the
+final list of shortlisted candidates. In addition, the rating of each applicant will be used to help explain the
+recruiter's decision-making process and to help candidates understand how each of the subscores contributed
+to the final match score.
+IJCRT2512232 International Journal of Creative Research Thoughts (IJCRT) www.ijcrt.org ] b951
+www. ijcrt.org © 2025 IJCRT | Volume 13, Issue 12 December 2025 | ISSN: 2320-2882
+3.2. Market-Trend Analysis and Reporting
+In order to match candidates with specific jobs, we include a market trend analysis component in the system
+that allows us to compare the skills of candidates against real-time or periodically updated labor market data.
+This allows us to leverage aggregated statistics from both job postings and external Application Programming
+Interfaces (APIs) to identify which skills are currently in demand for a specific job title, technology stack, or
+geographic area. The system produces a Market Alignment Score for each candidate, which indicates how
+many of the trending skills are included in their recent projects or positions; thus allowing us to gauge not just
+the candidate's suitability for the open position but also their long-term potential in an overall job market. In
+addition, there is a Reporting Module that produces human-readable output for recruiters and candidates. The
+recruiter receives a Dashboard with their top-ranked candidates, a breakdown of respective candidate sub-
+scores and any critical missing skills or exceptional strengths as justification for their ranking. The candidate
+receives personalized feedback including their Overall Match Score and a summary of their strengths in
+specific skill, experience, education categories, and specific suggestions on how to either improve upon or
+acquire skills in demand; thus helping the candidate to transform the raw scores into actionable insights that
+make the system useful and transparent to real-world recruitment processes.
+V. RESULTS AND DISCUSSIONS
+To evaluate the efficacy of the given proposed system, a set of experiments are conducted on a collection of
+anonymized resumes and job descriptions from various technical domains. The dataset consists of multiple
+job postings, from software developer to network engineer roles, all associated with a pool of candidate
+resumes which were originally considered for those positions. Sensitive information including names, contact
+details, and precise organizations can be masked or replaced with neutral placeholders, which ensures that the
+evaluation is more focused on job-related attributes. A group of human recruiters or subject-matter experts
+can be asked to assign relevant labels or rankings to each candidate for a role, and these serve as a ground
+truth for measuring system performance. ee a a
+The proposed method can be compared against bascline approaches that represent, eéfamon practice in
+automated screenings. A simple keyword corresponding baseline might compute a score based mainly on the
+calculation of overlapping n-grams between resume and the job description;“Wwithout sophisticated entity
+recognition or normalization. A stronger baseline can use TF-IDF vectorization, for both resumes and job
+descriptions and the apply cosine similarity to estimate the relevance.T he proposed framework, in contrast,
+leverages structured features extracted by NER and calculates. interpretable.subscores for skills, experience,
+and education. For each method, the stdndard classification and ranking metrics can be calculated, in
+particular, the precision, recall, Fl-score, accuracy on the top selected candidates, and average precision, using
+the human annotations as a reference. rs
+Experimental results can be recorded in tabular form, showing the performance across multiple job roles and
+evaluation metrics. Ordinarily, systems that incorporate structured entity-level information excel purcly
+keyword-based baselines in identifying the most eligible candidates, especially when the resumes are
+heterogeneous in format and text. For instance, the proposed approach can be expected to display higher
+precision, meaning that a larger fraction of the highly ranked candidates are judged relevant by human experts,
+also while achieving better recall by missing fewer strong candidates. The decomposition into subscores also
+permits qualitative analysis: for some candidates, excellent skill matching, but weak education or limited
+experience may explain their position in the ranked list, providing a clear rationale that is often absent in
+black-box similar models.
+Beyond overall accuracy, the experiments can investigate robustness and generalization. One study can test
+how the model behaves when resumes are rearranged, re-formatted, or contain missing sections, illustrating
+the advantage of NER-based extraction over brittle rule-based parsing. Another study can examine cross-
+domain gencralization, training the scoring parameters on onc job family and evaluating on another to observe
+whether the system remains reliable when skill and terminology distribution shift. These experiments help
+position the suggested system as a practical and extensible tool for real-world recruitment scenarios rather
+than one-off rule scripts.
+“WCRT2512232 | _ International Journal of Creative Research Thoughts (JCRT) wwwaijcrtorg | b952__
+www.ijcrt.org © 2025 IJCRT | Volume 13, Issue 12 December 2025 | ISSN: 2320-2882
+VI. FUTURE SCOPE
+The Al-powered resume ranking system offers enormous potential for future development to enhance the
+efficiency, fairness, and personalization of hiring. Some of these promising avenues include:
+Incorporation with Real-Time Job Market Trends
+Future releases can refresh skill requirements and industry trends through API integration with platforms such
+as LinkedIn or Glassdoor. This would enable candidate suggestions to be personalized in response to real-
+time market needs.
+Inclusion of Multilingual Resumes
+Expanding the parser to deal with resumes in various languages will bring the system within reach of a global
+user population and enhance diversity in international hiring practices.
+Al-Powered Interview Readiness Scoring
+The platform can be enhanced to determine a candidate's interview preparedness based on tone, wordings, and
+relevance of projects from their resume, providing advice and recommended areas of improvement.
+Bias Detection and Ethical Auditing
+Incorporating modules to identify and counteract algorithmic bias would provide more fairness and
+inclusivity, consistent with recruiting AI ethics. - os ms
+Gamification and Personalized Recommendations * * ;
+For candidates, the site may include gamified feedback (such as skill badges) and personalized career
+suggestions based on resume analysis and trajectory prediction. aan
+Integration with ATS and HRM Platforms : f
+Smooth integration with Human Resource Management (HRM) and Applicant Tracking - Systems (ATS)
+would make the workflow process smoother for big businesses. a,
+Improved Cultural Fit Analysis with NLP a wo, Cos
+a“ e c A, “
+Enlarging cultural fit measures through advanced valuc- and sentiment-based keyword analysis could even
+better identify candidate-employer matching. er OE
+ne . Lo: ad ae we
+Resume Quality Enhancer Tool a ; a,
+Including an automated module that not only analyzes but assists in rewriting and optimizing resumes based
+on job positions would be useful to job applicants, oe
+VII. FAIRNESS, ETHICAL CONSIDERATIONS, AND LIMITATIONS
+AI systems that read résumés and decide who gets an interview raise serious questions about who is treated
+fairly, how the process is explained plus who is answerable when something goes wrong. Those systems
+decide who is placed on the shortlist, who receives a job offer and who moves up the career ladder - they must
+be used in a way that mects basic cthical standards.
+Recruiting systems based on AI raise issues about transparency, accountability, and fairness, particularly when
+they are used to make significant decisions like hiring and promotions. When considering fairness in our
+proposed method, we used only features that were related to the job (e.g., skills, education, and experience)
+and did not include demographic variables (c.g., gender, age, ethnicity, and marital status). To also avoid
+using sensitive proxy variables (e.g., first names or pictures) or location information unless it was directly job-
+related, we made the design decision to restrict the input data to relevant job-related attributes. The goal of
+this design choice is to minimize the potential for repeated systematic discrimination and to encourage that
+selections are based primarily on qualification and merit.
+IJCRT2512232 International Journal of Creative Research Thoughts (IJCRT) www.ijcrt.org ] b953
+www. ijcrt.org © 2025 IJCRT | Volume 13, Issue 12 December 2025 | ISSN: 2320-2882
+However, while sensitive attributes are excluded from the input level, the potential still exists for bias in the
+system, due in part to historical data and job descriptions. For example, if the resumes used for tuning or
+validating the system are predominantly from one group of applicants, then the learned scoring behavior will
+reflect that group. Therefore, organizations using AI recruiting systems should regularly conduct fairness
+audits, where the selection rates, false positive and false negative rates across different demographic groups
+are compared using fairness metrics, such as demographic parity or equal opportunity, and these audits should
+oceur where there is sufficient demographic data to facilitate the audit under the appropriate privacy and legal
+requirements. For organizations that detect disparities in these audits, mitigation measures may include re-
+weighting samples, adjusting decision thresholds, or employing fairness-aware learning objectives.
+Trust between employers and job applicants can be developed by both parties knowing that employers will be
+able to assess them based on relevant skills and experience. The software generates an interpreted set of
+recommendations for each applicant based on their skills and experience, and uses that information in the
+applicant's report on their overall match to the job description. The applicant's report will include details about
+missing required skills and experience components and which skills and components contributed to their
+overall match score. Recruiters will verify that the applicant's report matches their expectations when they
+receive back recommendations generated by the software. The applicants will be given feedback about how
+to strengthen or adjust their qualifications for better alignment with job requirements and better match to the
+recruiter's expectations.
+There are limits to this method ofusing the system to screen job applicants. Factors such as the availability of
+high-quality resumes, the type of job for which the applicant is applying, and the type of skills and experience
+required by the job are critical to the performance of the system; if the applicant's resume is sparse or poorly
+formatted, it may not be parsed correctly and may not provide an accurate assessment of their true abilities.
+Additionally, the system may have difficulty accurately assessing candidates applying to highly specialized
+jobs where the required skills are difficult to represent in general-purpose NLP models. The system primarily
+supports the analysis of English-language resumes; however, future updates can add the use of multilingual
+NER models and other non-English-language support. While this system will provide an effective and
+structured means of pre-screening job applicants, it is important to note that it will supplement, not replace,
+the hiring manager's ability to make hiring decisions and provide the hiring manager with the best candidates
+to interview. we
+VIII. CONCLUSION a wen ane
+Ai (NLP based regEx) is being uscd to help with resume screening and candidate shortlisting. This Ai tool is
+designed to help recruiters by making the screening process faster, mote. efficient and fair for all applicants
+regardless of their background. One of the biggest advantages is that it can ‘easily manage a large number of
+applicants. RegEx is used to identify and match important keywords, skills‘and qualifications from resumes
+to what is listed in the job description. : Te
+IX. ACKNOWLEDGEMENTS
+We are endlessly indebted to our guide in this project, Parikshit Mahalle, for his guidance, endless support,
+and inspirations from beginning to end of the project. His immense knowledge and constant support greatly
+helped to bring into view this field of study. We thank all member faculties from the Department of
+Enginecring, Sciences and Humanitics (DESH), Vishwakarma Institute of Technology, Pune, for the
+resources and materials provided for the completion of this research study. Their invaluable points of view
+amazingly build up our understanding of the topic. We also want to thank our student colleagues and family
+for being supportive and critical of the material and results we put together.
+IJCRT2512232 International Journal of Creative Research Thoughts (IJCRT) www.ijcrt.org ] b954
+www.ijcrt.org © 2025 IJCRT | Volume 13, Issue 12 December 2025 | ISSN: 2320-2882
+X. REFERENCES
+I, DL, Padmaja, C. Vishnuvardhan, G. Rajeev and K. N. S. Kumar, "Automated Resume Screening
+Using Natural Language Processing," Journal of Emerging Technologies and Innovative Research,
+vol. 10, no. 3, pp. 1-7, 2023.
+Il. M.B. Gunjal, T. P. Thorat, K. S. Muttha, V. C. Shete and P. D. Patil, "A Review Paper on Resume
+Parser Using AI," International Journal of Innovative Research in Technology (IJIRT), vol. 11, no. 6,
+pp. 1-6, 2024.
+Hl. "Al-Powered Resume Ranking System: Enhancing Recruitment Efficiency through Natural Language
+Processing," International Journal for Research Trends and Innovation (IJRTI), vol. 10, no. 5, pp. 1-
+8, 2025.
+IV, "Al-Powered Resume Ranking System," JETIR Research Journal, vol. 12, no. 5, pp. 1-7, 2025.
+V. "AI-Based Resume Screening Systems," International Journal for Research Trends and Innovation
+GJRTI), vol. 10, no. 6, pp. 1-5, 2025.
+VI. "AI-Powered Resume Parser,” International Journal of Research and Analytical Reviews (JRPR), vol.
+6, no. 5, pp. 1-6,2025, 7
+VIL. "Research Paper on Intelligent Resume Screening System using Al," International Journal of Research
+in Engineering and Technology (IJIRT), vol. 11, no. 9, pp. 1-7, 2025.
+VIII. . "Resume Parser Using NLP," International Journal of Advanced Research in Computer and
+Communication Enginecring (IJARCCE), vol. 13, no. 9, pp. 1-6, 2024. mo
+IX, "Al-Powered Resume Ranking System: Enhancing Recruitment Efficiency through Natural Language
+Processing," International Journal of Scientific Research in Engineering and Management (IJSREM),
+‘vol. 9, no. 11, pp. 1-8, 2025. “ ad
+pp —— Pa
+X. "Automated Resume Screener using Natural Language Processing," International J ournal of Scientific
+Rescarch and Modern Education, vol. 10, no. 2, pp. 1-6, 2025. --~ at Cis
+XI. "AI Resume Analyzer: A Review and Case Study of an NLP-Driven Restime Screening System,"
+International Journal of Science, Engineering and Technology (IJSET),‘vol. 13, no. 5, pp. 145-152,
+XII. "Resume Classification using Machine Learning," International Journal of Innovative Research in
+Science, Engineering and Technology (JJIRSET), vol. 14, no. 6, pp. 1-7, 2025.
+XIII. "AlI-Powered Resume Parsing using Django: A Smart Recruitment Solution," in Proc. IEEE Conf. on
+Recent Advances in Computer Science, 2025, pp. 1-5.
+XIV. "Fair and Transparent Al-Driven Resume Screening," South Eastern European Journal of Public
+Health, vol. 19, no. 2, pp. 1-10, 2024.
+XV. "Al-Powered Resume Screening: Enhancing Efficiency and Fairness in Recruitment," International
+Joumal of Novel Research and Development (IJNRD), vol. 6, no. 6, pp. 1-7, 2025.
+IJCRT2512232 International Journal of Creative Research Thoughts (IJCRT) www.ijcrt.org ] b955

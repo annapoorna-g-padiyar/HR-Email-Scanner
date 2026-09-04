@@ -1,0 +1,30 @@
+Invoice no: 75094473
+Date of issue: 11/10/2011
+—____) Seller: Client:
+Murphy-Calderon Shelton LLC
+085 Wendy Valley Apt. 581 50718 Mendoza Well Suite 009
+Morrowton, NC 96056 Sandrahaven, MT 67921
+Tax Id: 947-84-8101 Tax Id: 921-85-4102
+IBAN: GB23XBHB67739645977000
+7) ITEMS
+No. Description Qty UM Net price Net worth VAT [%] Gross
+worth
+1. 13 Inch Marble Coffee Table 4,00 each 301,75 1 207,00 10% 1 327,70
+Stone Game Table Mother of
+Pearl with Check Pattern
+2. 15"x15" White Decorative 2,00 each 645,77 1 291,54 10% 1 420,69
+Coffee Table Top Lapis Lazuli
+Marquetery Patio Décor
+3. 60 Inches Marble Dinning Table 3,00 each 5 756,00 17 268,00 10% 18 994,80
+Top Inlay Work Lawn Table with
+Multi Color Stones
+4. 48 Inch Marble Dinning Table 3,00 each 3 400,00 10 200,00 10% 11 220,00
+Lapis Lazuli Stone Halt Table
+with Geometrical Art
+5. 16"x16" White Coffee Top Table 2,00 each 736,75 1 473,50 10% 1 620,85
+Mop Inlay Filigree Pietradura
+Floral Art Décor
+7} SUMMARY
+VAT [%] Net worth VAT Gross worth
+10% 31 440,04 3 144,00 34 584,04
+Total $ 31 440,04 $3 144,00 $ 34 584,04

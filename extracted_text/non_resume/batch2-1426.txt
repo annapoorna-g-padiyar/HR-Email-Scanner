@@ -1,0 +1,17 @@
+Invoice no: 73724703
+Date of issue: 11/08/2016
+—____) Seller: Client:
+Martin, Hernandez and Stewart Moore-Pierce
+220 Bonilla Dale Suite 736 925 Burgess Landing
+Lake Edward, OH 07773 Amandabury, NV 03113
+Tax Id: 947-71-4290 Tax Id: 971-79-9242
+IBAN: GB93NYFE31752353181343
+______) ITEMS
+No. Description Qty UM Net price Net worth VAT [%] Gross
+1, J crew Mercantile Women’s Maxi 2,00 each 20,00 40,00 10% 44,00
+Dress Size 2 Floral Tiered Lined
+Pink
+1] SUMMARY
+VAT [%] Net worth VAT Gross worth
+10% 40,00 4,00 44,00
+Total $ 40,00 $ 4,00 $ 44,00

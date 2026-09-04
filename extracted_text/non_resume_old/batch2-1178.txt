@@ -1,0 +1,21 @@
+Invoice no: 48175001
+Date of issue: 10/06/2011
+—____) Seller: Client:
+Schultz LLC Greene and Sons
+377 Jamie Fields Apt. 991 2888 Watkins Cliffs
+Angelicafort, NV 03359 Port Rhonda, AL 74409
+Tax Id: 946-70-8207 Tax Id: 938-96-1820
+IBAN: GB43KIFX16600803572116
+7) ITEMS
+No. Description Qty UM Net price Net worth VAT [%] Gross
+worth
+1. HP Elite 8300 Business USFF 4,00 each 84,99 339,96 10% 373,96
+Desktop Computer i3 4GB
+250GB Windows 10
+2. 10-Core Gaming Computer 5,00 each 501,32 2 506,60 10% 2 757,26
+Desktop PC Tower 500 GB Quad
+8GB AMD R7 GRAPHICS NEW
+7} SUMMARY
+VAT [%] Net worth VAT Gross worth
+10% 2 846,56 284,66 3 131,22
+Total $ 2 846,56 $ 284,66 $3 131,22

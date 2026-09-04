@@ -1,0 +1,35 @@
+Invoice no: 30083114
+Date of issue: 12/19/2016
+—____) Seller: Client:
+Smith, Garcia and Brown Diaz LLC
+018 Joseph Parkway 97546 Brown Hills Apt. 820
+Charlesside, OR 90692 Sarahmouth, DC 58341
+Tax Id: 976-90-7046 Tax Id: 926-74-1022
+IBAN: GB29LSQD94062786526203
+7) ITEMS
+No. Description Qty UM Net price Net worth VAT [%] Gross
+worth
+1. DC Kids Turbo Skate Shoe (Little 4,00 each 55,00 220,00 10% 242,00
+Kid/Big Kid) Color WHITE/ROYAL
+2. All Mattel Disney Pixar Model 1,00 each 12,99 12,99 10% 14,29
+Cars McQueen 1:55 Diecast Lot
+Choose Loose Kid Toy
+3. 5Ps Face Masks Men Women 2,00 each 4,39 8,78 10% 9,66
+Unisex Kid Cover Clothing Mask
+Reusable Washable Cloth
+4 100Pcs Wall Stickers Home 1,00 each 1,70 1,70 10% 1,87
+Decor Glow In The Dark Star
+sticker Decal Kids room
+5. Reebok Boys Furylite Graphic 4,00 each 28,99 115,96 10% 127,56
+Gray Athletic Shoes 6 Medium
+(D) Big Kid BHFO 0924
+6. Nike Dangeruss Wilson Youth 3,00 each 19,95 59,85 10% 65,83
+Flex Shoes Green Blue Sneakers
+Kids Size 12.5
+7. Durango Lil' Little Kid Western 2,00 each 68,00 136,00 10% 149,60
+Casual Western Purple Boys -
+Size2M
+—_____] SUMMARY
+VAT [%] Net worth VAT Gross worth
+10% 555,28 55,53 610,81
+Total $ 555,28 $ 55,53 $ 610,81

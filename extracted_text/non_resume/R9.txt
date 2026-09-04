@@ -1,0 +1,293 @@
+© April 2025 | IJIRT | Volume 11 Issue 11 | ISSN: 2349-6002
+Skill-Based Resume Evaluation and Job Recommendation
+System
+Prof. Chavan G.B', Chavan Tushar 2, Chavan Arati ?, Dadas Pranav*
+Deshmukh Vaishnavi?
+123-45 Sm Coe Malegaon (Bk), Baramati.
+Abstract—in today’s competitive job market, manual them against job conditions, calculates similarity
+resume screening is time-consuming, error-prone, and scores, and classifics aspirants grounded on thcir
+inefficient, especially when dealing with a large number applicability. By automating capsule screening and
+of applicants, This paper presents an intelligent resume furnishing job part recommendations, this system aims
+Naa am job recommen fon ae that Wrcees to streamline the reclamation process, reduce
+Learning (ML) techniques ne ee ‘the screening workload for HR labor force, and enhance the delicacy
+process, The system extracts and preprocesses text from of seeker selection.
+uploaded PDF resumes and job descriptions, identifies
+key skills using spaCy and custom mappings, and TI.LRELATED WORKDONE
+computes similarity scores using the TF-IDF vectorizer
+and cosine similarity. A K-Nearest Neighbors (KNN) Amruta Mankawade introduced a method in the
+classifier is then used to categorize candidates inte Top, evolving field of job recommender systems, which has
+Average, and Not Selected. Additionally, the system seen rapid development and adoption in recent years.
+suggests suitable job roles based on the candidate's These systems analyze user profiles and develop
+extracted skillset. The results are presented via a user- . .
+friendly interface and can be downloaded in Excel recommendation techniques that have been explored
+format, making the tool practical and efficient for in academic research and applied in certain industry
+recruiters and hiring managers. scenarios. Her approach involves designing a
+recommendation engine to simplify the job search
+Index Terms—K- Nearest Neighbor, Cosine Similarity, process by identifying the most suitable career options
+Natural Language Processing, Term frequence and based on an individual's resume. The model leverages
+Inverse Document frequence (TF- IDF). Natural Language Processing (NLP) and Machine
+Learning to predict an appropriate profession. Using
+1, INTRODUCTION this predicted profession as a reference, relevant job
+oo. i ; listings are scraped from Naukri.com. The system then
+Reclamation is one of the most critical Processes in compares the skills required in the job listings with
+any association, and opting the right secker from a those in the user’s profile using the cosine similarity
+pool of aspirants play s a vital part in shaping a algorithm, ranks them accordingly, and presents the
+company’s future. Traditionally, babe manually screen best matches to the user.
+resumes, which isn't only time- consuming but also V.G. Jagtap proposed a system that streamlines
+prone to mortal bias and inconsistency. With the rise resume analysis by eliminating unnecessary data,
+in job operations due to online doors and job boards, thereby enabling recruiters to process applications
+the volume of resumes has increased exponentially, more efficiently. Once the text mining phase is
+making homemade shortlisting hamstrung. To address completed, the system utilizes cosine similarity to
+this challenge, robotization using intelligent systems compare the candidate’s extracted information with
+has come essential. This paper introduces a web- job descriptions. Furthermore, it enhances user
+grounded operation that leverages Natural Language guidance by recommending skill-improvement
+Processing (NLP) and Machine literacy (ML) to courses based on the skills mentioned in job postings,
+dissect resumes and recommend suitable job places. identified through the affinity propagation algorithm.
+The system excerpts chop from resumes, matches
+JJIRT 175992 INTERNATIONAL JOURNAL OF INNOVATIVE RESEARCH IN TECHNOLOGY 4416
+© April 2025 | IJIRT | Volume 11 Issue 11 | ISSN: 2349-6002
+Rajath V and Riza Tanaz Fareed suggested a model Eliminate punctuation and special characters Remove
+that uses advanced algorithms to better align numbers if not relevant Apply stemming or
+candidates’ skills and experiences with job lemmatization (e.g., "running" becomes "run")
+requirements. Their system applies a K-Nearest Why It's Important: Enhances accuracy by removing
+Neighbors (KNN) based AI model to improve the irrelevant content and reducing noise in the data.
+accuracy of job-candidate matching. 4. Feature Extraction
+Goal: To identify key details from the cleaned text that
+Ill. METHODOLOGY represent significant information.
+From Resume: Extracted elements include skills such
+as "Python", "SQL", etc. Techniques Used: Regular
+Pescipton ® expressions, Named Entity Recognition (NER), and
+‘ pre-trained NLP models help in extracting these
+: Reeruter features.
+5. Vectorization
+Fest etacton | | _Vecoaton cone Seda Objective: Transform textual information into a
+format understandable by machine learning models
+nae =a (numeric vectors).
+Above Theeshold Below Threshold Common Method:
+‘ue ™ TF-IDF (Term Frequency-Inverse Document
+g Frequency) — highlights terms that are frequent in a
+Pa Recommendation document but uncommon across others.
+“ Outcome: Both resumes and job descriptions are
+represented as numeric vectors.
+Fig.System Architecture, 6. Cosinc Similarity
+Function: Measures the similarity between the resume
+1. Job Description Upload and the job description by calculating the cosine of the
+Performed by: Recruiter or beginner-level user angle between their vector representations.
+7, K-Nearest Neighbors (KNN)
+Description: The recruiter uploads the Job Description Purpose: To rank or classify resumes based on how
+GD), which typically outlines the required skills, closely they match the job description.
+qualifications, and responsibilities for a role. Working:
+Purpose: This JD scrves as the standard against which Identifies the top k resumes most similar to the JD.
+all submitted resumes will be evaluated, Uses similarity scores to determine the relevance.
+2. Resume Upload Result: A shortlist of candidates with resumes most
+Performed by: Job seeker or user aligned to the job description.
+Description: The candidate submits thcir resume, 8. Ranking Resumes
+usually in PDF format. Action: Generate an ordered list of all resumes based
+Purpose: The system collects this document to analyze on their similarity scores to the JD.
+how closely it aligns with the job description. Purpose: Helps recruiters quickly identify the best-
+3, Data Preprocessing and Cleaning matching candidates.
+Objective: To standardize and clean the textual data Display: Typically shown in descending order with
+from both the resume and job description for better names and corresponding match percentages.
+analysis. 9. Setting a Threshold
+Techniques Used: Set by: Either the system automatically or manually by
+Convert text to lowercase Remove common stop the recruiter
+words (e.g., "is", "the", "a") Definition: A minimum similarity score (e.g., 0.75)
+required for a resume to be considered a strong match.
+JJIRT 175992 INTERNATIONAL JOURNAL OF INNOVATIVE RESEARCH IN TECHNOLOGY 4417
+© April 2025 | IJIRT | Volume 11 Issue 11 | ISSN: 2349-6002
+Purpose:Filter out resumes that are not sufficiently align with recruiter expectations. The platform also
+relevant Ensure high-quality candidate shortlisting offers curated resources for skill development and tips
+10. Shortlisted Resumes to enhance resume quality. Each resume is analyzed
+Condition: Resumes with scores exceeding the and given a score, after which candidates are ranked
+threshold value from most to least relevant. These rankings are visible
+only to recruiters, allowing them to focus on top
+Next Step: These top resumes are presented to the applicants efficiently [7].
+recruiter—often highlighted in a dashboard or
+exported for further review. Recruiters also benefit from advanced analytics,
+11. Providing Recommendations including insights into a candidate’s likely domain
+Condition: For resumes that fall below the threshold expertise and experience level, which helps in making
+score more informed hiring decisions. Overall, the system
+What Happens: The system offers personalized aims to improve the accuracy and efficiency of
+suggestions to help the candidate improve their resume recruitment by minimizing the need for manual
+Examples: resume reviews.
+“Consider adding skills like SQL or Tableau” Cosine Similarity
+“Include relevant projects” SAB,
+“Gain hands-on experience in Machine Learning” cal0)= SS
+Goal: To guide candidates on how to enhance their [eae
+resumes for better job alignment in the future. aye
+IV. PROPOSED SOLUTION —
+fe
+Our system leverages machine learning and natural “nn
+language processing (NLP) to perform contextual *
+evaluation of resumes. Unlike traditional keyword- Cosine similarity is a method used to measure the
+based approaches, it incorporates artificial intelligence similarity between two non-zero vectors in an inner
+to deliver deeper and more meaningful analysis. After product space. It calculates the cosine of the angle
+an initial scan, the system performs real-time between these vectors. A cosine value of 1 indicates
+assessment of each candidate by aligning their perfect similarity (0° angle), while values closer to 0
+qualifications with the specific requirements outlined or -1 indicate less similarity. It focuses solely on the
+by recruiters. This online platform intelligently direction of the vectors, ignoring their magnitude. In
+interprets job descriptions, compares them with the context of text analysis, the vectors represent the
+submitted resumes, and ranks candidates based on term frequency of words in documents. The cosine
+their suitability. NLP plays a central role in enabling similarity formula compares these term vectors to
+live comparison and ranking of applicant profiles [6]. identify how closcly two documents align in terms of
+content.
+Unlike basic matching techniques, this approach In our system, the resume (X1) and the job description
+identifies key skills and relevant data within resumes, (X2) are transformed into vector representations
+ensuring a better alignment with job roles. It moves (Item1 and Item2), and cosine similarity is used to
+beyond simple string matching by utilizing a custom- assess their similarity.
+built algorithm that applies cosine similarity to Natural Language Processing (NLP)
+quantify content overlap between resumes and job Before entering the NLP pipeline, resumes are
+descriptions. converted into JSON format. The pipeline uses
+frameworks like SpaCy, which are trained on general
+Candidates can upload their resumes and explore job text data but adapted here for semi-supervised
+opportunities using an intuitive web interface. In learning. This allows for effective labeling of relevant
+addition to the matching functionality, users receive content in resumes without manual annotation [13].
+suggestions for skills they need to acquire to better Preprocessing
+JJIRT 175992 INTERNATIONAL JOURNAL OF INNOVATIVE RESEARCH IN TECHNOLOGY 4418
+© April 2025 | IJIRT | Volume 11 Issue 11 | ISSN: 2349-6002
+Preprocessing is critical for cleaning and standardizing The dataset used contains around 50 resumes sourced
+resumes. This involves removing unnecessary from Kaggle, specifically for roles such as Java
+characters, symbols, numbers, and single-letter words, Developer and Project Manager. These documents,
+Techniques include: originally in DOC/DOCX format, were converted to
+Masking word patterns using \w PDFs using a bash script for consistency and easier
+Masking escape characters like \n processing.
+Removing numeric characters Input
+Eliminating one-letter words
+This step improves the overall quality of the data. Applicants submit their resumes, which are then
+Stop Words Removal cleaned and processed by the system. Admin users can
+log in and access detailed matching results through the
+Common words like “and,” “the,” and “was” are backend interface.
+removed to enhance prediction accuracy. NLTK is
+used for tokenizing the text, and these stop words are Output
+excluded during analysis. On the user side, the application highlights missing or
+Stemming and Lemmatization underrepresented skills in the resume and provides
+Stemming simplifics words to thcir root form (c.g., recommendations for improvement, including direct
+"coded," "codes," and "coding" become "codc"). links to courses, On the admin side, the system
+Lemmatization ensures that words are mapped to their generates a ranked list of resumes that best match job
+correct dictionary form, preserving context and descriptions, making it easier for recruiters to identify
+meaning. the most qualificd candidates. This significantly
+Chunking streamlines the shortlisting process and enhances
+Also known as shallow parsing, chunking identifies recruitment efficiency,
+and groups phrases like noun or verb phrases. It uses
+part-of-specch tagging and regex to organize text into Let me know if you want this formatted for a report,
+meaningful structures, enabling more efficient parsing thesis chapter, or presentation slide.
+without building full parse trees. This method helps in
+quickly summarizing resume content. V. RESULTS
+TF-IDF (Term Frequency-Inverse Document Ne
+Frequency) 2 ee,
+TF-IDF helps identify significant terms within a if naeom: mace
+document by balancing their frequency against how omen cee
+often they appear across multiple documents. This ="
+highlights key skills in a resume that are most relevant 3 meee ny
+to specific job roles, aiding in predicting suitable job Pvcwtnenen
+matches. I =
+Resume Matching Process ewe on —_
+After preprocessing, resumes are matched with job a
+descriptions using cosine similarity. Based on ene |
+identified skill gaps, the system recommends | =< |
+personalized learning resources such as online courses ee
+or certifications. Additionally, a dedicated module ed |
+offers curated YouTube videos on_ interview wo E==yy
+preparation and resume writing tips. | carne vats
+Dataset i Tec ec’
+JJIRT 175992 INTERNATIONAL JOURNAL OF INNOVATIVE RESEARCH IN TECHNOLOGY 4419
+© April 2025 | IJIRT | Volume 11 Issue 11 | ISSN: 2349-6002
+i VII. ACKNOWLEDGMENT
+| an)
+ene creer The authors would like to express their sincere
+gratitude to the faculty and project guides of SVPM
+fase) oI .
+areata College Of Engineering Malegaon (BK) Baramati.
+lS for their continuous support, valuable insights, and
+== encouragement throughout the development of this
+——— | project. Special thanks to the Department of
+| aesee wee neat eee eee Information Technology for providing the necessary
+, a Ho resources and infrastructure. The authors also
+Tm — — acknowledge the use of open-source libraries such
+ae eee ~ as Flask, spaCy, and Scikit-learn, which played a
+=- ° &« crucial role in building this system.
+: REFERENCES
+: [1] Ms. Y. Sowjanya, Mareddy Keerthana,” Smart
+E Resume Analyser” IJRES march 2023.
+a eee——————— [2] Amruta Mankawade , Vithika Pungliya , Roshita
+AES. BOR OOM TE ee T cee eats Bhonsle; Samruddhi Pate, Atharva Purohit,
+- — — Ankur Raut “Resume analysis and job
+(AR SR gee, SE crea a recommendation”2023 TEEE 8th International
+a Conference for Convergence in Technology
+_ CS [3] Hansen Artajaya, Julicta,Josc Giancarlos, Jurike
+; : Vv. Moniaga,Andry = Chowanda = “Job
+H Recommendation System based on Resume using
+E : Natural Language Processing and Distance-based
+= . : :. Algorithm”2024 IEEE International Conference
+ery ee LU OME OGG "siperunn on Artificial Intelligence and Mechatronics
+Systems (AIMS).
+VI. CONCLUSION [4] Sujit Amin; Nikita Jayakar; Sonia Sunny; Pheba
+Babu; M. Kiruthika; Ambarish Gurjar, “Web
+In conclusion, the Resume Analysis and Skills, Job Application for
+Recommendation System efficiently automates the [5] Screening Resume”,2019 International
+resume screening process using machine learning and Conference on Nascent Technologies in
+natural language processing (NLP) techniques. By Engineering (ICNTE), January 2020
+leveraging algorithms like Cosine Similarity and K- {6] Rajath V, Riza Tanaz Fareed, Sharadadevi
+Nearest Neighbors (KNN), the system ensures Kaganurmath, “Resume Classification and
+accurate matching of resumes with job descriptions, Ranking Using KNN- And _ Cosine
+significantly reducing manual effort and improving Similarity” international JOURNAL OF
+precision. It delivers high accuracy (up to 92% in ENGINEERING RESEARCH And
+ranking) and fast processing, making it ideal for large- TECHNOLOGY, Volume 10, Issue
+scale recruitment across industries. Additionally, the [7] Rutuja Patill, Pratiksha Sarvade2, Ajinkya Patil3,
+system provides real-time feedback to candidates, Yash Bhosale,” Resume Evaluation System based
+suggesting improvements for their resumes, enhancing “on AL ICMLIP, July 2020
+both recruiter efficiency and the candidate experience. [8] V.GJagtap * Resume Screening and Course
+Recommendation” International Research Journal
+IRJ 2023.
+JJIRT 175992 INTERNATIONAL JOURNAL OF INNOVATIVE RESEARCH IN TECHNOLOGY 4420
+© April 2025 | IJIRT | Volume 11 Issue 11 | ISSN: 2349-6002
+(9] Akshay Kulkarni; Adarsha Shivananda; Anoosh using TF-IDF weighting and association rules
+Kulkarni, “Creating a resume Parsing, Screening mining.” In 2018 4thinternational conference on
+and optimization and applications (ICOA), pp. 1-6.
+[10]Shortlisting System”, Natural Language TEEE, 2018. Jagan Mohan Reddy D, Sirisha
+Processing Projects pp 125-155, December 2021 Regella., “Recruitment Prediction using Machine
+[11] Sujit Amin; Nikita Jayakar; Sonia Sunny; Pheba Learning”, IEEE Xplore, 2020.
+Babu; M. Kiruthika; Ambarish Gurjar, “Web
+Application for Screening Resume”, 2019
+International Conference on Nascent
+Technologies in Engineering (ICNTE), January
+2020
+[12]Jitendra Purohit; Aditya Bagwe; Rishabh Mehta;
+Ojaswini Mangaonkar; Elizabeth George,
+“Natural Language Processing based Jaro-The
+Interviewing Chatbot”, 2019 3rd International
+Conference on Computing Methodologies and
+Communication (ICCMC), August 2019
+[13] Tejaswini K; Umadevi V; Shashank M Kadiwal;
+Sanjay Revanna,” Design and Development of
+Machine Learning based Resume Ranking
+System”, Global Transitions Proceedings,
+October 2021
+[14]Pradeep Kumar Roy, Vellore Institute of
+Technology, 2019. A Machine learning approach
+for automation of resume recommendation
+system, ICCIDS
+2019.10.1016/j.procs.2020.03.284.
+[15] Suhjit Amin, Fr. Conceicao Rodrigues Institute of
+Technology, 2019.Wcb Application for Screening
+resume, IEEE Tejaswini K, Umadevi V,
+Shashank M Kadiwal, Sanjay Revanna, Design
+and Development of Machine Learning based
+Resume Ranking System (2021).
+[16]Riza tana Fareed, rajah V, and Sharadadevi
+Kaganurmath, “Resume Classification and
+Ranking using KNN and Cosine Similarity” In
+2021 International Joumal of Engineering
+Research & Technology (IJERT), ISSN:
+22780181, Vol.10.
+[17] Suhas Tangadle Gopalakrishna, Vijaya Raghavan
+Varadharajan, “Automated Tool for Resume
+Classification Using Semantic Analysis”,
+International Journal of Artificial Intelligence and
+Applications (AIA), Vol. 10, No.1, January
+2019. Centre for Monitoring Indian Economy Pvt
+Ltd. (CMIE),2022. The unemployment rate in
+India.
+[18]Jabri, Siham, Azzeddine Dahbi, Taoufiq Gadi,
+and Abdelhak Bassir. "Ranking of text documents
+JJIRT 175992 INTERNATIONAL JOURNAL OF INNOVATIVE RESEARCH IN TECHNOLOGY 4421

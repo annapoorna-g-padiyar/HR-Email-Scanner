@@ -1,0 +1,33 @@
+Invoice no: 23537310
+Date of issue: 03/25/2018
+—}) Seller: Client:
+Long LLC Stone-Frazier
+2323 Fox Junction 716 Christopher Islands
+Kennethborough, AZ 22656 Hughesstad, DC 09716
+Tax Id: 962-91-2311 Tax Id: 972-98-8296
+IBAN: GBO9WWHA70694395448005
+7) ITEMS
+No. Description Qty UM Net price Net worth VAT [%] Gross
+worth
+1. B284 Nintendo DSi console 3,00 each 0,99 2,97 10% 3,27
+White Japan NDS x
+2. Nintendo 3DS Handheld Console 1,00 each 280,23 280,23 10% 308,25
+Hello Kitty Limited Edition Used
+3. Pre SEGA TOYS Game Console 3,00 each 189,00 567,00 10% 623,70
+ASTRO CITY mini GAME
+4, Nintendo Switch Animal 1,00 each 399,00 399,00 10% 438,90
+Crossing: New Horizon Special
+Edition Console BRAND NEW
+5. NEC PC Engine INTERFACE UNIT 2,00 each 159,99 319,98 10% 351,98
+IFU-30 CD ROM Console
+PI-TGOO1 Tested Japan
+6. Nintendo Wii Console RVL-001 1,00 each 78,88 78,88 10% 86,77
+Complete Hookups W/
+Mario&Sonic; Tested / Working
+7. Nintendo 64 N64 Game Console 5,00 each 100,00 500,00 10% 550,00
+System + Controller Cords
+WORKING
+7} SUMMARY
+VAT [%] Net worth VAT Gross worth
+10% 2 148,06 214,81 2 362,87
+Total $2 148,06 $ 214,81 $ 2 362,87

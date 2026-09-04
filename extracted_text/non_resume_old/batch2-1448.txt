@@ -1,0 +1,18 @@
+Invoice no: 93608076
+Date of issue: 09/06/2012
+—_—_ Seller: Client:
+Harris-Patterson Mcdaniel-Short
+Unit 9971 Box 6879 43662 Andrew Crossing Suite 128
+DPO AA 21847 Lake Patrickport, VA 73778
+Tax Id: 938-99-9058 Tax Id: 952-83-7402
+IBAN: GB75VYVU61052843788549
+______) ITEMS
+No. Description Qty UM Net price Net worth VAT [%] Gross
+worth
+1, SONY Playstation2 Console 3,00 each 45,00 135,00 10% 148,50
+SCPH-39000 " Aqua Color "/
+TESTED 11181
+_______} SUMMARY
+VAT [%] Net worth VAT Gross worth
+10% 135,00 13,50 148,50
+Total $ 135,00 $ 13,50 $ 148,50

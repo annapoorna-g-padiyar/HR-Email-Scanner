@@ -1,0 +1,34 @@
+Tasiana Ukura
+tukura@email.com (123) 456-7890 Seattle, WA LinkedIn
+WORK EXPERIENCE
+Fast - Senior So ware Engineer
+October 2016 - current Seattle, WA
+· Built and maintained application that scaled to 2M daily users, communicating with cross-functional
+teams regarding product and design
+· Transformed UIs using React, decreasing debugging time by 62% and increasing views by 31%
+· Focused on front-end development, providing mentorship and coaching to 6 interns each summer
+· Oversaw a team of 4 to write scalable code for the e-commerce platform that increase payment
+protection by 15%
+Adaptiva - So ware Engineer
+May 2009 - October 2016 Seattle, WA
+· Developed cloud-based technologies with C ++ and Java to assist Fortune 500 companies with scaling
+content distribution by 60% or more and increasing their productivity by 40% or more
+· Teamed up with current clients to understand needs for improved functionality, and communicated with
+engineers and clients to develop enhancements that boosted client satisfaction by 27%
+· Manipulated algorithms to align with marketing, sales, and solutions, improving automation by 32%
+· Drafted documentations delineating designs and specs for more than 20 projects
+Expedia Group- So ware Engineer Intern
+May 2008 - May 2009 Seattle, WA
+· Worked with 5 other interns under the supervision of senior software engineer full stack development of
+the e-commerce system
+· Received coaching and support from peers and senior software engineer, and gained practical experience
+in using Java and Python
+· Studied data structures to recommend changes in algorithms, which boosted online sales by 6%
+· Partnered with interns, using code composition to redesign a clean API that offered increased flexibility
+to to third parties, which generated a revenue increase of $1.5M
+EDUCATION
+University of Washington - B.S.,Computer Science
+August 2004 - May 2008 Seattle, WA
+SKILLS
+Languages: Python, JavaScript, C++, Java; Frameworks: Django, NodeJS, React; Tools: jQuery, Unix, Git,
+Selenium; Databases: SQL (PostgreSQL, MySQL), NoSQL, AWS

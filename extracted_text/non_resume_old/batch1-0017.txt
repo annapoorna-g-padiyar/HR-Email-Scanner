@@ -1,0 +1,27 @@
+Invoice no: 98858130
+Date of issue: 01/28/2021
+—}) Seller: Client:
+Dominguez, Jackson and Steele Rodriguez, Hall and Tanner
+98309 Stephanie Stream PSC 6611, Box 2668
+Michaelbury, RI 57219 APO AP 07491
+Tax Id: 969-72-5121 Tax Id: 941-88-5692
+IBAN: GB210JGQ49248059733020
+7) ITEMS
+No. Description Qty UM Net price Net worth VAT [%] Gross
+worth
+1. Wine Glasses Set Of 4 2,00 each 6,00 12,00 10% 13,20
+2. Uncork New York rolling 5,00 each 5,99 29,95 10% 32,95
+vineryards Wine glass set of 2
+3. Anthropologie Gold Elegant 1,00 each 19,98 19,98 10% 21,98
+Swan Decorative Metal Bottle
+Stopper Wine Saver
+4, Moonshine Still 8Gal/30L Water 3,00 each 89,99 269,97 10% 296,97
+Alcohol Distiller Home Brew
+Wine Making Kit 3 Pot
+5. 4 Tupperware Wine Stemless 2,00 each 34,99 69,98 10% 76,98
+Cups Set Acrylic Plastic Shatter
+Proof Beverages New
+7} SUMMARY
+VAT [%] Net worth VAT Gross worth
+10% 401,88 40,19 442,07
+Total $ 401,88 $ 40,19 $ 442,07

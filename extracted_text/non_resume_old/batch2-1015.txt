@@ -1,0 +1,21 @@
+Invoice no: 87323283
+Date of issue: 09/03/2015
+—____) Seller: Client:
+Scott-Gibson Cook Group
+57622 Thompson Squares 417 Cheyenne Course Suite 579
+Joshuafort, HI 92424 North Joshua, TN 74166
+Tax Id: 942-75-9284 Tax Id: 910-82-6394
+IBAN: GB64PLOE59994626615108
+______) ITEMS
+No. Description Qty UM Net price Net worth VAT [%] Gross
+worth
+1, ViewSonic VOT 133 Nettop Mini 3,00 each 39,99 119,97 10% 131,97
+PC Computer VS14165 E-350 @
+1.6GHz 2GB 320GB NO OS
+2. Custom Build Dell Desktop 4,00 each 99,00 396,00 10% 435,60
+Computer i5 | 16GB | 1TB SSD |
+HDMI Windows 10 PC WiFi
+7} SUMMARY
+VAT [%] Net worth VAT Gross worth
+10% 515,97 51,60 567,57
+Total $ 515,97 $ 51,60 $ 567,57

@@ -1,0 +1,24 @@
+Invoice no: 11829549
+Date of issue: 05/13/2017
+—}) Seller: Client:
+Smith-Myers Tapia, Robinson and Miller
+123 Matthew Loaf 417 Christopher Brook Suite 968
+North Jessica, Wi 60501 Port Robertmouth, IL 51885
+Tax Id: 955-74-0303 Tax Id: 910-99-4402
+IBAN: GB42GRFE12828986459550
+7) ITEMS
+No. Description Qty UM Net price Net worth VAT [%] Gross
+worth
+1, Whiskey Glass Mountain 1,00 each 19,48 19,48 10% 21,43
+Wooden Bottom Wine
+Transparent
+2. Outdoor Wine Glass Beer Holder 5,00 each 11,44 57,20 10% 62,92
+To Armrest With Attachments
+Red Wine Base _yoxq
+3. Waterford Elegance Chardonnay 4,00 each 19,98 79,92 10% 87,91
+Wine Glass, Pair - 40001097
+New In Box
+—___] SUMMARY
+VAT [%] Net worth VAT Gross worth
+10% 156,60 15,66 172,26
+Total $ 156,60 $ 15,66 $ 172,26
