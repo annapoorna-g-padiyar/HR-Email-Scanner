@@ -5,6 +5,7 @@ import joblib
 from sklearn.model_selection import train_test_split
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.linear_model import LogisticRegression
+from sklearn.ensemble import RandomForestClassifier  # Added Random Forest
 from sklearn.pipeline import Pipeline
 
 from sklearn.metrics import (
@@ -159,7 +160,7 @@ def load_text_files(
 
 print("\n")
 print("=" * 70)
-print("RESUME / NON-RESUME ML TRAINING")
+print("RESUME / NON-RESUME MODEL COMPARISON & TRAINING")
 print("=" * 70)
 
 
@@ -179,14 +180,6 @@ if not os.path.exists(
         RESUME_DIR
     )
 
-    print(
-        "\nRun:"
-    )
-
-    print(
-        "python extract_dataset.py"
-    )
-
     exit()
 
 
@@ -202,19 +195,11 @@ if not os.path.exists(
         NON_RESUME_DIR
     )
 
-    print(
-        "\nRun:"
-    )
-
-    print(
-        "python extract_dataset.py"
-    )
-
     exit()
 
 
 # ============================================================
-# LOAD RESUMES
+# LOAD DATA
 # ============================================================
 
 print("\nLoading resumes...")
@@ -224,10 +209,6 @@ resume_texts, resume_labels = load_text_files(
     1
 )
 
-
-# ============================================================
-# LOAD NON-RESUMES
-# ============================================================
 
 print("Loading non-resumes...")
 
@@ -275,32 +256,10 @@ print(
 )
 
 
-# ============================================================
-# VALIDATION
-# ============================================================
-
-if len(resume_texts) == 0:
+if len(resume_texts) == 0 or len(non_resume_texts) == 0 or len(texts) < 20:
 
     print(
-        "\nERROR: No usable resumes found."
-    )
-
-    exit()
-
-
-if len(non_resume_texts) == 0:
-
-    print(
-        "\nERROR: No usable non-resumes found."
-    )
-
-    exit()
-
-
-if len(texts) < 20:
-
-    print(
-        "\nERROR: Dataset is too small."
+        "\nERROR: Dataset is missing classes or is too small to split."
     )
 
     exit()
@@ -341,228 +300,128 @@ print(
 
 
 # ============================================================
-# MODEL
+# DEFINE MODELS
 # ============================================================
 
 print("\n")
 print("=" * 70)
-print("CREATING MODEL")
+print("CREATING PIPELINES")
 print("=" * 70)
 
+# Shared vectorizer parameters
+vectorizer = TfidfVectorizer(
+    lowercase=True,
+    strip_accents="unicode",
+    ngram_range=(1, 2),
+    min_df=2,
+    max_df=0.95,
+    sublinear_tf=True,
+    max_features=50000
+)
 
-model = Pipeline([
+# Pipeline 1: Logistic Regression
+lr_model = Pipeline([
+    ("tfidf", vectorizer),
+    ("classifier", LogisticRegression(
+        C=2.0,
+        max_iter=2000,
+        class_weight="balanced",
+        random_state=42
+    ))
+])
 
-    (
-        "tfidf",
-
-        TfidfVectorizer(
-
-            lowercase=True,
-
-            strip_accents="unicode",
-
-            ngram_range=(1, 2),
-
-            min_df=2,
-
-            max_df=0.95,
-
-            sublinear_tf=True,
-
-            max_features=50000
-
-        )
-    ),
-
-    (
-        "classifier",
-
-        LogisticRegression(
-
-            C=2.0,
-
-            max_iter=2000,
-
-            class_weight="balanced",
-
-            random_state=42
-
-        )
-    )
-
+# Pipeline 2: Random Forest
+rf_model = Pipeline([
+    ("tfidf", vectorizer),
+    ("classifier", RandomForestClassifier(
+        n_estimators=100,
+        class_weight="balanced",
+        random_state=42,
+        n_jobs=-1  # Uses all available CPU cores for speed
+    ))
 ])
 
 
 # ============================================================
-# TRAIN
+# TRAIN MODELS
 # ============================================================
 
-print("\nTraining model...")
+print("\nTraining Logistic Regression model...")
+lr_model.fit(X_train, y_train)
 
+print("Training Random Forest model...")
+rf_model.fit(X_train, y_train)
 
-model.fit(X_train, y_train)
-
-
-print(
-    "Training completed."
-)
+print("Training completed.")
 
 
 # ============================================================
-# PREDICTION
+# EVALUATE
 # ============================================================
 
-print("\nTesting model...")
+print("\nEvaluating models...")
 
-y_pred = model.predict(
-    X_test
-)
+# Logistic Regression Predictions
+y_pred_lr = lr_model.predict(X_test)
 
+accuracy_lr = accuracy_score(y_test, y_pred_lr)
+precision_lr = precision_score(y_test, y_pred_lr, pos_label=1, zero_division=0)
+recall_lr = recall_score(y_test, y_pred_lr, pos_label=1, zero_division=0)
+f1_lr = f1_score(y_test, y_pred_lr, pos_label=1, zero_division=0)
 
-# ============================================================
-# METRICS
-# ============================================================
+# Random Forest Predictions
+y_pred_rf = rf_model.predict(X_test)
 
-accuracy = accuracy_score(
-    y_test,
-    y_pred
-)
-
-precision = precision_score(
-    y_test,
-    y_pred,
-    pos_label=1,
-    zero_division=0
-)
-
-recall = recall_score(
-    y_test,
-    y_pred,
-    pos_label=1,
-    zero_division=0
-)
-
-f1 = f1_score(
-    y_test,
-    y_pred,
-    pos_label=1,
-    zero_division=0
-)
+accuracy_rf = accuracy_score(y_test, y_pred_rf)
+precision_rf = precision_score(y_test, y_pred_rf, pos_label=1, zero_division=0)
+recall_rf = recall_score(y_test, y_pred_rf, pos_label=1, zero_division=0)
+f1_rf = f1_score(y_test, y_pred_rf, pos_label=1, zero_division=0)
 
 
 # ============================================================
-# DISPLAY RESULTS
+# COMPARISON REPORT
 # ============================================================
 
 print("\n")
 print("=" * 70)
-print("MODEL PERFORMANCE")
+print("MODEL COMPARISON SUMMARY")
 print("=" * 70)
 
-
-print(
-    f"Accuracy  : {accuracy * 100:.2f}%"
-)
-
-print(
-    f"Precision : {precision * 100:.2f}%"
-)
-
-print(
-    f"Recall    : {recall * 100:.2f}%"
-)
-
-print(
-    f"F1 Score  : {f1 * 100:.2f}%"
-)
+print(f"{'Metric':<15} | {'Logistic Regression':<20} | {'Random Forest':<20}")
+print("-" * 70)
+print(f"{'Accuracy':<15} | {accuracy_lr * 100:>18.2f}% | {accuracy_rf * 100:>18.2f}%")
+print(f"{'Precision':<15} | {precision_lr * 100:>18.2f}% | {precision_rf * 100:>18.2f}%")
+print(f"{'Recall':<15} | {recall_lr * 100:>18.2f}% | {recall_rf * 100:>18.2f}%")
+print(f"{'F1 Score':<15} | {f1_lr * 100:>18.2f}% | {f1_rf * 100:>18.2f}%")
+print("-" * 70)
 
 
 # ============================================================
-# CLASSIFICATION REPORT
+# CHOOSE & SAVE BEST MODEL
 # ============================================================
 
-print("\n")
-print("=" * 70)
-print("CLASSIFICATION REPORT")
-print("=" * 70)
+# We use F1-Score as the primary comparison metric
+if f1_rf > f1_lr:
+    best_model = rf_model
+    best_name = "Random Forest"
+    best_f1 = f1_rf
+else:
+    best_model = lr_model
+    best_name = "Logistic Regression"
+    best_f1 = f1_lr
 
-
-print(
-    classification_report(
-
-        y_test,
-
-        y_pred,
-
-        labels=[0, 1],
-
-        target_names=[
-            "Non-Resume",
-            "Resume"
-        ],
-
-        zero_division=0
-
-    )
-)
-
-
-# ============================================================
-# CONFUSION MATRIX
-# ============================================================
-
-matrix = confusion_matrix(
-    y_test,
-    y_pred,
-    labels=[0, 1]
-)
-
-
-print("\n")
-print("=" * 70)
-print("CONFUSION MATRIX")
-print("=" * 70)
-
-
-print(
-    "                    Predicted"
-)
-
-print(
-    "                 Non-Resume  Resume"
-)
-
-print(
-    f"Actual Non-Resume    {matrix[0][0]:4d}      {matrix[0][1]:4d}"
-)
-
-print(
-    f"Actual Resume        {matrix[1][0]:4d}      {matrix[1][1]:4d}"
-)
-
-
-# ============================================================
-# SAVE MODEL
-# ============================================================
+print(f"\nChoosing {best_name} as the final model (F1-Score: {best_f1 * 100:.2f}%).")
 
 joblib.dump(
-    model,
+    best_model,
     MODEL_FILE
 )
 
-
 print("\n")
 print("=" * 70)
-print("MODEL SAVED")
+print("BEST MODEL SAVED")
 print("=" * 70)
-
-
-print(
-    MODEL_FILE
-)
-
-
-print("\n")
-print(
-    "Training completed successfully."
-)
+print(f"Path: {MODEL_FILE}")
+print(f"Model selected: {best_name}")
+print("=" * 70)
+print("\nTraining run completed.")
